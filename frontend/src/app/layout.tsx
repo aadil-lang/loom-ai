@@ -6,6 +6,8 @@ import { QueryProvider } from '@/components/providers/QueryProvider';
 import { StoreProvider } from '@/components/providers/StoreProvider';
 import { Toaster } from '@/components/ui/sonner';
 
+import { TooltipProvider } from '@/components/ui/tooltip';
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -29,8 +31,10 @@ export default function RootLayout({
               enableSystem
               disableTransitionOnChange
             >
-              {children}
-              <Toaster />
+              <TooltipProvider>
+                {children}
+                <Toaster />
+              </TooltipProvider>
             </ThemeProvider>
           </QueryProvider>
         </StoreProvider>
