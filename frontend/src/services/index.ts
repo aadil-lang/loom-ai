@@ -4,6 +4,12 @@ import * as mockSupplierService from './mock/supplier.service';
 import * as mockNotificationService from './mock/notification.service';
 import * as mockAnalyticsService from './mock/analytics.service';
 import * as mockBuyerService from './mock/buyer.service';
+// We don't have mock auth service currently, we'll just use a dummy or create it inline
+const mockAuthService = {
+  login: async () => ({ user: { id: 'mock', role: 'Buyer' } }),
+  logout: async () => {},
+  getCurrentUser: () => ({ id: 'mock', role: 'Buyer' })
+};
 
 import * as apiProductService from './api/product.service';
 import * as apiOrderService from './api/order.service';
@@ -11,9 +17,10 @@ import * as apiSupplierService from './api/supplier.service';
 import * as apiNotificationService from './api/notification.service';
 import * as apiAnalyticsService from './api/analytics.service';
 import * as apiBuyerService from './api/buyer.service';
+import * as apiAuthService from './api/auth.service';
 
 // Switch this to false when API is ready, or use process.env.NEXT_PUBLIC_USE_MOCK === 'true'
-const USE_MOCK = true;
+const USE_MOCK = false;
 
 export const productService = USE_MOCK ? mockProductService : apiProductService;
 export const orderService = USE_MOCK ? mockOrderService : apiOrderService;
@@ -21,3 +28,4 @@ export const supplierService = USE_MOCK ? mockSupplierService : apiSupplierServi
 export const notificationService = USE_MOCK ? mockNotificationService : apiNotificationService;
 export const analyticsService = USE_MOCK ? mockAnalyticsService : apiAnalyticsService;
 export const buyerService = USE_MOCK ? mockBuyerService : apiBuyerService;
+export const authService = USE_MOCK ? mockAuthService : apiAuthService;
