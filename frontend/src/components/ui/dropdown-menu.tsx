@@ -15,6 +15,7 @@ function DropdownMenuPortal({ ...props }: MenuPrimitive.Portal.Props) {
 }
 
 function DropdownMenuTrigger({ ...props }: MenuPrimitive.Trigger.Props & { asChild?: boolean }) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   return <MenuPrimitive.Trigger data-slot="dropdown-menu-trigger" {...(props as any)} />
 }
 

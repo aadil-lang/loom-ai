@@ -1,0 +1,102 @@
+[
+  {
+    "id": "s1",
+    "name": "LoomCorp Textiles",
+    "countryId": "in",
+    "rating": 4.8,
+    "established": 1995,
+    "badges": [
+      "Verified",
+      "Top Seller"
+    ]
+  },
+  {
+    "id": "s2",
+    "name": "FabricX Global",
+    "countryId": "cn",
+    "rating": 4.5,
+    "established": 2003,
+    "badges": [
+      "Verified"
+    ]
+  },
+  {
+    "id": "s3",
+    "name": "Royal Mills",
+    "countryId": "uk",
+    "rating": 4.9,
+    "established": 1982,
+    "badges": [
+      "Premium",
+      "Eco-Certified"
+    ]
+  },
+  {
+    "id": "s4",
+    "name": "Istanbul Weavers",
+    "countryId": "tr",
+    "rating": 4.6,
+    "established": 2010,
+    "badges": [
+      "Verified"
+    ]
+  },
+  {
+    "id": "s5",
+    "name": "Dhaka Knitwear Ltd",
+    "countryId": "bd",
+    "rating": 4.4,
+    "established": 2005,
+    "badges": [
+      "High Volume"
+    ]
+  },
+  {
+    "id": "s6",
+    "name": "Milan Silk House",
+    "countryId": "it",
+    "rating": 5,
+    "established": 1950,
+    "badges": [
+      "Premium",
+      "Verified"
+    ]
+  },
+  {
+    "id": "s7",
+    "name": "Vietnam Garment Tech",
+    "countryId": "vn",
+    "rating": 4.2,
+    "established": 2015,
+    "badges": []
+  },
+  {
+    "id": "s8",
+    "name": "Shanghai Textura",
+    "countryId": "cn",
+    "rating": 4.7,
+    "established": 1998,
+    "badges": [
+      "Verified",
+      "High Volume"
+    ]
+  },
+  {
+    "id": "s9",
+    "name": "Surat Synthetic Fabrics",
+    "countryId": "in",
+    "rating": 4.3,
+    "established": 2008,
+    "badges": []
+  },
+  {
+    "id": "s10",
+    "name": "Florence Luxury Textiles",
+    "countryId": "it",
+    "rating": 4.9,
+    "established": 1965,
+    "badges": [
+      "Premium"
+    ]
+  }
+]

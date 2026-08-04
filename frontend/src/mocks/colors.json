@@ -1,0 +1,62 @@
+[
+  {
+    "id": "col1",
+    "name": "Navy Blue",
+    "hex": "#000080"
+  },
+  {
+    "id": "col2",
+    "name": "Emerald Green",
+    "hex": "#50C878"
+  },
+  {
+    "id": "col3",
+    "name": "Slate Gray",
+    "hex": "#708090"
+  },
+  {
+    "id": "col4",
+    "name": "Ruby Red",
+    "hex": "#E0115F"
+  },
+  {
+    "id": "col5",
+    "name": "Pure White",
+    "hex": "#FFFFFF"
+  },
+  {
+    "id": "col6",
+    "name": "Midnight Black",
+    "hex": "#000000"
+  },
+  {
+    "id": "col7",
+    "name": "Beige",
+    "hex": "#F5F5DC"
+  },
+  {
+    "id": "col8",
+    "name": "Mustard Yellow",
+    "hex": "#FFDB58"
+  },
+  {
+    "id": "col9",
+    "name": "Sky Blue",
+    "hex": "#87CEEB"
+  },
+  {
+    "id": "col10",
+    "name": "Burgundy",
+    "hex": "#800020"
+  },
+  {
+    "id": "col11",
+    "name": "Lavender",
+    "hex": "#E6E6FA"
+  },
+  {
+    "id": "col12",
+    "name": "Charcoal",
+    "hex": "#36454F"
+  }
+]

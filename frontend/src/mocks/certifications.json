@@ -1,0 +1,22 @@
+[
+  {
+    "id": "cert1",
+    "name": "OEKO-TEX Standard 100"
+  },
+  {
+    "id": "cert2",
+    "name": "GOTS (Global Organic Textile Standard)"
+  },
+  {
+    "id": "cert3",
+    "name": "ISO 9001"
+  },
+  {
+    "id": "cert4",
+    "name": "BCI (Better Cotton Initiative)"
+  },
+  {
+    "id": "cert5",
+    "name": "GRS (Global Recycled Standard)"
+  }
+]

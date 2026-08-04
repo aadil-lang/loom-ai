@@ -1,0 +1,52 @@
+[
+  {
+    "id": "c1",
+    "name": "Cotton",
+    "description": "100% pure cotton, perfect for summer wear."
+  },
+  {
+    "id": "c2",
+    "name": "Silk",
+    "description": "Premium quality silk with a natural sheen."
+  },
+  {
+    "id": "c3",
+    "name": "Denim",
+    "description": "Durable denim for jeans and jackets."
+  },
+  {
+    "id": "c4",
+    "name": "Linen",
+    "description": "Lightweight and absorbent linen."
+  },
+  {
+    "id": "c5",
+    "name": "Polyester",
+    "description": "Synthetic, highly durable and wrinkle-resistant."
+  },
+  {
+    "id": "c6",
+    "name": "Viscose",
+    "description": "Semi-synthetic rayon fabric with a silk-like drape."
+  },
+  {
+    "id": "c7",
+    "name": "Wool",
+    "description": "Warm, natural animal fiber for winter apparel."
+  },
+  {
+    "id": "c8",
+    "name": "Industrial",
+    "description": "Heavy-duty technical fabrics for industrial use."
+  },
+  {
+    "id": "c9",
+    "name": "Home Furnishing",
+    "description": "Upholstery, drapery, and bedding textiles."
+  },
+  {
+    "id": "c10",
+    "name": "Organic Blends",
+    "description": "Eco-friendly sustainable fabric blends."
+  }
+]

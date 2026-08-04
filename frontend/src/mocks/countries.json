@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cn",
+    "name": "China"
+  },
+  {
+    "id": "in",
+    "name": "India"
+  },
+  {
+    "id": "bd",
+    "name": "Bangladesh"
+  },
+  {
+    "id": "vn",
+    "name": "Vietnam"
+  },
+  {
+    "id": "tr",
+    "name": "Turkey"
+  },
+  {
+    "id": "it",
+    "name": "Italy"
+  },
+  {
+    "id": "uk",
+    "name": "United Kingdom"
+  }
+]
