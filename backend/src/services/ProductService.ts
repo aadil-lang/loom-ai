@@ -1,6 +1,7 @@
 import { ProductRepository } from '../repositories/ProductRepository';
 import { IProduct } from '../models/Product';
 import { NotFoundError } from '../errors/CustomErrors';
+import { ProductQueryDto } from '../dto/marketplace/ProductQueryDto';
 
 export class ProductService {
   private productRepository: ProductRepository;
@@ -9,26 +10,78 @@ export class ProductService {
     this.productRepository = new ProductRepository();
   }
 
-  async getProductById(id: string): Promise<IProduct> {
+  async getProductDetails(id: string): Promise<IProduct> {
     const product = await this.productRepository.findById(id);
     if (!product) {
       throw new NotFoundError('Product not found');
     }
+    // Record view for 'Popular' sorting (AI/Marketplace metric)
+    await this.productRepository.update(id, { $inc: { viewCount: 1 } });
     return product;
   }
 
-  async searchProducts(query: string): Promise<IProduct[]> {
-    // AI Agents can utilize this for RAG lookups
-    return await this.productRepository.searchByText(query);
+  async searchProducts(dto: ProductQueryDto) {
+    const { data, total } = await this.productRepository.searchAndFilter(dto);
+    const page = dto.page || 1;
+    const limit = dto.limit || 20;
+
+    return {
+      data,
+      meta: {
+        currentPage: page,
+        totalPages: Math.ceil(total / limit),
+        totalRecords: total,
+        pageSize: limit,
+        hasNext: page * limit < total,
+        hasPrevious: page > 1
+      }
+    };
   }
 
-  // Future LangGraph Agent Integration Placeholder
-  async getInventorySummary(supplierId: string) {
-    const products = await this.productRepository.findBySupplier(supplierId);
-    return {
-      totalProducts: products.length,
-      inStock: products.filter(p => p.inStock).length,
-      // Aggregations would normally be done in DB, but this is a placeholder
+  async getFeaturedProducts() {
+    return await this.productRepository.getFeatured();
+  }
+
+  async getNewArrivals() {
+    return await this.productRepository.getNewArrivals();
+  }
+
+  async getRelatedProducts(id: string) {
+    return await this.productRepository.getRelated(id);
+  }
+
+  // ==========================================
+  // AI-Ready Service Methods (LangGraph Tools)
+  // ==========================================
+
+  /**
+   * Future LangGraph Agent will use this to find similar products
+   * currently relies on metadata overlap, future will use Vector Embeddings.
+   */
+  async findSimilarProducts(productId: string): Promise<IProduct[]> {
+    return await this.getRelatedProducts(productId);
+  }
+
+  /**
+   * AI Tool to compare two or more products directly.
+   */
+  async compareProducts(productIds: string[]): Promise<IProduct[]> {
+    const filter = { _id: { $in: productIds } };
+    return await this.productRepository.findAll(filter);
+  }
+
+  /**
+   * AI Tool to find alternatives if a product is out of stock.
+   */
+  async findAlternativeProducts(productId: string): Promise<IProduct[]> {
+    const product = await this.getProductDetails(productId);
+    const dto: ProductQueryDto = {
+      category: product.categoryId.toString(),
+      fabricType: product.fabricType,
+      limit: 5,
+      sortBy: 'popular'
     };
+    const { data } = await this.productRepository.searchAndFilter(dto);
+    return data.filter(p => p._id.toString() !== productId);
   }
 }
