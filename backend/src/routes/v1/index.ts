@@ -1,6 +1,10 @@
 import { Router } from 'express';
 
+import authRoutes from './authRoutes';
+
 const router = Router();
+
+router.use('/auth', authRoutes);
 
 // Routes will be mounted here in subsequent sprints
 // router.use('/buyers', buyerRoutes);
