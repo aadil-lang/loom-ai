@@ -1,15 +1,13 @@
-import fs from 'fs';
-import path from 'path';
-import { MarketplaceContainer } from '@/components/marketplace/MarketplaceContainer';
+import * as React from 'react';
 import { Button } from '@/components/ui/button';
+import { MarketplaceContainer } from '@/components/marketplace/MarketplaceContainer';
+import { productService, supplierService } from '@/services';
 
 export default async function MarketplacePage() {
-  // Read JSON files synchronously for the Server Component
-  const dataDir = path.join(process.cwd(), 'src', 'mocks');
-  const products = JSON.parse(fs.readFileSync(path.join(dataDir, 'products.json'), 'utf8'));
-  const categories = JSON.parse(fs.readFileSync(path.join(dataDir, 'categories.json'), 'utf8'));
-  const suppliers = JSON.parse(fs.readFileSync(path.join(dataDir, 'suppliers.json'), 'utf8'));
-  const colors = JSON.parse(fs.readFileSync(path.join(dataDir, 'colors.json'), 'utf8'));
+  const products = await productService.getProducts();
+  const categories = await productService.getCategories();
+  const suppliers = await supplierService.getSuppliers();
+  const colors = await productService.getColors();
 
   return (
     <div className="space-y-8">

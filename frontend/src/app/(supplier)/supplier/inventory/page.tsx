@@ -1,10 +1,10 @@
-import { EmptyState } from '@/components/ui/states';
+import * as React from 'react';
+import { productService } from '@/services';
+import { InventoryClient } from '@/components/supplier/InventoryClient';
 
-export default function SupplierInventoryPage() {
-  return (
-    <div className="space-y-6">
-      <h1 className="text-3xl font-bold tracking-tight text-emerald-900 dark:text-emerald-500">Inventory Management</h1>
-      <EmptyState title="No products listed" description="Start adding your textile products to the marketplace." actionText="Add Product" />
-    </div>
-  );
+export default async function InventoryPage() {
+  const supplierId = 's1'; 
+  const products = await productService.getProductsBySupplier(supplierId);
+
+  return <InventoryClient initialProducts={products} />;
 }

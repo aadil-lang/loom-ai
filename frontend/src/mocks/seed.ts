@@ -161,6 +161,67 @@ for (let i = 1; i <= 400; i++) {
   });
 }
 
+// Generate Orders
+const orderStatuses = ["Pending", "Accepted", "Preparing", "Ready for Dispatch", "Completed", "Cancelled"];
+const orders = [];
+for (let i = 1; i <= 150; i++) {
+  const numItems = randomInt(1, 4);
+  const orderProducts = randomElements(products, numItems);
+  
+  let totalValue = 0;
+  const items = orderProducts.map(p => {
+    const qty = randomInt(p.moq, p.moq * 5);
+    totalValue += p.pricePerMeter * qty;
+    return {
+      productId: p.id,
+      quantity: qty,
+      priceAtPurchase: p.pricePerMeter
+    };
+  });
+
+  // Assign order to the supplier of the first product (simplified relation)
+  const supplierId = orderProducts[0].supplierId;
+
+  const dateOffset = randomInt(0, 60); // past 60 days
+  const d = new Date();
+  d.setDate(d.getDate() - dateOffset);
+
+  orders.push({
+    id: `ord_${i}`,
+    buyerName: `Buyer Company ${randomInt(1, 100)}`,
+    supplierId: supplierId,
+    status: randomElement(orderStatuses),
+    totalValue: +totalValue.toFixed(2),
+    items: items,
+    createdAt: d.toISOString(),
+  });
+}
+
+// Generate Notifications
+const notifications = [];
+for (let i = 1; i <= 30; i++) {
+  const types = ["New Order", "Low Inventory", "Product Approved", "Order Cancelled", "System Update"];
+  const type = randomElement(types);
+  let message = "";
+  if (type === "New Order") message = `You have received a new order worth $${randomInt(500, 5000)}.`;
+  if (type === "Low Inventory") message = `SKU-${randomInt(100000, 999999)} is running low on stock.`;
+  if (type === "Product Approved") message = `Your new product listing has been approved.`;
+  if (type === "Order Cancelled") message = `Order ord_${randomInt(1, 150)} was cancelled by the buyer.`;
+  if (type === "System Update") message = `Scheduled maintenance will occur on Sunday at 2 AM UTC.`;
+
+  const d = new Date();
+  d.setDate(d.getDate() - randomInt(0, 10));
+
+  notifications.push({
+    id: `notif_${i}`,
+    supplierId: randomElement(suppliers).id,
+    type: type,
+    message: message,
+    isRead: random() > 0.5,
+    createdAt: d.toISOString(),
+  });
+}
+
 // Generate the JSON files
 const outDir = path.join(__dirname);
 
@@ -170,5 +231,7 @@ fs.writeFileSync(path.join(outDir, 'suppliers.json'), JSON.stringify(suppliers, 
 fs.writeFileSync(path.join(outDir, 'colors.json'), JSON.stringify(colors, null, 2));
 fs.writeFileSync(path.join(outDir, 'certifications.json'), JSON.stringify(certifications, null, 2));
 fs.writeFileSync(path.join(outDir, 'products.json'), JSON.stringify(products, null, 2));
+fs.writeFileSync(path.join(outDir, 'orders.json'), JSON.stringify(orders, null, 2));
+fs.writeFileSync(path.join(outDir, 'notifications.json'), JSON.stringify(notifications, null, 2));
 
 console.log(`Successfully generated ${products.length} products and related entities in ${outDir}`);

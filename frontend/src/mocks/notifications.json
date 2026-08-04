@@ -1,0 +1,242 @@
+[
+  {
+    "id": "notif_1",
+    "supplierId": "s6",
+    "type": "Low Inventory",
+    "message": "SKU-274413 is running low on stock.",
+    "isRead": true,
+    "createdAt": "2026-07-28T05:44:46.775Z"
+  },
+  {
+    "id": "notif_2",
+    "supplierId": "s7",
+    "type": "Product Approved",
+    "message": "Your new product listing has been approved.",
+    "isRead": false,
+    "createdAt": "2026-07-26T05:44:46.775Z"
+  },
+  {
+    "id": "notif_3",
+    "supplierId": "s4",
+    "type": "Order Cancelled",
+    "message": "Order ord_11 was cancelled by the buyer.",
+    "isRead": true,
+    "createdAt": "2026-07-27T05:44:46.775Z"
+  },
+  {
+    "id": "notif_4",
+    "supplierId": "s5",
+    "type": "System Update",
+    "message": "Scheduled maintenance will occur on Sunday at 2 AM UTC.",
+    "isRead": false,
+    "createdAt": "2026-08-01T05:44:46.775Z"
+  },
+  {
+    "id": "notif_5",
+    "supplierId": "s10",
+    "type": "New Order",
+    "message": "You have received a new order worth $1270.",
+    "isRead": false,
+    "createdAt": "2026-07-31T05:44:46.775Z"
+  },
+  {
+    "id": "notif_6",
+    "supplierId": "s10",
+    "type": "Product Approved",
+    "message": "Your new product listing has been approved.",
+    "isRead": false,
+    "createdAt": "2026-08-01T05:44:46.775Z"
+  },
+  {
+    "id": "notif_7",
+    "supplierId": "s5",
+    "type": "Order Cancelled",
+    "message": "Order ord_114 was cancelled by the buyer.",
+    "isRead": false,
+    "createdAt": "2026-07-27T05:44:46.775Z"
+  },
+  {
+    "id": "notif_8",
+    "supplierId": "s3",
+    "type": "Order Cancelled",
+    "message": "Order ord_7 was cancelled by the buyer.",
+    "isRead": true,
+    "createdAt": "2026-07-31T05:44:46.775Z"
+  },
+  {
+    "id": "notif_9",
+    "supplierId": "s5",
+    "type": "New Order",
+    "message": "You have received a new order worth $684.",
+    "isRead": false,
+    "createdAt": "2026-08-02T05:44:46.775Z"
+  },
+  {
+    "id": "notif_10",
+    "supplierId": "s7",
+    "type": "Order Cancelled",
+    "message": "Order ord_19 was cancelled by the buyer.",
+    "isRead": false,
+    "createdAt": "2026-07-27T05:44:46.775Z"
+  },
+  {
+    "id": "notif_11",
+    "supplierId": "s7",
+    "type": "Product Approved",
+    "message": "Your new product listing has been approved.",
+    "isRead": false,
+    "createdAt": "2026-07-30T05:44:46.775Z"
+  },
+  {
+    "id": "notif_12",
+    "supplierId": "s6",
+    "type": "Order Cancelled",
+    "message": "Order ord_48 was cancelled by the buyer.",
+    "isRead": true,
+    "createdAt": "2026-08-04T05:44:46.775Z"
+  },
+  {
+    "id": "notif_13",
+    "supplierId": "s8",
+    "type": "Product Approved",
+    "message": "Your new product listing has been approved.",
+    "isRead": false,
+    "createdAt": "2026-07-30T05:44:46.775Z"
+  },
+  {
+    "id": "notif_14",
+    "supplierId": "s6",
+    "type": "New Order",
+    "message": "You have received a new order worth $1574.",
+    "isRead": true,
+    "createdAt": "2026-08-01T05:44:46.775Z"
+  },
+  {
+    "id": "notif_15",
+    "supplierId": "s7",
+    "type": "Low Inventory",
+    "message": "SKU-520034 is running low on stock.",
+    "isRead": false,
+    "createdAt": "2026-08-04T05:44:46.775Z"
+  },
+  {
+    "id": "notif_16",
+    "supplierId": "s7",
+    "type": "New Order",
+    "message": "You have received a new order worth $4111.",
+    "isRead": false,
+    "createdAt": "2026-08-03T05:44:46.775Z"
+  },
+  {
+    "id": "notif_17",
+    "supplierId": "s3",
+    "type": "Order Cancelled",
+    "message": "Order ord_127 was cancelled by the buyer.",
+    "isRead": false,
+    "createdAt": "2026-07-25T05:44:46.775Z"
+  },
+  {
+    "id": "notif_18",
+    "supplierId": "s1",
+    "type": "Order Cancelled",
+    "message": "Order ord_55 was cancelled by the buyer.",
+    "isRead": false,
+    "createdAt": "2026-08-01T05:44:46.775Z"
+  },
+  {
+    "id": "notif_19",
+    "supplierId": "s9",
+    "type": "Low Inventory",
+    "message": "SKU-204834 is running low on stock.",
+    "isRead": false,
+    "createdAt": "2026-07-29T05:44:46.775Z"
+  },
+  {
+    "id": "notif_20",
+    "supplierId": "s8",
+    "type": "Order Cancelled",
+    "message": "Order ord_38 was cancelled by the buyer.",
+    "isRead": true,
+    "createdAt": "2026-07-30T05:44:46.775Z"
+  },
+  {
+    "id": "notif_21",
+    "supplierId": "s3",
+    "type": "Product Approved",
+    "message": "Your new product listing has been approved.",
+    "isRead": false,
+    "createdAt": "2026-07-31T05:44:46.775Z"
+  },
+  {
+    "id": "notif_22",
+    "supplierId": "s2",
+    "type": "New Order",
+    "message": "You have received a new order worth $3485.",
+    "isRead": true,
+    "createdAt": "2026-07-29T05:44:46.775Z"
+  },
+  {
+    "id": "notif_23",
+    "supplierId": "s6",
+    "type": "Product Approved",
+    "message": "Your new product listing has been approved.",
+    "isRead": false,
+    "createdAt": "2026-07-25T05:44:46.775Z"
+  },
+  {
+    "id": "notif_24",
+    "supplierId": "s8",
+    "type": "New Order",
+    "message": "You have received a new order worth $4137.",
+    "isRead": true,
+    "createdAt": "2026-07-27T05:44:46.775Z"
+  },
+  {
+    "id": "notif_25",
+    "supplierId": "s5",
+    "type": "New Order",
+    "message": "You have received a new order worth $2718.",
+    "isRead": true,
+    "createdAt": "2026-08-04T05:44:46.775Z"
+  },
+  {
+    "id": "notif_26",
+    "supplierId": "s9",
+    "type": "System Update",
+    "message": "Scheduled maintenance will occur on Sunday at 2 AM UTC.",
+    "isRead": true,
+    "createdAt": "2026-08-03T05:44:46.775Z"
+  },
+  {
+    "id": "notif_27",
+    "supplierId": "s6",
+    "type": "Order Cancelled",
+    "message": "Order ord_37 was cancelled by the buyer.",
+    "isRead": false,
+    "createdAt": "2026-08-03T05:44:46.775Z"
+  },
+  {
+    "id": "notif_28",
+    "supplierId": "s8",
+    "type": "Low Inventory",
+    "message": "SKU-989301 is running low on stock.",
+    "isRead": true,
+    "createdAt": "2026-07-28T05:44:46.775Z"
+  },
+  {
+    "id": "notif_29",
+    "supplierId": "s6",
+    "type": "Product Approved",
+    "message": "Your new product listing has been approved.",
+    "isRead": false,
+    "createdAt": "2026-07-26T05:44:46.775Z"
+  },
+  {
+    "id": "notif_30",
+    "supplierId": "s9",
+    "type": "New Order",
+    "message": "You have received a new order worth $3057.",
+    "isRead": true,
+    "createdAt": "2026-07-31T05:44:46.775Z"
+  }
+]

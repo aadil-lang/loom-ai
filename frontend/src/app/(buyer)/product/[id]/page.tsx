@@ -1,18 +1,20 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import fs from 'fs';
-import path from 'path';
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
+import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ShoppingCart, Heart, Share2, ShieldCheck, MapPin, Factory, MessageCircle, Ruler, FileText, CheckCircle2, Package } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { ShoppingCart, MessageSquare, Star, ArrowLeft, ShieldCheck, Factory, Box, MapPin, Ruler, FileText, CheckCircle2, Package, Heart, Share2, MessageCircle } from 'lucide-react';
 import { Rating } from '@/components/marketplace/Rating';
 import { ProductCard } from '@/components/marketplace/ProductCard';
+import { productService, supplierService } from '@/services';
 
 export default async function ProductDetailsPage({ params }: { params: { id: string } }) {
-  const dataDir = path.join(process.cwd(), 'src', 'mocks');
-  const products = JSON.parse(fs.readFileSync(path.join(dataDir, 'products.json'), 'utf8'));
-  const categories = JSON.parse(fs.readFileSync(path.join(dataDir, 'categories.json'), 'utf8'));
-  const suppliers = JSON.parse(fs.readFileSync(path.join(dataDir, 'suppliers.json'), 'utf8'));
-  const colors = JSON.parse(fs.readFileSync(path.join(dataDir, 'colors.json'), 'utf8'));
+  const products = await productService.getProducts();
+  const categories = await productService.getCategories();
+  const suppliers = await supplierService.getSuppliers();
+  const colors = await productService.getColors();
 
   const product = products.find((p: any) => p.id === params.id);
   if (!product) notFound();
