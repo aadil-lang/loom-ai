@@ -15,6 +15,7 @@ export default async function DashboardPage() {
     productService.getProducts() // We'll just slice some for mock recommendations
   ]);
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const activeOrders = orders.filter((o: any) => o.status !== 'Completed').length;
   
   // Mock monthly spending chart
@@ -31,7 +32,7 @@ export default async function DashboardPage() {
     <div className="space-y-8 w-full max-w-7xl mx-auto p-4 md:p-8 pb-20">
       <div>
         <h1 className="text-3xl font-bold tracking-tight">Welcome, {profile.contactName}</h1>
-        <p className="text-muted-foreground mt-1">Here is an overview of {profile.name}'s sourcing activity.</p>
+        <p className="text-muted-foreground mt-1">Here is an overview of {profile.name}&apos;s sourcing activity.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -79,6 +80,7 @@ export default async function DashboardPage() {
               <p className="text-sm text-muted-foreground mt-1">Your latest procurement activity.</p>
             </div>
             <div className="p-6 space-y-4">
+              {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
               {orders.slice(0, 4).map((order: any) => (
                 <div key={order.id} className="flex justify-between items-center pb-4 border-b last:border-0 last:pb-0">
                   <div>

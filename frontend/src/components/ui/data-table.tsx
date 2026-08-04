@@ -24,7 +24,7 @@ interface DataTableProps<T> {
   actions?: React.ReactNode
 }
 
-export function DataTable<T extends Record<string, any>>({
+export function DataTable<T extends Record<string, unknown>>({
   data,
   columns,
   searchKey,
@@ -48,7 +48,7 @@ export function DataTable<T extends Record<string, any>>({
 
   // Sorting
   const sortedData = React.useMemo(() => {
-    let sortableItems = [...filteredData]
+    const sortableItems = [...filteredData]
     if (sortConfig !== null) {
       sortableItems.sort((a, b) => {
         const aVal = a[sortConfig.key]

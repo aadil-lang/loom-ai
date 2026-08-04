@@ -12,7 +12,7 @@ export type ChartType = "line" | "bar"
 export interface DashboardChartProps extends React.HTMLAttributes<HTMLDivElement> {
   title: string
   description?: string
-  data: any[]
+  data: Record<string, unknown>[]
   type?: ChartType
   dataKey: string
   xAxisKey?: string

@@ -19,7 +19,7 @@ export function WishlistClient({ initialProducts }: { initialProducts: any[] }) 
     <div className="space-y-8 w-full max-w-7xl mx-auto p-4 md:p-8 pb-20">
       <div>
         <h1 className="text-3xl font-bold tracking-tight">Your Wishlist</h1>
-        <p className="text-muted-foreground mt-1">Products you've saved for later consideration.</p>
+        <p className="text-muted-foreground mt-1">Products you&apos;ve saved for later consideration.</p>
       </div>
 
       {savedProducts.length === 0 ? (

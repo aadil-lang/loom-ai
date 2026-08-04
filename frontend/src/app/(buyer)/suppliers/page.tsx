@@ -23,6 +23,7 @@ export default async function SuppliersPage() {
             Your Favorites
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
             {savedSuppliers.map((sup: any) => (
               <SupplierSuggestionCard key={sup.id} supplier={sup} />
             ))}
@@ -34,6 +35,7 @@ export default async function SuppliersPage() {
         <h2 className="text-xl font-bold">Recommended Partners</h2>
         <p className="text-sm text-muted-foreground">AI-driven suggestions based on your sourcing history and quality requirements.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
           {allSuppliers.slice(3, 6).map((sup: any, idx: number) => (
             <SupplierSuggestionCard key={sup.id} supplier={sup} isAiRecommendation={idx === 0} />
           ))}

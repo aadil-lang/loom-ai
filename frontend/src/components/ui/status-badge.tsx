@@ -30,6 +30,7 @@ export function StatusBadge({ status, className, variant, ...props }: StatusBadg
 
   return (
     <Badge 
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       variant={mappedVariant as any} 
       className={cn("whitespace-nowrap font-medium", customClass, className)} 
       {...props}

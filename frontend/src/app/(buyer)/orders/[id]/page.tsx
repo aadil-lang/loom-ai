@@ -18,7 +18,7 @@ export default async function OrderDetailsPage({ params }: { params: { id: strin
 
   // Hydrate products for the order
   const hydratedProducts = await Promise.all(
-    order.products.map(async (p: any) => {
+    order.products.map(async (p: { productId: string; quantity: number } & Record<string, unknown>) => {
       const fullProduct = await productService.getProductById(p.productId);
       return { ...p, ...fullProduct };
     })

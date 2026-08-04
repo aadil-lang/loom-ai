@@ -22,7 +22,7 @@ export default function CartPage() {
       {items.length === 0 ? (
         <div className="text-center py-16 border border-dashed rounded-xl bg-slate-50">
           <h2 className="text-xl font-semibold mb-2">Your cart is empty</h2>
-          <p className="text-muted-foreground mb-6">Looks like you haven't added any fabrics yet.</p>
+          <p className="text-muted-foreground mb-6">Looks like you haven&apos;t added any fabrics yet.</p>
           <Link href="/marketplace">
             <Button className="bg-blue-600 hover:bg-blue-700 text-white rounded-full">
               Browse Marketplace

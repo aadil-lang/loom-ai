@@ -14,6 +14,7 @@ export default function CheckoutPage() {
   const router = useRouter();
   const { items, cartTotal, clearCart } = useCart();
   const [step, setStep] = React.useState(1);
+  const [orderNumber, setOrderNumber] = React.useState<number | null>(null);
 
   // If they somehow land here with no items (unless success)
   React.useEffect(() => {
@@ -27,6 +28,7 @@ export default function CheckoutPage() {
 
   const handleCompleteOrder = () => {
     // Generate Order Mock
+    setOrderNumber(Math.floor(Math.random() * 100000));
     setStep(3);
     clearCart(); // Local state wipe
   };
@@ -44,7 +46,7 @@ export default function CheckoutPage() {
         </motion.div>
         <h1 className="text-4xl font-bold tracking-tight">Order Confirmed!</h1>
         <p className="text-muted-foreground text-lg">
-          Your mock purchase order #PO-{Math.floor(Math.random() * 100000)} has been sent to the suppliers.
+          Your mock purchase order #PO-{orderNumber} has been sent to the suppliers.
         </p>
         <div className="pt-8 w-full flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/orders">
