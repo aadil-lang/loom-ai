@@ -18,6 +18,9 @@ export const productQueryValidator = [
     }
     return true;
   }),
+  query('weaveType').optional().isString(),
+  query('industryApplications').optional().isString(),
+  query('sustainabilityRating').optional().isString(),
 ];
 
 export const objectIdParamValidator = (paramName: string) => [

@@ -31,6 +31,9 @@ export class ProductRepository extends BaseRepository<IProduct> {
       if (dto.minPrice) filter.pricePerMeter.$gte = dto.minPrice;
       if (dto.maxPrice) filter.pricePerMeter.$lte = dto.maxPrice;
     }
+    if (dto.weaveType) filter.weaveType = dto.weaveType;
+    if (dto.sustainabilityRating) filter.sustainabilityRating = dto.sustainabilityRating;
+    if (dto.industryApplications) filter.industryApplications = dto.industryApplications;
     
     return filter;
   }
@@ -40,6 +43,7 @@ export class ProductRepository extends BaseRepository<IProduct> {
       case 'price_asc': return { pricePerMeter: 1 };
       case 'price_desc': return { pricePerMeter: -1 };
       case 'popular': return { viewCount: -1 };
+      case 'trending': return { trendingScore: -1 };
       case 'newest':
       default:
         return { createdAt: -1 };

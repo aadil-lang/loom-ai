@@ -8,5 +8,8 @@ export interface ProductQueryDto {
   colors?: string; // Comma separated
   fabricType?: string;
   supplier?: string;
-  sortBy?: 'newest' | 'price_asc' | 'price_desc' | 'popular';
+  weaveType?: string;
+  industryApplications?: string;
+  sustainabilityRating?: string;
+  sortBy?: 'newest' | 'price_asc' | 'price_desc' | 'popular' | 'trending';
 }

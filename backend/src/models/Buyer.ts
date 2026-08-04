@@ -7,6 +7,11 @@ export interface IBuyer extends Document {
   contactName: string;
   phone?: string;
   sourcingPreferences?: string[];
+  preferredCategories?: string[];
+  preferredMaterials?: string[];
+  budgetRange?: string;
+  preferredLanguage?: string;
+  favoriteSuppliers?: mongoose.Types.ObjectId[];
   role: 'Buyer';
   isEmailVerified: boolean;
   accountStatus: 'active' | 'suspended';
@@ -25,6 +30,11 @@ const BuyerSchema: Schema = new Schema(
     contactName: { type: String, required: true },
     phone: { type: String },
     sourcingPreferences: [{ type: String }],
+    preferredCategories: [{ type: String }],
+    preferredMaterials: [{ type: String }],
+    budgetRange: { type: String },
+    preferredLanguage: { type: String, default: 'en' },
+    favoriteSuppliers: [{ type: Schema.Types.ObjectId, ref: 'Supplier' }],
     role: { type: String, default: 'Buyer', enum: ['Buyer'] },
     isEmailVerified: { type: Boolean, default: false },
     accountStatus: { type: String, default: 'active', enum: ['active', 'suspended'] },

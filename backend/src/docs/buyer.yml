@@ -1,0 +1,90 @@
+paths:
+  /buyer/profile:
+    get:
+      summary: Get buyer profile
+      tags: [Buyer]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Buyer profile retrieved
+    put:
+      summary: Update buyer profile and preferences
+      tags: [Buyer]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Profile updated
+  /buyer/addresses:
+    get:
+      summary: Get all addresses for buyer
+      tags: [Buyer]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: List of addresses
+    post:
+      summary: Create a new address
+      tags: [Buyer]
+      security:
+        - bearerAuth: []
+      responses:
+        '201':
+          description: Address created
+  /buyer/cart:
+    get:
+      summary: Get current buyer cart
+      tags: [Buyer]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Cart retrieved
+    post:
+      summary: Add item to cart
+      tags: [Buyer]
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                productId:
+                  type: string
+                quantity:
+                  type: integer
+      responses:
+        '200':
+          description: Item added
+  /buyer/checkout:
+    post:
+      summary: Process checkout and convert cart to orders
+      tags: [Buyer]
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                shippingAddressId:
+                  type: string
+      responses:
+        '201':
+          description: Orders created successfully
+  /buyer/orders:
+    get:
+      summary: Get buyer order history
+      tags: [Buyer]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: List of orders
