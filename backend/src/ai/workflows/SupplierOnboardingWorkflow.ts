@@ -4,6 +4,7 @@ import { LlmService } from '../services/llmService';
 import { OnboardingSystemPrompt, ExtractorSystemPrompt } from '../prompts/onboardingPrompts';
 import { HumanMessage, SystemMessage } from '@langchain/core/messages';
 import { AuthTools } from '../tools/AuthTools';
+import { RAGTools } from '../tools/RAGTools';
 
 // The graph defines the state channels (how to merge updates)
 const onboardingStateChannels = {
@@ -27,6 +28,7 @@ const onboardingStateChannels = {
 export class SupplierOnboardingWorkflow {
   private llmService = LlmService.getInstance();
   private authTools = new AuthTools();
+  private ragTools = new RAGTools();
 
   public build() {
     const builder = new AgentGraphBuilder<SupplierOnboardingState>(onboardingStateChannels);
@@ -135,8 +137,18 @@ export class SupplierOnboardingWorkflow {
 
     const emailError = state.context?.emailError ? `The email provided was already taken. Ask for a different one.` : '';
 
+    // If the user asked a question, we can retrieve knowledge.
+    // For simplicity, we can do a naive quick lookup of the last human message.
+    let knowledgeContext = '';
+    const lastMessage = state.messages[state.messages.length - 1]?.content;
+    if (typeof lastMessage === 'string' && lastMessage.endsWith('?')) {
+      const tool = this.ragTools.getRetrieveTextileKnowledgeTool();
+      knowledgeContext = await tool.invoke({ topic: lastMessage });
+      knowledgeContext = `\n\nPlatform Knowledge:\n${knowledgeContext}\nAnswer the user's question using this knowledge if relevant.`;
+    }
+
     const response = await model.invoke([
-      new SystemMessage(systemPrompt + emailError),
+      new SystemMessage(systemPrompt + emailError + knowledgeContext),
       ...state.messages // pass history
     ]);
 

@@ -4,6 +4,7 @@ import { LlmService } from '../services/llmService';
 import { ProcurementExtractionPrompt, ProcurementClarificationPrompt, ProcurementRecommendationPrompt } from '../prompts/procurementPrompts';
 import { HumanMessage, SystemMessage } from '@langchain/core/messages';
 import { ProductTools } from '../tools/ProductTools';
+import { RAGTools } from '../tools/RAGTools';
 
 const procurementStateChannels = {
   sessionId: null,
@@ -15,6 +16,10 @@ const procurementStateChannels = {
   foundProducts: null,
   foundSuppliers: null,
   recommendationSummary: null,
+  retrievedKnowledge: {
+    reducer: (a: any, b: any) => (b ? b : a),
+    default: () => null
+  },
   messages: {
     reducer: (a: any[], b: any[]) => a.concat(b),
     default: () => []
@@ -24,12 +29,14 @@ const procurementStateChannels = {
 export class BuyerProcurementWorkflow {
   private llmService = LlmService.getInstance();
   private productTools = new ProductTools();
+  private ragTools = new RAGTools();
 
   public build() {
     const builder = new AgentGraphBuilder<ProcurementState>(procurementStateChannels);
 
     builder
       .addNode('analyze_requirements', this.analyzeRequirementsNode.bind(this))
+      .addNode('knowledge_retrieval', this.knowledgeRetrievalNode.bind(this))
       .addNode('search_marketplace', this.searchMarketplaceNode.bind(this))
       .addNode('generate_recommendations', this.generateRecommendationsNode.bind(this))
       .addNode('clarify_requirements', this.clarifyRequirementsNode.bind(this));
@@ -41,12 +48,13 @@ export class BuyerProcurementWorkflow {
       (state) => {
         // We need at least a category or fabricType to perform a meaningful search
         if (state.requirements?.category || state.requirements?.fabricType) {
-          return 'search_marketplace';
+          return 'knowledge_retrieval';
         }
         return 'clarify_requirements';
       }
     );
 
+    builder.addEdge('knowledge_retrieval', 'search_marketplace');
     builder.addEdge('search_marketplace', 'generate_recommendations');
     builder.setFinishPoint('generate_recommendations');
     builder.setFinishPoint('clarify_requirements');
@@ -82,20 +90,22 @@ export class BuyerProcurementWorkflow {
     }
   }
 
-  private async searchMarketplaceNode(state: ProcurementState): Promise<Partial<ProcurementState>> {
-    const searchTool = this.productTools.getSearchProductsTool();
+  private async knowledgeRetrievalNode(state: ProcurementState & { retrievedKnowledge?: string }): Promise<Partial<ProcurementState & { retrievedKnowledge?: string }>> {
+    const tool = this.ragTools.getRetrieveTextileKnowledgeTool();
+    const query = state.requirements.fabricType || state.requirements.category || '';
+    if (!query) return {};
     
-    // We pass extracted requirements to the product search tool
-    const queryStr = JSON.stringify({
-      category: state.requirements.category,
-      query: state.requirements.fabricType,
-      maxPrice: state.requirements.maxPrice
-    });
+    const result = await tool.invoke({ topic: query });
+    return { retrievedKnowledge: result };
+  }
+
+  private async searchMarketplaceNode(state: ProcurementState): Promise<Partial<ProcurementState>> {
+    const searchTool = this.ragTools.getSemanticProductSearchTool();
+    
+    const query = state.requirements.fabricType || state.requirements.category || '';
 
     const result = await searchTool.invoke({ 
-      category: state.requirements.category, 
-      query: state.requirements.fabricType, 
-      maxPrice: state.requirements.maxPrice 
+      query
     });
 
     return {
@@ -103,7 +113,7 @@ export class BuyerProcurementWorkflow {
     };
   }
 
-  private async generateRecommendationsNode(state: ProcurementState): Promise<Partial<ProcurementState>> {
+  private async generateRecommendationsNode(state: ProcurementState & { retrievedKnowledge?: string }): Promise<Partial<ProcurementState>> {
     const model = this.llmService.getProvider().getChatModel();
     
     const systemPrompt = await ProcurementRecommendationPrompt.format({
@@ -113,8 +123,10 @@ export class BuyerProcurementWorkflow {
       suppliers: JSON.stringify(state.foundSuppliers || [])
     });
 
+    const knowledgeContext = state.retrievedKnowledge ? `\n\nTextile Knowledge Context:\n${state.retrievedKnowledge}\nUse this context to enrich your explanation.` : '';
+
     const response = await model.invoke([
-      new SystemMessage(systemPrompt),
+      new SystemMessage(systemPrompt + knowledgeContext),
       ...state.messages
     ]);
 
