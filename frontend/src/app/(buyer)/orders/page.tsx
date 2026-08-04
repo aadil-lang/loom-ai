@@ -1,10 +1,9 @@
-import { EmptyState } from '@/components/ui/states';
+import * as React from 'react';
+import { buyerService } from '@/services';
+import { BuyerOrdersClient } from '@/components/buyer/BuyerOrdersClient';
 
-export default function OrdersPage() {
-  return (
-    <div className="space-y-6">
-      <h1 className="text-3xl font-bold tracking-tight">My Orders</h1>
-      <EmptyState title="No orders yet" description="When you place orders, they will appear here." actionText="Start Sourcing" />
-    </div>
-  );
+export default async function OrdersPage() {
+  const orders = await buyerService.getBuyerOrders();
+
+  return <BuyerOrdersClient initialOrders={orders} />;
 }
