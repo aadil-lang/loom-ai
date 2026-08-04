@@ -1,24 +1,31 @@
-import dotenv from 'dotenv';
-import mongoose from 'mongoose';
-import app from './app';
+import { createApp } from './app';
+import { connectDB } from './config/database';
+import { env } from './config/env';
+import { logger } from './config/logger';
 
-dotenv.config();
+const startServer = async () => {
+  try {
+    // 1. Connect to Database
+    await connectDB();
 
-const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/loomai';
+    // 2. Initialize App
+    const app = createApp();
 
-// Start Server first
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+    // 3. Start Server
+    const server = app.listen(env.PORT, () => {
+      logger.info(`Server running in ${env.NODE_ENV} mode on port ${env.PORT}`);
+    });
 
-// Connect to MongoDB asynchronously
-mongoose
-  .connect(MONGO_URI)
-  .then(() => {
-    console.log('Successfully connected to MongoDB');
-  })
-  .catch((error) => {
-    console.error('Error connecting to MongoDB:', error.message);
-    console.warn('Backend is running WITHOUT database connection for now.');
-  });
+    // Handle Unhandled Rejections
+    process.on('unhandledRejection', (err: Error) => {
+      logger.error(`Unhandled Rejection: ${err.message}`);
+      server.close(() => process.exit(1));
+    });
+
+  } catch (error) {
+    logger.error('Failed to start server:', error);
+    process.exit(1);
+  }
+};
+
+startServer();
