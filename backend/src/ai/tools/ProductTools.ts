@@ -48,4 +48,22 @@ export class ProductTools {
       }
     });
   }
+
+  public getCompareProductsTool() {
+    return new DynamicStructuredTool({
+      name: 'compare_products',
+      description: 'Compare multiple products directly based on their IDs.',
+      schema: z.object({
+        productIds: z.array(z.string()).describe('Array of product IDs to compare'),
+      }),
+      func: async ({ productIds }) => {
+        try {
+          const products = await this.productService.compareProducts(productIds);
+          return JSON.stringify(products);
+        } catch (error: any) {
+          return `Error comparing products: ${error.message}`;
+        }
+      }
+    });
+  }
 }

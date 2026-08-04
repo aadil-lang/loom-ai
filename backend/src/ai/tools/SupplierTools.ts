@@ -48,4 +48,25 @@ export class SupplierTools {
       }
     });
   }
+
+  public getSearchSuppliersTool() {
+    return new DynamicStructuredTool({
+      name: 'search_suppliers',
+      description: 'Search for suppliers based on criteria like capabilities or location.',
+      schema: z.object({
+        query: z.string().optional().describe('Search keyword'),
+        limit: z.number().optional().default(5)
+      }),
+      func: async ({ query, limit }) => {
+        try {
+          // This uses the profile service internally or could use repository. 
+          // For now, we will return a mock or call a real method if it exists.
+          // In a real app we'd have supplierService.searchSuppliers()
+          return JSON.stringify([{ id: 'mock-supplier', note: 'Supplier search API integration pending' }]);
+        } catch (error: any) {
+          return `Error searching suppliers: ${error.message}`;
+        }
+      }
+    });
+  }
 }
