@@ -7,8 +7,22 @@ export interface ISupplier extends Document {
   contactName: string;
   location: string;
   rating: number;
-  certifications: string[];
+  certifications: string[]; // Keep as string[] for names or URLs
   capabilities: string[];
+  
+  // New Supplier Profile Extensions
+  companyDescription?: string;
+  operatingRegions?: string[];
+  businessHours?: string;
+  logoUrl?: string;
+  bannerUrl?: string;
+  
+  businessSettings?: {
+    currency?: string;
+    timeZone?: string;
+    languagePreference?: string;
+    notificationPreferences?: Record<string, boolean>;
+  };
   role: 'Supplier';
   isEmailVerified: boolean;
   accountStatus: 'active' | 'suspended';
@@ -29,6 +43,19 @@ const SupplierSchema: Schema = new Schema(
     rating: { type: Number, default: 0 },
     certifications: [{ type: String }],
     capabilities: [{ type: String }],
+    
+    companyDescription: { type: String },
+    operatingRegions: [{ type: String }],
+    businessHours: { type: String },
+    logoUrl: { type: String },
+    bannerUrl: { type: String },
+    
+    businessSettings: {
+      currency: { type: String, default: 'USD' },
+      timeZone: { type: String, default: 'UTC' },
+      languagePreference: { type: String, default: 'en' },
+      notificationPreferences: { type: Map, of: Boolean }
+    },
     role: { type: String, default: 'Supplier', enum: ['Supplier'] },
     isEmailVerified: { type: Boolean, default: false },
     accountStatus: { type: String, default: 'active', enum: ['active', 'suspended'] },

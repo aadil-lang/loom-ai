@@ -87,4 +87,24 @@ export class ProductRepository extends BaseRepository<IProduct> {
   async findBySupplier(supplierId: string): Promise<IProduct[]> {
     return await this.model.find({ supplierId }).exec();
   }
+
+  async aggregateDashboardStats(supplierId: string) {
+    const objectId = new mongoose.Types.ObjectId(supplierId);
+    const result = await this.model.aggregate([
+      { $match: { supplierId: objectId } },
+      {
+        $group: {
+          _id: null,
+          totalProducts: { $sum: 1 },
+          activeProducts: {
+            $sum: { $cond: [{ $eq: ['$productStatus', 'active'] }, 1, 0] }
+          },
+          lowStockProducts: {
+            $sum: { $cond: [{ $eq: ['$inStock', false] }, 1, 0] } // Mock logic since we only use boolean
+          }
+        }
+      }
+    ]);
+    return result[0] || { totalProducts: 0, activeProducts: 0, lowStockProducts: 0 };
+  }
 }

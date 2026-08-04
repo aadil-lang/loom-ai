@@ -1,0 +1,44 @@
+paths:
+  /supplier/profile:
+    get:
+      summary: Get supplier profile
+      tags: [Supplier]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Supplier profile retrieved
+    put:
+      summary: Update supplier profile
+      tags: [Supplier]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Profile updated
+  /supplier/products:
+    get:
+      summary: Get all supplier products
+      tags: [Supplier]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: List of products
+    post:
+      summary: Create a new product
+      tags: [Supplier]
+      security:
+        - bearerAuth: []
+      responses:
+        '201':
+          description: Product created
+  /supplier/dashboard:
+    get:
+      summary: Get supplier dashboard analytics
+      tags: [Supplier]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Dashboard retrieved
