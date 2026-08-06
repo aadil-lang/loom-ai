@@ -1,5 +1,5 @@
 import { DocumentChunk } from './IVectorStore';
-import { v4 as uuidv4 } from 'uuid';
+import crypto from 'crypto';
 
 export class DocumentProcessor {
   
@@ -32,7 +32,7 @@ export class DocumentProcessor {
     }
 
     return chunks.map((chunk, index) => ({
-      id: uuidv4(),
+      id: crypto.randomUUID(),
       pageContent: chunk,
       metadata: { ...metadata, chunkIndex: index }
     }));

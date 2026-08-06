@@ -4,7 +4,7 @@ import { InMemoryProvider } from '../../ai/memory/InMemoryProvider';
 import { HumanMessage } from '@langchain/core/messages';
 import { ApiResponse } from '../../responses/ApiResponse';
 import { OnboardingStage } from '../../ai/schemas/OnboardingSchemas';
-import { v4 as uuidv4 } from 'uuid';
+import crypto from 'crypto';
 import { SupplierRepository } from '../../repositories/SupplierRepository';
 
 const memoryProvider = new InMemoryProvider();
@@ -15,7 +15,7 @@ export class OnboardingAgentController {
   
   startSession = async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const sessionId = uuidv4();
+      const sessionId = crypto.randomUUID();
       const initialState = {
         sessionId,
         language: 'en',

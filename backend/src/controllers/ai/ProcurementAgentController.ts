@@ -3,7 +3,7 @@ import { BuyerProcurementWorkflow } from '../../ai/workflows/BuyerProcurementWor
 import { InMemoryProvider } from '../../ai/memory/InMemoryProvider';
 import { HumanMessage } from '@langchain/core/messages';
 import { ApiResponse } from '../../responses/ApiResponse';
-import { v4 as uuidv4 } from 'uuid';
+import crypto from 'crypto';
 import { procurementAgent } from '../../ai/agents/procurementAgent';
 
 const memoryProvider = new InMemoryProvider();
@@ -13,7 +13,7 @@ export class ProcurementAgentController {
   
   startSession = async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const sessionId = uuidv4();
+      const sessionId = crypto.randomUUID();
       const initialState = {
         sessionId,
         language: 'en',

@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid';
+import crypto from 'crypto';
 
 export interface PendingAction {
   id: string;
@@ -29,7 +29,7 @@ export class ApprovalQueue {
 
   public async queueAction(userId: string, type: string, description: string, payload: any): Promise<PendingAction> {
     const action: PendingAction = {
-      id: uuidv4(),
+      id: crypto.randomUUID(),
       userId,
       type,
       description,
