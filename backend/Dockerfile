@@ -7,7 +7,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies (including devDependencies for TypeScript)
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 # Copy source code
 COPY . .
@@ -24,7 +24,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install only production dependencies
-RUN npm install --only=production
+RUN npm install --only=production --legacy-peer-deps
 
 # Copy compiled code from builder
 COPY --from=builder /app/dist ./dist
