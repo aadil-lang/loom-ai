@@ -16,7 +16,7 @@ export const createApp = (): Application => {
   const app = express();
 
   // Serve dataset images statically
-  app.use('/images', express.static(path.join(__dirname, '../data/loomai_dataset/images')));
+  app.use('/loomai-images', express.static(path.join(__dirname, '../public/loomai-images')));
 
   // Middleware
   app.use(helmet());
