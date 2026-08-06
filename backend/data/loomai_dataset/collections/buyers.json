@@ -1,0 +1,1842 @@
+[
+  {
+    "id": "buy_001",
+    "uuid": "0c94a61e-5ae3-53f0-b295-6901ab844f6f",
+    "name": "Apex Fashion Brands LLP",
+    "slug": "fashion-brands-delhi-buy-001",
+    "industry": "Fashion Brands",
+    "city": "Delhi",
+    "state": "Delhi",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 100,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Delhi",
+      "Mumbai",
+      "Bengaluru"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_03",
+      "cat_04",
+      "cat_08",
+      "cat_12",
+      "cat_17",
+      "cat_18"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Fashion Brands buyer based in Delhi sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_002",
+    "uuid": "d1eb4f33-048b-5a12-b66f-d26cc69c5207",
+    "name": "BluePine Garment Manufacturers LLP",
+    "slug": "garment-manufacturers-mumbai-buy-002",
+    "industry": "Garment Manufacturers",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 250,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Mumbai",
+      "Bengaluru",
+      "Chennai"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_06",
+      "cat_07",
+      "cat_11",
+      "cat_12",
+      "cat_14"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Garment Manufacturers buyer based in Mumbai sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_003",
+    "uuid": "1cce2dd6-8799-52d4-afaa-836275d0586a",
+    "name": "Crescent School Uniform Manufacturers LLP",
+    "slug": "school-uniform-manufacturers-bengaluru-buy-003",
+    "industry": "School Uniform Manufacturers",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 500,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Bengaluru",
+      "Chennai",
+      "Hyderabad"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_06",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "School Uniform Manufacturers buyer based in Bengaluru sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_004",
+    "uuid": "19a1ae1d-cf75-55b9-9286-2f76420ac640",
+    "name": "Delta Hospital Chains LLP",
+    "slug": "hospital-chains-chennai-buy-004",
+    "industry": "Hospital Chains",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 1000,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Chennai",
+      "Hyderabad",
+      "Kolkata"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_14",
+      "cat_16",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Hospital Chains buyer based in Chennai sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_005",
+    "uuid": "436b844e-8799-55cc-b3ba-0dd64d386963",
+    "name": "Evergreen Hotel Chains LLP",
+    "slug": "hotel-chains-hyderabad-buy-005",
+    "industry": "Hotel Chains",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 2000,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Hyderabad",
+      "Kolkata",
+      "Ahmedabad"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_03",
+      "cat_04"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Hotel Chains buyer based in Hyderabad sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_006",
+    "uuid": "b4ec9ee2-ce0b-58cd-90cd-79d9fa593c4c",
+    "name": "Frontier Furniture Manufacturers LLP",
+    "slug": "furniture-manufacturers-kolkata-buy-006",
+    "industry": "Furniture Manufacturers",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 100,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Kolkata",
+      "Ahmedabad",
+      "Pune"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_05",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Furniture Manufacturers buyer based in Kolkata sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_007",
+    "uuid": "55b648f2-b283-5650-8edb-5e6d9dfaabcc",
+    "name": "Harbor Retail Chains LLP",
+    "slug": "retail-chains-ahmedabad-buy-007",
+    "industry": "Retail Chains",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 250,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Ahmedabad",
+      "Pune",
+      "Surat"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_08",
+      "cat_12",
+      "cat_15",
+      "cat_17",
+      "cat_18"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Retail Chains buyer based in Ahmedabad sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_008",
+    "uuid": "a6f12c24-0354-531f-8ede-bbb23435305d",
+    "name": "Icon Export Houses LLP",
+    "slug": "export-houses-pune-buy-008",
+    "industry": "Export Houses",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 500,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Pune",
+      "Surat",
+      "Jaipur"
+    ],
+    "preferredCategories": [
+      "cat_04",
+      "cat_06",
+      "cat_08",
+      "cat_12",
+      "cat_13",
+      "cat_17",
+      "cat_18",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Export Houses buyer based in Pune sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_009",
+    "uuid": "8a7d4a61-8c28-59da-a5c8-8db93744982e",
+    "name": "Juniper Government Procurement LLP",
+    "slug": "government-procurement-surat-buy-009",
+    "industry": "Government Procurement",
+    "city": "Surat",
+    "state": "Gujarat",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 1000,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Surat",
+      "Jaipur",
+      "Coimbatore"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_15",
+      "cat_16",
+      "cat_19",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Government Procurement buyer based in Surat sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_010",
+    "uuid": "9c6e64eb-7680-51fd-8d79-1a7c56c19c69",
+    "name": "Kinetic Corporate Uniform Suppliers LLP",
+    "slug": "corporate-uniform-suppliers-jaipur-buy-010",
+    "industry": "Corporate Uniform Suppliers",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 2000,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Jaipur",
+      "Coimbatore",
+      "Lucknow"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_06",
+      "cat_11",
+      "cat_16",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Corporate Uniform Suppliers buyer based in Jaipur sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_011",
+    "uuid": "a651a04e-3b28-59d9-9900-cab11c14ce05",
+    "name": "Apex Fashion Brands LLP",
+    "slug": "fashion-brands-coimbatore-buy-011",
+    "industry": "Fashion Brands",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 100,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Coimbatore",
+      "Lucknow",
+      "Delhi"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_03",
+      "cat_04",
+      "cat_08",
+      "cat_12",
+      "cat_17",
+      "cat_18"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Fashion Brands buyer based in Coimbatore sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_012",
+    "uuid": "e0fc0fd5-8964-5627-9025-8a6d98726180",
+    "name": "BluePine Garment Manufacturers LLP",
+    "slug": "garment-manufacturers-lucknow-buy-012",
+    "industry": "Garment Manufacturers",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 250,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Lucknow",
+      "Delhi",
+      "Mumbai"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_06",
+      "cat_07",
+      "cat_11",
+      "cat_12",
+      "cat_14"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Garment Manufacturers buyer based in Lucknow sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_013",
+    "uuid": "4bcbb691-031c-5036-a757-ce4bc18d5794",
+    "name": "Crescent School Uniform Manufacturers LLP",
+    "slug": "school-uniform-manufacturers-delhi-buy-013",
+    "industry": "School Uniform Manufacturers",
+    "city": "Delhi",
+    "state": "Delhi",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 500,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Delhi",
+      "Mumbai",
+      "Bengaluru"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_06",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "School Uniform Manufacturers buyer based in Delhi sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_014",
+    "uuid": "f9a2c224-ae17-5432-b4cd-436d01e7dacc",
+    "name": "Delta Hospital Chains LLP",
+    "slug": "hospital-chains-mumbai-buy-014",
+    "industry": "Hospital Chains",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 1000,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Mumbai",
+      "Bengaluru",
+      "Chennai"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_14",
+      "cat_16",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Hospital Chains buyer based in Mumbai sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_015",
+    "uuid": "adaa4b30-e953-5c79-8a25-753b3939e176",
+    "name": "Evergreen Hotel Chains LLP",
+    "slug": "hotel-chains-bengaluru-buy-015",
+    "industry": "Hotel Chains",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 2000,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Bengaluru",
+      "Chennai",
+      "Hyderabad"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_03",
+      "cat_04"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Hotel Chains buyer based in Bengaluru sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_016",
+    "uuid": "5a62f363-ea4e-54ca-beea-7884726a5b1b",
+    "name": "Frontier Furniture Manufacturers LLP",
+    "slug": "furniture-manufacturers-chennai-buy-016",
+    "industry": "Furniture Manufacturers",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 100,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Chennai",
+      "Hyderabad",
+      "Kolkata"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_05",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Furniture Manufacturers buyer based in Chennai sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_017",
+    "uuid": "c8271680-02c4-5441-85ab-ef71585bf01b",
+    "name": "Harbor Retail Chains LLP",
+    "slug": "retail-chains-hyderabad-buy-017",
+    "industry": "Retail Chains",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 250,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Hyderabad",
+      "Kolkata",
+      "Ahmedabad"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_08",
+      "cat_12",
+      "cat_15",
+      "cat_17",
+      "cat_18"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Retail Chains buyer based in Hyderabad sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_018",
+    "uuid": "03440c1e-f94f-509f-ba69-b7e2ea4c85b1",
+    "name": "Icon Export Houses LLP",
+    "slug": "export-houses-kolkata-buy-018",
+    "industry": "Export Houses",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 500,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Kolkata",
+      "Ahmedabad",
+      "Pune"
+    ],
+    "preferredCategories": [
+      "cat_04",
+      "cat_06",
+      "cat_08",
+      "cat_12",
+      "cat_13",
+      "cat_17",
+      "cat_18",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Export Houses buyer based in Kolkata sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_019",
+    "uuid": "1e1d586b-18bb-5643-a01c-47c3d7d54888",
+    "name": "Juniper Government Procurement LLP",
+    "slug": "government-procurement-ahmedabad-buy-019",
+    "industry": "Government Procurement",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 1000,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Ahmedabad",
+      "Pune",
+      "Surat"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_15",
+      "cat_16",
+      "cat_19",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Government Procurement buyer based in Ahmedabad sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_020",
+    "uuid": "74935f03-dfc4-51df-b596-6c7a828f7fc0",
+    "name": "Kinetic Corporate Uniform Suppliers LLP",
+    "slug": "corporate-uniform-suppliers-pune-buy-020",
+    "industry": "Corporate Uniform Suppliers",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 2000,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Pune",
+      "Surat",
+      "Jaipur"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_06",
+      "cat_11",
+      "cat_16",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Corporate Uniform Suppliers buyer based in Pune sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_021",
+    "uuid": "0909952c-7fec-5b05-b1eb-0eb1cebef110",
+    "name": "Apex Fashion Brands LLP",
+    "slug": "fashion-brands-surat-buy-021",
+    "industry": "Fashion Brands",
+    "city": "Surat",
+    "state": "Gujarat",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 100,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Surat",
+      "Jaipur",
+      "Coimbatore"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_03",
+      "cat_04",
+      "cat_08",
+      "cat_12",
+      "cat_17",
+      "cat_18"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Fashion Brands buyer based in Surat sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_022",
+    "uuid": "555a0fbd-aaf4-5fb7-b10a-78ad55acf495",
+    "name": "BluePine Garment Manufacturers LLP",
+    "slug": "garment-manufacturers-jaipur-buy-022",
+    "industry": "Garment Manufacturers",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 250,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Jaipur",
+      "Coimbatore",
+      "Lucknow"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_06",
+      "cat_07",
+      "cat_11",
+      "cat_12",
+      "cat_14"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Garment Manufacturers buyer based in Jaipur sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_023",
+    "uuid": "a37874d7-d049-53c5-af7f-d01d5c3ef73c",
+    "name": "Crescent School Uniform Manufacturers LLP",
+    "slug": "school-uniform-manufacturers-coimbatore-buy-023",
+    "industry": "School Uniform Manufacturers",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 500,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Coimbatore",
+      "Lucknow",
+      "Delhi"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_06",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "School Uniform Manufacturers buyer based in Coimbatore sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_024",
+    "uuid": "796f3307-df45-5de9-9e49-e86c8b5890a8",
+    "name": "Delta Hospital Chains LLP",
+    "slug": "hospital-chains-lucknow-buy-024",
+    "industry": "Hospital Chains",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 1000,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Lucknow",
+      "Delhi",
+      "Mumbai"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_14",
+      "cat_16",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Hospital Chains buyer based in Lucknow sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_025",
+    "uuid": "67109bbe-f9c7-518c-87da-6e9426178345",
+    "name": "Evergreen Hotel Chains LLP",
+    "slug": "hotel-chains-delhi-buy-025",
+    "industry": "Hotel Chains",
+    "city": "Delhi",
+    "state": "Delhi",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 2000,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Delhi",
+      "Mumbai",
+      "Bengaluru"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_03",
+      "cat_04"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Hotel Chains buyer based in Delhi sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_026",
+    "uuid": "f425d5e4-2500-5ede-b889-2b5fab4eea5e",
+    "name": "Frontier Furniture Manufacturers LLP",
+    "slug": "furniture-manufacturers-mumbai-buy-026",
+    "industry": "Furniture Manufacturers",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 100,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Mumbai",
+      "Bengaluru",
+      "Chennai"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_05",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Furniture Manufacturers buyer based in Mumbai sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_027",
+    "uuid": "9563d926-352a-5967-be69-99e7bfd0978d",
+    "name": "Harbor Retail Chains LLP",
+    "slug": "retail-chains-bengaluru-buy-027",
+    "industry": "Retail Chains",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 250,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Bengaluru",
+      "Chennai",
+      "Hyderabad"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_08",
+      "cat_12",
+      "cat_15",
+      "cat_17",
+      "cat_18"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Retail Chains buyer based in Bengaluru sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_028",
+    "uuid": "e09b3415-6740-5546-9924-62f5781ad76a",
+    "name": "Icon Export Houses LLP",
+    "slug": "export-houses-chennai-buy-028",
+    "industry": "Export Houses",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 500,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Chennai",
+      "Hyderabad",
+      "Kolkata"
+    ],
+    "preferredCategories": [
+      "cat_04",
+      "cat_06",
+      "cat_08",
+      "cat_12",
+      "cat_13",
+      "cat_17",
+      "cat_18",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Export Houses buyer based in Chennai sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_029",
+    "uuid": "7580b8ac-bf8a-5e49-8fdd-8f8e19571046",
+    "name": "Juniper Government Procurement LLP",
+    "slug": "government-procurement-hyderabad-buy-029",
+    "industry": "Government Procurement",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 1000,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Hyderabad",
+      "Kolkata",
+      "Ahmedabad"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_15",
+      "cat_16",
+      "cat_19",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Government Procurement buyer based in Hyderabad sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_030",
+    "uuid": "05f70a1e-a688-5d49-bfba-59777f658445",
+    "name": "Kinetic Corporate Uniform Suppliers LLP",
+    "slug": "corporate-uniform-suppliers-kolkata-buy-030",
+    "industry": "Corporate Uniform Suppliers",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 2000,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Kolkata",
+      "Ahmedabad",
+      "Pune"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_06",
+      "cat_11",
+      "cat_16",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Corporate Uniform Suppliers buyer based in Kolkata sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_031",
+    "uuid": "0c37a306-599d-5d05-aab6-4dfa41b8a38e",
+    "name": "Apex Fashion Brands LLP",
+    "slug": "fashion-brands-ahmedabad-buy-031",
+    "industry": "Fashion Brands",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 100,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Ahmedabad",
+      "Pune",
+      "Surat"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_03",
+      "cat_04",
+      "cat_08",
+      "cat_12",
+      "cat_17",
+      "cat_18"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Fashion Brands buyer based in Ahmedabad sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_032",
+    "uuid": "a777927d-90d7-5d32-899c-ce2d227076c9",
+    "name": "BluePine Garment Manufacturers LLP",
+    "slug": "garment-manufacturers-pune-buy-032",
+    "industry": "Garment Manufacturers",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 250,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Pune",
+      "Surat",
+      "Jaipur"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_06",
+      "cat_07",
+      "cat_11",
+      "cat_12",
+      "cat_14"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Garment Manufacturers buyer based in Pune sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_033",
+    "uuid": "a6fb8d2b-cd40-51c7-808e-2bd637c85967",
+    "name": "Crescent School Uniform Manufacturers LLP",
+    "slug": "school-uniform-manufacturers-surat-buy-033",
+    "industry": "School Uniform Manufacturers",
+    "city": "Surat",
+    "state": "Gujarat",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 500,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Surat",
+      "Jaipur",
+      "Coimbatore"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_06",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "School Uniform Manufacturers buyer based in Surat sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_034",
+    "uuid": "2b59d3b9-4a9c-5c78-a0ba-16b9953a0d55",
+    "name": "Delta Hospital Chains LLP",
+    "slug": "hospital-chains-jaipur-buy-034",
+    "industry": "Hospital Chains",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 1000,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Jaipur",
+      "Coimbatore",
+      "Lucknow"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_14",
+      "cat_16",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Hospital Chains buyer based in Jaipur sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_035",
+    "uuid": "291e72f2-6d98-5fea-89dd-18742ba01543",
+    "name": "Evergreen Hotel Chains LLP",
+    "slug": "hotel-chains-coimbatore-buy-035",
+    "industry": "Hotel Chains",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 2000,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Coimbatore",
+      "Lucknow",
+      "Delhi"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_03",
+      "cat_04"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Hotel Chains buyer based in Coimbatore sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_036",
+    "uuid": "e91890c6-697b-5b14-998f-af48075aaeff",
+    "name": "Frontier Furniture Manufacturers LLP",
+    "slug": "furniture-manufacturers-lucknow-buy-036",
+    "industry": "Furniture Manufacturers",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 100,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Lucknow",
+      "Delhi",
+      "Mumbai"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_05",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Furniture Manufacturers buyer based in Lucknow sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_037",
+    "uuid": "ea40fe81-8342-5921-bee1-0b663c45c93d",
+    "name": "Harbor Retail Chains LLP",
+    "slug": "retail-chains-delhi-buy-037",
+    "industry": "Retail Chains",
+    "city": "Delhi",
+    "state": "Delhi",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 250,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Delhi",
+      "Mumbai",
+      "Bengaluru"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_08",
+      "cat_12",
+      "cat_15",
+      "cat_17",
+      "cat_18"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Retail Chains buyer based in Delhi sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_038",
+    "uuid": "f414b45c-47f9-519e-ae75-2e8101b75269",
+    "name": "Icon Export Houses LLP",
+    "slug": "export-houses-mumbai-buy-038",
+    "industry": "Export Houses",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 500,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Mumbai",
+      "Bengaluru",
+      "Chennai"
+    ],
+    "preferredCategories": [
+      "cat_04",
+      "cat_06",
+      "cat_08",
+      "cat_12",
+      "cat_13",
+      "cat_17",
+      "cat_18",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Export Houses buyer based in Mumbai sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_039",
+    "uuid": "1d87e8f6-0948-5223-a3b6-c6a42fca8a03",
+    "name": "Juniper Government Procurement LLP",
+    "slug": "government-procurement-bengaluru-buy-039",
+    "industry": "Government Procurement",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 1000,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Bengaluru",
+      "Chennai",
+      "Hyderabad"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_15",
+      "cat_16",
+      "cat_19",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Government Procurement buyer based in Bengaluru sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_040",
+    "uuid": "2e2b12be-669a-5ae4-bffb-572b88589f54",
+    "name": "Kinetic Corporate Uniform Suppliers LLP",
+    "slug": "corporate-uniform-suppliers-chennai-buy-040",
+    "industry": "Corporate Uniform Suppliers",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 2000,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Chennai",
+      "Hyderabad",
+      "Kolkata"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_06",
+      "cat_11",
+      "cat_16",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Corporate Uniform Suppliers buyer based in Chennai sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_041",
+    "uuid": "6c5657b6-d17b-58c9-8736-a16e65ad8eca",
+    "name": "Apex Fashion Brands LLP",
+    "slug": "fashion-brands-hyderabad-buy-041",
+    "industry": "Fashion Brands",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 100,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Hyderabad",
+      "Kolkata",
+      "Ahmedabad"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_03",
+      "cat_04",
+      "cat_08",
+      "cat_12",
+      "cat_17",
+      "cat_18"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Fashion Brands buyer based in Hyderabad sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_042",
+    "uuid": "e1e3897a-a625-5133-b35a-5b1cd5a3cf82",
+    "name": "BluePine Garment Manufacturers LLP",
+    "slug": "garment-manufacturers-kolkata-buy-042",
+    "industry": "Garment Manufacturers",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 250,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Kolkata",
+      "Ahmedabad",
+      "Pune"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_06",
+      "cat_07",
+      "cat_11",
+      "cat_12",
+      "cat_14"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Garment Manufacturers buyer based in Kolkata sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_043",
+    "uuid": "50485e2f-c2ac-5675-b858-eaaaf2887847",
+    "name": "Crescent School Uniform Manufacturers LLP",
+    "slug": "school-uniform-manufacturers-ahmedabad-buy-043",
+    "industry": "School Uniform Manufacturers",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 500,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Ahmedabad",
+      "Pune",
+      "Surat"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_06",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "School Uniform Manufacturers buyer based in Ahmedabad sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_044",
+    "uuid": "03f6be95-686c-5a4f-a1c9-3ab0e515d8dd",
+    "name": "Delta Hospital Chains LLP",
+    "slug": "hospital-chains-pune-buy-044",
+    "industry": "Hospital Chains",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 1000,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Pune",
+      "Surat",
+      "Jaipur"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_14",
+      "cat_16",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Hospital Chains buyer based in Pune sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_045",
+    "uuid": "93edff4f-20a9-5607-ac21-f433f15a6968",
+    "name": "Evergreen Hotel Chains LLP",
+    "slug": "hotel-chains-surat-buy-045",
+    "industry": "Hotel Chains",
+    "city": "Surat",
+    "state": "Gujarat",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 2000,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Surat",
+      "Jaipur",
+      "Coimbatore"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_03",
+      "cat_04"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Hotel Chains buyer based in Surat sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_046",
+    "uuid": "8cc9bfc6-7f4c-5ba5-8a8e-8396e43dbbe8",
+    "name": "Frontier Furniture Manufacturers LLP",
+    "slug": "furniture-manufacturers-jaipur-buy-046",
+    "industry": "Furniture Manufacturers",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 100,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Jaipur",
+      "Coimbatore",
+      "Lucknow"
+    ],
+    "preferredCategories": [
+      "cat_15",
+      "cat_05",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Furniture Manufacturers buyer based in Jaipur sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_047",
+    "uuid": "1f8d4dda-f915-5ad2-935d-cfe2d906a9d8",
+    "name": "Harbor Retail Chains LLP",
+    "slug": "retail-chains-coimbatore-buy-047",
+    "industry": "Retail Chains",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "budgetRangeInr": {
+      "min": 1200000,
+      "max": 3000000
+    },
+    "preferredMOQ": 250,
+    "preferredSupplierRegions": [
+      "South India",
+      "East India"
+    ],
+    "purchaseFrequency": "monthly",
+    "deliveryLocations": [
+      "Coimbatore",
+      "Lucknow",
+      "Delhi"
+    ],
+    "preferredCategories": [
+      "cat_01",
+      "cat_02",
+      "cat_08",
+      "cat_12",
+      "cat_15",
+      "cat_17",
+      "cat_18"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Retail Chains buyer based in Coimbatore sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_048",
+    "uuid": "77522ace-427d-5fa8-baae-1855ba1ace7c",
+    "name": "Icon Export Houses LLP",
+    "slug": "export-houses-lucknow-buy-048",
+    "industry": "Export Houses",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "budgetRangeInr": {
+      "min": 3000000,
+      "max": 9000000
+    },
+    "preferredMOQ": 500,
+    "preferredSupplierRegions": [
+      "East India",
+      "North India"
+    ],
+    "purchaseFrequency": "quarterly",
+    "deliveryLocations": [
+      "Lucknow",
+      "Delhi",
+      "Mumbai"
+    ],
+    "preferredCategories": [
+      "cat_04",
+      "cat_06",
+      "cat_08",
+      "cat_12",
+      "cat_13",
+      "cat_17",
+      "cat_18",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Export Houses buyer based in Lucknow sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_049",
+    "uuid": "2ce8c112-6aab-523e-9e33-38fe916be88a",
+    "name": "Juniper Government Procurement LLP",
+    "slug": "government-procurement-delhi-buy-049",
+    "industry": "Government Procurement",
+    "city": "Delhi",
+    "state": "Delhi",
+    "budgetRangeInr": {
+      "min": 250000,
+      "max": 500000
+    },
+    "preferredMOQ": 1000,
+    "preferredSupplierRegions": [
+      "North India",
+      "West India"
+    ],
+    "purchaseFrequency": "weekly",
+    "deliveryLocations": [
+      "Delhi",
+      "Mumbai",
+      "Bengaluru"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_15",
+      "cat_16",
+      "cat_19",
+      "cat_20"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS"
+    ],
+    "description": "Government Procurement buyer based in Delhi sourcing bulk textile inputs for recurring procurement programs."
+  },
+  {
+    "id": "buy_050",
+    "uuid": "54f7a351-37c0-5c99-8f48-894e40ea68ec",
+    "name": "Kinetic Corporate Uniform Suppliers LLP",
+    "slug": "corporate-uniform-suppliers-mumbai-buy-050",
+    "industry": "Corporate Uniform Suppliers",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "budgetRangeInr": {
+      "min": 500000,
+      "max": 1200000
+    },
+    "preferredMOQ": 2000,
+    "preferredSupplierRegions": [
+      "West India",
+      "South India"
+    ],
+    "purchaseFrequency": "biweekly",
+    "deliveryLocations": [
+      "Mumbai",
+      "Bengaluru",
+      "Chennai"
+    ],
+    "preferredCategories": [
+      "cat_14",
+      "cat_06",
+      "cat_11",
+      "cat_16",
+      "cat_19"
+    ],
+    "preferredCertifications": [
+      "OEKO-TEX Standard 100",
+      "GOTS",
+      "GRS"
+    ],
+    "description": "Corporate Uniform Suppliers buyer based in Mumbai sourcing bulk textile inputs for recurring procurement programs."
+  }
+]

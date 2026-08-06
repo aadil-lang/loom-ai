@@ -1,0 +1,1425 @@
+[
+  {
+    "id": "sup_001",
+    "uuid": "05cc013c-db5b-577e-838c-ba8e0394fb35",
+    "name": "Aaranya Textiles Pvt Ltd",
+    "slug": "aaranya-textiles-pvt-ltd-sup-001",
+    "hubCity": "Surat",
+    "state": "Gujarat",
+    "foundedYear": 1998,
+    "yearsActive": 28,
+    "factoryName": "Aaranya Integrated Mill",
+    "factoryCity": "Surat",
+    "factoryState": "Gujarat",
+    "preferredIndustries": [
+      "Fashion Brands",
+      "Garment Manufacturers",
+      "Retail Chains"
+    ],
+    "focusCategoryIds": [
+      "cat_01",
+      "cat_02",
+      "cat_17"
+    ],
+    "certifications": [
+      "ISO 9001",
+      "OEKO-TEX Standard 100",
+      "REACH"
+    ],
+    "responseRate": 82,
+    "productionCapacityMetersPerMonth": 18000,
+    "minimumOrderQuantity": 100,
+    "leadTimeDays": 7,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 86.2,
+    "history": [
+      "Established in 1998 in Surat as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "North India",
+      "West India"
+    ],
+    "warehouseIds": [
+      "wh_001",
+      "wh_002"
+    ],
+    "completedOrders": 29
+  },
+  {
+    "id": "sup_002",
+    "uuid": "f29400ee-3789-585f-a2e0-664be6b42203",
+    "name": "Banyan Looms LLP",
+    "slug": "banyan-looms-llp-sup-002",
+    "hubCity": "Karur",
+    "state": "Tamil Nadu",
+    "foundedYear": 1999,
+    "yearsActive": 27,
+    "factoryName": "Banyan Processing Unit",
+    "factoryCity": "Karur",
+    "factoryState": "Tamil Nadu",
+    "preferredIndustries": [
+      "Hotel Chains",
+      "Hospital Chains",
+      "Government Procurement"
+    ],
+    "focusCategoryIds": [
+      "cat_15",
+      "cat_19",
+      "cat_14"
+    ],
+    "certifications": [
+      "OEKO-TEX Standard 100",
+      "REACH",
+      "GRS"
+    ],
+    "responseRate": 84,
+    "productionCapacityMetersPerMonth": 18700,
+    "minimumOrderQuantity": 150,
+    "leadTimeDays": 10,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 91.0,
+    "history": [
+      "Established in 1999 in Karur as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "West India",
+      "South India"
+    ],
+    "warehouseIds": [
+      "wh_003"
+    ],
+    "completedOrders": 100
+  },
+  {
+    "id": "sup_003",
+    "uuid": "6e40c7c5-7441-51f5-872a-767472ea83aa",
+    "name": "Chitram Weaves Pvt Ltd",
+    "slug": "chitram-weaves-pvt-ltd-sup-003",
+    "hubCity": "Ludhiana",
+    "state": "Punjab",
+    "foundedYear": 2000,
+    "yearsActive": 26,
+    "factoryName": "Chitram Dyeing And Finishing Unit",
+    "factoryCity": "Ludhiana",
+    "factoryState": "Punjab",
+    "preferredIndustries": [
+      "Sportswear",
+      "Corporate Uniform Suppliers",
+      "Garment Manufacturers"
+    ],
+    "focusCategoryIds": [
+      "cat_07",
+      "cat_11",
+      "cat_16"
+    ],
+    "certifications": [
+      "REACH",
+      "GRS",
+      "GOTS"
+    ],
+    "responseRate": 86,
+    "productionCapacityMetersPerMonth": 19400,
+    "minimumOrderQuantity": 200,
+    "leadTimeDays": 13,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 87.5,
+    "history": [
+      "Established in 2000 in Ludhiana as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "South India",
+      "East India"
+    ],
+    "warehouseIds": [
+      "wh_004"
+    ],
+    "completedOrders": 8
+  },
+  {
+    "id": "sup_004",
+    "uuid": "f295e15e-9d10-5ad4-b7d9-2d929748dd3d",
+    "name": "Dhara Fabric House LLP",
+    "slug": "dhara-fabric-house-llp-sup-004",
+    "hubCity": "Varanasi",
+    "state": "Uttar Pradesh",
+    "foundedYear": 2001,
+    "yearsActive": 25,
+    "factoryName": "Dhara Loom Shed",
+    "factoryCity": "Varanasi",
+    "factoryState": "Uttar Pradesh",
+    "preferredIndustries": [
+      "Export Houses",
+      "Fashion Brands",
+      "Retail Chains"
+    ],
+    "focusCategoryIds": [
+      "cat_04",
+      "cat_13",
+      "cat_18"
+    ],
+    "certifications": [
+      "GRS",
+      "GOTS",
+      "SEDEX"
+    ],
+    "responseRate": 88,
+    "productionCapacityMetersPerMonth": 20100,
+    "minimumOrderQuantity": 250,
+    "leadTimeDays": 16,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 73.3,
+    "history": [
+      "Established in 2001 in Varanasi as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "East India",
+      "North India"
+    ],
+    "warehouseIds": [
+      "wh_005"
+    ],
+    "completedOrders": 15
+  },
+  {
+    "id": "sup_005",
+    "uuid": "174dc6d3-a0a4-51b1-a3c3-46a53281f686",
+    "name": "Evara Textile Mills Pvt Ltd",
+    "slug": "evara-textile-mills-pvt-ltd-sup-005",
+    "hubCity": "Bhilwara",
+    "state": "Rajasthan",
+    "foundedYear": 2002,
+    "yearsActive": 24,
+    "factoryName": "Evara Knit Processing Unit",
+    "factoryCity": "Bhilwara",
+    "factoryState": "Rajasthan",
+    "preferredIndustries": [
+      "Workwear and Industrial",
+      "Export Houses",
+      "Government Procurement"
+    ],
+    "focusCategoryIds": [
+      "cat_05",
+      "cat_06",
+      "cat_20"
+    ],
+    "certifications": [
+      "GOTS",
+      "SEDEX",
+      "BCI"
+    ],
+    "responseRate": 90,
+    "productionCapacityMetersPerMonth": 20800,
+    "minimumOrderQuantity": 300,
+    "leadTimeDays": 19,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 88.6,
+    "history": [
+      "Established in 2002 in Bhilwara as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "North India",
+      "West India"
+    ],
+    "warehouseIds": [
+      "wh_006",
+      "wh_007"
+    ],
+    "completedOrders": 35
+  },
+  {
+    "id": "sup_006",
+    "uuid": "ab4262aa-05a5-5c85-aab7-0e904996a417",
+    "name": "Fabrica Textiles Pvt Ltd",
+    "slug": "fabrica-textiles-pvt-ltd-sup-006",
+    "hubCity": "Delhi NCR",
+    "state": "Delhi",
+    "foundedYear": 2003,
+    "yearsActive": 23,
+    "factoryName": "Fabrica Integrated Mill",
+    "factoryCity": "Delhi NCR",
+    "factoryState": "Delhi",
+    "preferredIndustries": [
+      "Retail Chains",
+      "Furniture Manufacturers",
+      "School Uniform Manufacturers"
+    ],
+    "focusCategoryIds": [
+      "cat_03",
+      "cat_08",
+      "cat_09",
+      "cat_10"
+    ],
+    "certifications": [
+      "SEDEX",
+      "BCI",
+      "ISO 14001"
+    ],
+    "responseRate": 92,
+    "productionCapacityMetersPerMonth": 21500,
+    "minimumOrderQuantity": 350,
+    "leadTimeDays": 7,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 95.8,
+    "history": [
+      "Established in 2003 in Delhi NCR as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "West India",
+      "South India"
+    ],
+    "warehouseIds": [
+      "wh_008"
+    ],
+    "completedOrders": 24
+  },
+  {
+    "id": "sup_007",
+    "uuid": "b7bf73ef-aec4-52da-8200-b63010b0a338",
+    "name": "Gauri Looms LLP",
+    "slug": "gauri-looms-llp-sup-007",
+    "hubCity": "Surat",
+    "state": "Gujarat",
+    "foundedYear": 2004,
+    "yearsActive": 22,
+    "factoryName": "Gauri Processing Unit",
+    "factoryCity": "Surat",
+    "factoryState": "Gujarat",
+    "preferredIndustries": [
+      "Fashion Brands",
+      "Garment Manufacturers",
+      "Retail Chains"
+    ],
+    "focusCategoryIds": [
+      "cat_01",
+      "cat_02",
+      "cat_17"
+    ],
+    "certifications": [
+      "BCI",
+      "ISO 14001",
+      "ISO 9001"
+    ],
+    "responseRate": 94,
+    "productionCapacityMetersPerMonth": 22200,
+    "minimumOrderQuantity": 100,
+    "leadTimeDays": 10,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 81.8,
+    "history": [
+      "Established in 2004 in Surat as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "South India",
+      "East India"
+    ],
+    "warehouseIds": [
+      "wh_009"
+    ],
+    "completedOrders": 22
+  },
+  {
+    "id": "sup_008",
+    "uuid": "afb78d32-9210-5f95-958e-1a76b1f6a6b5",
+    "name": "Hema Weaves Pvt Ltd",
+    "slug": "hema-weaves-pvt-ltd-sup-008",
+    "hubCity": "Karur",
+    "state": "Tamil Nadu",
+    "foundedYear": 2005,
+    "yearsActive": 21,
+    "factoryName": "Hema Dyeing And Finishing Unit",
+    "factoryCity": "Karur",
+    "factoryState": "Tamil Nadu",
+    "preferredIndustries": [
+      "Hotel Chains",
+      "Hospital Chains",
+      "Government Procurement"
+    ],
+    "focusCategoryIds": [
+      "cat_15",
+      "cat_19",
+      "cat_14"
+    ],
+    "certifications": [
+      "ISO 14001",
+      "ISO 9001",
+      "OEKO-TEX Standard 100"
+    ],
+    "responseRate": 96,
+    "productionCapacityMetersPerMonth": 22900,
+    "minimumOrderQuantity": 150,
+    "leadTimeDays": 13,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 92.7,
+    "history": [
+      "Established in 2005 in Karur as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "East India",
+      "North India"
+    ],
+    "warehouseIds": [
+      "wh_010"
+    ],
+    "completedOrders": 55
+  },
+  {
+    "id": "sup_009",
+    "uuid": "3301bca1-8353-5acd-b648-ee27f82e9925",
+    "name": "Indira Fabric House LLP",
+    "slug": "indira-fabric-house-llp-sup-009",
+    "hubCity": "Ludhiana",
+    "state": "Punjab",
+    "foundedYear": 2006,
+    "yearsActive": 20,
+    "factoryName": "Indira Loom Shed",
+    "factoryCity": "Ludhiana",
+    "factoryState": "Punjab",
+    "preferredIndustries": [
+      "Sportswear",
+      "Corporate Uniform Suppliers",
+      "Garment Manufacturers"
+    ],
+    "focusCategoryIds": [
+      "cat_07",
+      "cat_11",
+      "cat_16"
+    ],
+    "certifications": [
+      "ISO 9001",
+      "OEKO-TEX Standard 100",
+      "REACH"
+    ],
+    "responseRate": 98,
+    "productionCapacityMetersPerMonth": 23600,
+    "minimumOrderQuantity": 200,
+    "leadTimeDays": 16,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 100.0,
+    "history": [
+      "Established in 2006 in Ludhiana as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "North India",
+      "West India"
+    ],
+    "warehouseIds": [
+      "wh_011",
+      "wh_012"
+    ],
+    "completedOrders": 4
+  },
+  {
+    "id": "sup_010",
+    "uuid": "2c1011c4-0e39-5fff-be98-8f14b0e9b3ee",
+    "name": "Jivika Textile Mills Pvt Ltd",
+    "slug": "jivika-textile-mills-pvt-ltd-sup-010",
+    "hubCity": "Varanasi",
+    "state": "Uttar Pradesh",
+    "foundedYear": 2007,
+    "yearsActive": 19,
+    "factoryName": "Jivika Knit Processing Unit",
+    "factoryCity": "Varanasi",
+    "factoryState": "Uttar Pradesh",
+    "preferredIndustries": [
+      "Export Houses",
+      "Fashion Brands",
+      "Retail Chains"
+    ],
+    "focusCategoryIds": [
+      "cat_04",
+      "cat_13",
+      "cat_18"
+    ],
+    "certifications": [
+      "OEKO-TEX Standard 100",
+      "REACH",
+      "GRS"
+    ],
+    "responseRate": 82,
+    "productionCapacityMetersPerMonth": 24300,
+    "minimumOrderQuantity": 250,
+    "leadTimeDays": 19,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 100.0,
+    "history": [
+      "Established in 2007 in Varanasi as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "West India",
+      "South India"
+    ],
+    "warehouseIds": [
+      "wh_013"
+    ],
+    "completedOrders": 4
+  },
+  {
+    "id": "sup_011",
+    "uuid": "6350a24b-e7c9-50cb-b1bc-4d974a5ded86",
+    "name": "Kaira Textiles Pvt Ltd",
+    "slug": "kaira-textiles-pvt-ltd-sup-011",
+    "hubCity": "Bhilwara",
+    "state": "Rajasthan",
+    "foundedYear": 2008,
+    "yearsActive": 18,
+    "factoryName": "Kaira Integrated Mill",
+    "factoryCity": "Bhilwara",
+    "factoryState": "Rajasthan",
+    "preferredIndustries": [
+      "Workwear and Industrial",
+      "Export Houses",
+      "Government Procurement"
+    ],
+    "focusCategoryIds": [
+      "cat_05",
+      "cat_06",
+      "cat_20"
+    ],
+    "certifications": [
+      "REACH",
+      "GRS",
+      "GOTS"
+    ],
+    "responseRate": 84,
+    "productionCapacityMetersPerMonth": 25000,
+    "minimumOrderQuantity": 300,
+    "leadTimeDays": 7,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 81.5,
+    "history": [
+      "Established in 2008 in Bhilwara as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "South India",
+      "East India"
+    ],
+    "warehouseIds": [
+      "wh_014"
+    ],
+    "completedOrders": 27
+  },
+  {
+    "id": "sup_012",
+    "uuid": "d26ac0fd-da6f-586d-86c6-39079ed4053d",
+    "name": "Looma Looms LLP",
+    "slug": "looma-looms-llp-sup-012",
+    "hubCity": "Delhi NCR",
+    "state": "Delhi",
+    "foundedYear": 2009,
+    "yearsActive": 17,
+    "factoryName": "Looma Processing Unit",
+    "factoryCity": "Delhi NCR",
+    "factoryState": "Delhi",
+    "preferredIndustries": [
+      "Retail Chains",
+      "Furniture Manufacturers",
+      "School Uniform Manufacturers"
+    ],
+    "focusCategoryIds": [
+      "cat_03",
+      "cat_08",
+      "cat_09",
+      "cat_10"
+    ],
+    "certifications": [
+      "GRS",
+      "GOTS",
+      "SEDEX"
+    ],
+    "responseRate": 86,
+    "productionCapacityMetersPerMonth": 25700,
+    "minimumOrderQuantity": 350,
+    "leadTimeDays": 10,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 87.5,
+    "history": [
+      "Established in 2009 in Delhi NCR as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "East India",
+      "North India"
+    ],
+    "warehouseIds": [
+      "wh_015"
+    ],
+    "completedOrders": 16
+  },
+  {
+    "id": "sup_013",
+    "uuid": "f4600e7f-b81e-5afc-8b1e-256cce08f68b",
+    "name": "Marigold Weaves Pvt Ltd",
+    "slug": "marigold-weaves-pvt-ltd-sup-013",
+    "hubCity": "Surat",
+    "state": "Gujarat",
+    "foundedYear": 2010,
+    "yearsActive": 16,
+    "factoryName": "Marigold Dyeing And Finishing Unit",
+    "factoryCity": "Surat",
+    "factoryState": "Gujarat",
+    "preferredIndustries": [
+      "Fashion Brands",
+      "Garment Manufacturers",
+      "Retail Chains"
+    ],
+    "focusCategoryIds": [
+      "cat_01",
+      "cat_02",
+      "cat_17"
+    ],
+    "certifications": [
+      "GOTS",
+      "SEDEX",
+      "BCI"
+    ],
+    "responseRate": 88,
+    "productionCapacityMetersPerMonth": 26400,
+    "minimumOrderQuantity": 100,
+    "leadTimeDays": 13,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 92.9,
+    "history": [
+      "Established in 2010 in Surat as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "North India",
+      "West India"
+    ],
+    "warehouseIds": [
+      "wh_016",
+      "wh_017"
+    ],
+    "completedOrders": 28
+  },
+  {
+    "id": "sup_014",
+    "uuid": "7d32ec24-d13b-5989-9799-fae5879ab8e4",
+    "name": "Nivara Fabric House LLP",
+    "slug": "nivara-fabric-house-llp-sup-014",
+    "hubCity": "Karur",
+    "state": "Tamil Nadu",
+    "foundedYear": 2011,
+    "yearsActive": 15,
+    "factoryName": "Nivara Loom Shed",
+    "factoryCity": "Karur",
+    "factoryState": "Tamil Nadu",
+    "preferredIndustries": [
+      "Hotel Chains",
+      "Hospital Chains",
+      "Government Procurement"
+    ],
+    "focusCategoryIds": [
+      "cat_15",
+      "cat_19",
+      "cat_14"
+    ],
+    "certifications": [
+      "SEDEX",
+      "BCI",
+      "ISO 14001"
+    ],
+    "responseRate": 90,
+    "productionCapacityMetersPerMonth": 27100,
+    "minimumOrderQuantity": 150,
+    "leadTimeDays": 16,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 89.9,
+    "history": [
+      "Established in 2011 in Karur as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "West India",
+      "South India"
+    ],
+    "warehouseIds": [
+      "wh_018"
+    ],
+    "completedOrders": 69
+  },
+  {
+    "id": "sup_015",
+    "uuid": "6ba0a3fb-2451-560e-8867-e01524824c23",
+    "name": "Ojas Textile Mills Pvt Ltd",
+    "slug": "ojas-textile-mills-pvt-ltd-sup-015",
+    "hubCity": "Ludhiana",
+    "state": "Punjab",
+    "foundedYear": 2012,
+    "yearsActive": 14,
+    "factoryName": "Ojas Knit Processing Unit",
+    "factoryCity": "Ludhiana",
+    "factoryState": "Punjab",
+    "preferredIndustries": [
+      "Sportswear",
+      "Corporate Uniform Suppliers",
+      "Garment Manufacturers"
+    ],
+    "focusCategoryIds": [
+      "cat_07",
+      "cat_11",
+      "cat_16"
+    ],
+    "certifications": [
+      "BCI",
+      "ISO 14001",
+      "ISO 9001"
+    ],
+    "responseRate": 92,
+    "productionCapacityMetersPerMonth": 27800,
+    "minimumOrderQuantity": 200,
+    "leadTimeDays": 19,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 100.0,
+    "history": [
+      "Established in 2012 in Ludhiana as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "South India",
+      "East India"
+    ],
+    "warehouseIds": [
+      "wh_019"
+    ],
+    "completedOrders": 4
+  },
+  {
+    "id": "sup_016",
+    "uuid": "70be7491-38ad-50c8-b533-e8ace60afcb4",
+    "name": "Prerna Textiles Pvt Ltd",
+    "slug": "prerna-textiles-pvt-ltd-sup-016",
+    "hubCity": "Varanasi",
+    "state": "Uttar Pradesh",
+    "foundedYear": 2013,
+    "yearsActive": 13,
+    "factoryName": "Prerna Integrated Mill",
+    "factoryCity": "Varanasi",
+    "factoryState": "Uttar Pradesh",
+    "preferredIndustries": [
+      "Export Houses",
+      "Fashion Brands",
+      "Retail Chains"
+    ],
+    "focusCategoryIds": [
+      "cat_04",
+      "cat_13",
+      "cat_18"
+    ],
+    "certifications": [
+      "ISO 14001",
+      "ISO 9001",
+      "OEKO-TEX Standard 100"
+    ],
+    "responseRate": 94,
+    "productionCapacityMetersPerMonth": 28500,
+    "minimumOrderQuantity": 250,
+    "leadTimeDays": 7,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 81.8,
+    "history": [
+      "Established in 2013 in Varanasi as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "East India",
+      "North India"
+    ],
+    "warehouseIds": [
+      "wh_020"
+    ],
+    "completedOrders": 11
+  },
+  {
+    "id": "sup_017",
+    "uuid": "1a26be92-2f11-5690-bec1-9c572f739858",
+    "name": "Quartz Looms LLP",
+    "slug": "quartz-looms-llp-sup-017",
+    "hubCity": "Bhilwara",
+    "state": "Rajasthan",
+    "foundedYear": 2014,
+    "yearsActive": 12,
+    "factoryName": "Quartz Processing Unit",
+    "factoryCity": "Bhilwara",
+    "factoryState": "Rajasthan",
+    "preferredIndustries": [
+      "Workwear and Industrial",
+      "Export Houses",
+      "Government Procurement"
+    ],
+    "focusCategoryIds": [
+      "cat_05",
+      "cat_06",
+      "cat_20"
+    ],
+    "certifications": [
+      "ISO 9001",
+      "OEKO-TEX Standard 100",
+      "REACH"
+    ],
+    "responseRate": 96,
+    "productionCapacityMetersPerMonth": 29200,
+    "minimumOrderQuantity": 300,
+    "leadTimeDays": 10,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 80.0,
+    "history": [
+      "Established in 2014 in Bhilwara as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "North India",
+      "West India"
+    ],
+    "warehouseIds": [
+      "wh_021",
+      "wh_022"
+    ],
+    "completedOrders": 30
+  },
+  {
+    "id": "sup_018",
+    "uuid": "323519cd-d02b-5702-93de-ea5b1df72afd",
+    "name": "Riva Weaves Pvt Ltd",
+    "slug": "riva-weaves-pvt-ltd-sup-018",
+    "hubCity": "Delhi NCR",
+    "state": "Delhi",
+    "foundedYear": 2015,
+    "yearsActive": 11,
+    "factoryName": "Riva Dyeing And Finishing Unit",
+    "factoryCity": "Delhi NCR",
+    "factoryState": "Delhi",
+    "preferredIndustries": [
+      "Retail Chains",
+      "Furniture Manufacturers",
+      "School Uniform Manufacturers"
+    ],
+    "focusCategoryIds": [
+      "cat_03",
+      "cat_08",
+      "cat_09",
+      "cat_10"
+    ],
+    "certifications": [
+      "OEKO-TEX Standard 100",
+      "REACH",
+      "GRS"
+    ],
+    "responseRate": 98,
+    "productionCapacityMetersPerMonth": 29900,
+    "minimumOrderQuantity": 350,
+    "leadTimeDays": 13,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 94.4,
+    "history": [
+      "Established in 2015 in Delhi NCR as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "West India",
+      "South India"
+    ],
+    "warehouseIds": [
+      "wh_023"
+    ],
+    "completedOrders": 18
+  },
+  {
+    "id": "sup_019",
+    "uuid": "d7654946-c6e5-5c51-95db-06ed0c0fb4c5",
+    "name": "Saanjh Fabric House LLP",
+    "slug": "saanjh-fabric-house-llp-sup-019",
+    "hubCity": "Surat",
+    "state": "Gujarat",
+    "foundedYear": 1998,
+    "yearsActive": 28,
+    "factoryName": "Saanjh Loom Shed",
+    "factoryCity": "Surat",
+    "factoryState": "Gujarat",
+    "preferredIndustries": [
+      "Fashion Brands",
+      "Garment Manufacturers",
+      "Retail Chains"
+    ],
+    "focusCategoryIds": [
+      "cat_01",
+      "cat_02",
+      "cat_17"
+    ],
+    "certifications": [
+      "REACH",
+      "GRS",
+      "GOTS"
+    ],
+    "responseRate": 82,
+    "productionCapacityMetersPerMonth": 30600,
+    "minimumOrderQuantity": 100,
+    "leadTimeDays": 16,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 87.5,
+    "history": [
+      "Established in 1998 in Surat as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "South India",
+      "East India"
+    ],
+    "warehouseIds": [
+      "wh_024"
+    ],
+    "completedOrders": 24
+  },
+  {
+    "id": "sup_020",
+    "uuid": "4b903fb9-ddee-5e5d-8d01-8006c38ebab6",
+    "name": "Tara Textile Mills Pvt Ltd",
+    "slug": "tara-textile-mills-pvt-ltd-sup-020",
+    "hubCity": "Karur",
+    "state": "Tamil Nadu",
+    "foundedYear": 1999,
+    "yearsActive": 27,
+    "factoryName": "Tara Knit Processing Unit",
+    "factoryCity": "Karur",
+    "factoryState": "Tamil Nadu",
+    "preferredIndustries": [
+      "Hotel Chains",
+      "Hospital Chains",
+      "Government Procurement"
+    ],
+    "focusCategoryIds": [
+      "cat_15",
+      "cat_19",
+      "cat_14"
+    ],
+    "certifications": [
+      "GRS",
+      "GOTS",
+      "SEDEX"
+    ],
+    "responseRate": 84,
+    "productionCapacityMetersPerMonth": 31300,
+    "minimumOrderQuantity": 150,
+    "leadTimeDays": 19,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 91.1,
+    "history": [
+      "Established in 1999 in Karur as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "East India",
+      "North India"
+    ],
+    "warehouseIds": [
+      "wh_025"
+    ],
+    "completedOrders": 90
+  },
+  {
+    "id": "sup_021",
+    "uuid": "38469632-e9b3-50a3-b1be-bb1882be4684",
+    "name": "Umbra Textiles Pvt Ltd",
+    "slug": "umbra-textiles-pvt-ltd-sup-021",
+    "hubCity": "Ludhiana",
+    "state": "Punjab",
+    "foundedYear": 2000,
+    "yearsActive": 26,
+    "factoryName": "Umbra Integrated Mill",
+    "factoryCity": "Ludhiana",
+    "factoryState": "Punjab",
+    "preferredIndustries": [
+      "Sportswear",
+      "Corporate Uniform Suppliers",
+      "Garment Manufacturers"
+    ],
+    "focusCategoryIds": [
+      "cat_07",
+      "cat_11",
+      "cat_16"
+    ],
+    "certifications": [
+      "GOTS",
+      "SEDEX",
+      "BCI"
+    ],
+    "responseRate": 86,
+    "productionCapacityMetersPerMonth": 32000,
+    "minimumOrderQuantity": 200,
+    "leadTimeDays": 7,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 100.0,
+    "history": [
+      "Established in 2000 in Ludhiana as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "North India",
+      "West India"
+    ],
+    "warehouseIds": [
+      "wh_026",
+      "wh_027"
+    ],
+    "completedOrders": 5
+  },
+  {
+    "id": "sup_022",
+    "uuid": "aeb38b82-7c7d-5fc0-b3cc-207fda15967b",
+    "name": "Veda Looms LLP",
+    "slug": "veda-looms-llp-sup-022",
+    "hubCity": "Varanasi",
+    "state": "Uttar Pradesh",
+    "foundedYear": 2001,
+    "yearsActive": 25,
+    "factoryName": "Veda Processing Unit",
+    "factoryCity": "Varanasi",
+    "factoryState": "Uttar Pradesh",
+    "preferredIndustries": [
+      "Export Houses",
+      "Fashion Brands",
+      "Retail Chains"
+    ],
+    "focusCategoryIds": [
+      "cat_04",
+      "cat_13",
+      "cat_18"
+    ],
+    "certifications": [
+      "SEDEX",
+      "BCI",
+      "ISO 14001"
+    ],
+    "responseRate": 88,
+    "productionCapacityMetersPerMonth": 32700,
+    "minimumOrderQuantity": 250,
+    "leadTimeDays": 10,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 100.0,
+    "history": [
+      "Established in 2001 in Varanasi as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "West India",
+      "South India"
+    ],
+    "warehouseIds": [
+      "wh_028"
+    ],
+    "completedOrders": 9
+  },
+  {
+    "id": "sup_023",
+    "uuid": "ca30192c-4afb-558c-ae55-94c8d7cfac8e",
+    "name": "Wovenia Weaves Pvt Ltd",
+    "slug": "wovenia-weaves-pvt-ltd-sup-023",
+    "hubCity": "Bhilwara",
+    "state": "Rajasthan",
+    "foundedYear": 2002,
+    "yearsActive": 24,
+    "factoryName": "Wovenia Dyeing And Finishing Unit",
+    "factoryCity": "Bhilwara",
+    "factoryState": "Rajasthan",
+    "preferredIndustries": [
+      "Workwear and Industrial",
+      "Export Houses",
+      "Government Procurement"
+    ],
+    "focusCategoryIds": [
+      "cat_05",
+      "cat_06",
+      "cat_20"
+    ],
+    "certifications": [
+      "BCI",
+      "ISO 14001",
+      "ISO 9001"
+    ],
+    "responseRate": 90,
+    "productionCapacityMetersPerMonth": 33400,
+    "minimumOrderQuantity": 300,
+    "leadTimeDays": 13,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 93.1,
+    "history": [
+      "Established in 2002 in Bhilwara as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "South India",
+      "East India"
+    ],
+    "warehouseIds": [
+      "wh_029"
+    ],
+    "completedOrders": 29
+  },
+  {
+    "id": "sup_024",
+    "uuid": "9035fa20-5d70-5d8a-a66e-464eec015677",
+    "name": "Xyra Fabric House LLP",
+    "slug": "xyra-fabric-house-llp-sup-024",
+    "hubCity": "Delhi NCR",
+    "state": "Delhi",
+    "foundedYear": 2003,
+    "yearsActive": 23,
+    "factoryName": "Xyra Loom Shed",
+    "factoryCity": "Delhi NCR",
+    "factoryState": "Delhi",
+    "preferredIndustries": [
+      "Retail Chains",
+      "Furniture Manufacturers",
+      "School Uniform Manufacturers"
+    ],
+    "focusCategoryIds": [
+      "cat_03",
+      "cat_08",
+      "cat_09",
+      "cat_10"
+    ],
+    "certifications": [
+      "ISO 14001",
+      "ISO 9001",
+      "OEKO-TEX Standard 100"
+    ],
+    "responseRate": 92,
+    "productionCapacityMetersPerMonth": 34100,
+    "minimumOrderQuantity": 350,
+    "leadTimeDays": 16,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 89.5,
+    "history": [
+      "Established in 2003 in Delhi NCR as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "East India",
+      "North India"
+    ],
+    "warehouseIds": [
+      "wh_030"
+    ],
+    "completedOrders": 19
+  },
+  {
+    "id": "sup_025",
+    "uuid": "9493e6a9-41b3-5d9a-90af-7138cf48e913",
+    "name": "Yatra Textile Mills Pvt Ltd",
+    "slug": "yatra-textile-mills-pvt-ltd-sup-025",
+    "hubCity": "Surat",
+    "state": "Gujarat",
+    "foundedYear": 2004,
+    "yearsActive": 22,
+    "factoryName": "Yatra Knit Processing Unit",
+    "factoryCity": "Surat",
+    "factoryState": "Gujarat",
+    "preferredIndustries": [
+      "Fashion Brands",
+      "Garment Manufacturers",
+      "Retail Chains"
+    ],
+    "focusCategoryIds": [
+      "cat_01",
+      "cat_02",
+      "cat_17"
+    ],
+    "certifications": [
+      "ISO 9001",
+      "OEKO-TEX Standard 100",
+      "REACH"
+    ],
+    "responseRate": 94,
+    "productionCapacityMetersPerMonth": 34800,
+    "minimumOrderQuantity": 100,
+    "leadTimeDays": 19,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 87.5,
+    "history": [
+      "Established in 2004 in Surat as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "North India",
+      "West India"
+    ],
+    "warehouseIds": [
+      "wh_031",
+      "wh_032"
+    ],
+    "completedOrders": 32
+  },
+  {
+    "id": "sup_026",
+    "uuid": "082b7481-53b9-52e7-93ad-4e13572b9f04",
+    "name": "Zenit Textiles Pvt Ltd",
+    "slug": "zenit-textiles-pvt-ltd-sup-026",
+    "hubCity": "Karur",
+    "state": "Tamil Nadu",
+    "foundedYear": 2005,
+    "yearsActive": 21,
+    "factoryName": "Zenit Integrated Mill",
+    "factoryCity": "Karur",
+    "factoryState": "Tamil Nadu",
+    "preferredIndustries": [
+      "Hotel Chains",
+      "Hospital Chains",
+      "Government Procurement"
+    ],
+    "focusCategoryIds": [
+      "cat_15",
+      "cat_19",
+      "cat_14"
+    ],
+    "certifications": [
+      "OEKO-TEX Standard 100",
+      "REACH",
+      "GRS"
+    ],
+    "responseRate": 96,
+    "productionCapacityMetersPerMonth": 35500,
+    "minimumOrderQuantity": 150,
+    "leadTimeDays": 7,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 82.1,
+    "history": [
+      "Established in 2005 in Karur as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "West India",
+      "South India"
+    ],
+    "warehouseIds": [
+      "wh_033"
+    ],
+    "completedOrders": 84
+  },
+  {
+    "id": "sup_027",
+    "uuid": "ebf70e31-f5f6-5747-a8fb-d1a33987e27f",
+    "name": "Aster Looms LLP",
+    "slug": "aster-looms-llp-sup-027",
+    "hubCity": "Ludhiana",
+    "state": "Punjab",
+    "foundedYear": 2006,
+    "yearsActive": 20,
+    "factoryName": "Aster Processing Unit",
+    "factoryCity": "Ludhiana",
+    "factoryState": "Punjab",
+    "preferredIndustries": [
+      "Sportswear",
+      "Corporate Uniform Suppliers",
+      "Garment Manufacturers"
+    ],
+    "focusCategoryIds": [
+      "cat_07",
+      "cat_11",
+      "cat_16"
+    ],
+    "certifications": [
+      "REACH",
+      "GRS",
+      "GOTS"
+    ],
+    "responseRate": 98,
+    "productionCapacityMetersPerMonth": 36200,
+    "minimumOrderQuantity": 200,
+    "leadTimeDays": 10,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 80.0,
+    "history": [
+      "Established in 2006 in Ludhiana as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "South India",
+      "East India"
+    ],
+    "warehouseIds": [
+      "wh_034"
+    ],
+    "completedOrders": 5
+  },
+  {
+    "id": "sup_028",
+    "uuid": "cd5ed4a2-5d34-5324-add2-e64c5c2f6d57",
+    "name": "Beryl Weaves Pvt Ltd",
+    "slug": "beryl-weaves-pvt-ltd-sup-028",
+    "hubCity": "Varanasi",
+    "state": "Uttar Pradesh",
+    "foundedYear": 2007,
+    "yearsActive": 19,
+    "factoryName": "Beryl Dyeing And Finishing Unit",
+    "factoryCity": "Varanasi",
+    "factoryState": "Uttar Pradesh",
+    "preferredIndustries": [
+      "Export Houses",
+      "Fashion Brands",
+      "Retail Chains"
+    ],
+    "focusCategoryIds": [
+      "cat_04",
+      "cat_13",
+      "cat_18"
+    ],
+    "certifications": [
+      "GRS",
+      "GOTS",
+      "SEDEX"
+    ],
+    "responseRate": 82,
+    "productionCapacityMetersPerMonth": 36900,
+    "minimumOrderQuantity": 250,
+    "leadTimeDays": 13,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 90.9,
+    "history": [
+      "Established in 2007 in Varanasi as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "East India",
+      "North India"
+    ],
+    "warehouseIds": [
+      "wh_035"
+    ],
+    "completedOrders": 11
+  },
+  {
+    "id": "sup_029",
+    "uuid": "3a822925-5445-58f7-a5c2-3153bf4974ad",
+    "name": "Cedar Fabric House LLP",
+    "slug": "cedar-fabric-house-llp-sup-029",
+    "hubCity": "Bhilwara",
+    "state": "Rajasthan",
+    "foundedYear": 2008,
+    "yearsActive": 18,
+    "factoryName": "Cedar Loom Shed",
+    "factoryCity": "Bhilwara",
+    "factoryState": "Rajasthan",
+    "preferredIndustries": [
+      "Workwear and Industrial",
+      "Export Houses",
+      "Government Procurement"
+    ],
+    "focusCategoryIds": [
+      "cat_05",
+      "cat_06",
+      "cat_20"
+    ],
+    "certifications": [
+      "GOTS",
+      "SEDEX",
+      "BCI"
+    ],
+    "responseRate": 84,
+    "productionCapacityMetersPerMonth": 37600,
+    "minimumOrderQuantity": 300,
+    "leadTimeDays": 16,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 96.0,
+    "history": [
+      "Established in 2008 in Bhilwara as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "North India",
+      "West India"
+    ],
+    "warehouseIds": [
+      "wh_036",
+      "wh_037"
+    ],
+    "completedOrders": 25
+  },
+  {
+    "id": "sup_030",
+    "uuid": "48d77d7f-2aa7-5f30-bd0a-0750656e6ec0",
+    "name": "Dusk Textile Mills Pvt Ltd",
+    "slug": "dusk-textile-mills-pvt-ltd-sup-030",
+    "hubCity": "Delhi NCR",
+    "state": "Delhi",
+    "foundedYear": 2009,
+    "yearsActive": 17,
+    "factoryName": "Dusk Knit Processing Unit",
+    "factoryCity": "Delhi NCR",
+    "factoryState": "Delhi",
+    "preferredIndustries": [
+      "Retail Chains",
+      "Furniture Manufacturers",
+      "School Uniform Manufacturers"
+    ],
+    "focusCategoryIds": [
+      "cat_03",
+      "cat_08",
+      "cat_09",
+      "cat_10"
+    ],
+    "certifications": [
+      "SEDEX",
+      "BCI",
+      "ISO 14001"
+    ],
+    "responseRate": 86,
+    "productionCapacityMetersPerMonth": 38300,
+    "minimumOrderQuantity": 350,
+    "leadTimeDays": 19,
+    "rating": 4.9,
+    "onTimeDeliveryPercent": 78.6,
+    "history": [
+      "Established in 2009 in Delhi NCR as a family-run textile unit.",
+      "Expanded into bulk B2B procurement and repeat-order programs across India.",
+      "Added digital QC and traceable fabric lot tracking for procurement buyers."
+    ],
+    "preferredRegions": [
+      "West India",
+      "South India"
+    ],
+    "warehouseIds": [
+      "wh_038"
+    ],
+    "completedOrders": 14
+  }
+]

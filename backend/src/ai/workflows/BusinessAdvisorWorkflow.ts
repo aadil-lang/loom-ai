@@ -7,14 +7,14 @@ import { RAGTools } from '../tools/RAGTools';
 import { SystemMessage } from '@langchain/core/messages';
 
 const advisorStateChannels = {
-  userType: null,
-  userId: null,
+  userType: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
+  userId: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
   rawMetrics: {
     reducer: (a: any, b: any) => ({ ...a, ...b }),
     default: () => ({})
   },
-  marketContext: null,
-  generatedReport: null
+  marketContext: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
+  generatedReport: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined }
 };
 
 export class BusinessAdvisorWorkflow {

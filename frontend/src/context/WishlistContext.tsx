@@ -1,6 +1,6 @@
 "use client"
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
@@ -31,18 +31,22 @@ export function WishlistProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem('loomai_wishlist', JSON.stringify(savedProductIds));
   }, [savedProductIds]);
 
-  const toggleWishlist = (productId: string) => {
+  const toggleWishlist = useCallback((productId: string) => {
     setSavedProductIds(prev => 
       prev.includes(productId) 
         ? prev.filter(id => id !== productId)
         : [...prev, productId]
     );
-  };
+  }, []);
 
-  const isInWishlist = (productId: string) => savedProductIds.includes(productId);
+  const isInWishlist = useCallback((productId: string) => savedProductIds.includes(productId), [savedProductIds]);
+
+  const value = useMemo(() => ({
+    savedProductIds, toggleWishlist, isInWishlist
+  }), [savedProductIds, toggleWishlist, isInWishlist]);
 
   return (
-    <WishlistContext.Provider value={{ savedProductIds, toggleWishlist, isInWishlist }}>
+    <WishlistContext.Provider value={value}>
       {children}
     </WishlistContext.Provider>
   );

@@ -25,4 +25,11 @@ if (env.NODE_ENV !== 'production') {
       format: combine(colorize(), logFormat),
     })
   );
+} else {
+  // In production (Docker), write to stdout as JSON so orchestrators can aggregate it
+  logger.add(
+    new winston.transports.Console({
+      format: combine(timestamp(), winston.format.json()),
+    })
+  );
 }

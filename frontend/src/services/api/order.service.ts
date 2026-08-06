@@ -41,3 +41,8 @@ export async function updateOrderStatus(orderId: string, status: string): Promis
   const response = await api.patch(`/supplier/orders/${orderId}/status`, { status });
   return response.data;
 }
+
+export async function createOrder(orderData: any): Promise<any> {
+  const response = await api.post('/buyer/checkout', orderData);
+  return response.data;
+}

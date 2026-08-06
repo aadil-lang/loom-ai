@@ -10,8 +10,8 @@ export interface TokenPayload {
 export class TokenService {
   static generateAccessToken(payload: TokenPayload): string {
     return jwt.sign(payload, jwtConfig.secret, {
-      expiresIn: '15m', // Short-lived access token
-    });
+      expiresIn: jwtConfig.expiresIn,
+    } as jwt.SignOptions);
   }
 
   static generateRefreshToken(): string {

@@ -4,7 +4,7 @@ import * as React from 'react';
 import Image from 'next/image';
 import { ColumnDef, DataTable } from '@/components/ui/data-table';
 import { StatusBadge } from '@/components/ui/status-badge';
-import { Button } from '@/components/ui/button';
+import { Button, buttonVariants } from '@/components/ui/button';
 import { MoreHorizontal, Edit, Eye, Trash2, Plus } from 'lucide-react';
 import Link from 'next/link';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
@@ -37,7 +37,7 @@ export function InventoryClient({ initialProducts }: { initialProducts: any[] })
       accessorKey: "pricePerMeter",
       header: "Price / m",
       sortable: true,
-      cell: (item) => <div className="font-medium">${item.pricePerMeter}</div>
+      cell: (item) => <div className="font-medium" suppressHydrationWarning>₹{item.pricePerMeter?.toLocaleString('en-IN') || 0}</div>
     },
     {
       accessorKey: "stock",
@@ -66,11 +66,9 @@ export function InventoryClient({ initialProducts }: { initialProducts: any[] })
       cell: (item) => (
         <div className="flex justify-end">
           <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="ghost" className="h-8 w-8 p-0">
-                <span className="sr-only">Open menu</span>
-                <MoreHorizontal className="h-4 w-4" />
-              </Button>
+            <DropdownMenuTrigger className={buttonVariants({ variant: "ghost", className: "h-8 w-8 p-0" })}>
+              <span className="sr-only">Open menu</span>
+              <MoreHorizontal className="h-4 w-4" />
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="w-[160px]">
               <DropdownMenuLabel>Actions</DropdownMenuLabel>

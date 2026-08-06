@@ -2,9 +2,10 @@ import { AIEventBus, AIEvent } from './AIEventBus';
 import { BusinessAdvisorWorkflow } from '../workflows/BusinessAdvisorWorkflow';
 import { AiNotificationService } from '../services/AiNotificationService';
 import { ApprovalQueue } from './ApprovalQueue';
+import logger from '../../utils/logger';
 
 export class WorkflowOrchestrator {
-  private advisorWorkflow = new BusinessAdvisorWorkflow().build();
+  private advisorWorkflow: any = null;
   private notificationService = new AiNotificationService();
   private approvalQueue = ApprovalQueue.getInstance();
 
@@ -16,15 +17,18 @@ export class WorkflowOrchestrator {
     AIEventBus.on('inventory_low', this.handleInventoryLow.bind(this));
     AIEventBus.on('demand_spike', this.handleDemandSpike.bind(this));
     AIEventBus.on('user_registered', this.handleUserRegistered.bind(this));
-    console.log('[Orchestrator] AI Event listeners registered.');
+    logger.info('[Orchestrator] AI Event listeners registered.');
   }
 
   private async handleInventoryLow(event: AIEvent) {
-    console.log(`[Orchestrator] Triggering Business Advisor for inventory low on product ${event.payload.productId}`);
+    logger.info(`[Orchestrator] Triggering Business Advisor for inventory low on product ${event.payload.productId}`);
     try {
       const { supplierId, productId } = event.payload;
 
       // 1. Trigger specialized agent
+      if (!this.advisorWorkflow) {
+        this.advisorWorkflow = new BusinessAdvisorWorkflow().build();
+      }
       const initialState = {
         userType: 'supplier',
         userId: supplierId,
@@ -54,17 +58,17 @@ export class WorkflowOrchestrator {
       );
 
     } catch (error) {
-      console.error('[Orchestrator] Failed to handle inventory_low', error);
+      logger.error('[Orchestrator] Failed to handle inventory_low', error);
     }
   }
 
   private async handleDemandSpike(event: AIEvent) {
     // Similar to above but perhaps queues a price adjustment recommendation
-    console.log('[Orchestrator] Handled demand spike');
+    logger.info('[Orchestrator] Handled demand spike');
   }
 
   private async handleUserRegistered(event: AIEvent) {
     // Welcomes the user, potentially queues an automated follow up
-    console.log('[Orchestrator] Handled user registration');
+    logger.info('[Orchestrator] Handled user registration');
   }
 }

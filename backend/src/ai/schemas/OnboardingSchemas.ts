@@ -11,15 +11,13 @@ export enum OnboardingStage {
 }
 
 export const SupplierOnboardingDataSchema = z.object({
-  companyName: z.string().optional(),
-  contactName: z.string().optional(),
-  email: z.string().email().optional(),
-  phone: z.string().optional(),
+  companyDescription: z.string().optional().describe('A brief description of the company and its history.'),
   businessType: z.enum(['Manufacturer', 'Distributor', 'Wholesaler']).optional(),
   productCategories: z.array(z.string()).optional(),
-  fabricTypes: z.array(z.string()).optional(),
-  certifications: z.array(z.string()).optional(),
-  country: z.string().optional(),
+  capabilities: z.array(z.string()).optional().describe('Manufacturing capabilities or specialties, e.g. Weaving, Dyeing.'),
+  certifications: z.array(z.string()).optional().describe('Any industry certifications like ISO, GOTS.'),
+  operatingRegions: z.array(z.string()).optional().describe('Regions where the supplier operates or ships to.'),
+  businessHours: z.string().optional().describe('Standard operating hours.'),
   preferredLanguage: z.string().optional()
 });
 

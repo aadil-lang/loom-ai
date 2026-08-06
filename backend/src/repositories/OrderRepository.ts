@@ -8,25 +8,25 @@ export class OrderRepository extends BaseRepository<IOrder> {
   }
 
   async findByBuyer(buyerId: string): Promise<IOrder[]> {
-    return await this.model.find({ buyerId }).sort({ createdAt: -1 }).populate('supplierId', 'name').exec();
+    return await this.model.find({ buyerId }).sort({ createdAt: -1 }).populate('supplierId', 'name').lean().exec() as IOrder[];
   }
 
   async findOrderDetails(orderId: string, buyerId: string): Promise<IOrder | null> {
     return await this.model.findOne({ _id: orderId, buyerId })
       .populate('items.productId', 'name sku pricePerMeter images')
       .populate('supplierId', 'name email contactName')
-      .exec();
+      .lean().exec() as IOrder | null;
   }
 
   async findSupplierOrders(supplierId: string): Promise<IOrder[]> {
-    return await this.model.find({ supplierId }).sort({ createdAt: -1 }).populate('buyerId', 'name email').exec();
+    return await this.model.find({ supplierId }).sort({ createdAt: -1 }).populate('buyerId', 'name email').lean().exec() as IOrder[];
   }
 
   async findSupplierOrderDetails(orderId: string, supplierId: string): Promise<IOrder | null> {
     return await this.model.findOne({ _id: orderId, supplierId })
       .populate('items.productId', 'name sku pricePerMeter images')
       .populate('buyerId', 'name email contactName')
-      .exec();
+      .lean().exec() as IOrder | null;
   }
 
   async aggregateSupplierDashboardStats(supplierId: string) {

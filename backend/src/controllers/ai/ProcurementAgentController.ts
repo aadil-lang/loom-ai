@@ -4,6 +4,7 @@ import { InMemoryProvider } from '../../ai/memory/InMemoryProvider';
 import { HumanMessage } from '@langchain/core/messages';
 import { ApiResponse } from '../../responses/ApiResponse';
 import { v4 as uuidv4 } from 'uuid';
+import { procurementAgent } from '../../ai/agents/procurementAgent';
 
 const memoryProvider = new InMemoryProvider();
 const workflow = new BuyerProcurementWorkflow().build();
@@ -61,6 +62,18 @@ export class ProcurementAgentController {
         products: finalStateAny.foundProducts,
         suppliers: finalStateAny.foundSuppliers
       }, 'Chat processed'));
+    } catch (error) { next(error); }
+  };
+
+  simpleChat = async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const { query } = req.body;
+      if (!query) {
+        return res.status(400).json(ApiResponse.error('Query is required', 400));
+      }
+      
+      const reply = await procurementAgent(query);
+      res.status(200).json(ApiResponse.success({ reply }, 'Simple chat processed'));
     } catch (error) { next(error); }
   };
 }

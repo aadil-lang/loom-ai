@@ -29,6 +29,7 @@ export class AuthService {
   async loginBuyer(email: string, password: string): Promise<{ user: IBuyer; accessToken: string; refreshToken: string }> {
     const buyer = await Buyer.findOne({ email }).select('+password').exec();
     if (!buyer) throw new UnauthorizedError('Invalid credentials');
+    if (buyer.accountStatus === 'suspended') throw new UnauthorizedError('Account is suspended');
 
     const isValid = await PasswordService.comparePassword(password, buyer.password!);
     if (!isValid) {
@@ -74,6 +75,7 @@ export class AuthService {
   async loginSupplier(email: string, password: string): Promise<{ user: ISupplier; accessToken: string; refreshToken: string }> {
     const supplier = await Supplier.findOne({ email }).select('+password').exec();
     if (!supplier) throw new UnauthorizedError('Invalid credentials');
+    if (supplier.accountStatus === 'suspended') throw new UnauthorizedError('Account is suspended');
 
     const isValid = await PasswordService.comparePassword(password, supplier.password!);
     if (!isValid) {

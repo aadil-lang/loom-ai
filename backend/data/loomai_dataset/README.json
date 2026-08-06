@@ -1,0 +1,29 @@
+{
+  "title": "LoomAI Dataset",
+  "purpose": "Static synthetic B2B textile procurement dataset for demos, testing and AI feature development.",
+  "format": "JSON collections ready for MongoDB import",
+  "fileMap": [
+    "collections/categories.json",
+    "collections/subcategories.json",
+    "collections/suppliers.json",
+    "collections/buyers.json",
+    "collections/warehouses.json",
+    "collections/products.json",
+    "manifests/product-image-manifest.json",
+    "collections/inventory.json",
+    "collections/orders.json",
+    "collections/reviews.json",
+    "collections/notifications.json",
+    "collections/knowledge_articles.json",
+    "collections/faqs.json",
+    "collections/analytics.json",
+    "metadata/dataset-version.json"
+  ],
+  "acceptanceNotes": [
+    "All IDs and UUIDs are unique.",
+    "All slugs are unique.",
+    "All reviews are linked to completed orders.",
+    "All analytics are derived from generated business activity.",
+    "Only product image filenames are provided; no binary images are generated."
+  ]
+}

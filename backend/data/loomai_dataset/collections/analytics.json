@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "an_202409",
+    "uuid": "aa5ea534-741a-5d06-b227-a52b96a3b2d9",
+    "slug": "analytics-2024-09",
+    "period": "2024-09",
+    "monthlySalesInr": 5983403.07,
+    "orders": 40,
+    "deliveredOrders": 40,
+    "cancelledOrders": 0,
+    "activeBuyers": 40,
+    "avgOrderValueInr": 149585.08,
+    "avgLeadTimeDays": 13.0,
+    "inventoryTurnover": 0.96,
+    "customerSatisfaction": 4.04,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_017",
+        "revenueInr": 1209267.09
+      },
+      {
+        "supplierId": "sup_028",
+        "revenueInr": 665586.58
+      },
+      {
+        "supplierId": "sup_024",
+        "revenueInr": 478374.64
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_006",
+        "revenueInr": 959121.62
+      },
+      {
+        "buyerId": "buy_045",
+        "revenueInr": 665586.58
+      },
+      {
+        "buyerId": "buy_035",
+        "revenueInr": 407559.11
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_05",
+        "revenueInr": 812459.0
+      },
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 653650.5
+      },
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 563531.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 40,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202410",
+    "uuid": "55e908a6-837d-5105-84a0-2c01a0535e14",
+    "slug": "analytics-2024-10",
+    "period": "2024-10",
+    "monthlySalesInr": 3875994.18,
+    "orders": 31,
+    "deliveredOrders": 31,
+    "cancelledOrders": 0,
+    "activeBuyers": 31,
+    "avgOrderValueInr": 125032.07,
+    "avgLeadTimeDays": 13.8,
+    "inventoryTurnover": 0.74,
+    "customerSatisfaction": 3.94,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_002",
+        "revenueInr": 859571.0
+      },
+      {
+        "supplierId": "sup_004",
+        "revenueInr": 588887.17
+      },
+      {
+        "supplierId": "sup_005",
+        "revenueInr": 553170.15
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_025",
+        "revenueInr": 588887.17
+      },
+      {
+        "buyerId": "buy_036",
+        "revenueInr": 464252.63
+      },
+      {
+        "buyerId": "buy_002",
+        "revenueInr": 451752.31
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 828342.5
+      },
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 498531.5
+      },
+      {
+        "categoryId": "cat_05",
+        "revenueInr": 458868.5
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 31,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202411",
+    "uuid": "91a3c1a2-5b9d-51b8-aecc-25d7bf6e8e9f",
+    "slug": "analytics-2024-11",
+    "period": "2024-11",
+    "monthlySalesInr": 3680792.81,
+    "orders": 24,
+    "deliveredOrders": 24,
+    "cancelledOrders": 0,
+    "activeBuyers": 24,
+    "avgOrderValueInr": 153366.37,
+    "avgLeadTimeDays": 11.2,
+    "inventoryTurnover": 0.58,
+    "customerSatisfaction": 4.02,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_028",
+        "revenueInr": 867115.24
+      },
+      {
+        "supplierId": "sup_006",
+        "revenueInr": 586812.91
+      },
+      {
+        "supplierId": "sup_018",
+        "revenueInr": 472608.62
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_005",
+        "revenueInr": 867115.24
+      },
+      {
+        "buyerId": "buy_025",
+        "revenueInr": 586812.91
+      },
+      {
+        "buyerId": "buy_011",
+        "revenueInr": 472608.62
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 734318.0
+      },
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 496824.5
+      },
+      {
+        "categoryId": "cat_08",
+        "revenueInr": 400109.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 24,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202412",
+    "uuid": "2749ba36-17f7-5f46-8ec8-958d27381fb0",
+    "slug": "analytics-2024-12",
+    "period": "2024-12",
+    "monthlySalesInr": 700784.57,
+    "orders": 7,
+    "deliveredOrders": 7,
+    "cancelledOrders": 0,
+    "activeBuyers": 7,
+    "avgOrderValueInr": 100112.08,
+    "avgLeadTimeDays": 12.1,
+    "inventoryTurnover": 0.17,
+    "customerSatisfaction": 3.97,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_019",
+        "revenueInr": 280916.62
+      },
+      {
+        "supplierId": "sup_007",
+        "revenueInr": 193633.8
+      },
+      {
+        "supplierId": "sup_001",
+        "revenueInr": 164050.0
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_031",
+        "revenueInr": 280916.62
+      },
+      {
+        "buyerId": "buy_032",
+        "revenueInr": 193633.8
+      },
+      {
+        "buyerId": "buy_028",
+        "revenueInr": 164050.0
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_01",
+        "revenueInr": 237709.0
+      },
+      {
+        "categoryId": "cat_02",
+        "revenueInr": 163660.0
+      },
+      {
+        "categoryId": "cat_17",
+        "revenueInr": 141000.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 7,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202501",
+    "uuid": "03566c7e-a285-5fee-b545-517ec2b81eef",
+    "slug": "analytics-2025-01",
+    "period": "2025-01",
+    "monthlySalesInr": 6759598.51,
+    "orders": 32,
+    "deliveredOrders": 32,
+    "cancelledOrders": 0,
+    "activeBuyers": 32,
+    "avgOrderValueInr": 211237.45,
+    "avgLeadTimeDays": 11.9,
+    "inventoryTurnover": 0.77,
+    "customerSatisfaction": 3.87,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_022",
+        "revenueInr": 2417707.72
+      },
+      {
+        "supplierId": "sup_029",
+        "revenueInr": 921730.32
+      },
+      {
+        "supplierId": "sup_014",
+        "revenueInr": 618638.9
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_015",
+        "revenueInr": 1752950.68
+      },
+      {
+        "buyerId": "buy_008",
+        "revenueInr": 872854.08
+      },
+      {
+        "buyerId": "buy_035",
+        "revenueInr": 664757.04
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 2047854.0
+      },
+      {
+        "categoryId": "cat_05",
+        "revenueInr": 993004.0
+      },
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 674071.5
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 32,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202502",
+    "uuid": "0b579ede-f1c7-5730-b1d8-70d7ef80325f",
+    "slug": "analytics-2025-02",
+    "period": "2025-02",
+    "monthlySalesInr": 3376358.83,
+    "orders": 30,
+    "deliveredOrders": 30,
+    "cancelledOrders": 0,
+    "activeBuyers": 30,
+    "avgOrderValueInr": 112545.29,
+    "avgLeadTimeDays": 11.7,
+    "inventoryTurnover": 0.72,
+    "customerSatisfaction": 4.01,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_004",
+        "revenueInr": 1141158.44
+      },
+      {
+        "supplierId": "sup_011",
+        "revenueInr": 351929.52
+      },
+      {
+        "supplierId": "sup_024",
+        "revenueInr": 249178.16
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_045",
+        "revenueInr": 1141158.44
+      },
+      {
+        "buyerId": "buy_026",
+        "revenueInr": 265357.14
+      },
+      {
+        "buyerId": "buy_041",
+        "revenueInr": 249178.16
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 966558.0
+      },
+      {
+        "categoryId": "cat_06",
+        "revenueInr": 393701.0
+      },
+      {
+        "categoryId": "cat_15",
+        "revenueInr": 244473.5
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 30,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202503",
+    "uuid": "d071c579-7977-5d3f-9ab9-9efec868233a",
+    "slug": "analytics-2025-03",
+    "period": "2025-03",
+    "monthlySalesInr": 5149451.44,
+    "orders": 32,
+    "deliveredOrders": 32,
+    "cancelledOrders": 0,
+    "activeBuyers": 32,
+    "avgOrderValueInr": 160920.36,
+    "avgLeadTimeDays": 12.6,
+    "inventoryTurnover": 0.77,
+    "customerSatisfaction": 4.02,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_016",
+        "revenueInr": 1442328.66
+      },
+      {
+        "supplierId": "sup_021",
+        "revenueInr": 495044.92
+      },
+      {
+        "supplierId": "sup_013",
+        "revenueInr": 422832.08
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_025",
+        "revenueInr": 1442328.66
+      },
+      {
+        "buyerId": "buy_012",
+        "revenueInr": 495044.92
+      },
+      {
+        "buyerId": "buy_004",
+        "revenueInr": 332610.45
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 1221787.0
+      },
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 422599.5
+      },
+      {
+        "categoryId": "cat_11",
+        "revenueInr": 419144.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 32,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202504",
+    "uuid": "8a8357c7-9ec6-50a6-9868-224c39dbffb9",
+    "slug": "analytics-2025-04",
+    "period": "2025-04",
+    "monthlySalesInr": 1821525.52,
+    "orders": 17,
+    "deliveredOrders": 17,
+    "cancelledOrders": 0,
+    "activeBuyers": 17,
+    "avgOrderValueInr": 107148.56,
+    "avgLeadTimeDays": 14.2,
+    "inventoryTurnover": 0.41,
+    "customerSatisfaction": 3.98,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_008",
+        "revenueInr": 655205.78
+      },
+      {
+        "supplierId": "sup_023",
+        "revenueInr": 327839.69
+      },
+      {
+        "supplierId": "sup_030",
+        "revenueInr": 186591.96
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_042",
+        "revenueInr": 629923.64
+      },
+      {
+        "buyerId": "buy_036",
+        "revenueInr": 256875.89
+      },
+      {
+        "buyerId": "buy_031",
+        "revenueInr": 186591.96
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 557998.0
+      },
+      {
+        "categoryId": "cat_05",
+        "revenueInr": 217335.5
+      },
+      {
+        "categoryId": "cat_02",
+        "revenueInr": 158815.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 17,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202505",
+    "uuid": "66545200-0984-5e84-9145-7d75c6cdeeaa",
+    "slug": "analytics-2025-05",
+    "period": "2025-05",
+    "monthlySalesInr": 2597655.69,
+    "orders": 16,
+    "deliveredOrders": 16,
+    "cancelledOrders": 0,
+    "activeBuyers": 16,
+    "avgOrderValueInr": 162353.48,
+    "avgLeadTimeDays": 13.3,
+    "inventoryTurnover": 0.38,
+    "customerSatisfaction": 4.03,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_016",
+        "revenueInr": 1064826.6
+      },
+      {
+        "supplierId": "sup_024",
+        "revenueInr": 620252.58
+      },
+      {
+        "supplierId": "sup_005",
+        "revenueInr": 276932.95
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_005",
+        "revenueInr": 1064826.6
+      },
+      {
+        "buyerId": "buy_011",
+        "revenueInr": 620252.58
+      },
+      {
+        "buyerId": "buy_002",
+        "revenueInr": 276932.95
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 901870.0
+      },
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 525231.0
+      },
+      {
+        "categoryId": "cat_06",
+        "revenueInr": 234252.5
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 16,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202506",
+    "uuid": "be1ab182-70fe-5df8-8d08-d27b2fa7b412",
+    "slug": "analytics-2025-06",
+    "period": "2025-06",
+    "monthlySalesInr": 1630336.33,
+    "orders": 13,
+    "deliveredOrders": 13,
+    "cancelledOrders": 0,
+    "activeBuyers": 13,
+    "avgOrderValueInr": 125410.49,
+    "avgLeadTimeDays": 13.6,
+    "inventoryTurnover": 0.31,
+    "customerSatisfaction": 3.91,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_006",
+        "revenueInr": 497790.76
+      },
+      {
+        "supplierId": "sup_017",
+        "revenueInr": 445973.25
+      },
+      {
+        "supplierId": "sup_020",
+        "revenueInr": 248583.24
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_017",
+        "revenueInr": 497790.76
+      },
+      {
+        "buyerId": "buy_016",
+        "revenueInr": 445973.25
+      },
+      {
+        "buyerId": "buy_014",
+        "revenueInr": 248583.24
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 399558.0
+      },
+      {
+        "categoryId": "cat_05",
+        "revenueInr": 377587.5
+      },
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 210168.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 13,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202507",
+    "uuid": "8143f256-270c-5c4a-b96b-8c8aeda82447",
+    "slug": "analytics-2025-07",
+    "period": "2025-07",
+    "monthlySalesInr": 2132295.48,
+    "orders": 13,
+    "deliveredOrders": 13,
+    "cancelledOrders": 0,
+    "activeBuyers": 13,
+    "avgOrderValueInr": 164022.73,
+    "avgLeadTimeDays": 13.5,
+    "inventoryTurnover": 0.31,
+    "customerSatisfaction": 4.05,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_018",
+        "revenueInr": 766497.02
+      },
+      {
+        "supplierId": "sup_022",
+        "revenueInr": 621347.2
+      },
+      {
+        "supplierId": "sup_001",
+        "revenueInr": 193505.76
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_035",
+        "revenueInr": 621347.2
+      },
+      {
+        "buyerId": "buy_025",
+        "revenueInr": 400839.6
+      },
+      {
+        "buyerId": "buy_028",
+        "revenueInr": 365657.42
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 526040.0
+      },
+      {
+        "categoryId": "cat_08",
+        "revenueInr": 442550.5
+      },
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 339220.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 13,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202508",
+    "uuid": "065b017e-d59c-56fc-b44d-e194ce7369ff",
+    "slug": "analytics-2025-08",
+    "period": "2025-08",
+    "monthlySalesInr": 5338508.69,
+    "orders": 29,
+    "deliveredOrders": 29,
+    "cancelledOrders": 0,
+    "activeBuyers": 29,
+    "avgOrderValueInr": 184086.51,
+    "avgLeadTimeDays": 12.9,
+    "inventoryTurnover": 0.7,
+    "customerSatisfaction": 4.02,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_017",
+        "revenueInr": 1662788.66
+      },
+      {
+        "supplierId": "sup_028",
+        "revenueInr": 996800.78
+      },
+      {
+        "supplierId": "sup_001",
+        "revenueInr": 499808.88
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_046",
+        "revenueInr": 1662788.66
+      },
+      {
+        "buyerId": "buy_015",
+        "revenueInr": 996800.78
+      },
+      {
+        "buyerId": "buy_012",
+        "revenueInr": 347685.75
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_05",
+        "revenueInr": 1408787.0
+      },
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 844221.0
+      },
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 615101.5
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 29,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202509",
+    "uuid": "7fbfa43c-9f9a-5579-ad37-4c1a238221e3",
+    "slug": "analytics-2025-09",
+    "period": "2025-09",
+    "monthlySalesInr": 4505784.32,
+    "orders": 31,
+    "deliveredOrders": 31,
+    "cancelledOrders": 0,
+    "activeBuyers": 31,
+    "avgOrderValueInr": 145347.88,
+    "avgLeadTimeDays": 14.1,
+    "inventoryTurnover": 0.74,
+    "customerSatisfaction": 3.98,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_022",
+        "revenueInr": 697985.88
+      },
+      {
+        "supplierId": "sup_007",
+        "revenueInr": 549167.16
+      },
+      {
+        "supplierId": "sup_014",
+        "revenueInr": 519293.21
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_027",
+        "revenueInr": 549167.16
+      },
+      {
+        "buyerId": "buy_045",
+        "revenueInr": 456720.68
+      },
+      {
+        "buyerId": "buy_026",
+        "revenueInr": 400179.81
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 552017.5
+      },
+      {
+        "categoryId": "cat_01",
+        "revenueInr": 551951.0
+      },
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 503460.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 31,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202510",
+    "uuid": "e84b33d8-9a75-5c62-8ed5-620a38996389",
+    "slug": "analytics-2025-10",
+    "period": "2025-10",
+    "monthlySalesInr": 2428047.49,
+    "orders": 21,
+    "deliveredOrders": 21,
+    "cancelledOrders": 0,
+    "activeBuyers": 21,
+    "avgOrderValueInr": 115621.31,
+    "avgLeadTimeDays": 15.6,
+    "inventoryTurnover": 0.5,
+    "customerSatisfaction": 3.89,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_024",
+        "revenueInr": 416470.71
+      },
+      {
+        "supplierId": "sup_008",
+        "revenueInr": 251923.0
+      },
+      {
+        "supplierId": "sup_001",
+        "revenueInr": 225706.68
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_001",
+        "revenueInr": 416470.71
+      },
+      {
+        "buyerId": "buy_014",
+        "revenueInr": 251923.0
+      },
+      {
+        "buyerId": "buy_002",
+        "revenueInr": 213267.0
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_08",
+        "revenueInr": 437811.5
+      },
+      {
+        "categoryId": "cat_17",
+        "revenueInr": 377603.5
+      },
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 213100.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 21,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202511",
+    "uuid": "2c023e5d-663f-568d-b58d-fafe5878252f",
+    "slug": "analytics-2025-11",
+    "period": "2025-11",
+    "monthlySalesInr": 2425533.78,
+    "orders": 14,
+    "deliveredOrders": 14,
+    "cancelledOrders": 0,
+    "activeBuyers": 14,
+    "avgOrderValueInr": 173252.41,
+    "avgLeadTimeDays": 11.7,
+    "inventoryTurnover": 0.34,
+    "customerSatisfaction": 4.11,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_028",
+        "revenueInr": 1434557.77
+      },
+      {
+        "supplierId": "sup_006",
+        "revenueInr": 456835.56
+      },
+      {
+        "supplierId": "sup_027",
+        "revenueInr": 239306.88
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_025",
+        "revenueInr": 1434557.77
+      },
+      {
+        "buyerId": "buy_031",
+        "revenueInr": 456835.56
+      },
+      {
+        "buyerId": "buy_022",
+        "revenueInr": 239306.88
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 1215201.5
+      },
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 386742.0
+      },
+      {
+        "categoryId": "cat_07",
+        "revenueInr": 202366.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 14,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202512",
+    "uuid": "4b22814d-51eb-5f97-9313-38156c22ba58",
+    "slug": "analytics-2025-12",
+    "period": "2025-12",
+    "monthlySalesInr": 1108291.19,
+    "orders": 8,
+    "deliveredOrders": 8,
+    "cancelledOrders": 0,
+    "activeBuyers": 8,
+    "avgOrderValueInr": 138536.4,
+    "avgLeadTimeDays": 14.6,
+    "inventoryTurnover": 0.19,
+    "customerSatisfaction": 3.8,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_029",
+        "revenueInr": 383208.17
+      },
+      {
+        "supplierId": "sup_002",
+        "revenueInr": 302105.11
+      },
+      {
+        "supplierId": "sup_020",
+        "revenueInr": 277034.81
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_037",
+        "revenueInr": 296915.88
+      },
+      {
+        "buyerId": "buy_034",
+        "revenueInr": 277034.81
+      },
+      {
+        "buyerId": "buy_036",
+        "revenueInr": 201555.13
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_15",
+        "revenueInr": 323090.0
+      },
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 234279.5
+      },
+      {
+        "categoryId": "cat_06",
+        "revenueInr": 195025.5
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 8,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202601",
+    "uuid": "1861896d-63e8-5be8-82fa-f5f9bb7ff896",
+    "slug": "analytics-2026-01",
+    "period": "2026-01",
+    "monthlySalesInr": 6643352.23,
+    "orders": 41,
+    "deliveredOrders": 41,
+    "cancelledOrders": 0,
+    "activeBuyers": 41,
+    "avgOrderValueInr": 162032.98,
+    "avgLeadTimeDays": 11.8,
+    "inventoryTurnover": 0.98,
+    "customerSatisfaction": 3.98,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_016",
+        "revenueInr": 2168374.4
+      },
+      {
+        "supplierId": "sup_004",
+        "revenueInr": 1186121.36
+      },
+      {
+        "supplierId": "sup_018",
+        "revenueInr": 404498.87
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_005",
+        "revenueInr": 2168374.4
+      },
+      {
+        "buyerId": "buy_048",
+        "revenueInr": 1186121.36
+      },
+      {
+        "buyerId": "buy_016",
+        "revenueInr": 289648.62
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 2859176.0
+      },
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 558846.5
+      },
+      {
+        "categoryId": "cat_15",
+        "revenueInr": 339944.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 41,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202602",
+    "uuid": "68d53dca-4add-5132-bfb3-969608612c41",
+    "slug": "analytics-2026-02",
+    "period": "2026-02",
+    "monthlySalesInr": 8897810.85,
+    "orders": 40,
+    "deliveredOrders": 40,
+    "cancelledOrders": 0,
+    "activeBuyers": 40,
+    "avgOrderValueInr": 222445.27,
+    "avgLeadTimeDays": 12.9,
+    "inventoryTurnover": 0.96,
+    "customerSatisfaction": 4.04,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_004",
+        "revenueInr": 2140532.3
+      },
+      {
+        "supplierId": "sup_005",
+        "revenueInr": 1566956.62
+      },
+      {
+        "supplierId": "sup_010",
+        "revenueInr": 1043013.12
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_015",
+        "revenueInr": 2140532.3
+      },
+      {
+        "buyerId": "buy_046",
+        "revenueInr": 1463129.12
+      },
+      {
+        "buyerId": "buy_035",
+        "revenueInr": 1043013.12
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 2696869.0
+      },
+      {
+        "categoryId": "cat_05",
+        "revenueInr": 1239584.0
+      },
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 818321.5
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 40,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202603",
+    "uuid": "96fd27b7-67e4-5d53-9a72-c93239e5c948",
+    "slug": "analytics-2026-03",
+    "period": "2026-03",
+    "monthlySalesInr": 7725153.28,
+    "orders": 46,
+    "deliveredOrders": 46,
+    "cancelledOrders": 0,
+    "activeBuyers": 46,
+    "avgOrderValueInr": 167938.11,
+    "avgLeadTimeDays": 13.3,
+    "inventoryTurnover": 1.1,
+    "customerSatisfaction": 3.97,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_016",
+        "revenueInr": 2252742.04
+      },
+      {
+        "supplierId": "sup_011",
+        "revenueInr": 683247.59
+      },
+      {
+        "supplierId": "sup_006",
+        "revenueInr": 586151.86
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_045",
+        "revenueInr": 2252742.04
+      },
+      {
+        "buyerId": "buy_026",
+        "revenueInr": 554548.59
+      },
+      {
+        "buyerId": "buy_041",
+        "revenueInr": 428305.7
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 1908578.0
+      },
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 930324.5
+      },
+      {
+        "categoryId": "cat_17",
+        "revenueInr": 659461.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 46,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202604",
+    "uuid": "bfcb6fa1-1209-5d21-8689-a9db4dfba656",
+    "slug": "analytics-2026-04",
+    "period": "2026-04",
+    "monthlySalesInr": 9165607.6,
+    "orders": 42,
+    "deliveredOrders": 42,
+    "cancelledOrders": 0,
+    "activeBuyers": 42,
+    "avgOrderValueInr": 218228.75,
+    "avgLeadTimeDays": 12.1,
+    "inventoryTurnover": 1.01,
+    "customerSatisfaction": 3.99,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_028",
+        "revenueInr": 2656508.54
+      },
+      {
+        "supplierId": "sup_004",
+        "revenueInr": 1569040.6
+      },
+      {
+        "supplierId": "sup_012",
+        "revenueInr": 575472.62
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_025",
+        "revenueInr": 2656508.54
+      },
+      {
+        "buyerId": "buy_005",
+        "revenueInr": 1569040.6
+      },
+      {
+        "buyerId": "buy_045",
+        "revenueInr": 514459.44
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 3579923.0
+      },
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 829652.0
+      },
+      {
+        "categoryId": "cat_01",
+        "revenueInr": 679690.5
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 42,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "school_uniform_spike"
+    ]
+  },
+  {
+    "id": "an_202605",
+    "uuid": "ed2381aa-ff83-5bc7-ae2d-0375f956ad9b",
+    "slug": "analytics-2026-05",
+    "period": "2026-05",
+    "monthlySalesInr": 6844278.57,
+    "orders": 41,
+    "deliveredOrders": 41,
+    "cancelledOrders": 0,
+    "activeBuyers": 41,
+    "avgOrderValueInr": 166933.62,
+    "avgLeadTimeDays": 13.4,
+    "inventoryTurnover": 0.98,
+    "customerSatisfaction": 3.96,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_016",
+        "revenueInr": 1878655.49
+      },
+      {
+        "supplierId": "sup_002",
+        "revenueInr": 940868.29
+      },
+      {
+        "supplierId": "sup_025",
+        "revenueInr": 699884.82
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_035",
+        "revenueInr": 1878655.49
+      },
+      {
+        "buyerId": "buy_016",
+        "revenueInr": 453616.7
+      },
+      {
+        "buyerId": "buy_031",
+        "revenueInr": 440558.82
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_04",
+        "revenueInr": 1766956.5
+      },
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 763582.0
+      },
+      {
+        "categoryId": "cat_05",
+        "revenueInr": 671269.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 41,
+      "cancelled": 0,
+      "open": 0
+    },
+    "demandTrends": [
+      "school_uniform_spike"
+    ]
+  },
+  {
+    "id": "an_202606",
+    "uuid": "e3eb66f8-1219-5e07-bfd7-7c1c6601d790",
+    "slug": "analytics-2026-06",
+    "period": "2026-06",
+    "monthlySalesInr": 8357806.42,
+    "orders": 86,
+    "deliveredOrders": 84,
+    "cancelledOrders": 2,
+    "activeBuyers": 50,
+    "avgOrderValueInr": 97183.8,
+    "avgLeadTimeDays": 12.4,
+    "inventoryTurnover": 2.02,
+    "customerSatisfaction": 4.02,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_017",
+        "revenueInr": 1086438.24
+      },
+      {
+        "supplierId": "sup_030",
+        "revenueInr": 652600.65
+      },
+      {
+        "supplierId": "sup_002",
+        "revenueInr": 628485.38
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_036",
+        "revenueInr": 1015154.31
+      },
+      {
+        "buyerId": "buy_035",
+        "revenueInr": 387662.4
+      },
+      {
+        "buyerId": "buy_012",
+        "revenueInr": 345652.9
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 1396619.5
+      },
+      {
+        "categoryId": "cat_05",
+        "revenueInr": 1210494.5
+      },
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 793452.5
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 84,
+      "cancelled": 2,
+      "open": 0
+    },
+    "demandTrends": [
+      "school_uniform_spike"
+    ]
+  },
+  {
+    "id": "an_202607",
+    "uuid": "a179928f-b723-5abe-bb4a-41c15e46f11a",
+    "slug": "analytics-2026-07",
+    "period": "2026-07",
+    "monthlySalesInr": 7080313.17,
+    "orders": 84,
+    "deliveredOrders": 12,
+    "cancelledOrders": 2,
+    "activeBuyers": 50,
+    "avgOrderValueInr": 84289.44,
+    "avgLeadTimeDays": 12.2,
+    "inventoryTurnover": 0.29,
+    "customerSatisfaction": 4.2,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_014",
+        "revenueInr": 1212862.12
+      },
+      {
+        "supplierId": "sup_001",
+        "revenueInr": 529293.65
+      },
+      {
+        "supplierId": "sup_010",
+        "revenueInr": 516779.5
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_005",
+        "revenueInr": 598816.32
+      },
+      {
+        "buyerId": "buy_012",
+        "revenueInr": 489572.19
+      },
+      {
+        "buyerId": "buy_046",
+        "revenueInr": 428227.65
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 810693.5
+      },
+      {
+        "categoryId": "cat_15",
+        "revenueInr": 697612.5
+      },
+      {
+        "categoryId": "cat_17",
+        "revenueInr": 678126.0
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 12,
+      "cancelled": 2,
+      "open": 70
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  },
+  {
+    "id": "an_202608",
+    "uuid": "8199fd54-4c64-5ef6-a4e5-e414fb0c1b81",
+    "slug": "analytics-2026-08",
+    "period": "2026-08",
+    "monthlySalesInr": 10975832.16,
+    "orders": 80,
+    "deliveredOrders": 0,
+    "cancelledOrders": 2,
+    "activeBuyers": 50,
+    "avgOrderValueInr": 137197.9,
+    "avgLeadTimeDays": 12.8,
+    "inventoryTurnover": 0.0,
+    "customerSatisfaction": 4.2,
+    "topSuppliers": [
+      {
+        "supplierId": "sup_029",
+        "revenueInr": 2385478.98
+      },
+      {
+        "supplierId": "sup_017",
+        "revenueInr": 1296198.38
+      },
+      {
+        "supplierId": "sup_022",
+        "revenueInr": 1012674.12
+      }
+    ],
+    "topBuyers": [
+      {
+        "buyerId": "buy_036",
+        "revenueInr": 1928646.5
+      },
+      {
+        "buyerId": "buy_026",
+        "revenueInr": 1109458.26
+      },
+      {
+        "buyerId": "buy_048",
+        "revenueInr": 830547.04
+      }
+    ],
+    "bestCategories": [
+      {
+        "categoryId": "cat_05",
+        "revenueInr": 2892760.0
+      },
+      {
+        "categoryId": "cat_14",
+        "revenueInr": 970523.0
+      },
+      {
+        "categoryId": "cat_03",
+        "revenueInr": 722847.5
+      }
+    ],
+    "orderStatusDistribution": {
+      "completed": 0,
+      "cancelled": 2,
+      "open": 78
+    },
+    "demandTrends": [
+      "steady_growth"
+    ]
+  }
+]

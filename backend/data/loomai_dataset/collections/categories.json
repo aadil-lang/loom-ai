@@ -1,0 +1,282 @@
+[
+  {
+    "id": "cat_01",
+    "name": "Cotton Woven Fabrics",
+    "description": "Core cotton shirting and apparel woven fabrics used across bulk sourcing programs.",
+    "subcategories": [
+      "Cotton Poplin",
+      "Cotton Twill",
+      "Cotton Oxford",
+      "Cotton Sateen",
+      "Cotton Canvas",
+      "Cotton Voile"
+    ],
+    "slug": "cotton-woven-fabrics-cat-01"
+  },
+  {
+    "id": "cat_02",
+    "name": "Cotton Knit Fabrics",
+    "description": "Cotton-rich knits for t-shirts, basics, innerwear and comfort-led apparel programs.",
+    "subcategories": [
+      "Single Jersey Cotton",
+      "Rib Knit Cotton",
+      "Interlock Cotton",
+      "Cotton Pique",
+      "French Terry",
+      "Cotton Fleece"
+    ],
+    "slug": "cotton-knit-fabrics-cat-02"
+  },
+  {
+    "id": "cat_03",
+    "name": "Linen and Hemp Fabrics",
+    "description": "Breathable natural bast-fiber fabrics used for premium shirts and relaxed fashion programs.",
+    "subcategories": [
+      "Pure Linen",
+      "Linen Blend",
+      "Slub Linen",
+      "Heavy Linen",
+      "Hemp Blend",
+      "Garment Wash Linen"
+    ],
+    "slug": "linen-and-hemp-fabrics-cat-03"
+  },
+  {
+    "id": "cat_04",
+    "name": "Silk Fabrics",
+    "description": "Luxury silk and silk-blend fabrics for occasionwear, premium apparel and drape-led collections.",
+    "subcategories": [
+      "Mulberry Silk",
+      "Tussar Silk",
+      "Silk Satin",
+      "Silk Georgette",
+      "Crepe de Chine",
+      "Dupioni Silk"
+    ],
+    "slug": "silk-fabrics-cat-04"
+  },
+  {
+    "id": "cat_05",
+    "name": "Wool Fabrics",
+    "description": "Warm tailoring and coating fabrics used for formalwear and winter textile programs.",
+    "subcategories": [
+      "Merino Wool",
+      "Suiting Wool",
+      "Wool Flannel",
+      "Tweed Wool",
+      "Worsted Wool",
+      "Boucle Wool"
+    ],
+    "slug": "wool-fabrics-cat-05"
+  },
+  {
+    "id": "cat_06",
+    "name": "Polyester Woven Fabrics",
+    "description": "Volume woven synthetics for uniforms, linings, utility and broad-market apparel sourcing.",
+    "subcategories": [
+      "Polyester Plain Weave",
+      "Polyester Twill",
+      "Microfibre Woven",
+      "Polyester Dobby",
+      "Polyester Oxford",
+      "Polyester Ripstop"
+    ],
+    "slug": "polyester-woven-fabrics-cat-06"
+  },
+  {
+    "id": "cat_07",
+    "name": "Polyester Knit Fabrics",
+    "description": "Synthetic knits for sportswear, basic apparel and easy-care procurement programs.",
+    "subcategories": [
+      "Polyester Jersey",
+      "Polyester Interlock",
+      "Polyester Mesh Knit",
+      "Polyester Fleece",
+      "Stretch Polyester",
+      "Jacquard Knit"
+    ],
+    "slug": "polyester-knit-fabrics-cat-07"
+  },
+  {
+    "id": "cat_08",
+    "name": "Viscose and Rayon Fabrics",
+    "description": "Soft, fluid regenerated-cellulose fabrics used for drape, print and comfort applications.",
+    "subcategories": [
+      "Rayon Challis",
+      "Viscose Poplin",
+      "Modal Jersey",
+      "Lyocell Twill",
+      "Rayon Crepe",
+      "Cupro Satin"
+    ],
+    "slug": "viscose-and-rayon-fabrics-cat-08"
+  },
+  {
+    "id": "cat_09",
+    "name": "Nylon and Polyamide Fabrics",
+    "description": "Technical nylon and polyamide fabrics for bags, outdoor gear, utility and performance use.",
+    "subcategories": [
+      "Nylon Taffeta",
+      "Cordura Nylon",
+      "Polyamide Mesh",
+      "Packcloth Nylon",
+      "Ripstop Nylon",
+      "Oxford Nylon"
+    ],
+    "slug": "nylon-and-polyamide-fabrics-cat-09"
+  },
+  {
+    "id": "cat_10",
+    "name": "Acrylic Fabrics",
+    "description": "Soft thermal acrylic fabrics used in blankets, sweaters and cold-weather textile ranges.",
+    "subcategories": [
+      "Acrylic Fleece",
+      "Blanket Acrylic",
+      "Brushed Acrylic",
+      "Acrylic Knit",
+      "Faux Wool Acrylic",
+      "Thermal Acrylic"
+    ],
+    "slug": "acrylic-fabrics-cat-10"
+  },
+  {
+    "id": "cat_11",
+    "name": "Elastane Blend Fabrics",
+    "description": "Stretch-enhanced fabrics for fit, movement and recovery in apparel and activewear.",
+    "subcategories": [
+      "Cotton Spandex",
+      "Poly Spandex",
+      "Viscose Spandex",
+      "Stretch Denim",
+      "Rib Stretch",
+      "Power Stretch"
+    ],
+    "slug": "elastane-blend-fabrics-cat-11"
+  },
+  {
+    "id": "cat_12",
+    "name": "Denim Fabrics",
+    "description": "Indigo, washed and stretch denim constructions for fashion and workwear programs.",
+    "subcategories": [
+      "Indigo Denim",
+      "Black Denim",
+      "Selvedge Denim",
+      "Stretch Denim",
+      "Raw Denim",
+      "Overdyed Denim"
+    ],
+    "slug": "denim-fabrics-cat-12"
+  },
+  {
+    "id": "cat_13",
+    "name": "Jacquard and Brocade Fabrics",
+    "description": "Pattern-rich woven fabrics for decorative, ethnic and statement textile programs.",
+    "subcategories": [
+      "Woven Jacquard",
+      "Double Jacquard",
+      "Brocade",
+      "Damask",
+      "Tapestry Weave",
+      "Ornamental Jacquard"
+    ],
+    "slug": "jacquard-and-brocade-fabrics-cat-13"
+  },
+  {
+    "id": "cat_14",
+    "name": "Workwear and Uniform Fabrics",
+    "description": "Hardwearing fabrics for schools, hospitals, industrial uniforms and hospitality programs.",
+    "subcategories": [
+      "Drill Fabric",
+      "Gabardine",
+      "Cargo Twill",
+      "Scrub Fabric",
+      "Chef Fabric",
+      "Poly-Cotton Uniform"
+    ],
+    "slug": "workwear-and-uniform-fabrics-cat-14"
+  },
+  {
+    "id": "cat_15",
+    "name": "Home Furnishing Fabrics",
+    "description": "Curtain, bedding, upholstery and decorative fabrics for interiors and hospitality buyers.",
+    "subcategories": [
+      "Drapery Fabric",
+      "Upholstery Fabric",
+      "Blackout Fabric",
+      "Curtain Lining",
+      "Bedsheet Percale",
+      "Cushion Canvas"
+    ],
+    "slug": "home-furnishing-fabrics-cat-15"
+  },
+  {
+    "id": "cat_16",
+    "name": "Technical Textiles",
+    "description": "Functional and protective textiles with specialty performance requirements.",
+    "subcategories": [
+      "Flame Retardant Fabric",
+      "Water Repellent Fabric",
+      "Anti-Static Fabric",
+      "UV Resistant Fabric",
+      "Breathable Membrane",
+      "Industrial Filter Fabric"
+    ],
+    "slug": "technical-textiles-cat-16"
+  },
+  {
+    "id": "cat_17",
+    "name": "Sustainable and Organic Fabrics",
+    "description": "Certified and lower-impact textiles for traceability-led sourcing programs.",
+    "subcategories": [
+      "Organic Cotton",
+      "GOTS Poplin",
+      "Recycled Polyester",
+      "Bamboo Blend",
+      "Natural Dye Fabric",
+      "Low Impact Linen"
+    ],
+    "slug": "sustainable-and-organic-fabrics-cat-17"
+  },
+  {
+    "id": "cat_18",
+    "name": "Ethnic and Heritage Fabrics",
+    "description": "Handloom and heritage-inspired fabrics for ethnic and occasionwear markets.",
+    "subcategories": [
+      "Khadi Cotton",
+      "Chanderi Fabric",
+      "Banarasi Brocade Base",
+      "Ikat Weave",
+      "Ajrakh Print Base",
+      "Handloom Cotton Silk"
+    ],
+    "slug": "ethnic-and-heritage-fabrics-cat-18"
+  },
+  {
+    "id": "cat_19",
+    "name": "Interlining and Support Fabrics",
+    "description": "Support and structure textiles used in garment assembly and tailoring processes.",
+    "subcategories": [
+      "Fusible Interlining",
+      "Nonwoven Interfacing",
+      "Woven Interfacing",
+      "Collar Canvas",
+      "Sleeve Head",
+      "Bias Support"
+    ],
+    "slug": "interlining-and-support-fabrics-cat-19"
+  },
+  {
+    "id": "cat_20",
+    "name": "Coated and Performance Fabrics",
+    "description": "Coated, laminated and weather-resistant fabrics for demanding commercial applications.",
+    "subcategories": [
+      "PU Coated Fabric",
+      "PVC Coated Fabric",
+      "Laminated Fabric",
+      "Neoprene Fabric",
+      "Softshell Fabric",
+      "Waxed Canvas"
+    ],
+    "slug": "coated-and-performance-fabrics-cat-20"
+  }
+]

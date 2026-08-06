@@ -3,21 +3,20 @@ import { SupplierOnboardingState, OnboardingStage, ExtractedDataSchema } from '.
 import { LlmService } from '../services/llmService';
 import { OnboardingSystemPrompt, ExtractorSystemPrompt } from '../prompts/onboardingPrompts';
 import { HumanMessage, SystemMessage } from '@langchain/core/messages';
-import { AuthTools } from '../tools/AuthTools';
 import { RAGTools } from '../tools/RAGTools';
 
 // The graph defines the state channels (how to merge updates)
 const onboardingStateChannels = {
-  sessionId: null, // Just replace on update
-  language: null,
-  progress: null,
-  missingFields: null,
+  sessionId: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
+  language: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
+  progress: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
+  missingFields: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
   collectedData: {
     // Merge object properties instead of full replacement
     reducer: (a: any, b: any) => ({ ...a, ...b }),
     default: () => ({})
   },
-  currentStage: null,
+  currentStage: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
   messages: {
     // Append new messages to the array
     reducer: (a: any[], b: any[]) => a.concat(b),
@@ -27,7 +26,6 @@ const onboardingStateChannels = {
 
 export class SupplierOnboardingWorkflow {
   private llmService = LlmService.getInstance();
-  private authTools = new AuthTools();
   private ragTools = new RAGTools();
 
   public build() {
@@ -36,24 +34,11 @@ export class SupplierOnboardingWorkflow {
     builder
       .addNode('analyze_input', this.analyzeInputNode.bind(this))
       .addNode('validate_data', this.validateDataNode.bind(this))
-      .addNode('chat_response', this.chatResponseNode.bind(this))
-      .addNode('check_email', this.checkEmailNode.bind(this));
+      .addNode('chat_response', this.chatResponseNode.bind(this));
 
     // Define edges
     builder.setEntryPoint('analyze_input');
-    
-    builder.addConditionalEdges(
-      'analyze_input',
-      (state) => {
-        // If they provided an email, check it
-        if (state.collectedData?.email && !state.context?.emailChecked) {
-          return 'check_email';
-        }
-        return 'validate_data';
-      }
-    );
-
-    builder.addEdge('check_email', 'validate_data');
+    builder.addEdge('analyze_input', 'validate_data');
     builder.addEdge('validate_data', 'chat_response');
     builder.setFinishPoint('chat_response');
 
@@ -88,26 +73,8 @@ export class SupplierOnboardingWorkflow {
     }
   }
 
-  private async checkEmailNode(state: SupplierOnboardingState): Promise<Partial<SupplierOnboardingState>> {
-    const tool = this.authTools.getCheckEmailTool();
-    const result = await tool.invoke({ email: state.collectedData.email! });
-    const parsed = JSON.parse(result);
-    
-    // If it exists, remove it from collectedData so we ask again
-    if (parsed.exists) {
-      return {
-        context: { ...state.context, emailChecked: true, emailError: 'Email already exists.' },
-        collectedData: { ...state.collectedData, email: undefined } as any
-      };
-    }
-    
-    return {
-      context: { ...state.context, emailChecked: true, emailError: null }
-    };
-  }
-
   private async validateDataNode(state: SupplierOnboardingState): Promise<Partial<SupplierOnboardingState>> {
-    const requiredFields = ['companyName', 'contactName', 'email', 'businessType', 'country'];
+    const requiredFields = ['companyDescription', 'businessType', 'capabilities', 'operatingRegions'];
     const missing: string[] = [];
     
     for (const field of requiredFields) {
@@ -135,8 +102,6 @@ export class SupplierOnboardingWorkflow {
       missingFields: state.missingFields?.join(', ') || 'None'
     });
 
-    const emailError = state.context?.emailError ? `The email provided was already taken. Ask for a different one.` : '';
-
     // If the user asked a question, we can retrieve knowledge.
     // For simplicity, we can do a naive quick lookup of the last human message.
     let knowledgeContext = '';
@@ -148,7 +113,7 @@ export class SupplierOnboardingWorkflow {
     }
 
     const response = await model.invoke([
-      new SystemMessage(systemPrompt + emailError + knowledgeContext),
+      new SystemMessage(systemPrompt + knowledgeContext),
       ...state.messages // pass history
     ]);
 

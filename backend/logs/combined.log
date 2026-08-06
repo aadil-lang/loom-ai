@@ -1,1 +1,1016 @@
 {"level":"error","message":"Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-08-04 16:19:50"}
+{"level":"error","message":"Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","timestamp":"2026-08-04 22:19:38"}
+{"level":"error","message":"Error connecting to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.cluster0.s6kogwi.mongodb.net","timestamp":"2026-08-04 23:47:15"}
+{"level":"error","message":"Error connecting to MongoDB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","timestamp":"2026-08-04 23:56:07"}
+{"level":"error","message":"Error connecting to MongoDB: bad auth : authentication failed","timestamp":"2026-08-05 00:11:12"}
+{"level":"error","message":"Error connecting to MongoDB: bad auth : authentication failed","timestamp":"2026-08-05 00:11:46"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 00:14:38"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:57159/","timestamp":"2026-08-05 00:18:43"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 00:18:43"}
+{"level":"info","message":"Loading dataset from c:\\Users\\ZEENAT\\Documents\\Codex\\2026-08-04\\go\\outputs\\loomai_dataset.json...","timestamp":"2026-08-05 00:18:43"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 00:18:43"}
+{"level":"error","message":"Failed to seed in-memory db: Supplier validation failed: location: Path `location` is required., contactName: Path `contactName` is required., password: Path `password` is required., email: Path `email` is required.","timestamp":"2026-08-05 00:18:43"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 00:18:43"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 00:19:55"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:52577/","timestamp":"2026-08-05 00:19:56"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 00:19:56"}
+{"level":"info","message":"Loading dataset from c:\\Users\\ZEENAT\\Documents\\Codex\\2026-08-04\\go\\outputs\\loomai_dataset.json...","timestamp":"2026-08-05 00:19:56"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 00:19:56"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 00:19:56"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 00:19:56"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 00:19:56"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 00:19:56"}
+{"level":"info","message":"::1 - - [04/Aug/2026:18:51:08 +0000] \"GET /api/v1/products HTTP/1.1\" 200 30622 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 00:21:08"}
+{"level":"info","message":"::1 - - [04/Aug/2026:18:51:09 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6063 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 00:21:09"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 10:00:02"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:58506/","timestamp":"2026-08-05 10:00:02"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 10:00:02"}
+{"level":"info","message":"Loading dataset from c:\\Users\\ZEENAT\\Documents\\Codex\\2026-08-04\\go\\outputs\\loomai_dataset.json...","timestamp":"2026-08-05 10:00:02"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 10:00:02"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 10:00:02"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 10:00:03"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 10:00:03"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 10:00:03"}
+{"level":"info","message":"::1 - - [05/Aug/2026:04:31:52 +0000] \"GET /api/v1/products HTTP/1.1\" 200 30623 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:01:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:04:31:52 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6063 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:01:52"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 10:37:13"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:56389/","timestamp":"2026-08-05 10:37:13"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 10:37:13"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 10:37:13"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 10:37:13"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 10:37:13"}
+{"level":"error","message":"Failed to seed in-memory db: Product validation failed: name: Path `name` is required., description: Path `description` is required.","timestamp":"2026-08-05 10:37:14"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 10:37:14"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 10:38:09"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:51454/","timestamp":"2026-08-05 10:38:10"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 10:38:10"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 10:38:10"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 10:38:10"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 10:38:10"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 10:38:10"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 10:38:10"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 10:38:10"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:05:09:24 +0000] \"GET /api/v1/products HTTP/1.1\" 200 33587 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:39:24"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:05:09:25 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:39:25"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:09:37 +0000] \"GET /api/v1/products HTTP/1.1\" 200 33587 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:39:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:09:37 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:39:37"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 10:40:33"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:57938/","timestamp":"2026-08-05 10:40:34"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 10:40:34"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 10:40:34"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 10:40:34"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 10:40:34"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 10:40:34"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 10:40:34"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 10:40:34"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 10:40:47"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:58966/","timestamp":"2026-08-05 10:40:47"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 10:40:47"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 10:40:47"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 10:40:47"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 10:40:47"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 10:40:48"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 10:40:48"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 10:40:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:11:28 +0000] \"GET /api/v1/products HTTP/1.1\" 200 34158 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:41:28"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:11:28 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:41:28"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:13:04 +0000] \"GET /api/v1/products HTTP/1.1\" 200 34158 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8972\"","timestamp":"2026-08-05 10:43:04"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 10:43:35"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:60524/","timestamp":"2026-08-05 10:43:35"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 10:43:35"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 10:43:35"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 10:43:36"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 10:43:36"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 10:43:36"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 10:43:36"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 10:43:36"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 10:43:53"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:57000/","timestamp":"2026-08-05 10:43:54"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 10:43:54"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 10:43:54"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 10:43:54"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 10:43:54"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 10:43:54"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 10:43:54"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 10:43:54"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:14:41 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:44:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:14:41 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:44:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:16:49 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8972\"","timestamp":"2026-08-05 10:46:49"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:17:27 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8972\"","timestamp":"2026-08-05 10:47:27"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:52 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:52 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:53 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:53 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:53 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:53 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:53 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:53 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:53 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:54 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:54"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:18:54 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:48:54"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:19:31 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:49:31"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:19:40 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:49:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:19:40 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:49:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:19:42 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:49:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:19:42 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:49:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:20:59 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:50:59"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:20:59 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 10:50:59"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:12 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:12 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:12 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:12 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:57 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:57"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:57 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:57"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:57 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:57"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:57 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:57"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:57 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:57"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:57 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:57"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:57 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:57"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:32:57 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:02:57"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:34:39 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:04:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:34:39 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:04:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:34:39 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:04:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:34:39 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:04:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:34:55 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:04:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:34:55 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:04:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:34:55 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:04:55"}
+{"level":"error","message":"Invalid ID format for id","method":"GET","path":"/api/v1/products/undefined","stack":"Error: Invalid ID format for id\n    at validateRequest (D:\\LoomAI\\backend\\src\\middleware\\validateRequest.ts:10:17)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\LoomAI\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-08-05 11:04:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:34:55 +0000] \"GET /api/v1/products/undefined HTTP/1.1\" 400 550 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:04:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:34:55 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:04:55"}
+{"level":"error","message":"Invalid ID format for id","method":"GET","path":"/api/v1/products/undefined","stack":"Error: Invalid ID format for id\n    at validateRequest (D:\\LoomAI\\backend\\src\\middleware\\validateRequest.ts:10:17)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\LoomAI\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-08-05 11:04:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:34:55 +0000] \"GET /api/v1/products/undefined HTTP/1.1\" 400 550 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:04:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:35:17 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:05:17"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:35:18 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:05:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:35:18 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:05:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:35:18 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:05:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:35:18 +0000] \"GET /api/v1/products/6a72c692fcdb5bda8dc0c146 HTTP/1.1\" 200 1748 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:05:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:35:18 +0000] \"GET /api/v1/products/6a72c692fcdb5bda8dc0c146 HTTP/1.1\" 200 1748 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:05:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:52:54 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:22:54"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:52:54 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:22:54"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:52:57 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:22:57"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/profile","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 11:22:58"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:52:58 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 401 932 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:22:58"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/orders","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 11:22:59"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:05:52:59 +0000] \"GET /api/v1/buyer/orders HTTP/1.1\" 401 932 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:22:59"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:05:52:59 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:22:59"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:53:00 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36\"","timestamp":"2026-08-05 11:23:00"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:05:53:00 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:23:00"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:05:53:00 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:23:00"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:05:53:02 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:23:02"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/profile","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 11:23:02"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:05:53:02 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 401 932 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:23:02"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/orders","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 11:23:02"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:05:53:02 +0000] \"GET /api/v1/buyer/orders HTTP/1.1\" 401 932 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:23:02"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:53:03 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 11:23:03"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:53:04 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36497 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36\"","timestamp":"2026-08-05 11:23:04"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 11:25:21"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:61993/","timestamp":"2026-08-05 11:25:22"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 11:25:22"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 11:25:22"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 11:25:22"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 11:25:22"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 11:25:22"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 11:25:22"}
+{"level":"error","message":"Failed to seed in-memory db: Order validation failed: shippingAddress: Cast to string failed for value \"{ street: '123 Main', city: 'NYC', country: 'USA' }\" (type Object) at path \"shippingAddress\", orderNumber: Path `orderNumber` is required., status: `Processing` is not a valid enum value for path `status`.","timestamp":"2026-08-05 11:25:22"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 11:25:22"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 11:25:55"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:50281/","timestamp":"2026-08-05 11:25:55"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 11:25:55"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 11:25:55"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 11:25:55"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 11:25:56"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 11:25:56"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 11:25:56"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 11:25:56"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 11:25:56"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 11:25:56"}
+{"level":"error","message":"Failed to perform inference: This authentication method does not have sufficient permissions to call Inference Providers on behalf of user kam2187","method":"POST","path":"/api/v1/ai/procurement/simple-chat","stack":"ProviderApiError: Failed to perform inference: This authentication method does not have sufficient permissions to call Inference Providers on behalf of user kam2187\n    at innerRequest (D:\\LoomAI\\backend\\node_modules\\@huggingface\\inference\\dist\\commonjs\\utils\\request.js:52:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async chatCompletion (D:\\LoomAI\\backend\\node_modules\\@huggingface\\inference\\dist\\commonjs\\tasks\\nlp\\chatCompletion.js:25:32)\n    at async generateText (D:\\LoomAI\\backend\\src\\ai\\services\\llmService.ts:43:20)\n    at async procurementAgent (D:\\LoomAI\\backend\\src\\ai\\agents\\procurementAgent.ts:12:12)\n    at async simpleChat (D:\\LoomAI\\backend\\src\\controllers\\ai\\ProcurementAgentController.ts:75:21)","timestamp":"2026-08-05 11:28:24"}
+{"level":"info","message":"::1 - - [05/Aug/2026:05:58:24 +0000] \"POST /api/v1/ai/procurement/simple-chat HTTP/1.1\" 500 868 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8972\"","timestamp":"2026-08-05 11:28:24"}
+{"level":"error","message":"Failed to perform inference: an HTTP error occurred when requesting the provider.","method":"POST","path":"/api/v1/ai/procurement/simple-chat","stack":"ProviderApiError: Failed to perform inference: an HTTP error occurred when requesting the provider.\n    at innerRequest (D:\\LoomAI\\backend\\node_modules\\@huggingface\\inference\\dist\\commonjs\\utils\\request.js:60:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async chatCompletion (D:\\LoomAI\\backend\\node_modules\\@huggingface\\inference\\dist\\commonjs\\tasks\\nlp\\chatCompletion.js:25:32)\n    at async generateText (D:\\LoomAI\\backend\\src\\ai\\services\\llmService.ts:43:20)\n    at async procurementAgent (D:\\LoomAI\\backend\\src\\ai\\agents\\procurementAgent.ts:12:12)\n    at async simpleChat (D:\\LoomAI\\backend\\src\\controllers\\ai\\ProcurementAgentController.ts:75:21)","timestamp":"2026-08-05 11:33:26"}
+{"level":"info","message":"::1 - - [05/Aug/2026:06:03:26 +0000] \"POST /api/v1/ai/procurement/simple-chat HTTP/1.1\" 500 803 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8972\"","timestamp":"2026-08-05 11:33:26"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 11:33:46"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:56697/","timestamp":"2026-08-05 11:33:47"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 11:33:47"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 11:33:47"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 11:33:47"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 11:33:47"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 11:33:47"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 11:33:48"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 11:33:48"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 11:33:48"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 11:33:48"}
+{"level":"error","message":"Failed to perform inference: an HTTP error occurred when requesting the provider.","method":"POST","path":"/api/v1/ai/procurement/simple-chat","stack":"ProviderApiError: Failed to perform inference: an HTTP error occurred when requesting the provider.\n    at innerRequest (D:\\LoomAI\\backend\\node_modules\\@huggingface\\inference\\dist\\commonjs\\utils\\request.js:60:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async chatCompletion (D:\\LoomAI\\backend\\node_modules\\@huggingface\\inference\\dist\\commonjs\\tasks\\nlp\\chatCompletion.js:25:32)\n    at async generateText (D:\\LoomAI\\backend\\src\\ai\\services\\llmService.ts:43:20)\n    at async procurementAgent (D:\\LoomAI\\backend\\src\\ai\\agents\\procurementAgent.ts:12:12)\n    at async simpleChat (D:\\LoomAI\\backend\\src\\controllers\\ai\\ProcurementAgentController.ts:75:21)","timestamp":"2026-08-05 11:33:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:06:03:48 +0000] \"POST /api/v1/ai/procurement/simple-chat HTTP/1.1\" 500 803 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8972\"","timestamp":"2026-08-05 11:33:48"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 11:34:08"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:64135/","timestamp":"2026-08-05 11:34:08"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 11:34:08"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 11:34:08"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 11:34:09"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 11:34:09"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 11:34:09"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 11:34:09"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 11:34:09"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 11:34:09"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 11:34:09"}
+{"level":"error","message":"Failed to perform inference: an HTTP error occurred when requesting the provider.","method":"POST","path":"/api/v1/ai/procurement/simple-chat","stack":"ProviderApiError: Failed to perform inference: an HTTP error occurred when requesting the provider.\n    at innerRequest (D:\\LoomAI\\backend\\node_modules\\@huggingface\\inference\\dist\\commonjs\\utils\\request.js:60:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async chatCompletion (D:\\LoomAI\\backend\\node_modules\\@huggingface\\inference\\dist\\commonjs\\tasks\\nlp\\chatCompletion.js:25:32)\n    at async generateText (D:\\LoomAI\\backend\\src\\ai\\services\\llmService.ts:43:20)\n    at async procurementAgent (D:\\LoomAI\\backend\\src\\ai\\agents\\procurementAgent.ts:12:12)\n    at async simpleChat (D:\\LoomAI\\backend\\src\\controllers\\ai\\ProcurementAgentController.ts:75:21)","timestamp":"2026-08-05 11:34:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:06:04:12 +0000] \"POST /api/v1/ai/procurement/simple-chat HTTP/1.1\" 500 803 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8972\"","timestamp":"2026-08-05 11:34:12"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 11:34:34"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:65225/","timestamp":"2026-08-05 11:34:34"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 11:34:34"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 11:34:34"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 11:34:34"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 11:34:34"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 11:34:35"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 11:34:35"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 11:34:35"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 11:34:35"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 11:34:35"}
+{"level":"info","message":"::1 - - [05/Aug/2026:06:04:43 +0000] \"POST /api/v1/ai/procurement/simple-chat HTTP/1.1\" 200 333 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8972\"","timestamp":"2026-08-05 11:34:43"}
+{"level":"info","message":"::1 - - [05/Aug/2026:06:14:11 +0000] \"POST /api/v1/auth/register/buyer HTTP/1.1\" 404 45 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8972\"","timestamp":"2026-08-05 11:44:11"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 11:55:35"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:56210/","timestamp":"2026-08-05 11:55:36"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 11:55:36"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 11:55:36"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 11:55:36"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 11:55:36"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 11:55:36"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 11:55:36"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 11:55:36"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 11:55:36"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 11:55:36"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 11:55:36"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 11:56:04"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:65523/","timestamp":"2026-08-05 11:56:05"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 11:56:05"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 11:56:05"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 11:56:05"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 11:56:05"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 11:56:05"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 11:56:05"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 11:56:05"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 11:56:05"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 11:56:05"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 11:56:05"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:18:01"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:51294/","timestamp":"2026-08-05 12:18:02"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:18:02"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:18:02"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:18:02"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:18:02"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:18:02"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:18:02"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:18:02"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:18:02"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:18:02"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:18:02"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:18:48"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:55930/","timestamp":"2026-08-05 12:18:48"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:18:48"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:18:48"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:18:48"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:18:48"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:18:49"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:18:49"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:18:49"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:18:49"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:18:49"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:18:49"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:25:22"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:56003/","timestamp":"2026-08-05 12:25:23"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:25:23"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:25:23"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:25:23"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:25:23"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:25:23"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:25:23"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:25:23"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:25:23"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:25:23"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:25:23"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:25:35"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:58535/","timestamp":"2026-08-05 12:25:36"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:25:36"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:25:36"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:25:36"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:25:36"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:25:36"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:25:36"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:25:36"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:25:36"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:25:36"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:25:36"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:58001/","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:26:57"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:26:58"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:31:28"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:59494/","timestamp":"2026-08-05 12:31:29"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:31:29"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:31:29"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:31:29"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:31:29"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:31:29"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:31:29"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:31:29"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:31:29"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:31:29"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:31:29"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:35:36"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:57320/","timestamp":"2026-08-05 12:35:37"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:35:37"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:35:37"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:35:37"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:35:37"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:35:38"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:35:38"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:35:38"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:35:38"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:35:38"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:35:38"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:36:17"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:59384/","timestamp":"2026-08-05 12:36:17"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:36:17"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:36:17"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:36:18"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:36:18"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:36:18"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:36:18"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:36:18"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:36:18"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:36:18"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:36:18"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:36:48"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:51760/","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:36:49"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:36:49"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:37:04"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:64264/","timestamp":"2026-08-05 12:37:05"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:37:05"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:37:05"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:37:05"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:37:05"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:37:06"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:37:06"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:37:06"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-05 12:37:06"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:37:06"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:37:06"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:37:06"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:39:03"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:62801/","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:39:04"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:39:04"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:43:15"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:52204/","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:43:16"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:43:16"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 12:43:26"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:58340/","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 12:43:27"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 12:43:27"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 13:03:49"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:50701/","timestamp":"2026-08-05 13:03:49"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 13:03:49"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 13:03:49"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 13:03:49"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 13:03:49"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 13:03:50"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 13:03:50"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 13:03:50"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-05 13:03:50"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 13:03:50"}
+{"level":"info","message":"Successfully seeded 119 Knowledge Articles into MongoDB.","timestamp":"2026-08-05 13:03:50"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 13:03:50"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 13:03:50"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:51:24 +0000] \"GET /api/v1/products HTTP/1.1\" 200 35762 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 18:21:24"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:51:24 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 18:21:24"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a72c692fcdb5bda8dc0c146","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 18:21:24"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:51:24 +0000] \"GET /api/v1/products/6a72c692fcdb5bda8dc0c146 HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 18:21:24"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:53:15 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"node\"","timestamp":"2026-08-05 18:23:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:53:15 +0000] \"GET /api/v1/knowledge HTTP/1.1\" 200 9266 \"-\" \"node\"","timestamp":"2026-08-05 18:23:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:53:15 +0000] \"GET /api/v1/analytics/marketplace HTTP/1.1\" 200 18625 \"-\" \"node\"","timestamp":"2026-08-05 18:23:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:53:15 +0000] \"GET /api/v1/analytics/summary HTTP/1.1\" 200 181 \"-\" \"node\"","timestamp":"2026-08-05 18:23:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:53:15 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 404 45 \"-\" \"node\"","timestamp":"2026-08-05 18:23:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:53:15 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 404 45 \"-\" \"node\"","timestamp":"2026-08-05 18:23:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:53:15 +0000] \"POST /api/v1/auth/register HTTP/1.1\" 404 45 \"-\" \"node\"","timestamp":"2026-08-05 18:23:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:53:15 +0000] \"POST /api/v1/auth/login HTTP/1.1\" 404 45 \"-\" \"node\"","timestamp":"2026-08-05 18:23:15"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/profile","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 18:23:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:53:15 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 401 932 \"-\" \"node\"","timestamp":"2026-08-05 18:23:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:53:15 +0000] \"GET /api/v1/reviews?supplierId=mock HTTP/1.1\" 404 45 \"-\" \"node\"","timestamp":"2026-08-05 18:23:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:54:19 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"node\"","timestamp":"2026-08-05 18:24:19"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:54:19 +0000] \"GET /api/v1/knowledge HTTP/1.1\" 200 9266 \"-\" \"node\"","timestamp":"2026-08-05 18:24:19"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:54:19 +0000] \"GET /api/v1/analytics/marketplace HTTP/1.1\" 200 18625 \"-\" \"node\"","timestamp":"2026-08-05 18:24:19"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:54:19 +0000] \"GET /api/v1/analytics/summary HTTP/1.1\" 200 181 \"-\" \"node\"","timestamp":"2026-08-05 18:24:19"}
+{"level":"error","message":"Company Name is required","method":"POST","path":"/api/v1/auth/buyer/register","stack":"Error: Company Name is required\n    at validateRequest (D:\\LoomAI\\backend\\src\\middleware\\validateRequest.ts:10:17)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\LoomAI\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-08-05 18:24:19"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:54:19 +0000] \"POST /api/v1/auth/buyer/register HTTP/1.1\" 400 550 \"-\" \"node\"","timestamp":"2026-08-05 18:24:19"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/buyer/login","stack":"Error: Invalid credentials\n    at AuthService.loginBuyer (D:\\LoomAI\\backend\\src\\services\\auth\\AuthService.ts:31:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async loginBuyer (D:\\LoomAI\\backend\\src\\controllers\\AuthController.ts:24:22)","timestamp":"2026-08-05 18:24:19"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:54:19 +0000] \"POST /api/v1/auth/buyer/login HTTP/1.1\" 401 356 \"-\" \"node\"","timestamp":"2026-08-05 18:24:19"}
+{"level":"error","message":"Company Name is required, Location is required","method":"POST","path":"/api/v1/auth/supplier/register","stack":"Error: Company Name is required, Location is required\n    at validateRequest (D:\\LoomAI\\backend\\src\\middleware\\validateRequest.ts:10:17)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\LoomAI\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-08-05 18:24:19"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:54:19 +0000] \"POST /api/v1/auth/supplier/register HTTP/1.1\" 400 594 \"-\" \"node\"","timestamp":"2026-08-05 18:24:19"}
+{"level":"error","message":"Invalid credentials","method":"POST","path":"/api/v1/auth/supplier/login","stack":"Error: Invalid credentials\n    at AuthService.loginSupplier (D:\\LoomAI\\backend\\src\\services\\auth\\AuthService.ts:77:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async loginSupplier (D:\\LoomAI\\backend\\src\\controllers\\AuthController.ts:43:22)","timestamp":"2026-08-05 18:24:19"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:54:19 +0000] \"POST /api/v1/auth/supplier/login HTTP/1.1\" 401 362 \"-\" \"node\"","timestamp":"2026-08-05 18:24:19"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/profile","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 18:24:19"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:54:19 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 401 932 \"-\" \"node\"","timestamp":"2026-08-05 18:24:19"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/reviews/dashboard/supplier","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2026-08-05 18:24:19"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:54:19 +0000] \"GET /api/v1/reviews/dashboard/supplier HTTP/1.1\" 401 941 \"-\" \"node\"","timestamp":"2026-08-05 18:24:19"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/orders","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 18:25:22"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:55:22 +0000] \"GET /api/v1/buyer/orders HTTP/1.1\" 401 932 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 18:25:22"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/profile","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 18:25:22"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:55:22 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 401 932 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 18:25:22"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:55:23 +0000] \"GET /api/v1/products HTTP/1.1\" 200 35762 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 18:25:23"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:55:23 +0000] \"GET /api/v1/analytics/buyer HTTP/1.1\" 200 284 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 18:25:23"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/reviews/dashboard/buyer","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2026-08-05 18:25:23"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:55:23 +0000] \"GET /api/v1/reviews/dashboard/buyer HTTP/1.1\" 401 941 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","timestamp":"2026-08-05 18:25:23"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/reviews/dashboard/buyer","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2026-08-05 18:25:27"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:55:27 +0000] \"GET /api/v1/reviews/dashboard/buyer HTTP/1.1\" 401 941 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","timestamp":"2026-08-05 18:25:27"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:56:29 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"node\"","timestamp":"2026-08-05 18:26:29"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:56:30 +0000] \"GET /api/v1/knowledge HTTP/1.1\" 200 9266 \"-\" \"node\"","timestamp":"2026-08-05 18:26:30"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:56:30 +0000] \"GET /api/v1/analytics/marketplace HTTP/1.1\" 200 18625 \"-\" \"node\"","timestamp":"2026-08-05 18:26:30"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:56:30 +0000] \"GET /api/v1/analytics/summary HTTP/1.1\" 200 181 \"-\" \"node\"","timestamp":"2026-08-05 18:26:30"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:56:30 +0000] \"POST /api/v1/auth/buyer/register HTTP/1.1\" 201 897 \"-\" \"node\"","timestamp":"2026-08-05 18:26:30"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:56:30 +0000] \"POST /api/v1/auth/buyer/login HTTP/1.1\" 200 923 \"-\" \"node\"","timestamp":"2026-08-05 18:26:30"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:56:30 +0000] \"POST /api/v1/auth/supplier/register HTTP/1.1\" 201 972 \"-\" \"node\"","timestamp":"2026-08-05 18:26:30"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:56:31 +0000] \"POST /api/v1/auth/supplier/login HTTP/1.1\" 200 995 \"-\" \"node\"","timestamp":"2026-08-05 18:26:31"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/profile","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 18:26:31"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:56:31 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 401 932 \"-\" \"node\"","timestamp":"2026-08-05 18:26:31"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/reviews/dashboard/supplier","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2026-08-05 18:26:31"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:56:31 +0000] \"GET /api/v1/reviews/dashboard/supplier HTTP/1.1\" 401 941 \"-\" \"node\"","timestamp":"2026-08-05 18:26:31"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:47 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"node\"","timestamp":"2026-08-05 18:27:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:47 +0000] \"GET /api/v1/knowledge HTTP/1.1\" 200 9266 \"-\" \"node\"","timestamp":"2026-08-05 18:27:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:47 +0000] \"GET /api/v1/analytics/marketplace HTTP/1.1\" 200 18625 \"-\" \"node\"","timestamp":"2026-08-05 18:27:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:47 +0000] \"GET /api/v1/analytics/summary HTTP/1.1\" 200 181 \"-\" \"node\"","timestamp":"2026-08-05 18:27:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"POST /api/v1/auth/buyer/register HTTP/1.1\" 201 897 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"POST /api/v1/auth/buyer/login HTTP/1.1\" 200 923 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"POST /api/v1/auth/supplier/register HTTP/1.1\" 201 972 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"POST /api/v1/auth/supplier/login HTTP/1.1\" 200 995 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 200 511 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"GET /api/v1/buyer/orders HTTP/1.1\" 200 55 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"GET /api/v1/analytics/buyer HTTP/1.1\" 200 284 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"GET /api/v1/supplier/profile HTTP/1.1\" 200 579 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"GET /api/v1/supplier/dashboard HTTP/1.1\" 200 206 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"GET /api/v1/analytics/supplier HTTP/1.1\" 200 404 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:48 +0000] \"GET /api/v1/supplier/orders HTTP/1.1\" 200 55 \"-\" \"node\"","timestamp":"2026-08-05 18:27:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:49 +0000] \"GET /api/v1/supplier/products HTTP/1.1\" 200 57 \"-\" \"node\"","timestamp":"2026-08-05 18:27:49"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/profile","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 18:27:49"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:49 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 401 932 \"-\" \"node\"","timestamp":"2026-08-05 18:27:49"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:57:49 +0000] \"GET /api/v1/reviews/dashboard/supplier HTTP/1.1\" 200 69 \"-\" \"node\"","timestamp":"2026-08-05 18:27:49"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:58:09 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"node\"","timestamp":"2026-08-05 18:28:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:58:09 +0000] \"GET /api/v1/knowledge HTTP/1.1\" 200 9266 \"-\" \"node\"","timestamp":"2026-08-05 18:28:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:58:09 +0000] \"GET /api/v1/analytics/marketplace HTTP/1.1\" 200 18625 \"-\" \"node\"","timestamp":"2026-08-05 18:28:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:58:09 +0000] \"GET /api/v1/analytics/summary HTTP/1.1\" 200 181 \"-\" \"node\"","timestamp":"2026-08-05 18:28:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:58:09 +0000] \"POST /api/v1/auth/buyer/register HTTP/1.1\" 201 897 \"-\" \"node\"","timestamp":"2026-08-05 18:28:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:58:09 +0000] \"POST /api/v1/auth/buyer/login HTTP/1.1\" 429 95 \"-\" \"node\"","timestamp":"2026-08-05 18:28:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:58:09 +0000] \"POST /api/v1/auth/supplier/register HTTP/1.1\" 429 95 \"-\" \"node\"","timestamp":"2026-08-05 18:28:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:58:09 +0000] \"POST /api/v1/auth/supplier/login HTTP/1.1\" 429 95 \"-\" \"node\"","timestamp":"2026-08-05 18:28:09"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/profile","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 18:28:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:58:09 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 401 932 \"-\" \"node\"","timestamp":"2026-08-05 18:28:09"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/reviews/dashboard/supplier","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)","timestamp":"2026-08-05 18:28:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:12:58:09 +0000] \"GET /api/v1/reviews/dashboard/supplier HTTP/1.1\" 401 941 \"-\" \"node\"","timestamp":"2026-08-05 18:28:09"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 18:28:33"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:64367/","timestamp":"2026-08-05 18:28:34"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 18:28:34"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 18:28:34"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 18:28:34"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 18:28:34"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 18:28:35"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 18:28:35"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 18:28:35"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-05 18:28:35"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 18:28:35"}
+{"level":"info","message":"Successfully seeded 119 Knowledge Articles into MongoDB.","timestamp":"2026-08-05 18:28:35"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 18:28:35"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 18:28:35"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:52 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"node\"","timestamp":"2026-08-05 18:37:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:52 +0000] \"GET /api/v1/knowledge HTTP/1.1\" 200 9288 \"-\" \"node\"","timestamp":"2026-08-05 18:37:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:52 +0000] \"GET /api/v1/analytics/marketplace HTTP/1.1\" 200 18625 \"-\" \"node\"","timestamp":"2026-08-05 18:37:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:52 +0000] \"GET /api/v1/analytics/summary HTTP/1.1\" 200 181 \"-\" \"node\"","timestamp":"2026-08-05 18:37:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:52 +0000] \"POST /api/v1/auth/buyer/register HTTP/1.1\" 201 897 \"-\" \"node\"","timestamp":"2026-08-05 18:37:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:52 +0000] \"POST /api/v1/auth/buyer/login HTTP/1.1\" 200 923 \"-\" \"node\"","timestamp":"2026-08-05 18:37:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"POST /api/v1/auth/supplier/register HTTP/1.1\" 201 972 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"POST /api/v1/auth/supplier/login HTTP/1.1\" 200 995 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 200 511 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"GET /api/v1/buyer/orders HTTP/1.1\" 200 55 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"GET /api/v1/analytics/buyer HTTP/1.1\" 200 284 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"GET /api/v1/supplier/profile HTTP/1.1\" 200 579 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"GET /api/v1/supplier/dashboard HTTP/1.1\" 200 206 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"GET /api/v1/analytics/supplier HTTP/1.1\" 200 404 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"GET /api/v1/supplier/orders HTTP/1.1\" 200 55 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"GET /api/v1/supplier/products HTTP/1.1\" 200 57 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/profile","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 401 932 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:13:07:53 +0000] \"GET /api/v1/reviews/dashboard/supplier HTTP/1.1\" 200 69 \"-\" \"node\"","timestamp":"2026-08-05 18:37:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:14:03:22 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 19:33:22"}
+{"level":"info","message":"::1 - - [05/Aug/2026:14:15:23 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 19:45:23"}
+{"level":"info","message":"::1 - - [05/Aug/2026:14:15:23 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 19:45:23"}
+{"level":"info","message":"::1 - - [05/Aug/2026:14:15:23 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 19:45:23"}
+{"level":"info","message":"::1 - - [05/Aug/2026:14:15:23 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 19:45:23"}
+{"level":"info","message":"::1 - - [05/Aug/2026:14:15:23 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 19:45:23"}
+{"level":"info","message":"::1 - - [05/Aug/2026:14:15:23 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 19:45:23"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:11 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:11"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:12 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:12 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:12 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:12 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:12 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:12 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:12 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:12 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:12 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:37 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:37:37 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:07:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:39:58 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:09:58"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:39:58 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:09:58"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:47:39 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:17:39"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:15:47:40 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:17:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:47:41 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:17:41"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:15:47:42 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:17:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:47:42 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:17:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:47:47 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:17:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:48:10 +0000] \"GET /api/v1/knowledge/search?q=&category=&limit=12 HTTP/1.1\" 200 11095 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","timestamp":"2026-08-05 21:18:10"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:48:10 +0000] \"GET /api/v1/knowledge/categories HTTP/1.1\" 200 188 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","timestamp":"2026-08-05 21:18:10"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:51:34 +0000] \"GET /api/v1/knowledge/categories HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","timestamp":"2026-08-05 21:21:34"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:51:35 +0000] \"GET /api/v1/knowledge/search?q=&category=&limit=12 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","timestamp":"2026-08-05 21:21:35"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:51:41 +0000] \"GET /api/v1/knowledge/categories HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","timestamp":"2026-08-05 21:21:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:15:51:41 +0000] \"GET /api/v1/knowledge/search?q=&category=&limit=12 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","timestamp":"2026-08-05 21:21:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:12:54 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:42:54"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:12:54 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:42:54"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:20 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:20"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:27 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:27"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:18:27 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:48:27"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:18 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:18 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:18 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:18 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:19 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:19"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:20 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:20"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:21 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:19:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:49:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:20:25 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:50:25"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:20:25 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:50:25"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:21:14 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:51:14"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:21:14 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:51:14"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:21:14 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:51:14"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:21:15 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:51:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:21:15 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:51:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:21:15 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:51:15"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:21:30 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:51:30"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:21:30 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:51:30"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:27:55 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:57:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:27:55 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 21:57:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:32:23 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:02:23"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:32:23 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:02:23"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:32:24 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:02:24"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:32:24 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:02:24"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:32:25 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:02:25"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:32:25 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:02:25"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:32:25 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:02:25"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:32:25 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36526 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:02:25"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:32:25 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:02:25"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:32:25 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:02:25"}
+{"level":"error","message":"Limit must be between 1 and 100","method":"GET","path":"/api/v1/products","stack":"Error: Limit must be between 1 and 100\n    at validateRequest (D:\\LoomAI\\backend\\src\\middleware\\validateRequest.ts:10:17)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\LoomAI\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-08-05 22:11:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:41:55 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 400 564 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:11:55"}
+{"level":"error","message":"Limit must be between 1 and 100","method":"GET","path":"/api/v1/products","stack":"Error: Limit must be between 1 and 100\n    at validateRequest (D:\\LoomAI\\backend\\src\\middleware\\validateRequest.ts:10:17)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\LoomAI\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-08-05 22:11:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:41:55 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 400 564 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:11:55"}
+{"level":"error","message":"Limit must be between 1 and 100","method":"GET","path":"/api/v1/products","stack":"Error: Limit must be between 1 and 100\n    at validateRequest (D:\\LoomAI\\backend\\src\\middleware\\validateRequest.ts:10:17)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\LoomAI\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-08-05 22:12:06"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:42:06 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 400 564 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:12:06"}
+{"level":"error","message":"Limit must be between 1 and 100","method":"GET","path":"/api/v1/products","stack":"Error: Limit must be between 1 and 100\n    at validateRequest (D:\\LoomAI\\backend\\src\\middleware\\validateRequest.ts:10:17)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\LoomAI\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-08-05 22:12:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:42:18 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 400 564 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:12:18"}
+{"level":"error","message":"Limit must be between 1 and 100","method":"GET","path":"/api/v1/products","stack":"Error: Limit must be between 1 and 100\n    at validateRequest (D:\\LoomAI\\backend\\src\\middleware\\validateRequest.ts:10:17)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at middleware (D:\\LoomAI\\backend\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-08-05 22:13:02"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:43:02 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 400 564 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:13:02"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 22:14:48"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:58696/","timestamp":"2026-08-05 22:14:48"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 22:14:48"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 22:14:48"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 22:14:48"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 22:14:48"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 22:14:49"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 22:14:49"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 22:14:49"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-05 22:14:49"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 22:14:49"}
+{"level":"info","message":"Successfully seeded 119 Knowledge Articles into MongoDB.","timestamp":"2026-08-05 22:14:49"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 22:14:49"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 22:14:49"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:45:22 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:15:22"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:45:22 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:15:22"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:39 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:40 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:40 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:40 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:40 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:42 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:42 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:42 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:42 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:42 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:44 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:44"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:44 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:44"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:44 +0000] \"GET /api/v1/products/6a7368804182236f049c8f4b HTTP/1.1\" 200 1719 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:44"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:44 +0000] \"GET /api/v1/products/6a7368804182236f049c8f4c HTTP/1.1\" 200 1768 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:44"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:44 +0000] \"GET /api/v1/products/6a7368804182236f049c8f4b HTTP/1.1\" 200 1719 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:44"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:44 +0000] \"GET /api/v1/products/6a7368804182236f049c8f4b HTTP/1.1\" 200 1719 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:44"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:44 +0000] \"GET /api/v1/products/6a7368804182236f049c8f4b HTTP/1.1\" 200 1719 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:44"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:44 +0000] \"GET /api/v1/products/6a7368804182236f049c8f4b HTTP/1.1\" 200 1719 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:44"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:46 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:46"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:47 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:47 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:47 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:47 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:47 +0000] \"GET /api/v1/products/6a7368804182236f049c8f4c HTTP/1.1\" 200 1768 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:47 +0000] \"GET /api/v1/products/6a7368804182236f049c8f4b HTTP/1.1\" 200 1719 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:47 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:46:47 +0000] \"GET /api/v1/products/6a7368804182236f049c8f4c HTTP/1.1\" 200 1768 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:16:47"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:47:39 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:17:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:47:39 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:17:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:47:39 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:17:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:47:39 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:17:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:47:39 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:17:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:47:39 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:17:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:47:39 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:17:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:47:40 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:17:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:49:55 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:19:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:49:55 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:19:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:17 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:17"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:17 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:17"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:17 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:17"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:18 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:18"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:21 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:21"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:21 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:21"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:21"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:51 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:51"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:51 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:51"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:51 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:51"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:52 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:52 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:52 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:52"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:53 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:53"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:53 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:53"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:53 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:53"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:54 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:54"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:55 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:55 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:55 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:55"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:16:50:55 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:55 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:50:55 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:20:55"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:52:09 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:22:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:52:09 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:22:09"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:52:52 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:22:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:52:52 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:22:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:52:52 +0000] \"GET /api/v1/products/6a7368804182236f049c8f50 HTTP/1.1\" 200 1671 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:22:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:52:54 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:22:54"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:52:54 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:22:54"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:53:04 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:23:04"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:53:05 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:23:05"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:53:05 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 200 1736 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:23:05"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:53:24 +0000] \"GET /api/v1/reviews/product/6a7368804182236f049c8f6d HTTP/1.1\" 200 69 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","timestamp":"2026-08-05 22:23:24"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:42 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:43 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:43"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:43 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:43"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:43 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 200 1736 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:43"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:43 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:43"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:43 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:43"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:43 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:43"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:43 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 200 1736 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:43"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:43 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 200 1736 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:43"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:53 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:53 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:54:53 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 200 1736 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:24:53"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:55:07 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:25:07"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:55:07 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:25:07"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:55:07 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 200 1736 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:25:07"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:55:26 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:25:26"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:55:26 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:25:26"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:55:26 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 200 1736 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:25:26"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:55:56 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:25:56"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:55:57 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:25:57"}
+{"level":"info","message":"::1 - - [05/Aug/2026:16:55:57 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 200 1736 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:25:57"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 22:34:04"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:57120/","timestamp":"2026-08-05 22:34:04"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 22:34:04"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 22:34:04"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 22:34:04"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 22:34:04"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 22:34:05"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 22:34:05"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 22:34:05"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-05 22:34:05"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 22:34:05"}
+{"level":"info","message":"Successfully seeded 119 Knowledge Articles into MongoDB.","timestamp":"2026-08-05 22:34:05"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 22:34:05"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 22:34:05"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:04:35 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:34:35"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:04:35 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:34:35"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:34:35"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:04:35 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:34:35"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:24 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:24"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:34 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:34"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:34 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:34"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:35 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:35"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:35 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:35"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:36 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:36"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:36 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:36"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:36 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:36"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:36"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:36 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:36"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:36"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:36 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:36"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:36 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:36"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:36 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:36"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:37 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:37 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:37"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:37 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:37"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:37 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:37 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:37"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:37 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:37"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:37 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:37 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:37"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:38 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:38"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:38 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:38"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:38 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:38"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:39 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:40 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:40"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:40 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:40"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:40 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:40"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:40 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:40 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:40 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:40"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:40 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:40 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:40"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:40 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:40"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:40 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:40"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:17:05:41 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 22:35:41"}
+{"level":"info","message":"[Orchestrator] AI Event listeners registered.","timestamp":"2026-08-05 23:30:42"}
+{"level":"info","message":"[AI Scheduler] Started","timestamp":"2026-08-05 23:30:42"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-05 23:30:43"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:49795/","timestamp":"2026-08-05 23:30:44"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-05 23:30:44"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-05 23:30:44"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-05 23:30:44"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-05 23:30:44"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-05 23:30:45"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-05 23:30:45"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-05 23:30:45"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-05 23:30:45"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-05 23:30:45"}
+{"level":"info","message":"Successfully seeded 119 Knowledge Articles into MongoDB.","timestamp":"2026-08-05 23:30:45"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-05 23:30:45"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-05 23:30:45"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:11 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"node\"","timestamp":"2026-08-05 23:31:11"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:11 +0000] \"GET /api/v1/knowledge HTTP/1.1\" 200 8935 \"-\" \"node\"","timestamp":"2026-08-05 23:31:11"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:11 +0000] \"GET /api/v1/analytics/marketplace HTTP/1.1\" 200 18625 \"-\" \"node\"","timestamp":"2026-08-05 23:31:11"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:11 +0000] \"GET /api/v1/analytics/summary HTTP/1.1\" 200 181 \"-\" \"node\"","timestamp":"2026-08-05 23:31:11"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:11 +0000] \"POST /api/v1/auth/buyer/register HTTP/1.1\" 201 897 \"-\" \"node\"","timestamp":"2026-08-05 23:31:11"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"POST /api/v1/auth/buyer/login HTTP/1.1\" 200 923 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"POST /api/v1/auth/supplier/register HTTP/1.1\" 201 972 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"POST /api/v1/auth/supplier/login HTTP/1.1\" 200 995 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 200 511 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"GET /api/v1/buyer/orders HTTP/1.1\" 200 55 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"GET /api/v1/analytics/buyer HTTP/1.1\" 200 284 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"GET /api/v1/supplier/profile HTTP/1.1\" 200 579 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"GET /api/v1/supplier/dashboard HTTP/1.1\" 200 206 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"GET /api/v1/analytics/supplier HTTP/1.1\" 200 404 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"GET /api/v1/supplier/orders HTTP/1.1\" 200 55 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"GET /api/v1/supplier/products HTTP/1.1\" 200 57 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"error","message":"Access token is expired or invalid","method":"GET","path":"/api/v1/buyer/profile","stack":"Error: Access token is expired or invalid\n    at authenticate (D:\\LoomAI\\backend\\src\\middleware\\auth\\authenticate.ts:18:10)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)\n    at D:\\LoomAI\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (D:\\LoomAI\\backend\\node_modules\\router\\index.js:582:12)\n    at next (D:\\LoomAI\\backend\\node_modules\\router\\index.js:291:5)\n    at router.handle (D:\\LoomAI\\backend\\node_modules\\router\\index.js:186:3)\n    at router (D:\\LoomAI\\backend\\node_modules\\router\\index.js:60:12)\n    at Layer.handleRequest (D:\\LoomAI\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (D:\\LoomAI\\backend\\node_modules\\router\\index.js:342:13)","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"GET /api/v1/buyer/profile HTTP/1.1\" 401 932 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:01:12 +0000] \"GET /api/v1/reviews/dashboard/supplier HTTP/1.1\" 200 69 \"-\" \"node\"","timestamp":"2026-08-05 23:31:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:04:48 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:34:48"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:04:49 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:34:49"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 23:34:49"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:04:49 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:34:49"}
+{"level":"error","message":"Product not found","method":"GET","path":"/api/v1/products/6a7368804182236f049c8f6d","stack":"Error: Product not found\n    at ProductService.getProductDetails (D:\\LoomAI\\backend\\src\\services\\ProductService.ts:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getProductDetails (D:\\LoomAI\\backend\\src\\controllers\\ProductController.ts:23:22)","timestamp":"2026-08-05 23:37:10"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:07:10 +0000] \"GET /api/v1/products/6a7368804182236f049c8f6d HTTP/1.1\" 404 369 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8972\"","timestamp":"2026-08-05 23:37:10"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:08:05 +0000] \"GET /api/v1/products HTTP/1.1\" 200 36229 \"-\" \"node\"","timestamp":"2026-08-05 23:38:05"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:18:10:27 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:27"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:36 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:36"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:36 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:36"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:36 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:36"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:36 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:36"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:49 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:49"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:49 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:49"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:50 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:50"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:50 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:50"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:51 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:51"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:51 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:51"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:51 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:51"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:51 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:51"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:52 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:52 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:10:56 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:40:56"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:11:01 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:41:01"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:11:01 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:41:01"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:39 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:39 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:39"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:41 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:41 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:41 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:41"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:42 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:42"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:45 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:45"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:45 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:45"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:46 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:46"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:46 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:46"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:12:46 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:42:46"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:13:21 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:43:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:13:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:43:21"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:13:21 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:43:21"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:18:13:35 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:43:35"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:18:13:35 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:43:35"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:13:35 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:43:35"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:13:36 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:43:36"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:18:13:36 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:43:36"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:16:52 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:46:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:16:52 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:46:52"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:17:12 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:47:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:17:12 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:47:12"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:18:45 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:48:45"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:18:45 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:48:45"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:18:19:14 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:49:14"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [05/Aug/2026:18:19:17 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:49:17"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:19:17 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:49:17"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:19:18 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:49:18"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:19:46 +0000] \"GET /api/v1/products?limit=1000 HTTP/1.1\" 200 904490 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:49:46"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:19:46 +0000] \"GET /api/v1/categories HTTP/1.1\" 200 6378 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:49:46"}
+{"level":"info","message":"::1 - - [05/Aug/2026:18:19:47 +0000] \"GET /api/v1/products/6a737a4c4b8027b8c06fee4b HTTP/1.1\" 200 1754 \"-\" \"axios/1.19.0\"","timestamp":"2026-08-05 23:49:47"}
+{"level":"info","message":"[Orchestrator] AI Event listeners registered.","timestamp":"2026-08-06 11:55:32"}
+{"level":"info","message":"[AI Scheduler] Started","timestamp":"2026-08-06 11:55:32"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-06 11:55:34"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:49353/","timestamp":"2026-08-06 11:55:37"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-06 11:55:37"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-06 11:55:37"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-06 11:55:38"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-06 11:55:38"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-06 11:55:38"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-06 11:55:38"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-06 11:55:38"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-06 11:55:38"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-06 11:55:38"}
+{"level":"info","message":"Successfully seeded 119 Knowledge Articles into MongoDB.","timestamp":"2026-08-06 11:55:39"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-06 11:55:39"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-06 11:55:39"}
+{"level":"info","message":"[Orchestrator] AI Event listeners registered.","timestamp":"2026-08-06 12:27:42"}
+{"level":"info","message":"[AI Scheduler] Started","timestamp":"2026-08-06 12:27:42"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-06 12:27:45"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:57020/","timestamp":"2026-08-06 12:27:48"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-06 12:27:48"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-06 12:27:48"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-06 12:27:48"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-06 12:27:48"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-06 12:27:50"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-06 12:27:50"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-06 12:27:50"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-06 12:27:50"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-06 12:27:50"}
+{"level":"info","message":"Successfully seeded 119 Knowledge Articles into MongoDB.","timestamp":"2026-08-06 12:27:51"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-06 12:27:51"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-06 12:27:51"}
+{"level":"info","message":"[Orchestrator] AI Event listeners registered.","timestamp":"2026-08-06 12:28:13"}
+{"level":"info","message":"[AI Scheduler] Started","timestamp":"2026-08-06 12:28:13"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-06 12:28:16"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:60255/","timestamp":"2026-08-06 12:28:21"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-06 12:28:21"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-06 12:28:21"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-06 12:28:21"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-06 12:28:21"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-06 12:28:24"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-06 12:28:24"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-06 12:28:24"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-06 12:28:24"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-06 12:28:24"}
+{"level":"info","message":"Successfully seeded 119 Knowledge Articles into MongoDB.","timestamp":"2026-08-06 12:28:24"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-06 12:28:24"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-06 12:28:24"}
+{"level":"info","message":"[Orchestrator] AI Event listeners registered.","timestamp":"2026-08-06 12:29:40"}
+{"level":"info","message":"[AI Scheduler] Started","timestamp":"2026-08-06 12:29:40"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-06 12:29:42"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:57159/","timestamp":"2026-08-06 12:29:44"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-06 12:29:44"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-06 12:29:44"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-06 12:29:46"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-06 12:29:46"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-06 12:29:47"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-06 12:29:47"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-06 12:29:47"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-06 12:29:47"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-06 12:29:47"}
+{"level":"info","message":"Successfully seeded 119 Knowledge Articles into MongoDB.","timestamp":"2026-08-06 12:29:47"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-06 12:29:47"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-06 12:29:47"}
+{"level":"info","message":"[Orchestrator] AI Event listeners registered.","timestamp":"2026-08-06 12:49:12"}
+{"level":"info","message":"[AI Scheduler] Started","timestamp":"2026-08-06 12:49:12"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-06 12:49:15"}
+{"level":"info","message":"Starting In-Memory MongoDB Server at: mongodb://127.0.0.1:57531/","timestamp":"2026-08-06 12:49:17"}
+{"level":"info","message":"MongoDB Connected (Memory): 127.0.0.1","timestamp":"2026-08-06 12:49:17"}
+{"level":"info","message":"Loading dataset from D:\\LoomAI\\backend\\data\\loomai_dataset\\collections...","timestamp":"2026-08-06 12:49:17"}
+{"level":"info","message":"Seeded 20 categories","timestamp":"2026-08-06 12:49:17"}
+{"level":"info","message":"Seeded 30 suppliers","timestamp":"2026-08-06 12:49:17"}
+{"level":"info","message":"Seeded 500 products","timestamp":"2026-08-06 12:49:18"}
+{"level":"info","message":"Seeded mock buyer","timestamp":"2026-08-06 12:49:18"}
+{"level":"info","message":"Seeded mock address","timestamp":"2026-08-06 12:49:18"}
+{"level":"info","message":"Seeded mock completed order","timestamp":"2026-08-06 12:49:18"}
+{"level":"info","message":"Seeded mock orders","timestamp":"2026-08-06 12:49:18"}
+{"level":"info","message":"Successfully seeded 119 Knowledge Articles into MongoDB.","timestamp":"2026-08-06 12:49:19"}
+{"level":"info","message":"In-Memory Database Seeded successfully with converted ObjectIds!","timestamp":"2026-08-06 12:49:19"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2026-08-06 12:49:19"}
+{"level":"info","message":"[Orchestrator] AI Event listeners registered.","timestamp":"2026-08-06 12:49:58"}
+{"level":"info","message":"[AI Scheduler] Started","timestamp":"2026-08-06 12:49:58"}
+{"level":"warn","message":"Error connecting to Atlas: bad auth : authentication failed. Falling back to In-Memory DB...","timestamp":"2026-08-06 12:50:00"}
+{"level":"error","message":"Error connecting to Memory MongoDB: Instance failed to start within 10000ms","timestamp":"2026-08-06 12:50:10"}

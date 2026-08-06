@@ -7,6 +7,7 @@ import { MobileBottomNav } from '@/components/layout/MobileBottomNav';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { LayoutDashboard, Store, Grid2X2, Heart, Package, ShoppingCart, Bot, User, Settings } from 'lucide-react';
 import { BuyerProviders } from '@/context/BuyerProviders';
+import { AuthGuard } from '@/components/auth/AuthGuard';
 
 const buyerNavItems: NavItem[] = [
   { title: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
@@ -29,19 +30,21 @@ const mobileBottomItems: NavItem[] = [
 
 export default function BuyerLayout({ children }: { children: React.ReactNode }) {
   return (
-    <BuyerProviders>
-      <div className="min-h-screen flex flex-col relative bg-background">
-        <Header />
-        <div className="flex flex-1 pt-16">
-          <Sidebar items={buyerNavItems} />
-          <main className="flex-1 md:ml-64 pb-16 md:pb-0">
-            <PageContainer className="p-4 md:p-8 max-w-7xl mx-auto h-full">
-              {children}
-            </PageContainer>
-          </main>
+    <AuthGuard allowedRoles={['Buyer']}>
+      <BuyerProviders>
+        <div className="min-h-screen flex flex-col relative bg-background">
+          <Header />
+          <div className="flex flex-1 pt-16">
+            <Sidebar items={buyerNavItems} />
+            <main className="flex-1 md:ml-64 pb-16 md:pb-0">
+              <PageContainer className="p-4 md:p-8 max-w-7xl mx-auto h-full">
+                {children}
+              </PageContainer>
+            </main>
+          </div>
+          <MobileBottomNav items={mobileBottomItems} />
         </div>
-        <MobileBottomNav items={mobileBottomItems} />
-      </div>
-    </BuyerProviders>
+      </BuyerProviders>
+    </AuthGuard>
   );
 }

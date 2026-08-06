@@ -1,6 +1,6 @@
 "use client"
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useMemo, useCallback } from 'react';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
@@ -41,7 +41,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem('loomai_cart', JSON.stringify(items));
   }, [items]);
 
-  const addToCart = (product: any, quantity: number) => {
+  const addToCart = useCallback((product: any, quantity: number) => {
     setItems(prev => {
       const existing = prev.find(item => item.product.id === product.id);
       if (existing) {
@@ -53,25 +53,29 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       }
       return [...prev, { product, quantity }];
     });
-  };
+  }, []);
 
-  const removeFromCart = (productId: string) => {
+  const removeFromCart = useCallback((productId: string) => {
     setItems(prev => prev.filter(item => item.product.id !== productId));
-  };
+  }, []);
 
-  const updateQuantity = (productId: string, quantity: number) => {
+  const updateQuantity = useCallback((productId: string, quantity: number) => {
     if (quantity <= 0) return removeFromCart(productId);
     setItems(prev => prev.map(item => 
       item.product.id === productId ? { ...item, quantity } : item
     ));
-  };
+  }, [removeFromCart]);
 
-  const clearCart = () => setItems([]);
+  const clearCart = useCallback(() => setItems([]), []);
 
-  const cartTotal = items.reduce((total, item) => total + (item.product.pricePerMeter * item.quantity), 0);
+  const cartTotal = useMemo(() => items.reduce((total, item) => total + (item.product.pricePerMeter * item.quantity), 0), [items]);
+
+  const value = useMemo(() => ({
+    items, addToCart, removeFromCart, updateQuantity, clearCart, cartTotal
+  }), [items, addToCart, removeFromCart, updateQuantity, clearCart, cartTotal]);
 
   return (
-    <CartContext.Provider value={{ items, addToCart, removeFromCart, updateQuantity, clearCart, cartTotal }}>
+    <CartContext.Provider value={value}>
       {children}
     </CartContext.Provider>
   );

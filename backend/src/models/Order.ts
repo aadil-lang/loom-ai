@@ -44,8 +44,8 @@ const OrderSchema: Schema = new Schema(
   { timestamps: true }
 );
 
-OrderSchema.index({ buyerId: 1 });
-OrderSchema.index({ supplierId: 1 });
+OrderSchema.index({ buyerId: 1, createdAt: -1 });
+OrderSchema.index({ supplierId: 1, createdAt: -1 });
 OrderSchema.index({ status: 1 });
 
 export const Order = mongoose.model<IOrder>('Order', OrderSchema);

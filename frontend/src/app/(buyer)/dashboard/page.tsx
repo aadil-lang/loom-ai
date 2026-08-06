@@ -1,32 +1,32 @@
 import * as React from 'react';
 import { KpiCard } from '@/components/ui/kpi-card';
-import { DashboardChart } from '@/components/ui/dashboard-chart';
+import nextDynamic from 'next/dynamic';
+const DashboardChart = nextDynamic(() => import('@/components/ui/dashboard-chart').then(m => m.DashboardChart), { ssr: false, loading: () => <div className="h-[300px] w-full bg-muted animate-pulse rounded-lg" /> });
 import { RecommendationSection } from '@/components/buyer/RecommendationSection';
 import { Package, Heart, Star, ShoppingBag, ArrowRight } from 'lucide-react';
-import { buyerService, productService, orderService } from '@/services';
+import { buyerService, productService, analyticsService } from '@/services';
+import { RecentReviewsClient } from '@/components/buyer/RecentReviewsClient';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { StatusBadge } from '@/components/ui/status-badge';
 
+export const dynamic = 'force-dynamic';
+
 export default async function DashboardPage() {
-  const [profile, orders, recommendedProducts] = await Promise.all([
+  const [profileRes, ordersRes, recommendedProducts, metricsRes] = await Promise.allSettled([
     buyerService.getBuyerProfile(),
     buyerService.getBuyerOrders(),
-    productService.getProducts() // We'll just slice some for mock recommendations
+    productService.getProducts(),
+    analyticsService.getBuyerDashboardMetrics()
   ]);
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const activeOrders = orders.filter((o: any) => o.status !== 'Completed').length;
+  const profile = profileRes.status === 'fulfilled' ? profileRes.value : { contactName: 'User', name: 'Your Company' };
+  const orders = ordersRes.status === 'fulfilled' ? ordersRes.value : [];
+  const products = recommendedProducts.status === 'fulfilled' ? recommendedProducts.value : [];
+  const metrics = metricsRes.status === 'fulfilled' ? metricsRes.value : { summary: {}, charts: { monthlySpend: [] } };
   
-  // Mock monthly spending chart
-  const spendingChart = [
-    { name: "Jan", value: 12500 },
-    { name: "Feb", value: 18200 },
-    { name: "Mar", value: 15400 },
-    { name: "Apr", value: 22100 },
-    { name: "May", value: 31000 },
-    { name: "Jun", value: 28400 },
-  ];
+  const summary = metrics.summary || {};
+  const spendingChart = metrics.charts?.monthlySpend || [];
 
   return (
     <div className="space-y-8 w-full max-w-7xl mx-auto p-4 md:p-8 pb-20">
@@ -38,23 +38,23 @@ export default async function DashboardPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <KpiCard 
           title="Total Orders" 
-          value={orders.length.toString()} 
+          value={(summary.totalOrders || 0).toString()} 
           icon={<Package className="h-4 w-4" />}
           trend={{ value: 12, label: "this quarter", isPositive: true }}
         />
         <KpiCard 
           title="Active Orders" 
-          value={activeOrders.toString()} 
+          value={(summary.pendingOrders || 0).toString()} 
           icon={<ShoppingBag className="h-4 w-4" />}
         />
         <KpiCard 
           title="Wishlist Items" 
-          value="14" 
+          value={(summary.wishlistCount || 0).toString()} 
           icon={<Heart className="h-4 w-4" />}
         />
         <KpiCard 
-          title="Saved Suppliers" 
-          value="3" 
+          title="Total Spend" 
+          value={`₹${(summary.totalSpend || 0).toLocaleString('en-IN')}`} 
           icon={<Star className="h-4 w-4" />}
         />
       </div>
@@ -62,15 +62,15 @@ export default async function DashboardPage() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 space-y-8">
           <DashboardChart 
-            title="Monthly Spending (Mock)" 
-            description="Your procurement spend over the last 6 months"
+            title="Monthly Spending" 
+            description="Your procurement spend over the last 12 months"
             data={spendingChart}
             dataKey="value"
             type="bar"
             color="#2563eb" 
           />
 
-          <RecommendationSection products={recommendedProducts.slice(0, 4)} />
+          <RecommendationSection products={products.slice(0, 4)} />
         </div>
 
         <div className="space-y-8">
@@ -88,7 +88,7 @@ export default async function DashboardPage() {
                     <div className="text-xs text-muted-foreground">{new Date(order.date).toLocaleDateString()}</div>
                   </div>
                   <div className="text-right">
-                    <div className="font-bold text-sm">${order.totalValue.toLocaleString()}</div>
+                    <div className="font-bold text-sm" suppressHydrationWarning>₹{order.totalValue?.toLocaleString('en-IN') || 0}</div>
                     <StatusBadge status={order.status} />
                   </div>
                 </div>
@@ -98,6 +98,15 @@ export default async function DashboardPage() {
                   View All Orders <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
+            </div>
+          </div>
+
+          <div className="rounded-xl border bg-card text-card-foreground shadow-sm">
+            <div className="p-6 pb-2">
+              <h3 className="font-semibold leading-none tracking-tight">Recent Reviews</h3>
+            </div>
+            <div className="p-6">
+              <RecentReviewsClient />
             </div>
           </div>
 

@@ -34,7 +34,7 @@ export function BuyerOrdersClient({ initialOrders }: { initialOrders: any[] }) {
       accessorKey: "totalValue",
       header: "Total Amount",
       sortable: true,
-      cell: (item) => <div className="font-semibold">${item.totalValue.toLocaleString()}</div>
+      cell: (item) => <div className="font-semibold" suppressHydrationWarning>₹{item.totalValue.toLocaleString('en-IN')}</div>
     },
     {
       accessorKey: "status",

@@ -1,0 +1,2642 @@
+[
+  {
+    "id": "faq_001",
+    "uuid": "924f7996-8f70-5e83-a294-bc057941a5a0",
+    "slug": "how-do-buyers-search-fabrics-1",
+    "topic": "search",
+    "question": "How do buyers search fabrics?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 1
+  },
+  {
+    "id": "faq_002",
+    "uuid": "4d3ca1e7-72ad-5810-afbc-7388086b2d7b",
+    "slug": "how-do-i-compare-suppliers-2",
+    "topic": "supplier",
+    "question": "How do I compare suppliers?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 2
+  },
+  {
+    "id": "faq_003",
+    "uuid": "ab7c50c6-0fe1-5f28-8ba2-857f8ec2ed10",
+    "slug": "what-is-moq-3",
+    "topic": "MOQ",
+    "question": "What is MOQ?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 3
+  },
+  {
+    "id": "faq_004",
+    "uuid": "5dea4f41-b813-5c05-905b-6a8b497eb284",
+    "slug": "how-should-lead-time-be-read-4",
+    "topic": "lead time",
+    "question": "How should lead time be read?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 4
+  },
+  {
+    "id": "faq_005",
+    "uuid": "85e6fd83-1a3c-5376-9249-39ca05b8a5e0",
+    "slug": "what-does-inventory-show-5",
+    "topic": "inventory",
+    "question": "What does inventory show?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 5
+  },
+  {
+    "id": "faq_006",
+    "uuid": "b7336a4f-298d-5679-865d-7823c2b9d4f8",
+    "slug": "can-a-review-exist-without-delivery-6",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 6
+  },
+  {
+    "id": "faq_007",
+    "uuid": "5ab008c5-3af3-54fb-9b0a-42623d888de3",
+    "slug": "which-certifications-are-included-7",
+    "topic": "certification",
+    "question": "Which certifications are included?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 7
+  },
+  {
+    "id": "faq_008",
+    "uuid": "4df58914-c7b8-5272-a334-d833dc38bf57",
+    "slug": "how-is-seasonality-modeled-8",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 8
+  },
+  {
+    "id": "faq_009",
+    "uuid": "a0e47763-c4fe-5d18-8921-d9f86d5f0035",
+    "slug": "what-powers-analytics-9",
+    "topic": "analytics",
+    "question": "What powers analytics?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 9
+  },
+  {
+    "id": "faq_010",
+    "uuid": "671f0fce-a935-5934-a500-06e4a49475e9",
+    "slug": "are-product-images-real-10",
+    "topic": "images",
+    "question": "Are product images real?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 10
+  },
+  {
+    "id": "faq_011",
+    "uuid": "bf6c90d7-b83d-545a-8713-e3ba4c8d8b0c",
+    "slug": "how-do-buyers-search-fabrics-11",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 11?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 11
+  },
+  {
+    "id": "faq_012",
+    "uuid": "171bd59e-16f5-5459-86a9-df92dde58b6c",
+    "slug": "how-do-i-compare-suppliers-12",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 12?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 12
+  },
+  {
+    "id": "faq_013",
+    "uuid": "6c01f9d8-1fa0-59e6-be1d-07343aaea285",
+    "slug": "what-is-moq-13",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 13?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 13
+  },
+  {
+    "id": "faq_014",
+    "uuid": "ed73f6e2-5e80-5c38-8998-fc58200ebc02",
+    "slug": "how-should-lead-time-be-read-14",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 14?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 14
+  },
+  {
+    "id": "faq_015",
+    "uuid": "0040ec58-d1d3-571e-a525-ad44700f517a",
+    "slug": "what-does-inventory-show-15",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 15?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 15
+  },
+  {
+    "id": "faq_016",
+    "uuid": "add0a6c9-6f25-5a3c-adfe-6508ddabfb75",
+    "slug": "can-a-review-exist-without-delivery-16",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 16?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 16
+  },
+  {
+    "id": "faq_017",
+    "uuid": "07cfde15-a516-55dc-bf32-6a3e04f979f9",
+    "slug": "which-certifications-are-included-17",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 17?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 17
+  },
+  {
+    "id": "faq_018",
+    "uuid": "07230447-970c-5d9c-8d3d-eb4d24b8c37e",
+    "slug": "how-is-seasonality-modeled-18",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 18?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 18
+  },
+  {
+    "id": "faq_019",
+    "uuid": "9d91df9a-d4af-5338-b7ad-0fde75697fc9",
+    "slug": "what-powers-analytics-19",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 19?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 19
+  },
+  {
+    "id": "faq_020",
+    "uuid": "7bc61040-23ec-5e86-be5c-50c1c7b0372b",
+    "slug": "are-product-images-real-20",
+    "topic": "images",
+    "question": "Are product images real? for scenario 20?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 20
+  },
+  {
+    "id": "faq_021",
+    "uuid": "9e17e06d-518c-5d67-88e3-38f0683cff09",
+    "slug": "how-do-buyers-search-fabrics-21",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 21?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 21
+  },
+  {
+    "id": "faq_022",
+    "uuid": "48266c06-3b29-5cf7-943f-8d4476f7e89d",
+    "slug": "how-do-i-compare-suppliers-22",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 22?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 22
+  },
+  {
+    "id": "faq_023",
+    "uuid": "c80283a9-6ac5-580d-a560-fee8ed6b9820",
+    "slug": "what-is-moq-23",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 23?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 23
+  },
+  {
+    "id": "faq_024",
+    "uuid": "fa69b91f-a32f-5693-a992-2e1d78b28911",
+    "slug": "how-should-lead-time-be-read-24",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 24?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 24
+  },
+  {
+    "id": "faq_025",
+    "uuid": "3e677b40-816a-5287-b734-dde883a34fca",
+    "slug": "what-does-inventory-show-25",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 25?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 25
+  },
+  {
+    "id": "faq_026",
+    "uuid": "56e13100-9862-5c46-aeda-5adf0d9ee794",
+    "slug": "can-a-review-exist-without-delivery-26",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 26?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 26
+  },
+  {
+    "id": "faq_027",
+    "uuid": "4d9ef6f8-672f-5ac8-b95e-231eddbba5e9",
+    "slug": "which-certifications-are-included-27",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 27?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 27
+  },
+  {
+    "id": "faq_028",
+    "uuid": "7a4d03ff-1be5-5db4-a085-b066b7a858e2",
+    "slug": "how-is-seasonality-modeled-28",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 28?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 28
+  },
+  {
+    "id": "faq_029",
+    "uuid": "f16df28a-8bf5-58ee-bd74-877837f717fa",
+    "slug": "what-powers-analytics-29",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 29?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 29
+  },
+  {
+    "id": "faq_030",
+    "uuid": "038c4710-d626-5f67-a15f-9e8297dca002",
+    "slug": "are-product-images-real-30",
+    "topic": "images",
+    "question": "Are product images real? for scenario 30?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 30
+  },
+  {
+    "id": "faq_031",
+    "uuid": "a20388bf-c0d4-5d9d-ad6f-1fbc96b0a509",
+    "slug": "how-do-buyers-search-fabrics-31",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 31?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 31
+  },
+  {
+    "id": "faq_032",
+    "uuid": "f29cf164-5d0b-582c-9f37-9c344a3ad2c4",
+    "slug": "how-do-i-compare-suppliers-32",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 32?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 32
+  },
+  {
+    "id": "faq_033",
+    "uuid": "b2c1090e-ae10-5a72-ac3a-b95875f7be4f",
+    "slug": "what-is-moq-33",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 33?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 33
+  },
+  {
+    "id": "faq_034",
+    "uuid": "c562264b-4085-55cd-a55d-8460196dab11",
+    "slug": "how-should-lead-time-be-read-34",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 34?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 34
+  },
+  {
+    "id": "faq_035",
+    "uuid": "7c0d741e-98f0-5d3f-b0c4-3c0872b0f91c",
+    "slug": "what-does-inventory-show-35",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 35?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 35
+  },
+  {
+    "id": "faq_036",
+    "uuid": "94cf7be5-7c2a-5dca-b4be-6be5280971c4",
+    "slug": "can-a-review-exist-without-delivery-36",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 36?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 36
+  },
+  {
+    "id": "faq_037",
+    "uuid": "ec271edf-762b-5c42-a088-f6836f7eef2d",
+    "slug": "which-certifications-are-included-37",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 37?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 37
+  },
+  {
+    "id": "faq_038",
+    "uuid": "fb2b6b9f-a5d9-59c6-a993-c1c04acb16bd",
+    "slug": "how-is-seasonality-modeled-38",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 38?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 38
+  },
+  {
+    "id": "faq_039",
+    "uuid": "862207ec-341b-5aeb-b857-3cb2eda4d027",
+    "slug": "what-powers-analytics-39",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 39?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 39
+  },
+  {
+    "id": "faq_040",
+    "uuid": "f0b54d2b-2f46-5788-899b-af38e4bb267e",
+    "slug": "are-product-images-real-40",
+    "topic": "images",
+    "question": "Are product images real? for scenario 40?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 40
+  },
+  {
+    "id": "faq_041",
+    "uuid": "d661ba23-2282-5054-b5d7-30b5b446d1a6",
+    "slug": "how-do-buyers-search-fabrics-41",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 41?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 41
+  },
+  {
+    "id": "faq_042",
+    "uuid": "e9e208b3-4bd4-5275-a219-99c5ef84f2ef",
+    "slug": "how-do-i-compare-suppliers-42",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 42?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 42
+  },
+  {
+    "id": "faq_043",
+    "uuid": "df12ddeb-9031-5c10-9220-4655f0919c30",
+    "slug": "what-is-moq-43",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 43?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 43
+  },
+  {
+    "id": "faq_044",
+    "uuid": "7351a2f6-0294-52fe-91b1-4f750248e558",
+    "slug": "how-should-lead-time-be-read-44",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 44?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 44
+  },
+  {
+    "id": "faq_045",
+    "uuid": "449a4721-c2fd-59d1-b005-7b59c67c486e",
+    "slug": "what-does-inventory-show-45",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 45?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 45
+  },
+  {
+    "id": "faq_046",
+    "uuid": "e124a750-436e-5461-a339-ca4d3d53f882",
+    "slug": "can-a-review-exist-without-delivery-46",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 46?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 46
+  },
+  {
+    "id": "faq_047",
+    "uuid": "deb7b54a-c4fa-598e-838d-82601698f21a",
+    "slug": "which-certifications-are-included-47",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 47?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 47
+  },
+  {
+    "id": "faq_048",
+    "uuid": "793e12d6-cab1-511a-b07f-0e76c2ef7584",
+    "slug": "how-is-seasonality-modeled-48",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 48?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 48
+  },
+  {
+    "id": "faq_049",
+    "uuid": "a3889ba3-5aeb-5f99-b40e-4fc39d2ea973",
+    "slug": "what-powers-analytics-49",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 49?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 49
+  },
+  {
+    "id": "faq_050",
+    "uuid": "cf374277-9c55-5322-a6df-b863bdd372d6",
+    "slug": "are-product-images-real-50",
+    "topic": "images",
+    "question": "Are product images real? for scenario 50?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 50
+  },
+  {
+    "id": "faq_051",
+    "uuid": "bdf17227-c75f-5712-92b2-c8597eb00e54",
+    "slug": "how-do-buyers-search-fabrics-51",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 51?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 51
+  },
+  {
+    "id": "faq_052",
+    "uuid": "60c7eb61-cae9-5e38-92e3-c869bf516f81",
+    "slug": "how-do-i-compare-suppliers-52",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 52?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 52
+  },
+  {
+    "id": "faq_053",
+    "uuid": "1a93177c-e30e-5259-8214-8346ebd39ef0",
+    "slug": "what-is-moq-53",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 53?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 53
+  },
+  {
+    "id": "faq_054",
+    "uuid": "da3232c4-3283-5a8f-925f-a1fbdc4983ee",
+    "slug": "how-should-lead-time-be-read-54",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 54?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 54
+  },
+  {
+    "id": "faq_055",
+    "uuid": "bd299c01-b08f-52fb-a14e-ad1f54302020",
+    "slug": "what-does-inventory-show-55",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 55?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 55
+  },
+  {
+    "id": "faq_056",
+    "uuid": "b6a5c660-61ee-51fe-8244-fa1c6ac2f922",
+    "slug": "can-a-review-exist-without-delivery-56",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 56?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 56
+  },
+  {
+    "id": "faq_057",
+    "uuid": "a239886f-430f-53b9-b3c3-86d957f1b89b",
+    "slug": "which-certifications-are-included-57",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 57?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 57
+  },
+  {
+    "id": "faq_058",
+    "uuid": "04acfc6b-c62a-5e70-ba33-7ff0a2e8774c",
+    "slug": "how-is-seasonality-modeled-58",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 58?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 58
+  },
+  {
+    "id": "faq_059",
+    "uuid": "c85fa872-f033-57f8-80ef-292785262370",
+    "slug": "what-powers-analytics-59",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 59?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 59
+  },
+  {
+    "id": "faq_060",
+    "uuid": "f5c53a89-680f-5dee-89a1-7b580e50443f",
+    "slug": "are-product-images-real-60",
+    "topic": "images",
+    "question": "Are product images real? for scenario 60?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 60
+  },
+  {
+    "id": "faq_061",
+    "uuid": "867e569b-b12f-5a23-aa64-0ab34a392efc",
+    "slug": "how-do-buyers-search-fabrics-61",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 61?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 61
+  },
+  {
+    "id": "faq_062",
+    "uuid": "571c4794-f7ed-5aba-a034-b6bd3ddd3a22",
+    "slug": "how-do-i-compare-suppliers-62",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 62?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 62
+  },
+  {
+    "id": "faq_063",
+    "uuid": "04920902-d170-5687-a1ed-08e7e0c884ba",
+    "slug": "what-is-moq-63",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 63?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 63
+  },
+  {
+    "id": "faq_064",
+    "uuid": "d0f46c8c-1bb8-5a33-8e01-b59931025e58",
+    "slug": "how-should-lead-time-be-read-64",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 64?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 64
+  },
+  {
+    "id": "faq_065",
+    "uuid": "6fc913c6-f4d5-52f7-9892-631c77c9b76e",
+    "slug": "what-does-inventory-show-65",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 65?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 65
+  },
+  {
+    "id": "faq_066",
+    "uuid": "5d43da6e-12f1-5a8b-9c6d-30e52409c074",
+    "slug": "can-a-review-exist-without-delivery-66",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 66?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 66
+  },
+  {
+    "id": "faq_067",
+    "uuid": "d2497f88-edaa-54be-a788-7cfcc831659f",
+    "slug": "which-certifications-are-included-67",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 67?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 67
+  },
+  {
+    "id": "faq_068",
+    "uuid": "c2e15bee-ce9f-56c8-8fae-ba0bbdc44c08",
+    "slug": "how-is-seasonality-modeled-68",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 68?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 68
+  },
+  {
+    "id": "faq_069",
+    "uuid": "ae6aa7af-6d08-5dcd-91d9-a055856c70e9",
+    "slug": "what-powers-analytics-69",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 69?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 69
+  },
+  {
+    "id": "faq_070",
+    "uuid": "31418a8b-826f-527a-8f40-8a446510a0d8",
+    "slug": "are-product-images-real-70",
+    "topic": "images",
+    "question": "Are product images real? for scenario 70?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 70
+  },
+  {
+    "id": "faq_071",
+    "uuid": "e1c39619-c5e6-5ab2-8407-9245f809b9dd",
+    "slug": "how-do-buyers-search-fabrics-71",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 71?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 71
+  },
+  {
+    "id": "faq_072",
+    "uuid": "39773f77-d85e-5a49-bc91-5e9f4704cc51",
+    "slug": "how-do-i-compare-suppliers-72",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 72?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 72
+  },
+  {
+    "id": "faq_073",
+    "uuid": "b0dd0955-9dc5-5e7b-9b90-52af6099cf54",
+    "slug": "what-is-moq-73",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 73?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 73
+  },
+  {
+    "id": "faq_074",
+    "uuid": "eda2dc97-6010-578c-b753-dc64dd64fed1",
+    "slug": "how-should-lead-time-be-read-74",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 74?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 74
+  },
+  {
+    "id": "faq_075",
+    "uuid": "54898576-e6bd-547c-a710-13d4065c3323",
+    "slug": "what-does-inventory-show-75",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 75?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 75
+  },
+  {
+    "id": "faq_076",
+    "uuid": "d48bc7c0-abd3-58bc-83b7-7df1de2f04dd",
+    "slug": "can-a-review-exist-without-delivery-76",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 76?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 76
+  },
+  {
+    "id": "faq_077",
+    "uuid": "34a953cf-c13f-53bb-8e87-f3c4ccec540f",
+    "slug": "which-certifications-are-included-77",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 77?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 77
+  },
+  {
+    "id": "faq_078",
+    "uuid": "5f2aaf4c-e5be-5aff-81ad-7e3dfa4c37fc",
+    "slug": "how-is-seasonality-modeled-78",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 78?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 78
+  },
+  {
+    "id": "faq_079",
+    "uuid": "d5dd8c5e-318e-5b6a-ae51-2dfee7105c2d",
+    "slug": "what-powers-analytics-79",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 79?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 79
+  },
+  {
+    "id": "faq_080",
+    "uuid": "c2e40d61-931e-5696-a017-94ba361089d8",
+    "slug": "are-product-images-real-80",
+    "topic": "images",
+    "question": "Are product images real? for scenario 80?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 80
+  },
+  {
+    "id": "faq_081",
+    "uuid": "db68a797-1221-5084-802e-9f369ac571a5",
+    "slug": "how-do-buyers-search-fabrics-81",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 81?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 81
+  },
+  {
+    "id": "faq_082",
+    "uuid": "d004fe37-7080-53f1-9bf1-e6b23e051092",
+    "slug": "how-do-i-compare-suppliers-82",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 82?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 82
+  },
+  {
+    "id": "faq_083",
+    "uuid": "8a5eb31e-cc79-5938-ba4a-37242c5cfa9f",
+    "slug": "what-is-moq-83",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 83?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 83
+  },
+  {
+    "id": "faq_084",
+    "uuid": "7e2ae217-ec82-5c6f-bb4d-7d869469fcaa",
+    "slug": "how-should-lead-time-be-read-84",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 84?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 84
+  },
+  {
+    "id": "faq_085",
+    "uuid": "04f698be-5109-5494-aa97-b66215dae488",
+    "slug": "what-does-inventory-show-85",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 85?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 85
+  },
+  {
+    "id": "faq_086",
+    "uuid": "96460305-9a4c-5206-bdd6-cfe41982b885",
+    "slug": "can-a-review-exist-without-delivery-86",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 86?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 86
+  },
+  {
+    "id": "faq_087",
+    "uuid": "fc08b26d-19b3-5344-9a42-4284e6c78d2c",
+    "slug": "which-certifications-are-included-87",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 87?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 87
+  },
+  {
+    "id": "faq_088",
+    "uuid": "da70ec84-0a57-5bb7-9fa9-e26a3fe7c1ee",
+    "slug": "how-is-seasonality-modeled-88",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 88?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 88
+  },
+  {
+    "id": "faq_089",
+    "uuid": "f486687a-89ad-540c-86ae-5076d5f16804",
+    "slug": "what-powers-analytics-89",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 89?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 89
+  },
+  {
+    "id": "faq_090",
+    "uuid": "21f89719-a51c-5ebd-ae3c-fd0dbdbc8cd1",
+    "slug": "are-product-images-real-90",
+    "topic": "images",
+    "question": "Are product images real? for scenario 90?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 90
+  },
+  {
+    "id": "faq_091",
+    "uuid": "2c368d05-e44a-56b4-964b-541dd126e9a3",
+    "slug": "how-do-buyers-search-fabrics-91",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 91?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 91
+  },
+  {
+    "id": "faq_092",
+    "uuid": "b35e640c-0b47-565d-b841-2a7301c5ba50",
+    "slug": "how-do-i-compare-suppliers-92",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 92?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 92
+  },
+  {
+    "id": "faq_093",
+    "uuid": "28c676c4-b12c-55a5-861e-4a1db85187d3",
+    "slug": "what-is-moq-93",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 93?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 93
+  },
+  {
+    "id": "faq_094",
+    "uuid": "7b6e7a6b-9ce8-5a2a-8006-045ba80110b3",
+    "slug": "how-should-lead-time-be-read-94",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 94?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 94
+  },
+  {
+    "id": "faq_095",
+    "uuid": "703c8f50-3ffa-5b6b-b5ce-a87192d822c2",
+    "slug": "what-does-inventory-show-95",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 95?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 95
+  },
+  {
+    "id": "faq_096",
+    "uuid": "322c07e6-7ed8-51cc-a0b7-27c9cc1f3fdb",
+    "slug": "can-a-review-exist-without-delivery-96",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 96?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 96
+  },
+  {
+    "id": "faq_097",
+    "uuid": "94343870-1d31-5528-8862-e30ff1879db1",
+    "slug": "which-certifications-are-included-97",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 97?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 97
+  },
+  {
+    "id": "faq_098",
+    "uuid": "0ec24a01-a5a5-5940-b209-daaaaf56f557",
+    "slug": "how-is-seasonality-modeled-98",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 98?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 98
+  },
+  {
+    "id": "faq_099",
+    "uuid": "18140aad-516f-5448-b1aa-75a338163a98",
+    "slug": "what-powers-analytics-99",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 99?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 99
+  },
+  {
+    "id": "faq_100",
+    "uuid": "226e4582-b2e0-56bf-83b3-72aa2fac2bbc",
+    "slug": "are-product-images-real-100",
+    "topic": "images",
+    "question": "Are product images real? for scenario 100?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 100
+  },
+  {
+    "id": "faq_101",
+    "uuid": "55be5c55-116f-59c0-8323-58442c05f54e",
+    "slug": "how-do-buyers-search-fabrics-101",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 101?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 101
+  },
+  {
+    "id": "faq_102",
+    "uuid": "77c73d2d-e7be-5282-acc2-3cd746de6f49",
+    "slug": "how-do-i-compare-suppliers-102",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 102?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 102
+  },
+  {
+    "id": "faq_103",
+    "uuid": "ce3c038a-38fe-5e55-9dcf-ba7d0a2c50ee",
+    "slug": "what-is-moq-103",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 103?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 103
+  },
+  {
+    "id": "faq_104",
+    "uuid": "dfe9853f-1cad-51a0-8211-af89e9438459",
+    "slug": "how-should-lead-time-be-read-104",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 104?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 104
+  },
+  {
+    "id": "faq_105",
+    "uuid": "5f95cd7e-0e6b-5e83-bafb-9747c7b79601",
+    "slug": "what-does-inventory-show-105",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 105?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 105
+  },
+  {
+    "id": "faq_106",
+    "uuid": "7d05b8c0-585d-5fea-b551-f221ad4a80b1",
+    "slug": "can-a-review-exist-without-delivery-106",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 106?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 106
+  },
+  {
+    "id": "faq_107",
+    "uuid": "fd8d220c-30b1-5dbe-b1a8-294da7e43127",
+    "slug": "which-certifications-are-included-107",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 107?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 107
+  },
+  {
+    "id": "faq_108",
+    "uuid": "df1ed0a3-cdcf-545f-8ac9-68e1b05568b8",
+    "slug": "how-is-seasonality-modeled-108",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 108?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 108
+  },
+  {
+    "id": "faq_109",
+    "uuid": "c415167c-fdcb-554f-955a-7a35e03bc0cc",
+    "slug": "what-powers-analytics-109",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 109?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 109
+  },
+  {
+    "id": "faq_110",
+    "uuid": "92ff3030-e3dd-5a50-b665-cd6b9094f726",
+    "slug": "are-product-images-real-110",
+    "topic": "images",
+    "question": "Are product images real? for scenario 110?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 110
+  },
+  {
+    "id": "faq_111",
+    "uuid": "7e145cf1-38fd-5f6a-b75f-d6831a565fb9",
+    "slug": "how-do-buyers-search-fabrics-111",
+    "topic": "search",
+    "question": "How do buyers search fabrics? for scenario 111?",
+    "answer": "Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "search",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do buyers search fabrics?",
+      "search",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do buyers search fabrics? Use category, subcategory, GSM, width, finish and certification filters to narrow bulk textile options quickly.",
+    "sortOrder": 111
+  },
+  {
+    "id": "faq_112",
+    "uuid": "fee025fc-2f79-534c-b81b-c2dcbd7ff8a3",
+    "slug": "how-do-i-compare-suppliers-112",
+    "topic": "supplier",
+    "question": "How do I compare suppliers? for scenario 112?",
+    "answer": "Compare rating, response rate, lead time, completed orders, certifications and on-time delivery. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "supplier",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How do I compare suppliers?",
+      "supplier",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How do I compare suppliers? Compare rating, response rate, lead time, completed orders, certifications and on-time delivery.",
+    "sortOrder": 112
+  },
+  {
+    "id": "faq_113",
+    "uuid": "b13ae6b7-7697-56e8-8dfb-d94f06ed2fba",
+    "slug": "what-is-moq-113",
+    "topic": "MOQ",
+    "question": "What is MOQ? for scenario 113?",
+    "answer": "MOQ is the minimum order quantity a supplier accepts for a fabric or construction. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "MOQ",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What is MOQ?",
+      "MOQ",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What is MOQ? MOQ is the minimum order quantity a supplier accepts for a fabric or construction.",
+    "sortOrder": 113
+  },
+  {
+    "id": "faq_114",
+    "uuid": "efa177a2-da54-56d9-94b1-d461b01ce259",
+    "slug": "how-should-lead-time-be-read-114",
+    "topic": "lead time",
+    "question": "How should lead time be read? for scenario 114?",
+    "answer": "Lead time is the expected production and dispatch window in days. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "lead time",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How should lead time be read?",
+      "lead time",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How should lead time be read? Lead time is the expected production and dispatch window in days.",
+    "sortOrder": 114
+  },
+  {
+    "id": "faq_115",
+    "uuid": "89a410c1-ffa9-5e59-9ad5-429f15df13a8",
+    "slug": "what-does-inventory-show-115",
+    "topic": "inventory",
+    "question": "What does inventory show? for scenario 115?",
+    "answer": "Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "inventory",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What does inventory show?",
+      "inventory",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What does inventory show? Inventory shows on-hand quantity, reserved quantity, available stock and the warehouse location.",
+    "sortOrder": 115
+  },
+  {
+    "id": "faq_116",
+    "uuid": "44d4e8c6-5ee3-580a-a92c-46f641ca1d5a",
+    "slug": "can-a-review-exist-without-delivery-116",
+    "topic": "reviews",
+    "question": "Can a review exist without delivery? for scenario 116?",
+    "answer": "No, reviews are tied to completed orders only in this dataset. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "reviews",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Can a review exist without delivery?",
+      "reviews",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Can a review exist without delivery? No, reviews are tied to completed orders only in this dataset.",
+    "sortOrder": 116
+  },
+  {
+    "id": "faq_117",
+    "uuid": "68fec545-d444-556a-ad78-bb2a47bed8e8",
+    "slug": "which-certifications-are-included-117",
+    "topic": "certification",
+    "question": "Which certifications are included? for scenario 117?",
+    "answer": "The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "certification",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Which certifications are included?",
+      "certification",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Which certifications are included? The dataset includes common textile certifications like OEKO-TEX, GOTS, GRS, SEDEX and REACH.",
+    "sortOrder": 117
+  },
+  {
+    "id": "faq_118",
+    "uuid": "268c19b8-0ba6-5ccb-8fa4-df28aa76af3c",
+    "slug": "how-is-seasonality-modeled-118",
+    "topic": "seasonality",
+    "question": "How is seasonality modeled? for scenario 118?",
+    "answer": "Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "seasonality",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "How is seasonality modeled?",
+      "seasonality",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "How is seasonality modeled? Orders are biased toward the buying cycles of school uniforms, hotel linen, winter goods and festive textiles.",
+    "sortOrder": 118
+  },
+  {
+    "id": "faq_119",
+    "uuid": "23bde368-99b4-5005-a8c6-20c52602083f",
+    "slug": "what-powers-analytics-119",
+    "topic": "analytics",
+    "question": "What powers analytics? for scenario 119?",
+    "answer": "Analytics are derived from the generated orders, inventory and reviews. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "analytics",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "What powers analytics?",
+      "analytics",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "What powers analytics? Analytics are derived from the generated orders, inventory and reviews.",
+    "sortOrder": 119
+  },
+  {
+    "id": "faq_120",
+    "uuid": "a708e2d9-3903-54fb-97bd-9e996f4d9693",
+    "slug": "are-product-images-real-120",
+    "topic": "images",
+    "question": "Are product images real? for scenario 120?",
+    "answer": "Only image filenames are provided; no actual images are generated. It is formatted for search and support workflows in LoomAI.",
+    "tags": [
+      "images",
+      "loomai",
+      "textile",
+      "support"
+    ],
+    "searchKeywords": [
+      "Are product images real?",
+      "images",
+      "bulk textile",
+      "procurement"
+    ],
+    "embeddingText": "Are product images real? Only image filenames are provided; no actual images are generated.",
+    "sortOrder": 120
+  }
+]

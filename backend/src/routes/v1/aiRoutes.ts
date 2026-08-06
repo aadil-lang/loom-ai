@@ -5,8 +5,10 @@ import { RAGController } from '../../controllers/ai/RAGController';
 import { BusinessAdvisorController } from '../../controllers/ai/BusinessAdvisorController';
 import { WorkflowController } from '../../controllers/ai/WorkflowController';
 import { authenticate } from '../../middleware/auth/authenticate';
+import { authorizeRoles } from '../../middleware/auth/authorize';
 import { WorkflowOrchestrator } from '../../ai/orchestration/WorkflowOrchestrator';
 import { BackgroundScheduler } from '../../ai/orchestration/BackgroundScheduler';
+import { UnifiedChatController } from '../../controllers/ai/UnifiedChatController';
 
 const router = Router();
 const onboardingController = new OnboardingAgentController();
@@ -14,19 +16,24 @@ const procurementController = new ProcurementAgentController();
 const ragController = new RAGController();
 const advisorController = new BusinessAdvisorController();
 const workflowController = new WorkflowController();
+const unifiedChatController = new UnifiedChatController();
 
 // Initialize the central orchestrator and scheduler
 new WorkflowOrchestrator();
 BackgroundScheduler.getInstance().start();
 
-// Supplier Onboarding Routes
-router.post('/onboarding/start', onboardingController.startSession);
-router.post('/onboarding/chat', onboardingController.chat);
-router.post('/onboarding/confirm', onboardingController.confirmRegistration);
+// Supplier Onboarding Routes (Protected, post-registration)
+router.post('/onboarding/start', authenticate, authorizeRoles('Supplier'), onboardingController.startSession);
+router.post('/onboarding/chat', authenticate, authorizeRoles('Supplier'), onboardingController.chat);
+router.post('/onboarding/completeProfile', authenticate, authorizeRoles('Supplier'), onboardingController.completeProfile);
 
 // Buyer Procurement Routes (Using authenticate middleware later, public for now)
 router.post('/procurement/start', procurementController.startSession);
 router.post('/procurement/chat', procurementController.chat);
+router.post('/procurement/simple-chat', procurementController.simpleChat);
+
+// Unified Multi-Agent Router (Stream)
+router.post('/chat', unifiedChatController.streamChat);
 
 // RAG Routes
 router.post('/rag/index', ragController.indexDocument);

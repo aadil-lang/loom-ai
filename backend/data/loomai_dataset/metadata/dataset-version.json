@@ -1,0 +1,22 @@
+{
+  "datasetName": "LoomAI Synthetic Textile Procurement Dataset",
+  "version": "2.0.0",
+  "schemaVersion": "1.0",
+  "seed": 20260804,
+  "generatedAt": "2026-08-04T21:35:00+05:30",
+  "counts": {
+    "categories": 20,
+    "subcategories": 120,
+    "suppliers": 30,
+    "buyers": 50,
+    "warehouses": 38,
+    "products": 500,
+    "inventory": 500,
+    "orders": 1000,
+    "reviews": 1500,
+    "notifications": 500,
+    "knowledge_articles": 60,
+    "faqs": 120,
+    "analytics": 24
+  }
+}

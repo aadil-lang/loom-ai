@@ -10,15 +10,15 @@ export abstract class BaseRepository<T extends Document> implements IBaseReposit
   }
 
   async findById(id: string): Promise<T | null> {
-    return await this.model.findById(id).exec();
+    return await this.model.findById(id).lean().exec() as T | null;
   }
 
   async findOne(filter: Record<string, unknown>): Promise<T | null> {
-    return await this.model.findOne(filter).exec();
+    return await this.model.findOne(filter).lean().exec() as T | null;
   }
 
   async findAll(filter: Record<string, unknown> = {}, limit = 0, skip = 0): Promise<T[]> {
-    return await this.model.find(filter).limit(limit).skip(skip).exec();
+    return await this.model.find(filter).limit(limit).skip(skip).lean().exec() as T[];
   }
 
   async update(id: string, data: Record<string, unknown>): Promise<T | null> {

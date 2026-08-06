@@ -58,7 +58,7 @@ export class ProductRepository extends BaseRepository<IProduct> {
     const skip = (page - 1) * limit;
 
     const [data, total] = await Promise.all([
-      this.model.find(filter).sort(sort).skip(skip).limit(limit).populate('supplierId', 'name rating').populate('categoryId', 'name slug').exec(),
+      this.model.find(filter).sort(sort).skip(skip).limit(limit).select('-aiDescription -aiSummary -semanticTags -embeddingId -vectorDocumentId -technicalDatasheets -preview3d').populate('supplierId', 'name rating').populate('categoryId', 'name slug').lean().exec() as unknown as Promise<IProduct[]>,
       this.model.countDocuments(filter).exec()
     ]);
 
@@ -66,11 +66,11 @@ export class ProductRepository extends BaseRepository<IProduct> {
   }
 
   async getFeatured(limit = 10): Promise<IProduct[]> {
-    return await this.model.find({ isFeatured: true }).sort({ createdAt: -1 }).limit(limit).populate('supplierId', 'name rating').exec();
+    return await this.model.find({ isFeatured: true }).sort({ createdAt: -1 }).limit(limit).select('-aiDescription -aiSummary -semanticTags -embeddingId -vectorDocumentId -technicalDatasheets -preview3d').populate('supplierId', 'name rating').lean().exec() as IProduct[];
   }
 
   async getNewArrivals(limit = 10): Promise<IProduct[]> {
-    return await this.model.find().sort({ createdAt: -1 }).limit(limit).populate('supplierId', 'name rating').exec();
+    return await this.model.find().sort({ createdAt: -1 }).limit(limit).select('-aiDescription -aiSummary -semanticTags -embeddingId -vectorDocumentId -technicalDatasheets -preview3d').populate('supplierId', 'name rating').lean().exec() as IProduct[];
   }
 
   async getRelated(productId: string, limit = 5): Promise<IProduct[]> {
@@ -81,11 +81,11 @@ export class ProductRepository extends BaseRepository<IProduct> {
     return await this.model.find({
       categoryId: product.categoryId,
       _id: { $ne: new mongoose.Types.ObjectId(productId) }
-    }).limit(limit).exec();
+    }).limit(limit).select('-aiDescription -aiSummary -semanticTags -embeddingId -vectorDocumentId').lean().exec() as IProduct[];
   }
 
   async findBySupplier(supplierId: string): Promise<IProduct[]> {
-    return await this.model.find({ supplierId }).exec();
+    return await this.model.find({ supplierId }).select('-aiDescription -aiSummary -semanticTags -embeddingId -vectorDocumentId').lean().exec() as IProduct[];
   }
 
   async aggregateDashboardStats(supplierId: string) {

@@ -5,12 +5,11 @@ import { HumanMessage } from '@langchain/core/messages';
 import { ApiResponse } from '../../responses/ApiResponse';
 import { OnboardingStage } from '../../ai/schemas/OnboardingSchemas';
 import { v4 as uuidv4 } from 'uuid';
-import { AuthService } from '../../services/auth/AuthService';
-import { RegisterSupplierDto } from '../../dto/auth/RegisterSupplierDto';
+import { SupplierRepository } from '../../repositories/SupplierRepository';
 
 const memoryProvider = new InMemoryProvider();
 const workflow = new SupplierOnboardingWorkflow().build();
-const authService = new AuthService();
+const supplierRepo = new SupplierRepository();
 
 export class OnboardingAgentController {
   
@@ -73,36 +72,40 @@ export class OnboardingAgentController {
     } catch (error) { next(error); }
   };
 
-  confirmRegistration = async (req: Request, res: Response, next: NextFunction) => {
+  completeProfile = async (req: Request, res: Response, next: NextFunction) => {
     try {
-      const { sessionId, password } = req.body;
-      if (!sessionId || !password) {
-        return res.status(400).json(ApiResponse.error('Session ID and password are required', 400));
+      const { sessionId } = req.body;
+      if (!sessionId) {
+        return res.status(400).json(ApiResponse.error('Session ID is required', 400));
+      }
+
+      // Ensure the user is authenticated
+      const supplierId = req.user?.id;
+      if (!supplierId) {
+        return res.status(401).json(ApiResponse.error('Unauthorized. Missing supplier context.', 401));
       }
 
       const state = await memoryProvider.loadContext(sessionId);
       if (state.currentStage !== OnboardingStage.CONFIRMATION) {
-        return res.status(400).json(ApiResponse.error('Onboarding is not complete yet.', 400));
+        return res.status(400).json(ApiResponse.error('Profile completion is not finished yet.', 400));
       }
 
       const data = state.collectedData;
       
-      const dto: RegisterSupplierDto = {
-        email: data.email as string,
-        password,
-        name: data.companyName || 'Unknown',
-        contactName: data.contactName || 'Unknown',
-        location: data.country || 'Unknown',
-        certifications: data.certifications,
-        capabilities: data.fabricTypes
-      };
-
-      const result = await authService.registerSupplier(dto);
+      const updatePayload: Record<string, any> = {};
       
-      // Clear memory after successful registration
+      if (data.companyDescription) updatePayload.companyDescription = data.companyDescription;
+      if (data.operatingRegions && data.operatingRegions.length > 0) updatePayload.operatingRegions = data.operatingRegions;
+      if (data.businessHours) updatePayload.businessHours = data.businessHours;
+      if (data.capabilities && data.capabilities.length > 0) updatePayload.capabilities = data.capabilities;
+      if (data.certifications && data.certifications.length > 0) updatePayload.certifications = data.certifications;
+
+      const updatedSupplier = await supplierRepo.update(supplierId, updatePayload);
+      
+      // Clear memory after successful update
       await memoryProvider.clear(sessionId);
 
-      res.status(201).json(ApiResponse.success(result, 'Supplier registered successfully via AI Onboarding'));
+      res.status(200).json(ApiResponse.success(updatedSupplier, 'Supplier profile enriched successfully via AI Assistant'));
     } catch (error) { next(error); }
   }
 }

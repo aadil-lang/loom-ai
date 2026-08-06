@@ -1,0 +1,3002 @@
+[
+  {
+    "productId": "prod_0001",
+    "sku": "LM-001-001-001",
+    "filename": "cotton-poplin-white-prod-0001.jpg",
+    "altText": "Cotton Poplin in white"
+  },
+  {
+    "productId": "prod_0002",
+    "sku": "LM-001-002-002",
+    "filename": "cotton-twill-ivory-prod-0002.jpg",
+    "altText": "Cotton Twill in ivory"
+  },
+  {
+    "productId": "prod_0003",
+    "sku": "LM-001-003-003",
+    "filename": "cotton-oxford-natural-prod-0003.jpg",
+    "altText": "Cotton Oxford in natural"
+  },
+  {
+    "productId": "prod_0004",
+    "sku": "LM-001-004-004",
+    "filename": "cotton-sateen-sky-blue-prod-0004.jpg",
+    "altText": "Cotton Sateen in sky blue"
+  },
+  {
+    "productId": "prod_0005",
+    "sku": "LM-001-005-005",
+    "filename": "cotton-canvas-navy-prod-0005.jpg",
+    "altText": "Cotton Canvas in navy"
+  },
+  {
+    "productId": "prod_0006",
+    "sku": "LM-001-006-006",
+    "filename": "cotton-voile-black-prod-0006.jpg",
+    "altText": "Cotton Voile in black"
+  },
+  {
+    "productId": "prod_0007",
+    "sku": "LM-001-007-007",
+    "filename": "single-jersey-cotton-charcoal-prod-0007.jpg",
+    "altText": "Single Jersey Cotton in charcoal"
+  },
+  {
+    "productId": "prod_0008",
+    "sku": "LM-001-008-008",
+    "filename": "rib-knit-cotton-olive-prod-0008.jpg",
+    "altText": "Rib Knit Cotton in olive"
+  },
+  {
+    "productId": "prod_0009",
+    "sku": "LM-001-009-009",
+    "filename": "interlock-cotton-beige-prod-0009.jpg",
+    "altText": "Interlock Cotton in beige"
+  },
+  {
+    "productId": "prod_0010",
+    "sku": "LM-001-010-010",
+    "filename": "cotton-pique-sand-prod-0010.jpg",
+    "altText": "Cotton Pique in sand"
+  },
+  {
+    "productId": "prod_0011",
+    "sku": "LM-001-011-011",
+    "filename": "french-terry-indigo-prod-0011.jpg",
+    "altText": "French Terry in indigo"
+  },
+  {
+    "productId": "prod_0012",
+    "sku": "LM-001-012-012",
+    "filename": "cotton-fleece-maroon-prod-0012.jpg",
+    "altText": "Cotton Fleece in maroon"
+  },
+  {
+    "productId": "prod_0013",
+    "sku": "LM-001-097-013",
+    "filename": "organic-cotton-grey-prod-0013.jpg",
+    "altText": "Organic Cotton in grey"
+  },
+  {
+    "productId": "prod_0014",
+    "sku": "LM-001-098-014",
+    "filename": "gots-poplin-teal-prod-0014.jpg",
+    "altText": "GOTS Poplin in teal"
+  },
+  {
+    "productId": "prod_0015",
+    "sku": "LM-001-099-015",
+    "filename": "recycled-polyester-rust-prod-0015.jpg",
+    "altText": "Recycled Polyester in rust"
+  },
+  {
+    "productId": "prod_0016",
+    "sku": "LM-001-100-016",
+    "filename": "bamboo-blend-white-prod-0016.jpg",
+    "altText": "Bamboo Blend in white"
+  },
+  {
+    "productId": "prod_0017",
+    "sku": "LM-001-101-017",
+    "filename": "natural-dye-fabric-ivory-prod-0017.jpg",
+    "altText": "Natural Dye Fabric in ivory"
+  },
+  {
+    "productId": "prod_0018",
+    "sku": "LM-002-085-001",
+    "filename": "drapery-fabric-ivory-prod-0018.jpg",
+    "altText": "Drapery Fabric in ivory"
+  },
+  {
+    "productId": "prod_0019",
+    "sku": "LM-002-086-002",
+    "filename": "upholstery-fabric-natural-prod-0019.jpg",
+    "altText": "Upholstery Fabric in natural"
+  },
+  {
+    "productId": "prod_0020",
+    "sku": "LM-002-087-003",
+    "filename": "blackout-fabric-sky-blue-prod-0020.jpg",
+    "altText": "Blackout Fabric in sky blue"
+  },
+  {
+    "productId": "prod_0021",
+    "sku": "LM-002-088-004",
+    "filename": "curtain-lining-navy-prod-0021.jpg",
+    "altText": "Curtain Lining in navy"
+  },
+  {
+    "productId": "prod_0022",
+    "sku": "LM-002-089-005",
+    "filename": "bedsheet-percale-black-prod-0022.jpg",
+    "altText": "Bedsheet Percale in black"
+  },
+  {
+    "productId": "prod_0023",
+    "sku": "LM-002-090-006",
+    "filename": "cushion-canvas-charcoal-prod-0023.jpg",
+    "altText": "Cushion Canvas in charcoal"
+  },
+  {
+    "productId": "prod_0024",
+    "sku": "LM-002-109-007",
+    "filename": "fusible-interlining-olive-prod-0024.jpg",
+    "altText": "Fusible Interlining in olive"
+  },
+  {
+    "productId": "prod_0025",
+    "sku": "LM-002-110-008",
+    "filename": "nonwoven-interfacing-beige-prod-0025.jpg",
+    "altText": "Nonwoven Interfacing in beige"
+  },
+  {
+    "productId": "prod_0026",
+    "sku": "LM-002-111-009",
+    "filename": "woven-interfacing-sand-prod-0026.jpg",
+    "altText": "Woven Interfacing in sand"
+  },
+  {
+    "productId": "prod_0027",
+    "sku": "LM-002-112-010",
+    "filename": "collar-canvas-indigo-prod-0027.jpg",
+    "altText": "Collar Canvas in indigo"
+  },
+  {
+    "productId": "prod_0028",
+    "sku": "LM-002-113-011",
+    "filename": "sleeve-head-maroon-prod-0028.jpg",
+    "altText": "Sleeve Head in maroon"
+  },
+  {
+    "productId": "prod_0029",
+    "sku": "LM-002-114-012",
+    "filename": "bias-support-grey-prod-0029.jpg",
+    "altText": "Bias Support in grey"
+  },
+  {
+    "productId": "prod_0030",
+    "sku": "LM-002-079-013",
+    "filename": "drill-fabric-teal-prod-0030.jpg",
+    "altText": "Drill Fabric in teal"
+  },
+  {
+    "productId": "prod_0031",
+    "sku": "LM-002-080-014",
+    "filename": "gabardine-rust-prod-0031.jpg",
+    "altText": "Gabardine in rust"
+  },
+  {
+    "productId": "prod_0032",
+    "sku": "LM-002-081-015",
+    "filename": "cargo-twill-white-prod-0032.jpg",
+    "altText": "Cargo Twill in white"
+  },
+  {
+    "productId": "prod_0033",
+    "sku": "LM-002-082-016",
+    "filename": "scrub-fabric-ivory-prod-0033.jpg",
+    "altText": "Scrub Fabric in ivory"
+  },
+  {
+    "productId": "prod_0034",
+    "sku": "LM-002-083-017",
+    "filename": "chef-fabric-natural-prod-0034.jpg",
+    "altText": "Chef Fabric in natural"
+  },
+  {
+    "productId": "prod_0035",
+    "sku": "LM-003-037-001",
+    "filename": "polyester-jersey-natural-prod-0035.jpg",
+    "altText": "Polyester Jersey in natural"
+  },
+  {
+    "productId": "prod_0036",
+    "sku": "LM-003-038-002",
+    "filename": "polyester-interlock-sky-blue-prod-0036.jpg",
+    "altText": "Polyester Interlock in sky blue"
+  },
+  {
+    "productId": "prod_0037",
+    "sku": "LM-003-039-003",
+    "filename": "polyester-mesh-knit-navy-prod-0037.jpg",
+    "altText": "Polyester Mesh Knit in navy"
+  },
+  {
+    "productId": "prod_0038",
+    "sku": "LM-003-040-004",
+    "filename": "polyester-fleece-black-prod-0038.jpg",
+    "altText": "Polyester Fleece in black"
+  },
+  {
+    "productId": "prod_0039",
+    "sku": "LM-003-041-005",
+    "filename": "stretch-polyester-charcoal-prod-0039.jpg",
+    "altText": "Stretch Polyester in charcoal"
+  },
+  {
+    "productId": "prod_0040",
+    "sku": "LM-003-042-006",
+    "filename": "jacquard-knit-olive-prod-0040.jpg",
+    "altText": "Jacquard Knit in olive"
+  },
+  {
+    "productId": "prod_0041",
+    "sku": "LM-003-061-007",
+    "filename": "cotton-spandex-beige-prod-0041.jpg",
+    "altText": "Cotton Spandex in beige"
+  },
+  {
+    "productId": "prod_0042",
+    "sku": "LM-003-062-008",
+    "filename": "poly-spandex-sand-prod-0042.jpg",
+    "altText": "Poly Spandex in sand"
+  },
+  {
+    "productId": "prod_0043",
+    "sku": "LM-003-063-009",
+    "filename": "viscose-spandex-indigo-prod-0043.jpg",
+    "altText": "Viscose Spandex in indigo"
+  },
+  {
+    "productId": "prod_0044",
+    "sku": "LM-003-064-010",
+    "filename": "stretch-denim-maroon-prod-0044.jpg",
+    "altText": "Stretch Denim in maroon"
+  },
+  {
+    "productId": "prod_0045",
+    "sku": "LM-003-065-011",
+    "filename": "rib-stretch-grey-prod-0045.jpg",
+    "altText": "Rib Stretch in grey"
+  },
+  {
+    "productId": "prod_0046",
+    "sku": "LM-003-066-012",
+    "filename": "power-stretch-teal-prod-0046.jpg",
+    "altText": "Power Stretch in teal"
+  },
+  {
+    "productId": "prod_0047",
+    "sku": "LM-003-091-013",
+    "filename": "flame-retardant-fabric-rust-prod-0047.jpg",
+    "altText": "Flame Retardant Fabric in rust"
+  },
+  {
+    "productId": "prod_0048",
+    "sku": "LM-003-092-014",
+    "filename": "water-repellent-fabric-white-prod-0048.jpg",
+    "altText": "Water Repellent Fabric in white"
+  },
+  {
+    "productId": "prod_0049",
+    "sku": "LM-003-093-015",
+    "filename": "anti-static-fabric-ivory-prod-0049.jpg",
+    "altText": "Anti-Static Fabric in ivory"
+  },
+  {
+    "productId": "prod_0050",
+    "sku": "LM-003-094-016",
+    "filename": "uv-resistant-fabric-natural-prod-0050.jpg",
+    "altText": "UV Resistant Fabric in natural"
+  },
+  {
+    "productId": "prod_0051",
+    "sku": "LM-003-095-017",
+    "filename": "breathable-membrane-sky-blue-prod-0051.jpg",
+    "altText": "Breathable Membrane in sky blue"
+  },
+  {
+    "productId": "prod_0052",
+    "sku": "LM-004-019-001",
+    "filename": "mulberry-silk-sky-blue-prod-0052.jpg",
+    "altText": "Mulberry Silk in sky blue"
+  },
+  {
+    "productId": "prod_0053",
+    "sku": "LM-004-020-002",
+    "filename": "tussar-silk-navy-prod-0053.jpg",
+    "altText": "Tussar Silk in navy"
+  },
+  {
+    "productId": "prod_0054",
+    "sku": "LM-004-021-003",
+    "filename": "silk-satin-black-prod-0054.jpg",
+    "altText": "Silk Satin in black"
+  },
+  {
+    "productId": "prod_0055",
+    "sku": "LM-004-022-004",
+    "filename": "silk-georgette-charcoal-prod-0055.jpg",
+    "altText": "Silk Georgette in charcoal"
+  },
+  {
+    "productId": "prod_0056",
+    "sku": "LM-004-023-005",
+    "filename": "crepe-de-chine-olive-prod-0056.jpg",
+    "altText": "Crepe de Chine in olive"
+  },
+  {
+    "productId": "prod_0057",
+    "sku": "LM-004-024-006",
+    "filename": "dupioni-silk-beige-prod-0057.jpg",
+    "altText": "Dupioni Silk in beige"
+  },
+  {
+    "productId": "prod_0058",
+    "sku": "LM-004-073-007",
+    "filename": "woven-jacquard-sand-prod-0058.jpg",
+    "altText": "Woven Jacquard in sand"
+  },
+  {
+    "productId": "prod_0059",
+    "sku": "LM-004-074-008",
+    "filename": "double-jacquard-indigo-prod-0059.jpg",
+    "altText": "Double Jacquard in indigo"
+  },
+  {
+    "productId": "prod_0060",
+    "sku": "LM-004-075-009",
+    "filename": "brocade-maroon-prod-0060.jpg",
+    "altText": "Brocade in maroon"
+  },
+  {
+    "productId": "prod_0061",
+    "sku": "LM-004-076-010",
+    "filename": "damask-grey-prod-0061.jpg",
+    "altText": "Damask in grey"
+  },
+  {
+    "productId": "prod_0062",
+    "sku": "LM-004-077-011",
+    "filename": "tapestry-weave-teal-prod-0062.jpg",
+    "altText": "Tapestry Weave in teal"
+  },
+  {
+    "productId": "prod_0063",
+    "sku": "LM-004-078-012",
+    "filename": "ornamental-jacquard-rust-prod-0063.jpg",
+    "altText": "Ornamental Jacquard in rust"
+  },
+  {
+    "productId": "prod_0064",
+    "sku": "LM-004-103-013",
+    "filename": "khadi-cotton-white-prod-0064.jpg",
+    "altText": "Khadi Cotton in white"
+  },
+  {
+    "productId": "prod_0065",
+    "sku": "LM-004-104-014",
+    "filename": "chanderi-fabric-ivory-prod-0065.jpg",
+    "altText": "Chanderi Fabric in ivory"
+  },
+  {
+    "productId": "prod_0066",
+    "sku": "LM-004-105-015",
+    "filename": "banarasi-brocade-base-natural-prod-0066.jpg",
+    "altText": "Banarasi Brocade Base in natural"
+  },
+  {
+    "productId": "prod_0067",
+    "sku": "LM-004-106-016",
+    "filename": "ikat-weave-sky-blue-prod-0067.jpg",
+    "altText": "Ikat Weave in sky blue"
+  },
+  {
+    "productId": "prod_0068",
+    "sku": "LM-004-107-017",
+    "filename": "ajrakh-print-base-navy-prod-0068.jpg",
+    "altText": "Ajrakh Print Base in navy"
+  },
+  {
+    "productId": "prod_0069",
+    "sku": "LM-005-025-001",
+    "filename": "merino-wool-navy-prod-0069.jpg",
+    "altText": "Merino Wool in navy"
+  },
+  {
+    "productId": "prod_0070",
+    "sku": "LM-005-026-002",
+    "filename": "suiting-wool-black-prod-0070.jpg",
+    "altText": "Suiting Wool in black"
+  },
+  {
+    "productId": "prod_0071",
+    "sku": "LM-005-027-003",
+    "filename": "wool-flannel-charcoal-prod-0071.jpg",
+    "altText": "Wool Flannel in charcoal"
+  },
+  {
+    "productId": "prod_0072",
+    "sku": "LM-005-028-004",
+    "filename": "tweed-wool-olive-prod-0072.jpg",
+    "altText": "Tweed Wool in olive"
+  },
+  {
+    "productId": "prod_0073",
+    "sku": "LM-005-029-005",
+    "filename": "worsted-wool-beige-prod-0073.jpg",
+    "altText": "Worsted Wool in beige"
+  },
+  {
+    "productId": "prod_0074",
+    "sku": "LM-005-030-006",
+    "filename": "boucle-wool-sand-prod-0074.jpg",
+    "altText": "Boucle Wool in sand"
+  },
+  {
+    "productId": "prod_0075",
+    "sku": "LM-005-031-007",
+    "filename": "polyester-plain-weave-indigo-prod-0075.jpg",
+    "altText": "Polyester Plain Weave in indigo"
+  },
+  {
+    "productId": "prod_0076",
+    "sku": "LM-005-032-008",
+    "filename": "polyester-twill-maroon-prod-0076.jpg",
+    "altText": "Polyester Twill in maroon"
+  },
+  {
+    "productId": "prod_0077",
+    "sku": "LM-005-033-009",
+    "filename": "microfibre-woven-grey-prod-0077.jpg",
+    "altText": "Microfibre Woven in grey"
+  },
+  {
+    "productId": "prod_0078",
+    "sku": "LM-005-034-010",
+    "filename": "polyester-dobby-teal-prod-0078.jpg",
+    "altText": "Polyester Dobby in teal"
+  },
+  {
+    "productId": "prod_0079",
+    "sku": "LM-005-035-011",
+    "filename": "polyester-oxford-rust-prod-0079.jpg",
+    "altText": "Polyester Oxford in rust"
+  },
+  {
+    "productId": "prod_0080",
+    "sku": "LM-005-036-012",
+    "filename": "polyester-ripstop-white-prod-0080.jpg",
+    "altText": "Polyester Ripstop in white"
+  },
+  {
+    "productId": "prod_0081",
+    "sku": "LM-005-115-013",
+    "filename": "pu-coated-fabric-ivory-prod-0081.jpg",
+    "altText": "PU Coated Fabric in ivory"
+  },
+  {
+    "productId": "prod_0082",
+    "sku": "LM-005-116-014",
+    "filename": "pvc-coated-fabric-natural-prod-0082.jpg",
+    "altText": "PVC Coated Fabric in natural"
+  },
+  {
+    "productId": "prod_0083",
+    "sku": "LM-005-117-015",
+    "filename": "laminated-fabric-sky-blue-prod-0083.jpg",
+    "altText": "Laminated Fabric in sky blue"
+  },
+  {
+    "productId": "prod_0084",
+    "sku": "LM-005-118-016",
+    "filename": "neoprene-fabric-navy-prod-0084.jpg",
+    "altText": "Neoprene Fabric in navy"
+  },
+  {
+    "productId": "prod_0085",
+    "sku": "LM-005-119-017",
+    "filename": "softshell-fabric-black-prod-0085.jpg",
+    "altText": "Softshell Fabric in black"
+  },
+  {
+    "productId": "prod_0086",
+    "sku": "LM-006-013-001",
+    "filename": "pure-linen-black-prod-0086.jpg",
+    "altText": "Pure Linen in black"
+  },
+  {
+    "productId": "prod_0087",
+    "sku": "LM-006-014-002",
+    "filename": "linen-blend-charcoal-prod-0087.jpg",
+    "altText": "Linen Blend in charcoal"
+  },
+  {
+    "productId": "prod_0088",
+    "sku": "LM-006-015-003",
+    "filename": "slub-linen-olive-prod-0088.jpg",
+    "altText": "Slub Linen in olive"
+  },
+  {
+    "productId": "prod_0089",
+    "sku": "LM-006-016-004",
+    "filename": "heavy-linen-beige-prod-0089.jpg",
+    "altText": "Heavy Linen in beige"
+  },
+  {
+    "productId": "prod_0090",
+    "sku": "LM-006-017-005",
+    "filename": "hemp-blend-sand-prod-0090.jpg",
+    "altText": "Hemp Blend in sand"
+  },
+  {
+    "productId": "prod_0091",
+    "sku": "LM-006-018-006",
+    "filename": "garment-wash-linen-indigo-prod-0091.jpg",
+    "altText": "Garment Wash Linen in indigo"
+  },
+  {
+    "productId": "prod_0092",
+    "sku": "LM-006-043-007",
+    "filename": "rayon-challis-maroon-prod-0092.jpg",
+    "altText": "Rayon Challis in maroon"
+  },
+  {
+    "productId": "prod_0093",
+    "sku": "LM-006-044-008",
+    "filename": "viscose-poplin-grey-prod-0093.jpg",
+    "altText": "Viscose Poplin in grey"
+  },
+  {
+    "productId": "prod_0094",
+    "sku": "LM-006-045-009",
+    "filename": "modal-jersey-teal-prod-0094.jpg",
+    "altText": "Modal Jersey in teal"
+  },
+  {
+    "productId": "prod_0095",
+    "sku": "LM-006-046-010",
+    "filename": "lyocell-twill-rust-prod-0095.jpg",
+    "altText": "Lyocell Twill in rust"
+  },
+  {
+    "productId": "prod_0096",
+    "sku": "LM-006-047-011",
+    "filename": "rayon-crepe-white-prod-0096.jpg",
+    "altText": "Rayon Crepe in white"
+  },
+  {
+    "productId": "prod_0097",
+    "sku": "LM-006-048-012",
+    "filename": "cupro-satin-ivory-prod-0097.jpg",
+    "altText": "Cupro Satin in ivory"
+  },
+  {
+    "productId": "prod_0098",
+    "sku": "LM-006-049-013",
+    "filename": "nylon-taffeta-natural-prod-0098.jpg",
+    "altText": "Nylon Taffeta in natural"
+  },
+  {
+    "productId": "prod_0099",
+    "sku": "LM-006-050-014",
+    "filename": "cordura-nylon-sky-blue-prod-0099.jpg",
+    "altText": "Cordura Nylon in sky blue"
+  },
+  {
+    "productId": "prod_0100",
+    "sku": "LM-006-051-015",
+    "filename": "polyamide-mesh-navy-prod-0100.jpg",
+    "altText": "Polyamide Mesh in navy"
+  },
+  {
+    "productId": "prod_0101",
+    "sku": "LM-006-052-016",
+    "filename": "packcloth-nylon-black-prod-0101.jpg",
+    "altText": "Packcloth Nylon in black"
+  },
+  {
+    "productId": "prod_0102",
+    "sku": "LM-006-053-017",
+    "filename": "ripstop-nylon-charcoal-prod-0102.jpg",
+    "altText": "Ripstop Nylon in charcoal"
+  },
+  {
+    "productId": "prod_0103",
+    "sku": "LM-007-001-001",
+    "filename": "cotton-poplin-charcoal-prod-0103.jpg",
+    "altText": "Cotton Poplin in charcoal"
+  },
+  {
+    "productId": "prod_0104",
+    "sku": "LM-007-002-002",
+    "filename": "cotton-twill-olive-prod-0104.jpg",
+    "altText": "Cotton Twill in olive"
+  },
+  {
+    "productId": "prod_0105",
+    "sku": "LM-007-003-003",
+    "filename": "cotton-oxford-beige-prod-0105.jpg",
+    "altText": "Cotton Oxford in beige"
+  },
+  {
+    "productId": "prod_0106",
+    "sku": "LM-007-004-004",
+    "filename": "cotton-sateen-sand-prod-0106.jpg",
+    "altText": "Cotton Sateen in sand"
+  },
+  {
+    "productId": "prod_0107",
+    "sku": "LM-007-005-005",
+    "filename": "cotton-canvas-indigo-prod-0107.jpg",
+    "altText": "Cotton Canvas in indigo"
+  },
+  {
+    "productId": "prod_0108",
+    "sku": "LM-007-006-006",
+    "filename": "cotton-voile-maroon-prod-0108.jpg",
+    "altText": "Cotton Voile in maroon"
+  },
+  {
+    "productId": "prod_0109",
+    "sku": "LM-007-007-007",
+    "filename": "single-jersey-cotton-grey-prod-0109.jpg",
+    "altText": "Single Jersey Cotton in grey"
+  },
+  {
+    "productId": "prod_0110",
+    "sku": "LM-007-008-008",
+    "filename": "rib-knit-cotton-teal-prod-0110.jpg",
+    "altText": "Rib Knit Cotton in teal"
+  },
+  {
+    "productId": "prod_0111",
+    "sku": "LM-007-009-009",
+    "filename": "interlock-cotton-rust-prod-0111.jpg",
+    "altText": "Interlock Cotton in rust"
+  },
+  {
+    "productId": "prod_0112",
+    "sku": "LM-007-010-010",
+    "filename": "cotton-pique-white-prod-0112.jpg",
+    "altText": "Cotton Pique in white"
+  },
+  {
+    "productId": "prod_0113",
+    "sku": "LM-007-011-011",
+    "filename": "french-terry-ivory-prod-0113.jpg",
+    "altText": "French Terry in ivory"
+  },
+  {
+    "productId": "prod_0114",
+    "sku": "LM-007-012-012",
+    "filename": "cotton-fleece-natural-prod-0114.jpg",
+    "altText": "Cotton Fleece in natural"
+  },
+  {
+    "productId": "prod_0115",
+    "sku": "LM-007-097-013",
+    "filename": "organic-cotton-sky-blue-prod-0115.jpg",
+    "altText": "Organic Cotton in sky blue"
+  },
+  {
+    "productId": "prod_0116",
+    "sku": "LM-007-098-014",
+    "filename": "gots-poplin-navy-prod-0116.jpg",
+    "altText": "GOTS Poplin in navy"
+  },
+  {
+    "productId": "prod_0117",
+    "sku": "LM-007-099-015",
+    "filename": "recycled-polyester-black-prod-0117.jpg",
+    "altText": "Recycled Polyester in black"
+  },
+  {
+    "productId": "prod_0118",
+    "sku": "LM-007-100-016",
+    "filename": "bamboo-blend-charcoal-prod-0118.jpg",
+    "altText": "Bamboo Blend in charcoal"
+  },
+  {
+    "productId": "prod_0119",
+    "sku": "LM-007-101-017",
+    "filename": "natural-dye-fabric-olive-prod-0119.jpg",
+    "altText": "Natural Dye Fabric in olive"
+  },
+  {
+    "productId": "prod_0120",
+    "sku": "LM-008-085-001",
+    "filename": "drapery-fabric-olive-prod-0120.jpg",
+    "altText": "Drapery Fabric in olive"
+  },
+  {
+    "productId": "prod_0121",
+    "sku": "LM-008-086-002",
+    "filename": "upholstery-fabric-beige-prod-0121.jpg",
+    "altText": "Upholstery Fabric in beige"
+  },
+  {
+    "productId": "prod_0122",
+    "sku": "LM-008-087-003",
+    "filename": "blackout-fabric-sand-prod-0122.jpg",
+    "altText": "Blackout Fabric in sand"
+  },
+  {
+    "productId": "prod_0123",
+    "sku": "LM-008-088-004",
+    "filename": "curtain-lining-indigo-prod-0123.jpg",
+    "altText": "Curtain Lining in indigo"
+  },
+  {
+    "productId": "prod_0124",
+    "sku": "LM-008-089-005",
+    "filename": "bedsheet-percale-maroon-prod-0124.jpg",
+    "altText": "Bedsheet Percale in maroon"
+  },
+  {
+    "productId": "prod_0125",
+    "sku": "LM-008-090-006",
+    "filename": "cushion-canvas-grey-prod-0125.jpg",
+    "altText": "Cushion Canvas in grey"
+  },
+  {
+    "productId": "prod_0126",
+    "sku": "LM-008-109-007",
+    "filename": "fusible-interlining-teal-prod-0126.jpg",
+    "altText": "Fusible Interlining in teal"
+  },
+  {
+    "productId": "prod_0127",
+    "sku": "LM-008-110-008",
+    "filename": "nonwoven-interfacing-rust-prod-0127.jpg",
+    "altText": "Nonwoven Interfacing in rust"
+  },
+  {
+    "productId": "prod_0128",
+    "sku": "LM-008-111-009",
+    "filename": "woven-interfacing-white-prod-0128.jpg",
+    "altText": "Woven Interfacing in white"
+  },
+  {
+    "productId": "prod_0129",
+    "sku": "LM-008-112-010",
+    "filename": "collar-canvas-ivory-prod-0129.jpg",
+    "altText": "Collar Canvas in ivory"
+  },
+  {
+    "productId": "prod_0130",
+    "sku": "LM-008-113-011",
+    "filename": "sleeve-head-natural-prod-0130.jpg",
+    "altText": "Sleeve Head in natural"
+  },
+  {
+    "productId": "prod_0131",
+    "sku": "LM-008-114-012",
+    "filename": "bias-support-sky-blue-prod-0131.jpg",
+    "altText": "Bias Support in sky blue"
+  },
+  {
+    "productId": "prod_0132",
+    "sku": "LM-008-079-013",
+    "filename": "drill-fabric-navy-prod-0132.jpg",
+    "altText": "Drill Fabric in navy"
+  },
+  {
+    "productId": "prod_0133",
+    "sku": "LM-008-080-014",
+    "filename": "gabardine-black-prod-0133.jpg",
+    "altText": "Gabardine in black"
+  },
+  {
+    "productId": "prod_0134",
+    "sku": "LM-008-081-015",
+    "filename": "cargo-twill-charcoal-prod-0134.jpg",
+    "altText": "Cargo Twill in charcoal"
+  },
+  {
+    "productId": "prod_0135",
+    "sku": "LM-008-082-016",
+    "filename": "scrub-fabric-olive-prod-0135.jpg",
+    "altText": "Scrub Fabric in olive"
+  },
+  {
+    "productId": "prod_0136",
+    "sku": "LM-008-083-017",
+    "filename": "chef-fabric-beige-prod-0136.jpg",
+    "altText": "Chef Fabric in beige"
+  },
+  {
+    "productId": "prod_0137",
+    "sku": "LM-009-037-001",
+    "filename": "polyester-jersey-beige-prod-0137.jpg",
+    "altText": "Polyester Jersey in beige"
+  },
+  {
+    "productId": "prod_0138",
+    "sku": "LM-009-038-002",
+    "filename": "polyester-interlock-sand-prod-0138.jpg",
+    "altText": "Polyester Interlock in sand"
+  },
+  {
+    "productId": "prod_0139",
+    "sku": "LM-009-039-003",
+    "filename": "polyester-mesh-knit-indigo-prod-0139.jpg",
+    "altText": "Polyester Mesh Knit in indigo"
+  },
+  {
+    "productId": "prod_0140",
+    "sku": "LM-009-040-004",
+    "filename": "polyester-fleece-maroon-prod-0140.jpg",
+    "altText": "Polyester Fleece in maroon"
+  },
+  {
+    "productId": "prod_0141",
+    "sku": "LM-009-041-005",
+    "filename": "stretch-polyester-grey-prod-0141.jpg",
+    "altText": "Stretch Polyester in grey"
+  },
+  {
+    "productId": "prod_0142",
+    "sku": "LM-009-042-006",
+    "filename": "jacquard-knit-teal-prod-0142.jpg",
+    "altText": "Jacquard Knit in teal"
+  },
+  {
+    "productId": "prod_0143",
+    "sku": "LM-009-061-007",
+    "filename": "cotton-spandex-rust-prod-0143.jpg",
+    "altText": "Cotton Spandex in rust"
+  },
+  {
+    "productId": "prod_0144",
+    "sku": "LM-009-062-008",
+    "filename": "poly-spandex-white-prod-0144.jpg",
+    "altText": "Poly Spandex in white"
+  },
+  {
+    "productId": "prod_0145",
+    "sku": "LM-009-063-009",
+    "filename": "viscose-spandex-ivory-prod-0145.jpg",
+    "altText": "Viscose Spandex in ivory"
+  },
+  {
+    "productId": "prod_0146",
+    "sku": "LM-009-064-010",
+    "filename": "stretch-denim-natural-prod-0146.jpg",
+    "altText": "Stretch Denim in natural"
+  },
+  {
+    "productId": "prod_0147",
+    "sku": "LM-009-065-011",
+    "filename": "rib-stretch-sky-blue-prod-0147.jpg",
+    "altText": "Rib Stretch in sky blue"
+  },
+  {
+    "productId": "prod_0148",
+    "sku": "LM-009-066-012",
+    "filename": "power-stretch-navy-prod-0148.jpg",
+    "altText": "Power Stretch in navy"
+  },
+  {
+    "productId": "prod_0149",
+    "sku": "LM-009-091-013",
+    "filename": "flame-retardant-fabric-black-prod-0149.jpg",
+    "altText": "Flame Retardant Fabric in black"
+  },
+  {
+    "productId": "prod_0150",
+    "sku": "LM-009-092-014",
+    "filename": "water-repellent-fabric-charcoal-prod-0150.jpg",
+    "altText": "Water Repellent Fabric in charcoal"
+  },
+  {
+    "productId": "prod_0151",
+    "sku": "LM-009-093-015",
+    "filename": "anti-static-fabric-olive-prod-0151.jpg",
+    "altText": "Anti-Static Fabric in olive"
+  },
+  {
+    "productId": "prod_0152",
+    "sku": "LM-009-094-016",
+    "filename": "uv-resistant-fabric-beige-prod-0152.jpg",
+    "altText": "UV Resistant Fabric in beige"
+  },
+  {
+    "productId": "prod_0153",
+    "sku": "LM-009-095-017",
+    "filename": "breathable-membrane-sand-prod-0153.jpg",
+    "altText": "Breathable Membrane in sand"
+  },
+  {
+    "productId": "prod_0154",
+    "sku": "LM-010-019-001",
+    "filename": "mulberry-silk-sand-prod-0154.jpg",
+    "altText": "Mulberry Silk in sand"
+  },
+  {
+    "productId": "prod_0155",
+    "sku": "LM-010-020-002",
+    "filename": "tussar-silk-indigo-prod-0155.jpg",
+    "altText": "Tussar Silk in indigo"
+  },
+  {
+    "productId": "prod_0156",
+    "sku": "LM-010-021-003",
+    "filename": "silk-satin-maroon-prod-0156.jpg",
+    "altText": "Silk Satin in maroon"
+  },
+  {
+    "productId": "prod_0157",
+    "sku": "LM-010-022-004",
+    "filename": "silk-georgette-grey-prod-0157.jpg",
+    "altText": "Silk Georgette in grey"
+  },
+  {
+    "productId": "prod_0158",
+    "sku": "LM-010-023-005",
+    "filename": "crepe-de-chine-teal-prod-0158.jpg",
+    "altText": "Crepe de Chine in teal"
+  },
+  {
+    "productId": "prod_0159",
+    "sku": "LM-010-024-006",
+    "filename": "dupioni-silk-rust-prod-0159.jpg",
+    "altText": "Dupioni Silk in rust"
+  },
+  {
+    "productId": "prod_0160",
+    "sku": "LM-010-073-007",
+    "filename": "woven-jacquard-white-prod-0160.jpg",
+    "altText": "Woven Jacquard in white"
+  },
+  {
+    "productId": "prod_0161",
+    "sku": "LM-010-074-008",
+    "filename": "double-jacquard-ivory-prod-0161.jpg",
+    "altText": "Double Jacquard in ivory"
+  },
+  {
+    "productId": "prod_0162",
+    "sku": "LM-010-075-009",
+    "filename": "brocade-natural-prod-0162.jpg",
+    "altText": "Brocade in natural"
+  },
+  {
+    "productId": "prod_0163",
+    "sku": "LM-010-076-010",
+    "filename": "damask-sky-blue-prod-0163.jpg",
+    "altText": "Damask in sky blue"
+  },
+  {
+    "productId": "prod_0164",
+    "sku": "LM-010-077-011",
+    "filename": "tapestry-weave-navy-prod-0164.jpg",
+    "altText": "Tapestry Weave in navy"
+  },
+  {
+    "productId": "prod_0165",
+    "sku": "LM-010-078-012",
+    "filename": "ornamental-jacquard-black-prod-0165.jpg",
+    "altText": "Ornamental Jacquard in black"
+  },
+  {
+    "productId": "prod_0166",
+    "sku": "LM-010-103-013",
+    "filename": "khadi-cotton-charcoal-prod-0166.jpg",
+    "altText": "Khadi Cotton in charcoal"
+  },
+  {
+    "productId": "prod_0167",
+    "sku": "LM-010-104-014",
+    "filename": "chanderi-fabric-olive-prod-0167.jpg",
+    "altText": "Chanderi Fabric in olive"
+  },
+  {
+    "productId": "prod_0168",
+    "sku": "LM-010-105-015",
+    "filename": "banarasi-brocade-base-beige-prod-0168.jpg",
+    "altText": "Banarasi Brocade Base in beige"
+  },
+  {
+    "productId": "prod_0169",
+    "sku": "LM-010-106-016",
+    "filename": "ikat-weave-sand-prod-0169.jpg",
+    "altText": "Ikat Weave in sand"
+  },
+  {
+    "productId": "prod_0170",
+    "sku": "LM-010-107-017",
+    "filename": "ajrakh-print-base-indigo-prod-0170.jpg",
+    "altText": "Ajrakh Print Base in indigo"
+  },
+  {
+    "productId": "prod_0171",
+    "sku": "LM-011-025-001",
+    "filename": "merino-wool-indigo-prod-0171.jpg",
+    "altText": "Merino Wool in indigo"
+  },
+  {
+    "productId": "prod_0172",
+    "sku": "LM-011-026-002",
+    "filename": "suiting-wool-maroon-prod-0172.jpg",
+    "altText": "Suiting Wool in maroon"
+  },
+  {
+    "productId": "prod_0173",
+    "sku": "LM-011-027-003",
+    "filename": "wool-flannel-grey-prod-0173.jpg",
+    "altText": "Wool Flannel in grey"
+  },
+  {
+    "productId": "prod_0174",
+    "sku": "LM-011-028-004",
+    "filename": "tweed-wool-teal-prod-0174.jpg",
+    "altText": "Tweed Wool in teal"
+  },
+  {
+    "productId": "prod_0175",
+    "sku": "LM-011-029-005",
+    "filename": "worsted-wool-rust-prod-0175.jpg",
+    "altText": "Worsted Wool in rust"
+  },
+  {
+    "productId": "prod_0176",
+    "sku": "LM-011-030-006",
+    "filename": "boucle-wool-white-prod-0176.jpg",
+    "altText": "Boucle Wool in white"
+  },
+  {
+    "productId": "prod_0177",
+    "sku": "LM-011-031-007",
+    "filename": "polyester-plain-weave-ivory-prod-0177.jpg",
+    "altText": "Polyester Plain Weave in ivory"
+  },
+  {
+    "productId": "prod_0178",
+    "sku": "LM-011-032-008",
+    "filename": "polyester-twill-natural-prod-0178.jpg",
+    "altText": "Polyester Twill in natural"
+  },
+  {
+    "productId": "prod_0179",
+    "sku": "LM-011-033-009",
+    "filename": "microfibre-woven-sky-blue-prod-0179.jpg",
+    "altText": "Microfibre Woven in sky blue"
+  },
+  {
+    "productId": "prod_0180",
+    "sku": "LM-011-034-010",
+    "filename": "polyester-dobby-navy-prod-0180.jpg",
+    "altText": "Polyester Dobby in navy"
+  },
+  {
+    "productId": "prod_0181",
+    "sku": "LM-011-035-011",
+    "filename": "polyester-oxford-black-prod-0181.jpg",
+    "altText": "Polyester Oxford in black"
+  },
+  {
+    "productId": "prod_0182",
+    "sku": "LM-011-036-012",
+    "filename": "polyester-ripstop-charcoal-prod-0182.jpg",
+    "altText": "Polyester Ripstop in charcoal"
+  },
+  {
+    "productId": "prod_0183",
+    "sku": "LM-011-115-013",
+    "filename": "pu-coated-fabric-olive-prod-0183.jpg",
+    "altText": "PU Coated Fabric in olive"
+  },
+  {
+    "productId": "prod_0184",
+    "sku": "LM-011-116-014",
+    "filename": "pvc-coated-fabric-beige-prod-0184.jpg",
+    "altText": "PVC Coated Fabric in beige"
+  },
+  {
+    "productId": "prod_0185",
+    "sku": "LM-011-117-015",
+    "filename": "laminated-fabric-sand-prod-0185.jpg",
+    "altText": "Laminated Fabric in sand"
+  },
+  {
+    "productId": "prod_0186",
+    "sku": "LM-011-118-016",
+    "filename": "neoprene-fabric-indigo-prod-0186.jpg",
+    "altText": "Neoprene Fabric in indigo"
+  },
+  {
+    "productId": "prod_0187",
+    "sku": "LM-011-119-017",
+    "filename": "softshell-fabric-maroon-prod-0187.jpg",
+    "altText": "Softshell Fabric in maroon"
+  },
+  {
+    "productId": "prod_0188",
+    "sku": "LM-012-013-001",
+    "filename": "pure-linen-maroon-prod-0188.jpg",
+    "altText": "Pure Linen in maroon"
+  },
+  {
+    "productId": "prod_0189",
+    "sku": "LM-012-014-002",
+    "filename": "linen-blend-grey-prod-0189.jpg",
+    "altText": "Linen Blend in grey"
+  },
+  {
+    "productId": "prod_0190",
+    "sku": "LM-012-015-003",
+    "filename": "slub-linen-teal-prod-0190.jpg",
+    "altText": "Slub Linen in teal"
+  },
+  {
+    "productId": "prod_0191",
+    "sku": "LM-012-016-004",
+    "filename": "heavy-linen-rust-prod-0191.jpg",
+    "altText": "Heavy Linen in rust"
+  },
+  {
+    "productId": "prod_0192",
+    "sku": "LM-012-017-005",
+    "filename": "hemp-blend-white-prod-0192.jpg",
+    "altText": "Hemp Blend in white"
+  },
+  {
+    "productId": "prod_0193",
+    "sku": "LM-012-018-006",
+    "filename": "garment-wash-linen-ivory-prod-0193.jpg",
+    "altText": "Garment Wash Linen in ivory"
+  },
+  {
+    "productId": "prod_0194",
+    "sku": "LM-012-043-007",
+    "filename": "rayon-challis-natural-prod-0194.jpg",
+    "altText": "Rayon Challis in natural"
+  },
+  {
+    "productId": "prod_0195",
+    "sku": "LM-012-044-008",
+    "filename": "viscose-poplin-sky-blue-prod-0195.jpg",
+    "altText": "Viscose Poplin in sky blue"
+  },
+  {
+    "productId": "prod_0196",
+    "sku": "LM-012-045-009",
+    "filename": "modal-jersey-navy-prod-0196.jpg",
+    "altText": "Modal Jersey in navy"
+  },
+  {
+    "productId": "prod_0197",
+    "sku": "LM-012-046-010",
+    "filename": "lyocell-twill-black-prod-0197.jpg",
+    "altText": "Lyocell Twill in black"
+  },
+  {
+    "productId": "prod_0198",
+    "sku": "LM-012-047-011",
+    "filename": "rayon-crepe-charcoal-prod-0198.jpg",
+    "altText": "Rayon Crepe in charcoal"
+  },
+  {
+    "productId": "prod_0199",
+    "sku": "LM-012-048-012",
+    "filename": "cupro-satin-olive-prod-0199.jpg",
+    "altText": "Cupro Satin in olive"
+  },
+  {
+    "productId": "prod_0200",
+    "sku": "LM-012-049-013",
+    "filename": "nylon-taffeta-beige-prod-0200.jpg",
+    "altText": "Nylon Taffeta in beige"
+  },
+  {
+    "productId": "prod_0201",
+    "sku": "LM-012-050-014",
+    "filename": "cordura-nylon-sand-prod-0201.jpg",
+    "altText": "Cordura Nylon in sand"
+  },
+  {
+    "productId": "prod_0202",
+    "sku": "LM-012-051-015",
+    "filename": "polyamide-mesh-indigo-prod-0202.jpg",
+    "altText": "Polyamide Mesh in indigo"
+  },
+  {
+    "productId": "prod_0203",
+    "sku": "LM-012-052-016",
+    "filename": "packcloth-nylon-maroon-prod-0203.jpg",
+    "altText": "Packcloth Nylon in maroon"
+  },
+  {
+    "productId": "prod_0204",
+    "sku": "LM-012-053-017",
+    "filename": "ripstop-nylon-grey-prod-0204.jpg",
+    "altText": "Ripstop Nylon in grey"
+  },
+  {
+    "productId": "prod_0205",
+    "sku": "LM-013-001-001",
+    "filename": "cotton-poplin-grey-prod-0205.jpg",
+    "altText": "Cotton Poplin in grey"
+  },
+  {
+    "productId": "prod_0206",
+    "sku": "LM-013-002-002",
+    "filename": "cotton-twill-teal-prod-0206.jpg",
+    "altText": "Cotton Twill in teal"
+  },
+  {
+    "productId": "prod_0207",
+    "sku": "LM-013-003-003",
+    "filename": "cotton-oxford-rust-prod-0207.jpg",
+    "altText": "Cotton Oxford in rust"
+  },
+  {
+    "productId": "prod_0208",
+    "sku": "LM-013-004-004",
+    "filename": "cotton-sateen-white-prod-0208.jpg",
+    "altText": "Cotton Sateen in white"
+  },
+  {
+    "productId": "prod_0209",
+    "sku": "LM-013-005-005",
+    "filename": "cotton-canvas-ivory-prod-0209.jpg",
+    "altText": "Cotton Canvas in ivory"
+  },
+  {
+    "productId": "prod_0210",
+    "sku": "LM-013-006-006",
+    "filename": "cotton-voile-natural-prod-0210.jpg",
+    "altText": "Cotton Voile in natural"
+  },
+  {
+    "productId": "prod_0211",
+    "sku": "LM-013-007-007",
+    "filename": "single-jersey-cotton-sky-blue-prod-0211.jpg",
+    "altText": "Single Jersey Cotton in sky blue"
+  },
+  {
+    "productId": "prod_0212",
+    "sku": "LM-013-008-008",
+    "filename": "rib-knit-cotton-navy-prod-0212.jpg",
+    "altText": "Rib Knit Cotton in navy"
+  },
+  {
+    "productId": "prod_0213",
+    "sku": "LM-013-009-009",
+    "filename": "interlock-cotton-black-prod-0213.jpg",
+    "altText": "Interlock Cotton in black"
+  },
+  {
+    "productId": "prod_0214",
+    "sku": "LM-013-010-010",
+    "filename": "cotton-pique-charcoal-prod-0214.jpg",
+    "altText": "Cotton Pique in charcoal"
+  },
+  {
+    "productId": "prod_0215",
+    "sku": "LM-013-011-011",
+    "filename": "french-terry-olive-prod-0215.jpg",
+    "altText": "French Terry in olive"
+  },
+  {
+    "productId": "prod_0216",
+    "sku": "LM-013-012-012",
+    "filename": "cotton-fleece-beige-prod-0216.jpg",
+    "altText": "Cotton Fleece in beige"
+  },
+  {
+    "productId": "prod_0217",
+    "sku": "LM-013-097-013",
+    "filename": "organic-cotton-sand-prod-0217.jpg",
+    "altText": "Organic Cotton in sand"
+  },
+  {
+    "productId": "prod_0218",
+    "sku": "LM-013-098-014",
+    "filename": "gots-poplin-indigo-prod-0218.jpg",
+    "altText": "GOTS Poplin in indigo"
+  },
+  {
+    "productId": "prod_0219",
+    "sku": "LM-013-099-015",
+    "filename": "recycled-polyester-maroon-prod-0219.jpg",
+    "altText": "Recycled Polyester in maroon"
+  },
+  {
+    "productId": "prod_0220",
+    "sku": "LM-013-100-016",
+    "filename": "bamboo-blend-grey-prod-0220.jpg",
+    "altText": "Bamboo Blend in grey"
+  },
+  {
+    "productId": "prod_0221",
+    "sku": "LM-013-101-017",
+    "filename": "natural-dye-fabric-teal-prod-0221.jpg",
+    "altText": "Natural Dye Fabric in teal"
+  },
+  {
+    "productId": "prod_0222",
+    "sku": "LM-014-085-001",
+    "filename": "drapery-fabric-teal-prod-0222.jpg",
+    "altText": "Drapery Fabric in teal"
+  },
+  {
+    "productId": "prod_0223",
+    "sku": "LM-014-086-002",
+    "filename": "upholstery-fabric-rust-prod-0223.jpg",
+    "altText": "Upholstery Fabric in rust"
+  },
+  {
+    "productId": "prod_0224",
+    "sku": "LM-014-087-003",
+    "filename": "blackout-fabric-white-prod-0224.jpg",
+    "altText": "Blackout Fabric in white"
+  },
+  {
+    "productId": "prod_0225",
+    "sku": "LM-014-088-004",
+    "filename": "curtain-lining-ivory-prod-0225.jpg",
+    "altText": "Curtain Lining in ivory"
+  },
+  {
+    "productId": "prod_0226",
+    "sku": "LM-014-089-005",
+    "filename": "bedsheet-percale-natural-prod-0226.jpg",
+    "altText": "Bedsheet Percale in natural"
+  },
+  {
+    "productId": "prod_0227",
+    "sku": "LM-014-090-006",
+    "filename": "cushion-canvas-sky-blue-prod-0227.jpg",
+    "altText": "Cushion Canvas in sky blue"
+  },
+  {
+    "productId": "prod_0228",
+    "sku": "LM-014-109-007",
+    "filename": "fusible-interlining-navy-prod-0228.jpg",
+    "altText": "Fusible Interlining in navy"
+  },
+  {
+    "productId": "prod_0229",
+    "sku": "LM-014-110-008",
+    "filename": "nonwoven-interfacing-black-prod-0229.jpg",
+    "altText": "Nonwoven Interfacing in black"
+  },
+  {
+    "productId": "prod_0230",
+    "sku": "LM-014-111-009",
+    "filename": "woven-interfacing-charcoal-prod-0230.jpg",
+    "altText": "Woven Interfacing in charcoal"
+  },
+  {
+    "productId": "prod_0231",
+    "sku": "LM-014-112-010",
+    "filename": "collar-canvas-olive-prod-0231.jpg",
+    "altText": "Collar Canvas in olive"
+  },
+  {
+    "productId": "prod_0232",
+    "sku": "LM-014-113-011",
+    "filename": "sleeve-head-beige-prod-0232.jpg",
+    "altText": "Sleeve Head in beige"
+  },
+  {
+    "productId": "prod_0233",
+    "sku": "LM-014-114-012",
+    "filename": "bias-support-sand-prod-0233.jpg",
+    "altText": "Bias Support in sand"
+  },
+  {
+    "productId": "prod_0234",
+    "sku": "LM-014-079-013",
+    "filename": "drill-fabric-indigo-prod-0234.jpg",
+    "altText": "Drill Fabric in indigo"
+  },
+  {
+    "productId": "prod_0235",
+    "sku": "LM-014-080-014",
+    "filename": "gabardine-maroon-prod-0235.jpg",
+    "altText": "Gabardine in maroon"
+  },
+  {
+    "productId": "prod_0236",
+    "sku": "LM-014-081-015",
+    "filename": "cargo-twill-grey-prod-0236.jpg",
+    "altText": "Cargo Twill in grey"
+  },
+  {
+    "productId": "prod_0237",
+    "sku": "LM-014-082-016",
+    "filename": "scrub-fabric-teal-prod-0237.jpg",
+    "altText": "Scrub Fabric in teal"
+  },
+  {
+    "productId": "prod_0238",
+    "sku": "LM-014-083-017",
+    "filename": "chef-fabric-rust-prod-0238.jpg",
+    "altText": "Chef Fabric in rust"
+  },
+  {
+    "productId": "prod_0239",
+    "sku": "LM-015-037-001",
+    "filename": "polyester-jersey-rust-prod-0239.jpg",
+    "altText": "Polyester Jersey in rust"
+  },
+  {
+    "productId": "prod_0240",
+    "sku": "LM-015-038-002",
+    "filename": "polyester-interlock-white-prod-0240.jpg",
+    "altText": "Polyester Interlock in white"
+  },
+  {
+    "productId": "prod_0241",
+    "sku": "LM-015-039-003",
+    "filename": "polyester-mesh-knit-ivory-prod-0241.jpg",
+    "altText": "Polyester Mesh Knit in ivory"
+  },
+  {
+    "productId": "prod_0242",
+    "sku": "LM-015-040-004",
+    "filename": "polyester-fleece-natural-prod-0242.jpg",
+    "altText": "Polyester Fleece in natural"
+  },
+  {
+    "productId": "prod_0243",
+    "sku": "LM-015-041-005",
+    "filename": "stretch-polyester-sky-blue-prod-0243.jpg",
+    "altText": "Stretch Polyester in sky blue"
+  },
+  {
+    "productId": "prod_0244",
+    "sku": "LM-015-042-006",
+    "filename": "jacquard-knit-navy-prod-0244.jpg",
+    "altText": "Jacquard Knit in navy"
+  },
+  {
+    "productId": "prod_0245",
+    "sku": "LM-015-061-007",
+    "filename": "cotton-spandex-black-prod-0245.jpg",
+    "altText": "Cotton Spandex in black"
+  },
+  {
+    "productId": "prod_0246",
+    "sku": "LM-015-062-008",
+    "filename": "poly-spandex-charcoal-prod-0246.jpg",
+    "altText": "Poly Spandex in charcoal"
+  },
+  {
+    "productId": "prod_0247",
+    "sku": "LM-015-063-009",
+    "filename": "viscose-spandex-olive-prod-0247.jpg",
+    "altText": "Viscose Spandex in olive"
+  },
+  {
+    "productId": "prod_0248",
+    "sku": "LM-015-064-010",
+    "filename": "stretch-denim-beige-prod-0248.jpg",
+    "altText": "Stretch Denim in beige"
+  },
+  {
+    "productId": "prod_0249",
+    "sku": "LM-015-065-011",
+    "filename": "rib-stretch-sand-prod-0249.jpg",
+    "altText": "Rib Stretch in sand"
+  },
+  {
+    "productId": "prod_0250",
+    "sku": "LM-015-066-012",
+    "filename": "power-stretch-indigo-prod-0250.jpg",
+    "altText": "Power Stretch in indigo"
+  },
+  {
+    "productId": "prod_0251",
+    "sku": "LM-015-091-013",
+    "filename": "flame-retardant-fabric-maroon-prod-0251.jpg",
+    "altText": "Flame Retardant Fabric in maroon"
+  },
+  {
+    "productId": "prod_0252",
+    "sku": "LM-015-092-014",
+    "filename": "water-repellent-fabric-grey-prod-0252.jpg",
+    "altText": "Water Repellent Fabric in grey"
+  },
+  {
+    "productId": "prod_0253",
+    "sku": "LM-015-093-015",
+    "filename": "anti-static-fabric-teal-prod-0253.jpg",
+    "altText": "Anti-Static Fabric in teal"
+  },
+  {
+    "productId": "prod_0254",
+    "sku": "LM-015-094-016",
+    "filename": "uv-resistant-fabric-rust-prod-0254.jpg",
+    "altText": "UV Resistant Fabric in rust"
+  },
+  {
+    "productId": "prod_0255",
+    "sku": "LM-015-095-017",
+    "filename": "breathable-membrane-white-prod-0255.jpg",
+    "altText": "Breathable Membrane in white"
+  },
+  {
+    "productId": "prod_0256",
+    "sku": "LM-016-019-001",
+    "filename": "mulberry-silk-white-prod-0256.jpg",
+    "altText": "Mulberry Silk in white"
+  },
+  {
+    "productId": "prod_0257",
+    "sku": "LM-016-020-002",
+    "filename": "tussar-silk-ivory-prod-0257.jpg",
+    "altText": "Tussar Silk in ivory"
+  },
+  {
+    "productId": "prod_0258",
+    "sku": "LM-016-021-003",
+    "filename": "silk-satin-natural-prod-0258.jpg",
+    "altText": "Silk Satin in natural"
+  },
+  {
+    "productId": "prod_0259",
+    "sku": "LM-016-022-004",
+    "filename": "silk-georgette-sky-blue-prod-0259.jpg",
+    "altText": "Silk Georgette in sky blue"
+  },
+  {
+    "productId": "prod_0260",
+    "sku": "LM-016-023-005",
+    "filename": "crepe-de-chine-navy-prod-0260.jpg",
+    "altText": "Crepe de Chine in navy"
+  },
+  {
+    "productId": "prod_0261",
+    "sku": "LM-016-024-006",
+    "filename": "dupioni-silk-black-prod-0261.jpg",
+    "altText": "Dupioni Silk in black"
+  },
+  {
+    "productId": "prod_0262",
+    "sku": "LM-016-073-007",
+    "filename": "woven-jacquard-charcoal-prod-0262.jpg",
+    "altText": "Woven Jacquard in charcoal"
+  },
+  {
+    "productId": "prod_0263",
+    "sku": "LM-016-074-008",
+    "filename": "double-jacquard-olive-prod-0263.jpg",
+    "altText": "Double Jacquard in olive"
+  },
+  {
+    "productId": "prod_0264",
+    "sku": "LM-016-075-009",
+    "filename": "brocade-beige-prod-0264.jpg",
+    "altText": "Brocade in beige"
+  },
+  {
+    "productId": "prod_0265",
+    "sku": "LM-016-076-010",
+    "filename": "damask-sand-prod-0265.jpg",
+    "altText": "Damask in sand"
+  },
+  {
+    "productId": "prod_0266",
+    "sku": "LM-016-077-011",
+    "filename": "tapestry-weave-indigo-prod-0266.jpg",
+    "altText": "Tapestry Weave in indigo"
+  },
+  {
+    "productId": "prod_0267",
+    "sku": "LM-016-078-012",
+    "filename": "ornamental-jacquard-maroon-prod-0267.jpg",
+    "altText": "Ornamental Jacquard in maroon"
+  },
+  {
+    "productId": "prod_0268",
+    "sku": "LM-016-103-013",
+    "filename": "khadi-cotton-grey-prod-0268.jpg",
+    "altText": "Khadi Cotton in grey"
+  },
+  {
+    "productId": "prod_0269",
+    "sku": "LM-016-104-014",
+    "filename": "chanderi-fabric-teal-prod-0269.jpg",
+    "altText": "Chanderi Fabric in teal"
+  },
+  {
+    "productId": "prod_0270",
+    "sku": "LM-016-105-015",
+    "filename": "banarasi-brocade-base-rust-prod-0270.jpg",
+    "altText": "Banarasi Brocade Base in rust"
+  },
+  {
+    "productId": "prod_0271",
+    "sku": "LM-016-106-016",
+    "filename": "ikat-weave-white-prod-0271.jpg",
+    "altText": "Ikat Weave in white"
+  },
+  {
+    "productId": "prod_0272",
+    "sku": "LM-016-107-017",
+    "filename": "ajrakh-print-base-ivory-prod-0272.jpg",
+    "altText": "Ajrakh Print Base in ivory"
+  },
+  {
+    "productId": "prod_0273",
+    "sku": "LM-017-025-001",
+    "filename": "merino-wool-ivory-prod-0273.jpg",
+    "altText": "Merino Wool in ivory"
+  },
+  {
+    "productId": "prod_0274",
+    "sku": "LM-017-026-002",
+    "filename": "suiting-wool-natural-prod-0274.jpg",
+    "altText": "Suiting Wool in natural"
+  },
+  {
+    "productId": "prod_0275",
+    "sku": "LM-017-027-003",
+    "filename": "wool-flannel-sky-blue-prod-0275.jpg",
+    "altText": "Wool Flannel in sky blue"
+  },
+  {
+    "productId": "prod_0276",
+    "sku": "LM-017-028-004",
+    "filename": "tweed-wool-navy-prod-0276.jpg",
+    "altText": "Tweed Wool in navy"
+  },
+  {
+    "productId": "prod_0277",
+    "sku": "LM-017-029-005",
+    "filename": "worsted-wool-black-prod-0277.jpg",
+    "altText": "Worsted Wool in black"
+  },
+  {
+    "productId": "prod_0278",
+    "sku": "LM-017-030-006",
+    "filename": "boucle-wool-charcoal-prod-0278.jpg",
+    "altText": "Boucle Wool in charcoal"
+  },
+  {
+    "productId": "prod_0279",
+    "sku": "LM-017-031-007",
+    "filename": "polyester-plain-weave-olive-prod-0279.jpg",
+    "altText": "Polyester Plain Weave in olive"
+  },
+  {
+    "productId": "prod_0280",
+    "sku": "LM-017-032-008",
+    "filename": "polyester-twill-beige-prod-0280.jpg",
+    "altText": "Polyester Twill in beige"
+  },
+  {
+    "productId": "prod_0281",
+    "sku": "LM-017-033-009",
+    "filename": "microfibre-woven-sand-prod-0281.jpg",
+    "altText": "Microfibre Woven in sand"
+  },
+  {
+    "productId": "prod_0282",
+    "sku": "LM-017-034-010",
+    "filename": "polyester-dobby-indigo-prod-0282.jpg",
+    "altText": "Polyester Dobby in indigo"
+  },
+  {
+    "productId": "prod_0283",
+    "sku": "LM-017-035-011",
+    "filename": "polyester-oxford-maroon-prod-0283.jpg",
+    "altText": "Polyester Oxford in maroon"
+  },
+  {
+    "productId": "prod_0284",
+    "sku": "LM-017-036-012",
+    "filename": "polyester-ripstop-grey-prod-0284.jpg",
+    "altText": "Polyester Ripstop in grey"
+  },
+  {
+    "productId": "prod_0285",
+    "sku": "LM-017-115-013",
+    "filename": "pu-coated-fabric-teal-prod-0285.jpg",
+    "altText": "PU Coated Fabric in teal"
+  },
+  {
+    "productId": "prod_0286",
+    "sku": "LM-017-116-014",
+    "filename": "pvc-coated-fabric-rust-prod-0286.jpg",
+    "altText": "PVC Coated Fabric in rust"
+  },
+  {
+    "productId": "prod_0287",
+    "sku": "LM-017-117-015",
+    "filename": "laminated-fabric-white-prod-0287.jpg",
+    "altText": "Laminated Fabric in white"
+  },
+  {
+    "productId": "prod_0288",
+    "sku": "LM-017-118-016",
+    "filename": "neoprene-fabric-ivory-prod-0288.jpg",
+    "altText": "Neoprene Fabric in ivory"
+  },
+  {
+    "productId": "prod_0289",
+    "sku": "LM-017-119-017",
+    "filename": "softshell-fabric-natural-prod-0289.jpg",
+    "altText": "Softshell Fabric in natural"
+  },
+  {
+    "productId": "prod_0290",
+    "sku": "LM-018-013-001",
+    "filename": "pure-linen-natural-prod-0290.jpg",
+    "altText": "Pure Linen in natural"
+  },
+  {
+    "productId": "prod_0291",
+    "sku": "LM-018-014-002",
+    "filename": "linen-blend-sky-blue-prod-0291.jpg",
+    "altText": "Linen Blend in sky blue"
+  },
+  {
+    "productId": "prod_0292",
+    "sku": "LM-018-015-003",
+    "filename": "slub-linen-navy-prod-0292.jpg",
+    "altText": "Slub Linen in navy"
+  },
+  {
+    "productId": "prod_0293",
+    "sku": "LM-018-016-004",
+    "filename": "heavy-linen-black-prod-0293.jpg",
+    "altText": "Heavy Linen in black"
+  },
+  {
+    "productId": "prod_0294",
+    "sku": "LM-018-017-005",
+    "filename": "hemp-blend-charcoal-prod-0294.jpg",
+    "altText": "Hemp Blend in charcoal"
+  },
+  {
+    "productId": "prod_0295",
+    "sku": "LM-018-018-006",
+    "filename": "garment-wash-linen-olive-prod-0295.jpg",
+    "altText": "Garment Wash Linen in olive"
+  },
+  {
+    "productId": "prod_0296",
+    "sku": "LM-018-043-007",
+    "filename": "rayon-challis-beige-prod-0296.jpg",
+    "altText": "Rayon Challis in beige"
+  },
+  {
+    "productId": "prod_0297",
+    "sku": "LM-018-044-008",
+    "filename": "viscose-poplin-sand-prod-0297.jpg",
+    "altText": "Viscose Poplin in sand"
+  },
+  {
+    "productId": "prod_0298",
+    "sku": "LM-018-045-009",
+    "filename": "modal-jersey-indigo-prod-0298.jpg",
+    "altText": "Modal Jersey in indigo"
+  },
+  {
+    "productId": "prod_0299",
+    "sku": "LM-018-046-010",
+    "filename": "lyocell-twill-maroon-prod-0299.jpg",
+    "altText": "Lyocell Twill in maroon"
+  },
+  {
+    "productId": "prod_0300",
+    "sku": "LM-018-047-011",
+    "filename": "rayon-crepe-grey-prod-0300.jpg",
+    "altText": "Rayon Crepe in grey"
+  },
+  {
+    "productId": "prod_0301",
+    "sku": "LM-018-048-012",
+    "filename": "cupro-satin-teal-prod-0301.jpg",
+    "altText": "Cupro Satin in teal"
+  },
+  {
+    "productId": "prod_0302",
+    "sku": "LM-018-049-013",
+    "filename": "nylon-taffeta-rust-prod-0302.jpg",
+    "altText": "Nylon Taffeta in rust"
+  },
+  {
+    "productId": "prod_0303",
+    "sku": "LM-018-050-014",
+    "filename": "cordura-nylon-white-prod-0303.jpg",
+    "altText": "Cordura Nylon in white"
+  },
+  {
+    "productId": "prod_0304",
+    "sku": "LM-018-051-015",
+    "filename": "polyamide-mesh-ivory-prod-0304.jpg",
+    "altText": "Polyamide Mesh in ivory"
+  },
+  {
+    "productId": "prod_0305",
+    "sku": "LM-018-052-016",
+    "filename": "packcloth-nylon-natural-prod-0305.jpg",
+    "altText": "Packcloth Nylon in natural"
+  },
+  {
+    "productId": "prod_0306",
+    "sku": "LM-018-053-017",
+    "filename": "ripstop-nylon-sky-blue-prod-0306.jpg",
+    "altText": "Ripstop Nylon in sky blue"
+  },
+  {
+    "productId": "prod_0307",
+    "sku": "LM-019-001-001",
+    "filename": "cotton-poplin-sky-blue-prod-0307.jpg",
+    "altText": "Cotton Poplin in sky blue"
+  },
+  {
+    "productId": "prod_0308",
+    "sku": "LM-019-002-002",
+    "filename": "cotton-twill-navy-prod-0308.jpg",
+    "altText": "Cotton Twill in navy"
+  },
+  {
+    "productId": "prod_0309",
+    "sku": "LM-019-003-003",
+    "filename": "cotton-oxford-black-prod-0309.jpg",
+    "altText": "Cotton Oxford in black"
+  },
+  {
+    "productId": "prod_0310",
+    "sku": "LM-019-004-004",
+    "filename": "cotton-sateen-charcoal-prod-0310.jpg",
+    "altText": "Cotton Sateen in charcoal"
+  },
+  {
+    "productId": "prod_0311",
+    "sku": "LM-019-005-005",
+    "filename": "cotton-canvas-olive-prod-0311.jpg",
+    "altText": "Cotton Canvas in olive"
+  },
+  {
+    "productId": "prod_0312",
+    "sku": "LM-019-006-006",
+    "filename": "cotton-voile-beige-prod-0312.jpg",
+    "altText": "Cotton Voile in beige"
+  },
+  {
+    "productId": "prod_0313",
+    "sku": "LM-019-007-007",
+    "filename": "single-jersey-cotton-sand-prod-0313.jpg",
+    "altText": "Single Jersey Cotton in sand"
+  },
+  {
+    "productId": "prod_0314",
+    "sku": "LM-019-008-008",
+    "filename": "rib-knit-cotton-indigo-prod-0314.jpg",
+    "altText": "Rib Knit Cotton in indigo"
+  },
+  {
+    "productId": "prod_0315",
+    "sku": "LM-019-009-009",
+    "filename": "interlock-cotton-maroon-prod-0315.jpg",
+    "altText": "Interlock Cotton in maroon"
+  },
+  {
+    "productId": "prod_0316",
+    "sku": "LM-019-010-010",
+    "filename": "cotton-pique-grey-prod-0316.jpg",
+    "altText": "Cotton Pique in grey"
+  },
+  {
+    "productId": "prod_0317",
+    "sku": "LM-019-011-011",
+    "filename": "french-terry-teal-prod-0317.jpg",
+    "altText": "French Terry in teal"
+  },
+  {
+    "productId": "prod_0318",
+    "sku": "LM-019-012-012",
+    "filename": "cotton-fleece-rust-prod-0318.jpg",
+    "altText": "Cotton Fleece in rust"
+  },
+  {
+    "productId": "prod_0319",
+    "sku": "LM-019-097-013",
+    "filename": "organic-cotton-white-prod-0319.jpg",
+    "altText": "Organic Cotton in white"
+  },
+  {
+    "productId": "prod_0320",
+    "sku": "LM-019-098-014",
+    "filename": "gots-poplin-ivory-prod-0320.jpg",
+    "altText": "GOTS Poplin in ivory"
+  },
+  {
+    "productId": "prod_0321",
+    "sku": "LM-019-099-015",
+    "filename": "recycled-polyester-natural-prod-0321.jpg",
+    "altText": "Recycled Polyester in natural"
+  },
+  {
+    "productId": "prod_0322",
+    "sku": "LM-019-100-016",
+    "filename": "bamboo-blend-sky-blue-prod-0322.jpg",
+    "altText": "Bamboo Blend in sky blue"
+  },
+  {
+    "productId": "prod_0323",
+    "sku": "LM-019-101-017",
+    "filename": "natural-dye-fabric-navy-prod-0323.jpg",
+    "altText": "Natural Dye Fabric in navy"
+  },
+  {
+    "productId": "prod_0324",
+    "sku": "LM-020-085-001",
+    "filename": "drapery-fabric-navy-prod-0324.jpg",
+    "altText": "Drapery Fabric in navy"
+  },
+  {
+    "productId": "prod_0325",
+    "sku": "LM-020-086-002",
+    "filename": "upholstery-fabric-black-prod-0325.jpg",
+    "altText": "Upholstery Fabric in black"
+  },
+  {
+    "productId": "prod_0326",
+    "sku": "LM-020-087-003",
+    "filename": "blackout-fabric-charcoal-prod-0326.jpg",
+    "altText": "Blackout Fabric in charcoal"
+  },
+  {
+    "productId": "prod_0327",
+    "sku": "LM-020-088-004",
+    "filename": "curtain-lining-olive-prod-0327.jpg",
+    "altText": "Curtain Lining in olive"
+  },
+  {
+    "productId": "prod_0328",
+    "sku": "LM-020-089-005",
+    "filename": "bedsheet-percale-beige-prod-0328.jpg",
+    "altText": "Bedsheet Percale in beige"
+  },
+  {
+    "productId": "prod_0329",
+    "sku": "LM-020-090-006",
+    "filename": "cushion-canvas-sand-prod-0329.jpg",
+    "altText": "Cushion Canvas in sand"
+  },
+  {
+    "productId": "prod_0330",
+    "sku": "LM-020-109-007",
+    "filename": "fusible-interlining-indigo-prod-0330.jpg",
+    "altText": "Fusible Interlining in indigo"
+  },
+  {
+    "productId": "prod_0331",
+    "sku": "LM-020-110-008",
+    "filename": "nonwoven-interfacing-maroon-prod-0331.jpg",
+    "altText": "Nonwoven Interfacing in maroon"
+  },
+  {
+    "productId": "prod_0332",
+    "sku": "LM-020-111-009",
+    "filename": "woven-interfacing-grey-prod-0332.jpg",
+    "altText": "Woven Interfacing in grey"
+  },
+  {
+    "productId": "prod_0333",
+    "sku": "LM-020-112-010",
+    "filename": "collar-canvas-teal-prod-0333.jpg",
+    "altText": "Collar Canvas in teal"
+  },
+  {
+    "productId": "prod_0334",
+    "sku": "LM-020-113-011",
+    "filename": "sleeve-head-rust-prod-0334.jpg",
+    "altText": "Sleeve Head in rust"
+  },
+  {
+    "productId": "prod_0335",
+    "sku": "LM-020-114-012",
+    "filename": "bias-support-white-prod-0335.jpg",
+    "altText": "Bias Support in white"
+  },
+  {
+    "productId": "prod_0336",
+    "sku": "LM-020-079-013",
+    "filename": "drill-fabric-ivory-prod-0336.jpg",
+    "altText": "Drill Fabric in ivory"
+  },
+  {
+    "productId": "prod_0337",
+    "sku": "LM-020-080-014",
+    "filename": "gabardine-natural-prod-0337.jpg",
+    "altText": "Gabardine in natural"
+  },
+  {
+    "productId": "prod_0338",
+    "sku": "LM-020-081-015",
+    "filename": "cargo-twill-sky-blue-prod-0338.jpg",
+    "altText": "Cargo Twill in sky blue"
+  },
+  {
+    "productId": "prod_0339",
+    "sku": "LM-020-082-016",
+    "filename": "scrub-fabric-navy-prod-0339.jpg",
+    "altText": "Scrub Fabric in navy"
+  },
+  {
+    "productId": "prod_0340",
+    "sku": "LM-020-083-017",
+    "filename": "chef-fabric-black-prod-0340.jpg",
+    "altText": "Chef Fabric in black"
+  },
+  {
+    "productId": "prod_0341",
+    "sku": "LM-021-037-001",
+    "filename": "polyester-jersey-black-prod-0341.jpg",
+    "altText": "Polyester Jersey in black"
+  },
+  {
+    "productId": "prod_0342",
+    "sku": "LM-021-038-002",
+    "filename": "polyester-interlock-charcoal-prod-0342.jpg",
+    "altText": "Polyester Interlock in charcoal"
+  },
+  {
+    "productId": "prod_0343",
+    "sku": "LM-021-039-003",
+    "filename": "polyester-mesh-knit-olive-prod-0343.jpg",
+    "altText": "Polyester Mesh Knit in olive"
+  },
+  {
+    "productId": "prod_0344",
+    "sku": "LM-021-040-004",
+    "filename": "polyester-fleece-beige-prod-0344.jpg",
+    "altText": "Polyester Fleece in beige"
+  },
+  {
+    "productId": "prod_0345",
+    "sku": "LM-021-041-005",
+    "filename": "stretch-polyester-sand-prod-0345.jpg",
+    "altText": "Stretch Polyester in sand"
+  },
+  {
+    "productId": "prod_0346",
+    "sku": "LM-021-042-006",
+    "filename": "jacquard-knit-indigo-prod-0346.jpg",
+    "altText": "Jacquard Knit in indigo"
+  },
+  {
+    "productId": "prod_0347",
+    "sku": "LM-021-061-007",
+    "filename": "cotton-spandex-maroon-prod-0347.jpg",
+    "altText": "Cotton Spandex in maroon"
+  },
+  {
+    "productId": "prod_0348",
+    "sku": "LM-021-062-008",
+    "filename": "poly-spandex-grey-prod-0348.jpg",
+    "altText": "Poly Spandex in grey"
+  },
+  {
+    "productId": "prod_0349",
+    "sku": "LM-021-063-009",
+    "filename": "viscose-spandex-teal-prod-0349.jpg",
+    "altText": "Viscose Spandex in teal"
+  },
+  {
+    "productId": "prod_0350",
+    "sku": "LM-021-064-010",
+    "filename": "stretch-denim-rust-prod-0350.jpg",
+    "altText": "Stretch Denim in rust"
+  },
+  {
+    "productId": "prod_0351",
+    "sku": "LM-021-065-011",
+    "filename": "rib-stretch-white-prod-0351.jpg",
+    "altText": "Rib Stretch in white"
+  },
+  {
+    "productId": "prod_0352",
+    "sku": "LM-021-066-012",
+    "filename": "power-stretch-ivory-prod-0352.jpg",
+    "altText": "Power Stretch in ivory"
+  },
+  {
+    "productId": "prod_0353",
+    "sku": "LM-021-091-013",
+    "filename": "flame-retardant-fabric-natural-prod-0353.jpg",
+    "altText": "Flame Retardant Fabric in natural"
+  },
+  {
+    "productId": "prod_0354",
+    "sku": "LM-021-092-014",
+    "filename": "water-repellent-fabric-sky-blue-prod-0354.jpg",
+    "altText": "Water Repellent Fabric in sky blue"
+  },
+  {
+    "productId": "prod_0355",
+    "sku": "LM-021-093-015",
+    "filename": "anti-static-fabric-navy-prod-0355.jpg",
+    "altText": "Anti-Static Fabric in navy"
+  },
+  {
+    "productId": "prod_0356",
+    "sku": "LM-021-094-016",
+    "filename": "uv-resistant-fabric-black-prod-0356.jpg",
+    "altText": "UV Resistant Fabric in black"
+  },
+  {
+    "productId": "prod_0357",
+    "sku": "LM-022-019-001",
+    "filename": "mulberry-silk-charcoal-prod-0357.jpg",
+    "altText": "Mulberry Silk in charcoal"
+  },
+  {
+    "productId": "prod_0358",
+    "sku": "LM-022-020-002",
+    "filename": "tussar-silk-olive-prod-0358.jpg",
+    "altText": "Tussar Silk in olive"
+  },
+  {
+    "productId": "prod_0359",
+    "sku": "LM-022-021-003",
+    "filename": "silk-satin-beige-prod-0359.jpg",
+    "altText": "Silk Satin in beige"
+  },
+  {
+    "productId": "prod_0360",
+    "sku": "LM-022-022-004",
+    "filename": "silk-georgette-sand-prod-0360.jpg",
+    "altText": "Silk Georgette in sand"
+  },
+  {
+    "productId": "prod_0361",
+    "sku": "LM-022-023-005",
+    "filename": "crepe-de-chine-indigo-prod-0361.jpg",
+    "altText": "Crepe de Chine in indigo"
+  },
+  {
+    "productId": "prod_0362",
+    "sku": "LM-022-024-006",
+    "filename": "dupioni-silk-maroon-prod-0362.jpg",
+    "altText": "Dupioni Silk in maroon"
+  },
+  {
+    "productId": "prod_0363",
+    "sku": "LM-022-073-007",
+    "filename": "woven-jacquard-grey-prod-0363.jpg",
+    "altText": "Woven Jacquard in grey"
+  },
+  {
+    "productId": "prod_0364",
+    "sku": "LM-022-074-008",
+    "filename": "double-jacquard-teal-prod-0364.jpg",
+    "altText": "Double Jacquard in teal"
+  },
+  {
+    "productId": "prod_0365",
+    "sku": "LM-022-075-009",
+    "filename": "brocade-rust-prod-0365.jpg",
+    "altText": "Brocade in rust"
+  },
+  {
+    "productId": "prod_0366",
+    "sku": "LM-022-076-010",
+    "filename": "damask-white-prod-0366.jpg",
+    "altText": "Damask in white"
+  },
+  {
+    "productId": "prod_0367",
+    "sku": "LM-022-077-011",
+    "filename": "tapestry-weave-ivory-prod-0367.jpg",
+    "altText": "Tapestry Weave in ivory"
+  },
+  {
+    "productId": "prod_0368",
+    "sku": "LM-022-078-012",
+    "filename": "ornamental-jacquard-natural-prod-0368.jpg",
+    "altText": "Ornamental Jacquard in natural"
+  },
+  {
+    "productId": "prod_0369",
+    "sku": "LM-022-103-013",
+    "filename": "khadi-cotton-sky-blue-prod-0369.jpg",
+    "altText": "Khadi Cotton in sky blue"
+  },
+  {
+    "productId": "prod_0370",
+    "sku": "LM-022-104-014",
+    "filename": "chanderi-fabric-navy-prod-0370.jpg",
+    "altText": "Chanderi Fabric in navy"
+  },
+  {
+    "productId": "prod_0371",
+    "sku": "LM-022-105-015",
+    "filename": "banarasi-brocade-base-black-prod-0371.jpg",
+    "altText": "Banarasi Brocade Base in black"
+  },
+  {
+    "productId": "prod_0372",
+    "sku": "LM-022-106-016",
+    "filename": "ikat-weave-charcoal-prod-0372.jpg",
+    "altText": "Ikat Weave in charcoal"
+  },
+  {
+    "productId": "prod_0373",
+    "sku": "LM-023-025-001",
+    "filename": "merino-wool-olive-prod-0373.jpg",
+    "altText": "Merino Wool in olive"
+  },
+  {
+    "productId": "prod_0374",
+    "sku": "LM-023-026-002",
+    "filename": "suiting-wool-beige-prod-0374.jpg",
+    "altText": "Suiting Wool in beige"
+  },
+  {
+    "productId": "prod_0375",
+    "sku": "LM-023-027-003",
+    "filename": "wool-flannel-sand-prod-0375.jpg",
+    "altText": "Wool Flannel in sand"
+  },
+  {
+    "productId": "prod_0376",
+    "sku": "LM-023-028-004",
+    "filename": "tweed-wool-indigo-prod-0376.jpg",
+    "altText": "Tweed Wool in indigo"
+  },
+  {
+    "productId": "prod_0377",
+    "sku": "LM-023-029-005",
+    "filename": "worsted-wool-maroon-prod-0377.jpg",
+    "altText": "Worsted Wool in maroon"
+  },
+  {
+    "productId": "prod_0378",
+    "sku": "LM-023-030-006",
+    "filename": "boucle-wool-grey-prod-0378.jpg",
+    "altText": "Boucle Wool in grey"
+  },
+  {
+    "productId": "prod_0379",
+    "sku": "LM-023-031-007",
+    "filename": "polyester-plain-weave-teal-prod-0379.jpg",
+    "altText": "Polyester Plain Weave in teal"
+  },
+  {
+    "productId": "prod_0380",
+    "sku": "LM-023-032-008",
+    "filename": "polyester-twill-rust-prod-0380.jpg",
+    "altText": "Polyester Twill in rust"
+  },
+  {
+    "productId": "prod_0381",
+    "sku": "LM-023-033-009",
+    "filename": "microfibre-woven-white-prod-0381.jpg",
+    "altText": "Microfibre Woven in white"
+  },
+  {
+    "productId": "prod_0382",
+    "sku": "LM-023-034-010",
+    "filename": "polyester-dobby-ivory-prod-0382.jpg",
+    "altText": "Polyester Dobby in ivory"
+  },
+  {
+    "productId": "prod_0383",
+    "sku": "LM-023-035-011",
+    "filename": "polyester-oxford-natural-prod-0383.jpg",
+    "altText": "Polyester Oxford in natural"
+  },
+  {
+    "productId": "prod_0384",
+    "sku": "LM-023-036-012",
+    "filename": "polyester-ripstop-sky-blue-prod-0384.jpg",
+    "altText": "Polyester Ripstop in sky blue"
+  },
+  {
+    "productId": "prod_0385",
+    "sku": "LM-023-115-013",
+    "filename": "pu-coated-fabric-navy-prod-0385.jpg",
+    "altText": "PU Coated Fabric in navy"
+  },
+  {
+    "productId": "prod_0386",
+    "sku": "LM-023-116-014",
+    "filename": "pvc-coated-fabric-black-prod-0386.jpg",
+    "altText": "PVC Coated Fabric in black"
+  },
+  {
+    "productId": "prod_0387",
+    "sku": "LM-023-117-015",
+    "filename": "laminated-fabric-charcoal-prod-0387.jpg",
+    "altText": "Laminated Fabric in charcoal"
+  },
+  {
+    "productId": "prod_0388",
+    "sku": "LM-023-118-016",
+    "filename": "neoprene-fabric-olive-prod-0388.jpg",
+    "altText": "Neoprene Fabric in olive"
+  },
+  {
+    "productId": "prod_0389",
+    "sku": "LM-024-013-001",
+    "filename": "pure-linen-beige-prod-0389.jpg",
+    "altText": "Pure Linen in beige"
+  },
+  {
+    "productId": "prod_0390",
+    "sku": "LM-024-014-002",
+    "filename": "linen-blend-sand-prod-0390.jpg",
+    "altText": "Linen Blend in sand"
+  },
+  {
+    "productId": "prod_0391",
+    "sku": "LM-024-015-003",
+    "filename": "slub-linen-indigo-prod-0391.jpg",
+    "altText": "Slub Linen in indigo"
+  },
+  {
+    "productId": "prod_0392",
+    "sku": "LM-024-016-004",
+    "filename": "heavy-linen-maroon-prod-0392.jpg",
+    "altText": "Heavy Linen in maroon"
+  },
+  {
+    "productId": "prod_0393",
+    "sku": "LM-024-017-005",
+    "filename": "hemp-blend-grey-prod-0393.jpg",
+    "altText": "Hemp Blend in grey"
+  },
+  {
+    "productId": "prod_0394",
+    "sku": "LM-024-018-006",
+    "filename": "garment-wash-linen-teal-prod-0394.jpg",
+    "altText": "Garment Wash Linen in teal"
+  },
+  {
+    "productId": "prod_0395",
+    "sku": "LM-024-043-007",
+    "filename": "rayon-challis-rust-prod-0395.jpg",
+    "altText": "Rayon Challis in rust"
+  },
+  {
+    "productId": "prod_0396",
+    "sku": "LM-024-044-008",
+    "filename": "viscose-poplin-white-prod-0396.jpg",
+    "altText": "Viscose Poplin in white"
+  },
+  {
+    "productId": "prod_0397",
+    "sku": "LM-024-045-009",
+    "filename": "modal-jersey-ivory-prod-0397.jpg",
+    "altText": "Modal Jersey in ivory"
+  },
+  {
+    "productId": "prod_0398",
+    "sku": "LM-024-046-010",
+    "filename": "lyocell-twill-natural-prod-0398.jpg",
+    "altText": "Lyocell Twill in natural"
+  },
+  {
+    "productId": "prod_0399",
+    "sku": "LM-024-047-011",
+    "filename": "rayon-crepe-sky-blue-prod-0399.jpg",
+    "altText": "Rayon Crepe in sky blue"
+  },
+  {
+    "productId": "prod_0400",
+    "sku": "LM-024-048-012",
+    "filename": "cupro-satin-navy-prod-0400.jpg",
+    "altText": "Cupro Satin in navy"
+  },
+  {
+    "productId": "prod_0401",
+    "sku": "LM-024-049-013",
+    "filename": "nylon-taffeta-black-prod-0401.jpg",
+    "altText": "Nylon Taffeta in black"
+  },
+  {
+    "productId": "prod_0402",
+    "sku": "LM-024-050-014",
+    "filename": "cordura-nylon-charcoal-prod-0402.jpg",
+    "altText": "Cordura Nylon in charcoal"
+  },
+  {
+    "productId": "prod_0403",
+    "sku": "LM-024-051-015",
+    "filename": "polyamide-mesh-olive-prod-0403.jpg",
+    "altText": "Polyamide Mesh in olive"
+  },
+  {
+    "productId": "prod_0404",
+    "sku": "LM-024-052-016",
+    "filename": "packcloth-nylon-beige-prod-0404.jpg",
+    "altText": "Packcloth Nylon in beige"
+  },
+  {
+    "productId": "prod_0405",
+    "sku": "LM-025-001-001",
+    "filename": "cotton-poplin-sand-prod-0405.jpg",
+    "altText": "Cotton Poplin in sand"
+  },
+  {
+    "productId": "prod_0406",
+    "sku": "LM-025-002-002",
+    "filename": "cotton-twill-indigo-prod-0406.jpg",
+    "altText": "Cotton Twill in indigo"
+  },
+  {
+    "productId": "prod_0407",
+    "sku": "LM-025-003-003",
+    "filename": "cotton-oxford-maroon-prod-0407.jpg",
+    "altText": "Cotton Oxford in maroon"
+  },
+  {
+    "productId": "prod_0408",
+    "sku": "LM-025-004-004",
+    "filename": "cotton-sateen-grey-prod-0408.jpg",
+    "altText": "Cotton Sateen in grey"
+  },
+  {
+    "productId": "prod_0409",
+    "sku": "LM-025-005-005",
+    "filename": "cotton-canvas-teal-prod-0409.jpg",
+    "altText": "Cotton Canvas in teal"
+  },
+  {
+    "productId": "prod_0410",
+    "sku": "LM-025-006-006",
+    "filename": "cotton-voile-rust-prod-0410.jpg",
+    "altText": "Cotton Voile in rust"
+  },
+  {
+    "productId": "prod_0411",
+    "sku": "LM-025-007-007",
+    "filename": "single-jersey-cotton-white-prod-0411.jpg",
+    "altText": "Single Jersey Cotton in white"
+  },
+  {
+    "productId": "prod_0412",
+    "sku": "LM-025-008-008",
+    "filename": "rib-knit-cotton-ivory-prod-0412.jpg",
+    "altText": "Rib Knit Cotton in ivory"
+  },
+  {
+    "productId": "prod_0413",
+    "sku": "LM-025-009-009",
+    "filename": "interlock-cotton-natural-prod-0413.jpg",
+    "altText": "Interlock Cotton in natural"
+  },
+  {
+    "productId": "prod_0414",
+    "sku": "LM-025-010-010",
+    "filename": "cotton-pique-sky-blue-prod-0414.jpg",
+    "altText": "Cotton Pique in sky blue"
+  },
+  {
+    "productId": "prod_0415",
+    "sku": "LM-025-011-011",
+    "filename": "french-terry-navy-prod-0415.jpg",
+    "altText": "French Terry in navy"
+  },
+  {
+    "productId": "prod_0416",
+    "sku": "LM-025-012-012",
+    "filename": "cotton-fleece-black-prod-0416.jpg",
+    "altText": "Cotton Fleece in black"
+  },
+  {
+    "productId": "prod_0417",
+    "sku": "LM-025-097-013",
+    "filename": "organic-cotton-charcoal-prod-0417.jpg",
+    "altText": "Organic Cotton in charcoal"
+  },
+  {
+    "productId": "prod_0418",
+    "sku": "LM-025-098-014",
+    "filename": "gots-poplin-olive-prod-0418.jpg",
+    "altText": "GOTS Poplin in olive"
+  },
+  {
+    "productId": "prod_0419",
+    "sku": "LM-025-099-015",
+    "filename": "recycled-polyester-beige-prod-0419.jpg",
+    "altText": "Recycled Polyester in beige"
+  },
+  {
+    "productId": "prod_0420",
+    "sku": "LM-025-100-016",
+    "filename": "bamboo-blend-sand-prod-0420.jpg",
+    "altText": "Bamboo Blend in sand"
+  },
+  {
+    "productId": "prod_0421",
+    "sku": "LM-026-085-001",
+    "filename": "drapery-fabric-indigo-prod-0421.jpg",
+    "altText": "Drapery Fabric in indigo"
+  },
+  {
+    "productId": "prod_0422",
+    "sku": "LM-026-086-002",
+    "filename": "upholstery-fabric-maroon-prod-0422.jpg",
+    "altText": "Upholstery Fabric in maroon"
+  },
+  {
+    "productId": "prod_0423",
+    "sku": "LM-026-087-003",
+    "filename": "blackout-fabric-grey-prod-0423.jpg",
+    "altText": "Blackout Fabric in grey"
+  },
+  {
+    "productId": "prod_0424",
+    "sku": "LM-026-088-004",
+    "filename": "curtain-lining-teal-prod-0424.jpg",
+    "altText": "Curtain Lining in teal"
+  },
+  {
+    "productId": "prod_0425",
+    "sku": "LM-026-089-005",
+    "filename": "bedsheet-percale-rust-prod-0425.jpg",
+    "altText": "Bedsheet Percale in rust"
+  },
+  {
+    "productId": "prod_0426",
+    "sku": "LM-026-090-006",
+    "filename": "cushion-canvas-white-prod-0426.jpg",
+    "altText": "Cushion Canvas in white"
+  },
+  {
+    "productId": "prod_0427",
+    "sku": "LM-026-109-007",
+    "filename": "fusible-interlining-ivory-prod-0427.jpg",
+    "altText": "Fusible Interlining in ivory"
+  },
+  {
+    "productId": "prod_0428",
+    "sku": "LM-026-110-008",
+    "filename": "nonwoven-interfacing-natural-prod-0428.jpg",
+    "altText": "Nonwoven Interfacing in natural"
+  },
+  {
+    "productId": "prod_0429",
+    "sku": "LM-026-111-009",
+    "filename": "woven-interfacing-sky-blue-prod-0429.jpg",
+    "altText": "Woven Interfacing in sky blue"
+  },
+  {
+    "productId": "prod_0430",
+    "sku": "LM-026-112-010",
+    "filename": "collar-canvas-navy-prod-0430.jpg",
+    "altText": "Collar Canvas in navy"
+  },
+  {
+    "productId": "prod_0431",
+    "sku": "LM-026-113-011",
+    "filename": "sleeve-head-black-prod-0431.jpg",
+    "altText": "Sleeve Head in black"
+  },
+  {
+    "productId": "prod_0432",
+    "sku": "LM-026-114-012",
+    "filename": "bias-support-charcoal-prod-0432.jpg",
+    "altText": "Bias Support in charcoal"
+  },
+  {
+    "productId": "prod_0433",
+    "sku": "LM-026-079-013",
+    "filename": "drill-fabric-olive-prod-0433.jpg",
+    "altText": "Drill Fabric in olive"
+  },
+  {
+    "productId": "prod_0434",
+    "sku": "LM-026-080-014",
+    "filename": "gabardine-beige-prod-0434.jpg",
+    "altText": "Gabardine in beige"
+  },
+  {
+    "productId": "prod_0435",
+    "sku": "LM-026-081-015",
+    "filename": "cargo-twill-sand-prod-0435.jpg",
+    "altText": "Cargo Twill in sand"
+  },
+  {
+    "productId": "prod_0436",
+    "sku": "LM-026-082-016",
+    "filename": "scrub-fabric-indigo-prod-0436.jpg",
+    "altText": "Scrub Fabric in indigo"
+  },
+  {
+    "productId": "prod_0437",
+    "sku": "LM-027-037-001",
+    "filename": "polyester-jersey-maroon-prod-0437.jpg",
+    "altText": "Polyester Jersey in maroon"
+  },
+  {
+    "productId": "prod_0438",
+    "sku": "LM-027-038-002",
+    "filename": "polyester-interlock-grey-prod-0438.jpg",
+    "altText": "Polyester Interlock in grey"
+  },
+  {
+    "productId": "prod_0439",
+    "sku": "LM-027-039-003",
+    "filename": "polyester-mesh-knit-teal-prod-0439.jpg",
+    "altText": "Polyester Mesh Knit in teal"
+  },
+  {
+    "productId": "prod_0440",
+    "sku": "LM-027-040-004",
+    "filename": "polyester-fleece-rust-prod-0440.jpg",
+    "altText": "Polyester Fleece in rust"
+  },
+  {
+    "productId": "prod_0441",
+    "sku": "LM-027-041-005",
+    "filename": "stretch-polyester-white-prod-0441.jpg",
+    "altText": "Stretch Polyester in white"
+  },
+  {
+    "productId": "prod_0442",
+    "sku": "LM-027-042-006",
+    "filename": "jacquard-knit-ivory-prod-0442.jpg",
+    "altText": "Jacquard Knit in ivory"
+  },
+  {
+    "productId": "prod_0443",
+    "sku": "LM-027-061-007",
+    "filename": "cotton-spandex-natural-prod-0443.jpg",
+    "altText": "Cotton Spandex in natural"
+  },
+  {
+    "productId": "prod_0444",
+    "sku": "LM-027-062-008",
+    "filename": "poly-spandex-sky-blue-prod-0444.jpg",
+    "altText": "Poly Spandex in sky blue"
+  },
+  {
+    "productId": "prod_0445",
+    "sku": "LM-027-063-009",
+    "filename": "viscose-spandex-navy-prod-0445.jpg",
+    "altText": "Viscose Spandex in navy"
+  },
+  {
+    "productId": "prod_0446",
+    "sku": "LM-027-064-010",
+    "filename": "stretch-denim-black-prod-0446.jpg",
+    "altText": "Stretch Denim in black"
+  },
+  {
+    "productId": "prod_0447",
+    "sku": "LM-027-065-011",
+    "filename": "rib-stretch-charcoal-prod-0447.jpg",
+    "altText": "Rib Stretch in charcoal"
+  },
+  {
+    "productId": "prod_0448",
+    "sku": "LM-027-066-012",
+    "filename": "power-stretch-olive-prod-0448.jpg",
+    "altText": "Power Stretch in olive"
+  },
+  {
+    "productId": "prod_0449",
+    "sku": "LM-027-091-013",
+    "filename": "flame-retardant-fabric-beige-prod-0449.jpg",
+    "altText": "Flame Retardant Fabric in beige"
+  },
+  {
+    "productId": "prod_0450",
+    "sku": "LM-027-092-014",
+    "filename": "water-repellent-fabric-sand-prod-0450.jpg",
+    "altText": "Water Repellent Fabric in sand"
+  },
+  {
+    "productId": "prod_0451",
+    "sku": "LM-027-093-015",
+    "filename": "anti-static-fabric-indigo-prod-0451.jpg",
+    "altText": "Anti-Static Fabric in indigo"
+  },
+  {
+    "productId": "prod_0452",
+    "sku": "LM-027-094-016",
+    "filename": "uv-resistant-fabric-maroon-prod-0452.jpg",
+    "altText": "UV Resistant Fabric in maroon"
+  },
+  {
+    "productId": "prod_0453",
+    "sku": "LM-028-019-001",
+    "filename": "mulberry-silk-grey-prod-0453.jpg",
+    "altText": "Mulberry Silk in grey"
+  },
+  {
+    "productId": "prod_0454",
+    "sku": "LM-028-020-002",
+    "filename": "tussar-silk-teal-prod-0454.jpg",
+    "altText": "Tussar Silk in teal"
+  },
+  {
+    "productId": "prod_0455",
+    "sku": "LM-028-021-003",
+    "filename": "silk-satin-rust-prod-0455.jpg",
+    "altText": "Silk Satin in rust"
+  },
+  {
+    "productId": "prod_0456",
+    "sku": "LM-028-022-004",
+    "filename": "silk-georgette-white-prod-0456.jpg",
+    "altText": "Silk Georgette in white"
+  },
+  {
+    "productId": "prod_0457",
+    "sku": "LM-028-023-005",
+    "filename": "crepe-de-chine-ivory-prod-0457.jpg",
+    "altText": "Crepe de Chine in ivory"
+  },
+  {
+    "productId": "prod_0458",
+    "sku": "LM-028-024-006",
+    "filename": "dupioni-silk-natural-prod-0458.jpg",
+    "altText": "Dupioni Silk in natural"
+  },
+  {
+    "productId": "prod_0459",
+    "sku": "LM-028-073-007",
+    "filename": "woven-jacquard-sky-blue-prod-0459.jpg",
+    "altText": "Woven Jacquard in sky blue"
+  },
+  {
+    "productId": "prod_0460",
+    "sku": "LM-028-074-008",
+    "filename": "double-jacquard-navy-prod-0460.jpg",
+    "altText": "Double Jacquard in navy"
+  },
+  {
+    "productId": "prod_0461",
+    "sku": "LM-028-075-009",
+    "filename": "brocade-black-prod-0461.jpg",
+    "altText": "Brocade in black"
+  },
+  {
+    "productId": "prod_0462",
+    "sku": "LM-028-076-010",
+    "filename": "damask-charcoal-prod-0462.jpg",
+    "altText": "Damask in charcoal"
+  },
+  {
+    "productId": "prod_0463",
+    "sku": "LM-028-077-011",
+    "filename": "tapestry-weave-olive-prod-0463.jpg",
+    "altText": "Tapestry Weave in olive"
+  },
+  {
+    "productId": "prod_0464",
+    "sku": "LM-028-078-012",
+    "filename": "ornamental-jacquard-beige-prod-0464.jpg",
+    "altText": "Ornamental Jacquard in beige"
+  },
+  {
+    "productId": "prod_0465",
+    "sku": "LM-028-103-013",
+    "filename": "khadi-cotton-sand-prod-0465.jpg",
+    "altText": "Khadi Cotton in sand"
+  },
+  {
+    "productId": "prod_0466",
+    "sku": "LM-028-104-014",
+    "filename": "chanderi-fabric-indigo-prod-0466.jpg",
+    "altText": "Chanderi Fabric in indigo"
+  },
+  {
+    "productId": "prod_0467",
+    "sku": "LM-028-105-015",
+    "filename": "banarasi-brocade-base-maroon-prod-0467.jpg",
+    "altText": "Banarasi Brocade Base in maroon"
+  },
+  {
+    "productId": "prod_0468",
+    "sku": "LM-028-106-016",
+    "filename": "ikat-weave-grey-prod-0468.jpg",
+    "altText": "Ikat Weave in grey"
+  },
+  {
+    "productId": "prod_0469",
+    "sku": "LM-029-025-001",
+    "filename": "merino-wool-teal-prod-0469.jpg",
+    "altText": "Merino Wool in teal"
+  },
+  {
+    "productId": "prod_0470",
+    "sku": "LM-029-026-002",
+    "filename": "suiting-wool-rust-prod-0470.jpg",
+    "altText": "Suiting Wool in rust"
+  },
+  {
+    "productId": "prod_0471",
+    "sku": "LM-029-027-003",
+    "filename": "wool-flannel-white-prod-0471.jpg",
+    "altText": "Wool Flannel in white"
+  },
+  {
+    "productId": "prod_0472",
+    "sku": "LM-029-028-004",
+    "filename": "tweed-wool-ivory-prod-0472.jpg",
+    "altText": "Tweed Wool in ivory"
+  },
+  {
+    "productId": "prod_0473",
+    "sku": "LM-029-029-005",
+    "filename": "worsted-wool-natural-prod-0473.jpg",
+    "altText": "Worsted Wool in natural"
+  },
+  {
+    "productId": "prod_0474",
+    "sku": "LM-029-030-006",
+    "filename": "boucle-wool-sky-blue-prod-0474.jpg",
+    "altText": "Boucle Wool in sky blue"
+  },
+  {
+    "productId": "prod_0475",
+    "sku": "LM-029-031-007",
+    "filename": "polyester-plain-weave-navy-prod-0475.jpg",
+    "altText": "Polyester Plain Weave in navy"
+  },
+  {
+    "productId": "prod_0476",
+    "sku": "LM-029-032-008",
+    "filename": "polyester-twill-black-prod-0476.jpg",
+    "altText": "Polyester Twill in black"
+  },
+  {
+    "productId": "prod_0477",
+    "sku": "LM-029-033-009",
+    "filename": "microfibre-woven-charcoal-prod-0477.jpg",
+    "altText": "Microfibre Woven in charcoal"
+  },
+  {
+    "productId": "prod_0478",
+    "sku": "LM-029-034-010",
+    "filename": "polyester-dobby-olive-prod-0478.jpg",
+    "altText": "Polyester Dobby in olive"
+  },
+  {
+    "productId": "prod_0479",
+    "sku": "LM-029-035-011",
+    "filename": "polyester-oxford-beige-prod-0479.jpg",
+    "altText": "Polyester Oxford in beige"
+  },
+  {
+    "productId": "prod_0480",
+    "sku": "LM-029-036-012",
+    "filename": "polyester-ripstop-sand-prod-0480.jpg",
+    "altText": "Polyester Ripstop in sand"
+  },
+  {
+    "productId": "prod_0481",
+    "sku": "LM-029-115-013",
+    "filename": "pu-coated-fabric-indigo-prod-0481.jpg",
+    "altText": "PU Coated Fabric in indigo"
+  },
+  {
+    "productId": "prod_0482",
+    "sku": "LM-029-116-014",
+    "filename": "pvc-coated-fabric-maroon-prod-0482.jpg",
+    "altText": "PVC Coated Fabric in maroon"
+  },
+  {
+    "productId": "prod_0483",
+    "sku": "LM-029-117-015",
+    "filename": "laminated-fabric-grey-prod-0483.jpg",
+    "altText": "Laminated Fabric in grey"
+  },
+  {
+    "productId": "prod_0484",
+    "sku": "LM-029-118-016",
+    "filename": "neoprene-fabric-teal-prod-0484.jpg",
+    "altText": "Neoprene Fabric in teal"
+  },
+  {
+    "productId": "prod_0485",
+    "sku": "LM-030-013-001",
+    "filename": "pure-linen-rust-prod-0485.jpg",
+    "altText": "Pure Linen in rust"
+  },
+  {
+    "productId": "prod_0486",
+    "sku": "LM-030-014-002",
+    "filename": "linen-blend-white-prod-0486.jpg",
+    "altText": "Linen Blend in white"
+  },
+  {
+    "productId": "prod_0487",
+    "sku": "LM-030-015-003",
+    "filename": "slub-linen-ivory-prod-0487.jpg",
+    "altText": "Slub Linen in ivory"
+  },
+  {
+    "productId": "prod_0488",
+    "sku": "LM-030-016-004",
+    "filename": "heavy-linen-natural-prod-0488.jpg",
+    "altText": "Heavy Linen in natural"
+  },
+  {
+    "productId": "prod_0489",
+    "sku": "LM-030-017-005",
+    "filename": "hemp-blend-sky-blue-prod-0489.jpg",
+    "altText": "Hemp Blend in sky blue"
+  },
+  {
+    "productId": "prod_0490",
+    "sku": "LM-030-018-006",
+    "filename": "garment-wash-linen-navy-prod-0490.jpg",
+    "altText": "Garment Wash Linen in navy"
+  },
+  {
+    "productId": "prod_0491",
+    "sku": "LM-030-043-007",
+    "filename": "rayon-challis-black-prod-0491.jpg",
+    "altText": "Rayon Challis in black"
+  },
+  {
+    "productId": "prod_0492",
+    "sku": "LM-030-044-008",
+    "filename": "viscose-poplin-charcoal-prod-0492.jpg",
+    "altText": "Viscose Poplin in charcoal"
+  },
+  {
+    "productId": "prod_0493",
+    "sku": "LM-030-045-009",
+    "filename": "modal-jersey-olive-prod-0493.jpg",
+    "altText": "Modal Jersey in olive"
+  },
+  {
+    "productId": "prod_0494",
+    "sku": "LM-030-046-010",
+    "filename": "lyocell-twill-beige-prod-0494.jpg",
+    "altText": "Lyocell Twill in beige"
+  },
+  {
+    "productId": "prod_0495",
+    "sku": "LM-030-047-011",
+    "filename": "rayon-crepe-sand-prod-0495.jpg",
+    "altText": "Rayon Crepe in sand"
+  },
+  {
+    "productId": "prod_0496",
+    "sku": "LM-030-048-012",
+    "filename": "cupro-satin-indigo-prod-0496.jpg",
+    "altText": "Cupro Satin in indigo"
+  },
+  {
+    "productId": "prod_0497",
+    "sku": "LM-030-049-013",
+    "filename": "nylon-taffeta-maroon-prod-0497.jpg",
+    "altText": "Nylon Taffeta in maroon"
+  },
+  {
+    "productId": "prod_0498",
+    "sku": "LM-030-050-014",
+    "filename": "cordura-nylon-grey-prod-0498.jpg",
+    "altText": "Cordura Nylon in grey"
+  },
+  {
+    "productId": "prod_0499",
+    "sku": "LM-030-051-015",
+    "filename": "polyamide-mesh-teal-prod-0499.jpg",
+    "altText": "Polyamide Mesh in teal"
+  },
+  {
+    "productId": "prod_0500",
+    "sku": "LM-030-052-016",
+    "filename": "packcloth-nylon-rust-prod-0500.jpg",
+    "altText": "Packcloth Nylon in rust"
+  }
+]

@@ -66,4 +66,9 @@ const SupplierSchema: Schema = new Schema(
   { timestamps: true }
 );
 
+// Indexes for fast searching and discovery
+SupplierSchema.index({ rating: -1 });
+SupplierSchema.index({ location: 1 });
+SupplierSchema.index({ accountStatus: 1 });
+
 export const Supplier = mongoose.model<ISupplier>('Supplier', SupplierSchema);

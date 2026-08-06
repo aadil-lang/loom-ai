@@ -238,11 +238,14 @@ ProductSchema.index({
   composition: 'text',
   searchKeywords: 'text'
 });
-ProductSchema.index({ supplierId: 1 });
-ProductSchema.index({ categoryId: 1 });
+ProductSchema.index({ supplierId: 1, createdAt: -1 });
+ProductSchema.index({ categoryId: 1, createdAt: -1 });
 ProductSchema.index({ isFeatured: -1, createdAt: -1 });
 ProductSchema.index({ viewCount: -1 });
 ProductSchema.index({ pricePerMeter: 1 });
+ProductSchema.index({ fabricType: 1, pricePerMeter: 1 });
+ProductSchema.index({ 'colors': 1 });
+ProductSchema.index({ productStatus: 1 });
 // Future-ready indexes
 ProductSchema.index({ trendingScore: -1 });
 ProductSchema.index({ popularityScore: -1 });

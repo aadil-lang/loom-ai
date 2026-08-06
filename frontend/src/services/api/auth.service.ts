@@ -1,7 +1,15 @@
 import api from '../api';
 
-export async function login(credentials: any): Promise<any> {
-  const response: any = await api.post('/auth/login', credentials);
+interface AuthResponse {
+  data: {
+    accessToken: string;
+    refreshToken: string;
+    user: Record<string, unknown>;
+  }
+}
+
+export async function loginBuyer(credentials: Record<string, unknown>): Promise<unknown> {
+  const response = (await api.post('/auth/buyer/login', credentials)) as AuthResponse;
   if (response.data?.accessToken) {
     localStorage.setItem('token', response.data.accessToken);
     localStorage.setItem('refreshToken', response.data.refreshToken);
@@ -10,8 +18,8 @@ export async function login(credentials: any): Promise<any> {
   return response.data;
 }
 
-export async function registerBuyer(data: any): Promise<any> {
-  const response: any = await api.post('/auth/register/buyer', data);
+export async function loginSupplier(credentials: Record<string, unknown>): Promise<unknown> {
+  const response = (await api.post('/auth/supplier/login', credentials)) as AuthResponse;
   if (response.data?.accessToken) {
     localStorage.setItem('token', response.data.accessToken);
     localStorage.setItem('refreshToken', response.data.refreshToken);
@@ -20,8 +28,18 @@ export async function registerBuyer(data: any): Promise<any> {
   return response.data;
 }
 
-export async function registerSupplier(data: any): Promise<any> {
-  const response: any = await api.post('/auth/register/supplier', data);
+export async function registerBuyer(data: Record<string, unknown>): Promise<unknown> {
+  const response = (await api.post('/auth/buyer/register', data)) as AuthResponse;
+  if (response.data?.accessToken) {
+    localStorage.setItem('token', response.data.accessToken);
+    localStorage.setItem('refreshToken', response.data.refreshToken);
+    localStorage.setItem('user', JSON.stringify(response.data.user));
+  }
+  return response.data;
+}
+
+export async function registerSupplier(data: Record<string, unknown>): Promise<unknown> {
+  const response = (await api.post('/auth/supplier/register', data)) as AuthResponse;
   if (response.data?.accessToken) {
     localStorage.setItem('token', response.data.accessToken);
     localStorage.setItem('refreshToken', response.data.refreshToken);
@@ -45,7 +63,7 @@ export async function logout(): Promise<void> {
   }
 }
 
-export function getCurrentUser(): any {
+export function getCurrentUser(): Record<string, unknown> | null {
   if (typeof window !== 'undefined') {
     const userStr = localStorage.getItem('user');
     if (userStr) return JSON.parse(userStr);

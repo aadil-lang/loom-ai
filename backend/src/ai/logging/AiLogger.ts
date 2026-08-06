@@ -20,6 +20,13 @@ if (process.env.NODE_ENV !== 'production') {
       format.simple()
     ),
   }));
+} else {
+  aiLogger.add(new transports.Console({
+    format: format.combine(
+      format.timestamp(),
+      format.json()
+    ),
+  }));
 }
 
 export function logAgentEvent(

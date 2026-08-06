@@ -7,15 +7,15 @@ import { ProductTools } from '../tools/ProductTools';
 import { RAGTools } from '../tools/RAGTools';
 
 const procurementStateChannels = {
-  sessionId: null,
-  language: null,
+  sessionId: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
+  language: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
   requirements: {
     reducer: (a: any, b: any) => ({ ...a, ...b }),
     default: () => ({})
   },
-  foundProducts: null,
-  foundSuppliers: null,
-  recommendationSummary: null,
+  foundProducts: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
+  foundSuppliers: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
+  recommendationSummary: { reducer: (a: any, b: any) => b !== undefined ? b : a, default: () => undefined },
   retrievedKnowledge: {
     reducer: (a: any, b: any) => (b ? b : a),
     default: () => null

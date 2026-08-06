@@ -9,20 +9,21 @@ import {
   loginValidator, 
   refreshValidator 
 } from '../../validators/auth/authValidators';
+import { authLimiter } from '../../middleware/auth/authLimiter';
 
 const router = Router();
 const authController = new AuthController();
 
 // Buyer Auth
-router.post('/buyer/register', registerBuyerValidator, validateRequest, authController.registerBuyer);
-router.post('/buyer/login', loginValidator, validateRequest, authController.loginBuyer);
+router.post('/buyer/register', authLimiter, registerBuyerValidator, validateRequest, authController.registerBuyer);
+router.post('/buyer/login', authLimiter, loginValidator, validateRequest, authController.loginBuyer);
 
 // Supplier Auth
-router.post('/supplier/register', registerSupplierValidator, validateRequest, authController.registerSupplier);
-router.post('/supplier/login', loginValidator, validateRequest, authController.loginSupplier);
+router.post('/supplier/register', authLimiter, registerSupplierValidator, validateRequest, authController.registerSupplier);
+router.post('/supplier/login', authLimiter, loginValidator, validateRequest, authController.loginSupplier);
 
 // Shared / Utility
-router.post('/refresh', refreshValidator, validateRequest, authController.refreshToken);
+router.post('/refresh', authLimiter, refreshValidator, validateRequest, authController.refreshToken);
 
 // Protected Routes
 router.post('/logout', authenticate, authController.logout);

@@ -14,7 +14,7 @@ export interface KpiCardProps extends React.HTMLAttributes<HTMLDivElement> {
   }
 }
 
-export function KpiCard({ title, value, description, icon, trend, className, ...props }: KpiCardProps) {
+export const KpiCard = React.memo(function KpiCard({ title, value, description, icon, trend, className, ...props }: KpiCardProps) {
   return (
     <Card className={cn("overflow-hidden", className)} {...props}>
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -42,4 +42,4 @@ export function KpiCard({ title, value, description, icon, trend, className, ...
       </CardContent>
     </Card>
   )
-}
+});
