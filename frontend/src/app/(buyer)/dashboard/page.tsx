@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { KpiCard } from '@/components/ui/kpi-card';
-import nextDynamic from 'next/dynamic';
-const DashboardChart = nextDynamic(() => import('@/components/ui/dashboard-chart').then(m => m.DashboardChart), { ssr: false, loading: () => <div className="h-[300px] w-full bg-muted animate-pulse rounded-lg" /> });
+import { DashboardChart } from '@/components/ui/dashboard-chart-lazy';
 import { RecommendationSection } from '@/components/buyer/RecommendationSection';
 import { Package, Heart, Star, ShoppingBag, ArrowRight } from 'lucide-react';
 import { buyerService, productService, analyticsService } from '@/services';

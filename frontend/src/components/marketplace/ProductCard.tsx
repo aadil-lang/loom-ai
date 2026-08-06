@@ -32,7 +32,6 @@ interface ProductCardProps {
   onAddToCart?: () => void;
 }
 
-import React from 'react';
 export const ProductCard = React.memo(function ProductCard({
   id,
   title,
