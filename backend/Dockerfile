@@ -3,6 +3,9 @@ FROM node:18-bullseye-slim AS builder
 
 WORKDIR /app
 
+# Install dependencies required by mongodb-memory-server
+RUN apt-get update && apt-get install -y libcurl4 && rm -rf /var/lib/apt/lists/*
+
 # Copy package files
 COPY package*.json ./
 
@@ -19,6 +22,9 @@ RUN npm run build
 FROM node:18-bullseye-slim
 
 WORKDIR /app
+
+# Install dependencies required by mongodb-memory-server
+RUN apt-get update && apt-get install -y libcurl4 && rm -rf /var/lib/apt/lists/*
 
 # Copy only production package files
 COPY package*.json ./
