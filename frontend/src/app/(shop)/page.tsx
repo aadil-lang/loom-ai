@@ -5,6 +5,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import dynamic from 'next/dynamic';
+import { motion } from 'framer-motion';
+import { Badge } from '@/components/ui/badge';
+import { SearchBar } from '@/components/ui/search-bar';
+import { CheckCircle2 } from 'lucide-react';
 
 const FabricGrid = dynamic(() => import('@/components/shop/FabricGrid').then(m => m.FabricGrid), { ssr: false, loading: () => <div className="h-[600px] bg-muted animate-pulse" /> });
 const IndustryGrid = dynamic(() => import('@/components/shop/IndustryGrid').then(m => m.IndustryGrid), { ssr: false, loading: () => <div className="h-[400px] bg-muted animate-pulse" /> });
