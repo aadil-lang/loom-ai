@@ -19,7 +19,11 @@ function getObjectId(uuid: string): mongoose.Types.ObjectId {
 
 export const connectMemoryDB = async () => {
   try {
-    mongod = await MongoMemoryServer.create();
+    mongod = await MongoMemoryServer.create({
+      binary: {
+        version: '7.0.14' // Explicitly set a version that exists for Debian 11
+      }
+    });
     const uri = mongod.getUri();
     logger.info(`Starting In-Memory MongoDB Server at: ${uri}`);
     
