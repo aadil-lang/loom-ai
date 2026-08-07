@@ -44,7 +44,8 @@ export default function AssistantPage() {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/v1/ai/procurement/simple-chat', {
+      const apiBase = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api/v1';
+      const response = await axios.post(`${apiBase}/ai/procurement/simple-chat`, {
         query: userMsg
       });
 
