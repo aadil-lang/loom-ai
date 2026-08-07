@@ -541,16 +541,16 @@ export function MarketplaceContainer({ products, categories, suppliers, colors }
                   >
                     <ProductCard
                       id={product.id || product._id}
-                      title={product.name}
-                      supplier={supplier?.name || 'ABC Textiles Pvt Ltd'}
-                      supplierLocation={supplier?.location ? `${supplier.location.city}, ${supplier.location.state}` : 'Surat, Gujarat'}
+                      title={product.name || product.slug?.replace(/-/g, ' ') || 'Fabric'}
+                      supplier={product.supplierName || supplier?.name || 'Verified Supplier'}
+                      supplierLocation={supplier?.location ? `${supplier.location.city}, ${supplier.location.state}` : (product.supplierCity ? `${product.supplierCity}, ${product.supplierState}` : 'India')}
                       supplierType={supplier?.businessType || 'Manufacturer'}
                       price={product.pricePerMeter}
-                      moq={product.moq}
+                      moq={product.moq || product.MOQ || 100}
                       leadTimeDays={product.leadTimeDays || 7}
                       rating={product.rating || supplier?.rating || 4.8}
                       reviewCount={product.reviewCount || 124}
-                      image={product.images && product.images.length > 0 ? product.images[0] : ''}
+                      image={(() => { const img = product.images || product.primaryImage || ''; return Array.isArray(img) ? img[0] : img; })()}
                       material={product.composition || product.material}
                       gsm={product.weightGSM || product.gsm}
                       width={product.width || product.widthCM}

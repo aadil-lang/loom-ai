@@ -11,12 +11,16 @@ export class ProductService {
   }
 
   async getProductDetails(id: string): Promise<IProduct> {
-    const product = await this.productRepository.findById(id);
+    // Try _id first, then fall back to the 'id' field (Atlas data uses both)
+    let product = await this.productRepository.findById(id);
+    if (!product) {
+      product = await this.productRepository.findOne({ id } as any);
+    }
     if (!product) {
       throw new NotFoundError('Product not found');
     }
     // Record view for 'Popular' sorting (AI/Marketplace metric)
-    await this.productRepository.update(id, { $inc: { viewCount: 1 } });
+    await this.productRepository.update((product as any)._id?.toString() || id, { $inc: { viewCount: 1 } });
     return product;
   }
 
