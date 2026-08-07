@@ -34,6 +34,7 @@ export interface IKnowledgeArticle extends Document {
 
 const KnowledgeArticleSchema: Schema = new Schema(
   {
+    _id: { type: String },
     title: { type: String, required: true },
     slug: { type: String, required: true, unique: true },
     summary: { type: String, required: true },

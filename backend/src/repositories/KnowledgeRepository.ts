@@ -8,13 +8,13 @@ export class KnowledgeRepository extends BaseRepository<IKnowledgeArticle> {
   }
 
   async findBySlug(slug: string): Promise<IKnowledgeArticle | null> {
-    return await this.model.findOne({ slug, published: true }).exec();
+    return await this.model.findOne({ slug, published: { $ne: false } }).exec();
   }
 
   async findRelated(article: IKnowledgeArticle, limit: number = 3): Promise<IKnowledgeArticle[]> {
     return await this.model.find({
       _id: { $ne: article._id },
-      published: true,
+      published: { $ne: false },
       $or: [
         { category: article.category },
         { subcategory: article.subcategory },
@@ -33,7 +33,7 @@ export class KnowledgeRepository extends BaseRepository<IKnowledgeArticle> {
     limit: number = 10,
     sortParam: string = 'newest'
   ) {
-    const filterQuery: any = { published: true };
+    const filterQuery: any = { published: { $ne: false } }; // Show unless explicitly false
 
     if (query) {
       filterQuery.$text = { $search: query };
@@ -66,6 +66,6 @@ export class KnowledgeRepository extends BaseRepository<IKnowledgeArticle> {
   }
 
   async getDistinctCategories() {
-    return await this.model.distinct('category', { published: true });
+    return await this.model.distinct('category', { published: { $ne: false } });
   }
 }
