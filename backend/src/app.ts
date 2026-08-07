@@ -15,6 +15,9 @@ import path from 'path';
 export const createApp = (): Application => {
   const app = express();
 
+  // Trust the first proxy (required when running behind Render/load balancer)
+  app.set('trust proxy', 1);
+
   // Serve dataset images statically
   app.use('/loomai-images', express.static(path.join(__dirname, '../public/loomai-images')));
 
