@@ -50,7 +50,7 @@ export function ImageUploader({ images, onChange, maxImages = 5 }: ImageUploader
       {images.length > 0 && (
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {images.map((url, idx) => (
-            <div key={idx} className="relative aspect-square rounded-lg border overflow-hidden group">
+            <div key={url || `image-${idx}`} className="relative aspect-square rounded-lg border overflow-hidden group">
               <Image src={url} alt="Product image" fill className="object-cover" />
               <button 
                 type="button"

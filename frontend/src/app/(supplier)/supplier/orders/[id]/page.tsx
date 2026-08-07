@@ -64,8 +64,8 @@ export default async function OrderDetailsPage({ params }: { params: { id: strin
             </CardHeader>
             <CardContent>
               <div className="space-y-6">
-                {hydratedProducts.map((prod, idx) => (
-                  <div key={idx} className="flex justify-between items-center py-4 border-b last:border-0 last:pb-0">
+                {hydratedProducts.map((prod) => (
+                  <div key={(prod as any).id || (prod as any)._id || `${prod.name}-${Math.random()}`} className="flex justify-between items-center py-4 border-b last:border-0 last:pb-0">
                     <div className="flex gap-4">
                       <div className="h-16 w-16 bg-slate-100 rounded-md overflow-hidden border">
                         {/* Placeholder for image */}
@@ -119,8 +119,8 @@ export default async function OrderDetailsPage({ params }: { params: { id: strin
             </CardHeader>
             <CardContent>
               <div className="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
-                {timelineSteps.map((step, idx) => (
-                  <div key={idx} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                {timelineSteps.map((step) => (
+                  <div key={step.title} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div className="flex items-center justify-center w-10 h-10 rounded-full border-2 border-white bg-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
                       <step.icon className={`h-4 w-4 ${step.completed ? "text-blue-600" : "text-slate-300"}`} />
                     </div>

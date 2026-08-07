@@ -24,7 +24,7 @@ export function AIChatSidebar({
   const pathname = usePathname();
   const messagesEndRef = React.useRef<HTMLDivElement>(null);
 
-  const { isListening, supported, toggleListening } = useSpeechRecognition((transcript) => {
+  const { isListening, supported, permissionDenied, toggleListening } = useSpeechRecognition((transcript) => {
     setInput(prev => prev + (prev ? ' ' : '') + transcript);
   });
 
@@ -148,7 +148,7 @@ export function AIChatSidebar({
         )}
         
         {messages.map((m, i) => (
-          <div key={i} className={`flex gap-3 ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+          <div key={`${m.role}-${i}-${(m.content || '').slice(0,20)}`} className={`flex gap-3 ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
             {m.role === 'ai' && (
               <div className={`h-8 w-8 rounded-full flex items-center justify-center shrink-0 ${agentColors[activeAgent] || 'bg-slate-800'} text-white`}>
                 <Bot className="h-4 w-4" />
@@ -171,15 +171,21 @@ export function AIChatSidebar({
       <div className="p-4 border-t bg-white dark:bg-slate-950">
         <div className="flex gap-2">
           {supported && (
-            <Button
-              variant={isListening ? 'destructive' : 'outline'}
-              size="icon"
-              onClick={toggleListening}
-              className={`shrink-0 rounded-xl transition-all h-12 w-12 ${isListening ? 'animate-pulse' : ''}`}
-              title="Voice Search"
-            >
-              {isListening ? <MicOff className="h-5 w-5" /> : <Mic className="h-5 w-5" />}
-            </Button>
+            <div className="flex flex-col items-center">
+              <Button
+                variant={isListening ? 'destructive' : 'outline'}
+                size="icon"
+                onClick={toggleListening}
+                className={`shrink-0 rounded-xl transition-all h-12 w-12 ${isListening ? 'animate-pulse' : ''}`}
+                title={permissionDenied ? 'Microphone permission denied' : 'Voice Search'}
+                disabled={permissionDenied}
+              >
+                {isListening ? <MicOff className="h-5 w-5" /> : <Mic className="h-5 w-5" />}
+              </Button>
+              {permissionDenied && (
+                <div className="text-xs text-rose-600 mt-1">Microphone permission is required to use voice assistance.</div>
+              )}
+            </div>
           )}
           <Input 
             value={input}

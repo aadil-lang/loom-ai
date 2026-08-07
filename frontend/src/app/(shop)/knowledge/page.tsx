@@ -77,7 +77,7 @@ export default function KnowledgeBasePage() {
           {isLoading ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[1, 2, 3, 4, 5, 6].map(i => (
-                <div key={i} className="h-[400px] bg-muted/50 rounded-2xl animate-pulse" />
+                <div key={`skeleton-${i}`} className="h-[400px] bg-muted/50 rounded-2xl animate-pulse" />
               ))}
             </div>
           ) : articles.length > 0 ? (

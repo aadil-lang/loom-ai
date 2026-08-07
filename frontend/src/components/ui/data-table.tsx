@@ -107,7 +107,7 @@ export function DataTable<T extends Record<string, unknown>>({
               <TableRow>
                 {columns.map((col, i) => (
                   <TableHead 
-                    key={i} 
+                    key={String(col.accessorKey) || i} 
                     className={col.sortable ? "cursor-pointer select-none" : ""}
                     onClick={() => col.sortable && handleSort(col.accessorKey)}
                   >
@@ -129,12 +129,12 @@ export function DataTable<T extends Record<string, unknown>>({
               ) : (
                 paginatedData.map((item, i) => (
                   <TableRow 
-                    key={i} 
+                    key={(item as any).id || (item as any)._id || i} 
                     className={onRowClick ? "cursor-pointer hover:bg-slate-50 transition-colors" : ""}
                     onClick={() => onRowClick && onRowClick(item)}
                   >
                     {columns.map((col, j) => (
-                      <TableCell key={j} className="py-4">
+                      <TableCell key={String(col.accessorKey) || j} className="py-4">
                         {col.cell ? col.cell(item) : (item[col.accessorKey as keyof T] as React.ReactNode)}
                       </TableCell>
                     ))}

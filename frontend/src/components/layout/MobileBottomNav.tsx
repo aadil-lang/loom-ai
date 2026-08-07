@@ -11,12 +11,12 @@ export function MobileBottomNav({ items }: { items: NavItem[] }) {
 
   return (
     <div className="md:hidden fixed bottom-0 left-0 z-50 w-full h-16 bg-background/95 backdrop-blur-md border-t border-border flex items-center justify-around pb-safe">
-      {items.map((item, index) => {
+      {items.map((item) => {
         const isActive = pathname === item.href || pathname?.startsWith(`${item.href}/`);
         
         return (
           <Link 
-            key={index} 
+            key={item.href || item.title} 
             href={item.href}
             className={cn(
               "flex flex-col items-center justify-center w-full h-full space-y-1 transition-colors",

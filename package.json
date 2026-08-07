@@ -6,7 +6,9 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {},
+  "scripts": {
+    "e2e": "playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aadil-lang/loom-ai.git"

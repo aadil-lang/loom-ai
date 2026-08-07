@@ -52,8 +52,17 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
     };
   }
 
-  // Determine Image
-  const displayImage = product.images && product.images.length > 0 ? product.images[0] : 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=1200&auto=format&fit=crop';
+  // Determine Image — Atlas stores images as a string, not array
+  const rawImage = (product as any).images || (product as any).primaryImage || '';
+  const primaryImage = Array.isArray(rawImage) ? (rawImage[0] || '') : rawImage;
+  const backendBase = (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api/v1').replace('/api/v1', '');
+  const displayImage = primaryImage
+    ? (primaryImage.startsWith('http') ? primaryImage : `${backendBase}${primaryImage}`)
+    : 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=1200&auto=format&fit=crop';
+
+  // Product name/title fallback
+  const productName = (product as any).name || (product as any).slug?.replace(/-/g, ' ') || 'Fabric';
+  const productMOQ = (product as any).moq || (product as any).MOQ || 100;
 
   // Get similar products
   const similarProducts = products.filter((p: any) => p.categoryId === product.categoryId && (p.id || p._id) !== (product.id || product._id)).slice(0, 4);
@@ -90,8 +99,8 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
             )}
           </div>
           <div className="flex gap-4 overflow-x-auto pb-2 custom-scrollbar">
-            {[displayImage, ...FABRIC_IMAGES.filter(img => img !== displayImage).slice(0, 3)].map((img, i) => (
-              <div key={i} className={`shrink-0 w-24 h-24 rounded-2xl overflow-hidden border-2 cursor-pointer transition-all ${i === 0 ? 'border-emerald-500 ring-2 ring-emerald-500/20' : 'border-slate-200 dark:border-slate-800 opacity-70 hover:opacity-100'}`}>
+            {[displayImage, ...FABRIC_IMAGES.filter(img => img !== displayImage).slice(0, 3)].map((img) => (
+              <div key={img} className={`shrink-0 w-24 h-24 rounded-2xl overflow-hidden border-2 cursor-pointer transition-all ${img === displayImage ? 'border-emerald-500 ring-2 ring-emerald-500/20' : 'border-slate-200 dark:border-slate-800 opacity-70 hover:opacity-100'}`}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={img} alt="thumbnail" className="w-full h-full object-cover hover:scale-110 transition-transform" />
               </div>
@@ -103,7 +112,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
         <div className="lg:col-span-7 flex flex-col space-y-8">
           
           <div className="space-y-4">
-            <h1 className="text-3xl md:text-4xl font-black tracking-tight text-slate-900 dark:text-white">{product.name}</h1>
+            <h1 className="text-3xl md:text-4xl font-black tracking-tight text-slate-900 dark:text-white">{productName}</h1>
             
             <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
               <div className="flex items-center gap-1.5 bg-slate-50 dark:bg-slate-900 px-3 py-1 rounded-full border">
@@ -132,7 +141,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
             <div className="grid grid-cols-2 gap-4 relative z-10 border-y border-slate-100 dark:border-slate-800 py-6">
               <div className="space-y-1">
                 <span className="flex items-center gap-2 text-sm text-slate-500 font-semibold"><Package className="w-4 h-4 text-slate-400" /> Minimum Order</span>
-                <p className="text-lg font-bold text-slate-900 dark:text-white">{product.moq} meters</p>
+                <p className="text-lg font-bold text-slate-900 dark:text-white">{productMOQ} meters</p>
               </div>
               <div className="space-y-1">
                 <span className="flex items-center gap-2 text-sm text-slate-500 font-semibold"><Clock className="w-4 h-4 text-slate-400" /> Lead Time</span>
@@ -142,9 +151,11 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
             
             <div className="pt-2 flex flex-col sm:flex-row gap-4 relative z-10">
               <AddToCartButton product={product} />
-              <Button size="lg" variant="outline" className="flex-1 rounded-2xl h-14 text-base font-black border-2 border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-800 transition-all">
-                <MessageSquare className="w-5 h-5 mr-2" /> Contact Supplier
-              </Button>
+              <Link href={`/checkout`} className="flex-1">
+                <Button size="lg" className="w-full rounded-2xl h-14 text-base font-black bg-slate-900 hover:bg-slate-700 dark:bg-white dark:hover:bg-slate-200 dark:text-slate-900 text-white transition-all">
+                  Buy Now
+                </Button>
+              </Link>
             </div>
             
             <div className="flex items-center justify-between pt-4 relative z-10 text-slate-500">
@@ -216,8 +227,8 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               <div className="space-y-4">
                 <h3 className="text-xl font-bold">Certifications & Quality</h3>
                 <div className="flex flex-wrap gap-3">
-                  {(product.certifications || ['ISO 9001:2015', 'OEKO-TEX Standard 100', 'GOTS']).map((cert: string, idx: number) => (
-                    <div key={idx} className="flex items-center gap-2 bg-slate-50 dark:bg-slate-900 border px-4 py-3 rounded-xl">
+                  {(product.certifications || ['ISO 9001:2015', 'OEKO-TEX Standard 100', 'GOTS']).map((cert: string) => (
+                    <div key={cert} className="flex items-center gap-2 bg-slate-50 dark:bg-slate-900 border px-4 py-3 rounded-xl">
                       <Award className="w-5 h-5 text-emerald-600" />
                       <span className="font-bold text-sm">{cert}</span>
                     </div>

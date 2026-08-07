@@ -13,9 +13,7 @@ const supplierNavItems: NavItem[] = [
   { title: 'Inventory', href: '/supplier/inventory', icon: Box },
   { title: 'Orders', href: '/supplier/orders', icon: Package, badge: 5 },
   { title: 'Analytics', href: '/supplier/analytics', icon: BarChart3 },
-  { title: 'Customers', href: '/supplier/customers', icon: Users },
-  { title: 'AI Assistant', href: '/supplier/assistant', icon: Bot },
-  { title: 'Profile', href: '/supplier/profile', icon: User },
+  { title: 'Products', href: '/supplier/products', icon: Box },
   { title: 'Settings', href: '/supplier/settings', icon: Settings },
 ];
 

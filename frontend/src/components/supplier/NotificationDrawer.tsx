@@ -37,7 +37,7 @@ export function NotificationDrawer({ notifications }: { notifications: any[] }) 
         <div className="mt-6 flex flex-col gap-4 overflow-y-auto h-[calc(100vh-120px)] pr-4">
           {notifications.map((notif, idx) => (
             <div 
-              key={idx} 
+              key={(notif as any).id || (notif as any)._id || `notif-${idx}`} 
               className={`p-4 rounded-xl border ${notif.read ? "bg-white" : "bg-blue-50/50 border-blue-100"}`}
             >
               <div className="flex justify-between items-start mb-2">

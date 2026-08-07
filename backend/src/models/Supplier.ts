@@ -35,7 +35,6 @@ export interface ISupplier extends Document {
 
 const SupplierSchema: Schema = new Schema(
   {
-    _id: { type: String },
     name: { type: String, required: true },
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true, select: false },

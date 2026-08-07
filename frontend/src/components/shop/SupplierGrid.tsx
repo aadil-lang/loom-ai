@@ -21,7 +21,7 @@ export function SupplierGrid() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[1, 2, 3].map((i) => (
-            <Card key={i} className="p-6 rounded-3xl hover:shadow-xl transition-shadow border-muted bg-white dark:bg-card relative overflow-hidden group">
+            <Card key={`supplier-${i}`} className="p-6 rounded-3xl hover:shadow-xl transition-shadow border-muted bg-white dark:bg-card relative overflow-hidden group">
               <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-bl-full -z-10 group-hover:bg-emerald-500/20 transition-colors"></div>
               <div className="flex items-start gap-4 mb-6">
                 <div className="w-16 h-16 rounded-2xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center shrink-0 border shadow-sm">

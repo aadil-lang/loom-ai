@@ -78,8 +78,8 @@ export const ProductCard = React.memo(function ProductCard({
             Verified
           </Badge>
         )}
-        {badges.slice(0, 2).map((badge, idx) => (
-          <Badge key={idx} variant="secondary" className="bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm border-none font-semibold text-[10px] text-slate-800 dark:text-slate-200 py-0.5 px-2 shadow-sm">
+        {badges.slice(0, 2).map((badge) => (
+          <Badge key={badge} variant="secondary" className="bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm border-none font-semibold text-[10px] text-slate-800 dark:text-slate-200 py-0.5 px-2 shadow-sm">
             {badge}
           </Badge>
         ))}

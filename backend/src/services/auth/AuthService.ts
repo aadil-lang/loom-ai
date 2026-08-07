@@ -64,7 +64,8 @@ export class AuthService {
     supplier.refreshToken = refreshToken;
     await supplier.save();
 
-    const accessToken = TokenService.generateAccessToken({ id: supplier.id, role: supplier.role });
+    // Use _id.toString() — works for both ObjectId and string _id types
+    const accessToken = TokenService.generateAccessToken({ id: supplier._id.toString(), role: supplier.role });
 
     const supplierObj = supplier.toObject();
     delete supplierObj.password;
@@ -73,7 +74,7 @@ export class AuthService {
   }
 
   async loginSupplier(email: string, password: string): Promise<{ user: ISupplier; accessToken: string; refreshToken: string }> {
-    const supplier = await Supplier.findOne({ email }).select('+password').exec();
+    const supplier = await Supplier.findOne({ email }).select('+password +refreshToken').exec();
     if (!supplier) throw new UnauthorizedError('Invalid credentials');
     if (supplier.accountStatus === 'suspended') throw new UnauthorizedError('Account is suspended');
 
@@ -90,7 +91,8 @@ export class AuthService {
     supplier.lastLogin = new Date();
     await supplier.save();
 
-    const accessToken = TokenService.generateAccessToken({ id: supplier.id, role: supplier.role });
+    // Use _id.toString() — works for both ObjectId and string _id types
+    const accessToken = TokenService.generateAccessToken({ id: supplier._id.toString(), role: supplier.role });
 
     const supplierObj = supplier.toObject();
     delete supplierObj.password;

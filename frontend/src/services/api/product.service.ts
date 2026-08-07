@@ -4,13 +4,16 @@ import api from '../api';
 export async function getProducts(filters?: any): Promise<any[]> {
   const query = new URLSearchParams(filters || {}).toString();
   const response = await api.get(`/products?${query}`);
-  return response.data?.data || response.data || [];
+  const items = response.data?.data || response.data || [];
+  return items.map((p: any) => ({ ...p, id: p.id || p._id }));
 }
 
 export async function getProductById(id: string): Promise<any | null> {
   try {
     const response = await api.get(`/products/${id}`);
-    return response.data?.data || response.data;
+    const item = response.data?.data || response.data;
+    if (!item) return null;
+    return { ...item, id: item.id || item._id };
   } catch (error) {
     return null;
   }
@@ -18,7 +21,8 @@ export async function getProductById(id: string): Promise<any | null> {
 
 export async function getProductsBySupplier(supplierId: string): Promise<any[]> {
   const response = await api.get(`/products?supplierId=${supplierId}`);
-  return response.data?.data || response.data || [];
+  const items = response.data?.data || response.data || [];
+  return items.map((p: any) => ({ ...p, id: p.id || p._id }));
 }
 
 export async function getCategories(): Promise<any[]> {

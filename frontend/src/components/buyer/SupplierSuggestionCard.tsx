@@ -59,8 +59,8 @@ export function SupplierSuggestionCard({ supplier, isAiRecommendation = false }:
 
       {supplier.certifications && supplier.certifications.length > 0 && (
         <div className="mt-4 flex flex-wrap gap-2">
-          {supplier.certifications.slice(0, 3).map((cert: string, idx: number) => (
-            <span key={idx} className="bg-slate-100 text-slate-600 text-[10px] px-2 py-1 rounded-full uppercase tracking-wider font-semibold border">
+          {supplier.certifications.slice(0, 3).map((cert: string) => (
+            <span key={cert} className="bg-slate-100 text-slate-600 text-[10px] px-2 py-1 rounded-full uppercase tracking-wider font-semibold border">
               {cert}
             </span>
           ))}

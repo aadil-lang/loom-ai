@@ -21,8 +21,8 @@ export function KnowledgeGrid() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {ARTICLES.map((article, idx) => (
-            <Link prefetch={false} key={idx} href="/knowledge">
+          {ARTICLES.map((article) => (
+            <Link prefetch={false} key={article.title} href="/knowledge">
               <Card className="h-full border-0 shadow-none bg-transparent group cursor-pointer">
                 <div className="relative h-64 w-full rounded-3xl overflow-hidden mb-6 shadow-md">
                   <Image src={article.img} alt={article.title} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover group-hover:scale-105 transition-transform duration-700" />

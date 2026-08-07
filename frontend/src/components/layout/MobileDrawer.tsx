@@ -42,12 +42,12 @@ export function MobileDrawer({ open, onOpenChange, items, isSupplier = false }: 
         
         <div className="flex-1 overflow-auto py-6">
           <nav className="grid items-start px-4 text-sm font-medium gap-2">
-            {items.map((item, index) => {
+            {items.map((item) => {
               const isActive = pathname === item.href || pathname?.startsWith(`${item.href}/`);
               
               return (
                 <Link 
-                  key={index} 
+                  key={item.href || item.title} 
                   href={item.href}
                   onClick={() => onOpenChange(false)}
                 >

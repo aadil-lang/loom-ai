@@ -9,15 +9,18 @@ import { addToCart } from '@/services/api/buyer.service';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { CheckCircle2, Truck, FileText, ArrowLeft } from 'lucide-react';
+import { CheckCircle2, Truck, FileText, ArrowLeft, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AuthGuard } from '@/components/auth/AuthGuard';
+import { toast } from 'sonner';
 
 export default function CheckoutPage() {
   const router = useRouter();
   const { items, cartTotal, clearCart } = useCart();
   const [step, setStep] = React.useState(1);
   const [orderNumber, setOrderNumber] = React.useState<number | null>(null);
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
+  const [orderError, setOrderError] = React.useState<string | null>(null);
 
   // If they somehow land here with no items (unless success)
   React.useEffect(() => {
@@ -30,6 +33,8 @@ export default function CheckoutPage() {
   const total = cartTotal + shipping;
 
   const handleCompleteOrder = async () => {
+    setIsSubmitting(true);
+    setOrderError(null);
     try {
       // Sync local cart to backend DB so checkout validator succeeds
       for (const item of items) {
@@ -42,15 +47,22 @@ export default function CheckoutPage() {
       };
       
       const response = await createOrder(orderData);
-      setOrderNumber(response[0]?.orderNumber || Math.floor(Math.random() * 100000));
-      setStep(3);
+      // Expect API wrapper: { success: boolean, data: IOrder[] }
+      const orders = response?.data || response;
+      if (!response || (response.success === false) || !orders || orders.length === 0) {
+        throw new Error('Order creation failed. Please try again.');
+      }
+      setOrderNumber(orders[0]?.orderNumber || Math.floor(Math.random() * 100000));
       clearCart();
-    } catch (err) {
+      setStep(3);
+    } catch (err: any) {
       console.error("Failed to place order:", err);
-      alert("Failed to place order. Using mock flow fallback.");
-      setOrderNumber(Math.floor(Math.random() * 100000));
-      setStep(3);
-      clearCart();
+      const msg = err?.response?.data?.message || err?.message || 'Failed to place order. Please try again.';
+      setOrderError(msg);
+      toast.error(msg);
+      // Cart is NOT cleared — user can retry
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -177,8 +189,13 @@ export default function CheckoutPage() {
                   <div className="bg-blue-50 p-4 rounded-lg text-sm text-blue-800">
                     <strong>Note:</strong> Payment is handled off-platform for large B2B POs. Clicking Confirm will dispatch the PO to the suppliers.
                   </div>
-                  <Button onClick={handleCompleteOrder} className="w-full bg-blue-600 hover:bg-blue-700 text-white h-12">
-                    Confirm Purchase Order
+                  {orderError && (
+                    <div className="p-3 rounded-lg bg-red-50 border border-red-200 text-red-700 text-sm">
+                      {orderError}
+                    </div>
+                  )}
+                  <Button onClick={handleCompleteOrder} disabled={isSubmitting} className="w-full bg-blue-600 hover:bg-blue-700 text-white h-12">
+                    {isSubmitting ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Placing Order...</> : 'Confirm Purchase Order'}
                   </Button>
                 </div>
               </motion.div>

@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 export function useSpeechRecognition(onResult: (transcript: string) => void) {
   const [isListening, setIsListening] = useState(false);
   const [supported, setSupported] = useState(true);
+  const [permissionDenied, setPermissionDenied] = useState(false);
   const [recognition, setRecognition] = useState<any>(null);
   
   const onResultRef = useRef(onResult);
@@ -36,6 +37,10 @@ export function useSpeechRecognition(onResult: (transcript: string) => void) {
 
     recognitionInstance.onerror = (event: any) => {
       console.error('Speech recognition error', event.error);
+      // Handle permission denied explicitly
+      if (event && (event.error === 'not-allowed' || event.error === 'permission-denied')) {
+        setPermissionDenied(true);
+      }
       setIsListening(false);
     };
 
@@ -65,6 +70,7 @@ export function useSpeechRecognition(onResult: (transcript: string) => void) {
   return {
     isListening,
     supported,
+    permissionDenied,
     toggleListening
   };
 }

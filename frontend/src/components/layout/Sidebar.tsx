@@ -27,11 +27,11 @@ export function Sidebar({ className, items, isSupplier = false, ...props }: Side
     <div className={cn("hidden md:flex flex-col border-r bg-muted/20 h-screen w-64 fixed left-0 top-16", className)} {...props}>
       <div className="flex-1 overflow-auto py-6">
         <nav className="grid items-start px-4 text-sm font-medium gap-1.5">
-          {items.map((item, index) => {
+          {items.map((item) => {
             const isActive = pathname === item.href || pathname?.startsWith(`${item.href}/`);
             
             return (
-              <Link key={index} href={item.href}>
+              <Link key={item.href || item.title} href={item.href}>
                 <span
                   className={cn(
                     "flex items-center gap-3 rounded-xl px-3 py-2.5 transition-all hover:bg-accent hover:text-accent-foreground",

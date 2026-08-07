@@ -49,7 +49,7 @@ export function Rating({
         
         return (
           <Star
-            key={i}
+            key={`star-${i}`}
             className={cn(
               sizes[size],
               "transition-colors",
