@@ -1,10 +1,10 @@
 import mongoose, { Schema, Document } from 'mongoose';
 
 export interface IReview extends Document {
-  productId: mongoose.Types.ObjectId;
-  buyerId: mongoose.Types.ObjectId;
-  supplierId: mongoose.Types.ObjectId;
-  orderId?: mongoose.Types.ObjectId;
+  productId: string;
+  buyerId: string;
+  supplierId: string;
+  orderId?: string;
   rating: number;
   title?: string;
   comment?: string;
@@ -15,10 +15,10 @@ export interface IReview extends Document {
 
 const ReviewSchema: Schema = new Schema(
   {
-    productId: { type: Schema.Types.ObjectId, ref: 'Product', required: true },
-    buyerId: { type: Schema.Types.ObjectId, ref: 'Buyer', required: true },
-    supplierId: { type: Schema.Types.ObjectId, ref: 'Supplier', required: true },
-    orderId: { type: Schema.Types.ObjectId, ref: 'Order' },
+    productId: { type: String, ref: 'Product', required: true },
+    buyerId: { type: String, ref: 'Buyer', required: true },
+    supplierId: { type: String, ref: 'Supplier', required: true },
+    orderId: { type: String, ref: 'Order' },
     rating: { type: Number, required: true, min: 1, max: 5 },
     title: { type: String, maxlength: 100 },
     comment: { type: String, maxlength: 1000 },

@@ -55,10 +55,10 @@ export class ReviewService {
     }
 
     const review = await this.reviewRepo.create({
-      productId: new mongoose.Types.ObjectId(productId),
-      buyerId: new mongoose.Types.ObjectId(buyerId),
+      productId,
+      buyerId,
       supplierId: product.supplierId,
-      orderId: order._id as mongoose.Types.ObjectId,
+      orderId: order._id as unknown as string,
       rating,
       title,
       comment,
@@ -98,7 +98,7 @@ export class ReviewService {
   }
 
   private async updateProductRating(productId: string) {
-    const stats = await this.reviewRepo.getProductRatingAggregation(new mongoose.Types.ObjectId(productId) as any);
+    const stats = await this.reviewRepo.getProductRatingAggregation(productId);
     await this.productRepo.update(productId, {
       rating: stats.avgRating,
       customerRatingSummary: JSON.stringify({ count: stats.reviewCount, average: stats.avgRating }),
