@@ -11,8 +11,8 @@ export interface IProductVariant {
 
 export interface IProduct extends Document {
   // Existing required fields
-  supplierId: mongoose.Types.ObjectId;
-  categoryId: mongoose.Types.ObjectId;
+  supplierId: string;
+  categoryId: string;
   name: string;
   sku: string;
   description: string;
@@ -101,9 +101,9 @@ export interface IProduct extends Document {
   aiDescription?: string;
 
   // Future-Proofing: Recommendations
-  similarProductIds?: mongoose.Types.ObjectId[];
-  frequentlyBoughtTogether?: mongoose.Types.ObjectId[];
-  complementaryProducts?: mongoose.Types.ObjectId[];
+  similarProductIds?: string[];
+  frequentlyBoughtTogether?: string[];
+  complementaryProducts?: string[];
   trendingScore?: number;
   popularityScore?: number;
   recommendationWeight?: number;
@@ -132,8 +132,8 @@ const ProductVariantSchema = new Schema<IProductVariant>({
 
 const ProductSchema: Schema = new Schema(
   {
-    supplierId: { type: Schema.Types.ObjectId, ref: 'Supplier', required: true },
-    categoryId: { type: Schema.Types.ObjectId, ref: 'Category', required: true },
+    supplierId: { type: String, ref: 'Supplier', required: true },
+    categoryId: { type: String, ref: 'Category', required: true },
     name: { type: String, required: true },
     sku: { type: String, required: true, unique: true },
     description: { type: String, required: true },
@@ -211,9 +211,9 @@ const ProductSchema: Schema = new Schema(
     aiSummary: { type: String },
     aiDescription: { type: String },
 
-    similarProductIds: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
-    frequentlyBoughtTogether: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
-    complementaryProducts: [{ type: Schema.Types.ObjectId, ref: 'Product' }],
+    similarProductIds: [{ type: String, ref: 'Product' }],
+    frequentlyBoughtTogether: [{ type: String, ref: 'Product' }],
+    complementaryProducts: [{ type: String, ref: 'Product' }],
     trendingScore: { type: Number, default: 0 },
     popularityScore: { type: Number, default: 0 },
     recommendationWeight: { type: Number, default: 0 },

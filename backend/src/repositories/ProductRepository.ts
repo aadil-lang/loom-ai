@@ -15,10 +15,10 @@ export class ProductRepository extends BaseRepository<IProduct> {
       filter.$text = { $search: dto.search };
     }
     if (dto.category) {
-      filter.categoryId = new mongoose.Types.ObjectId(dto.category);
+      filter.categoryId = dto.category;
     }
     if (dto.supplier) {
-      filter.supplierId = new mongoose.Types.ObjectId(dto.supplier);
+      filter.supplierId = dto.supplier;
     }
     if (dto.fabricType) {
       filter.fabricType = dto.fabricType;
@@ -80,7 +80,7 @@ export class ProductRepository extends BaseRepository<IProduct> {
     // Simple heuristic for related: same category, different product
     return await this.model.find({
       categoryId: product.categoryId,
-      _id: { $ne: new mongoose.Types.ObjectId(productId) }
+      _id: { $ne: productId }
     }).limit(limit).select('-aiDescription -aiSummary -semanticTags -embeddingId -vectorDocumentId').lean().exec() as IProduct[];
   }
 
@@ -89,9 +89,8 @@ export class ProductRepository extends BaseRepository<IProduct> {
   }
 
   async aggregateDashboardStats(supplierId: string) {
-    const objectId = new mongoose.Types.ObjectId(supplierId);
     const result = await this.model.aggregate([
-      { $match: { supplierId: objectId } },
+      { $match: { supplierId: supplierId } },
       {
         $group: {
           _id: null,
