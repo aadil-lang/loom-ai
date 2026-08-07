@@ -53,7 +53,14 @@ export const ProductCard = React.memo(function ProductCard({
 }: ProductCardProps) {
   const { addToCart } = useCart();
   
-  const displayImage = image || 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=800&auto=format&fit=crop';
+  const resolveImage = (src?: string) => {
+    if (!src) return 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=800&auto=format&fit=crop';
+    if (src.startsWith('http')) return src;
+    // Relative path like /loomai-images/... — prepend the backend base URL
+    const backendBase = (process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api/v1').replace('/api/v1', '');
+    return `${backendBase}${src}`;
+  };
+  const displayImage = resolveImage(image);
 
   const content = (
     <div className="relative aspect-[4/3] overflow-hidden bg-slate-100 dark:bg-slate-800">

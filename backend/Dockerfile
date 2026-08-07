@@ -32,8 +32,9 @@ COPY package*.json ./
 # Install only production dependencies
 RUN npm install --only=production --legacy-peer-deps
 
-# Copy compiled code from builder
+# Copy compiled code and public assets from builder
 COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/public ./public
 
 # Set environment variables
 ENV NODE_ENV=production
