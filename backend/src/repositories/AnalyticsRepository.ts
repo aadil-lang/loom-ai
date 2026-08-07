@@ -74,11 +74,9 @@ export class AnalyticsRepository {
   }
 
   async getSupplierAnalytics(supplierId: string) {
-    const objectId = new mongoose.Types.ObjectId(supplierId);
-
     // 1. Product & Inventory Stats
     const productStats = await Product.aggregate([
-      { $match: { supplierId: objectId } },
+      { $match: { supplierId } },
       {
         $group: {
           _id: null,
@@ -93,7 +91,7 @@ export class AnalyticsRepository {
 
     // 2. Order & Revenue Stats
     const orderStats = await Order.aggregate([
-      { $match: { supplierId: objectId } },
+      { $match: { supplierId } },
       {
         $group: {
           _id: null,
@@ -107,7 +105,7 @@ export class AnalyticsRepository {
 
     // 3. Monthly Revenue Chart
     const monthlyRevenue = await Order.aggregate([
-      { $match: { supplierId: objectId, status: { $nin: ['Cancelled', 'Rejected'] } } },
+      { $match: { supplierId, status: { $nin: ['Cancelled', 'Rejected'] } } },
       {
         $group: {
           _id: { year: { $year: "$createdAt" }, month: { $month: "$createdAt" } },
@@ -126,7 +124,7 @@ export class AnalyticsRepository {
 
     // 4. Orders By Category (Simplified mapping from orders to categories using $lookup)
     const categoryDistribution = await Order.aggregate([
-      { $match: { supplierId: objectId } },
+      { $match: { supplierId } },
       { $unwind: "$items" },
       { $lookup: { from: 'products', localField: 'items.productId', foreignField: '_id', as: 'product' } },
       { $unwind: "$product" },
@@ -143,7 +141,7 @@ export class AnalyticsRepository {
 
     // 5. Store Rating
     const reviewStats = await Review.aggregate([
-      { $match: { supplierId: objectId, isPublished: true } },
+      { $match: { supplierId, isPublished: true } },
       {
         $group: {
           _id: null,

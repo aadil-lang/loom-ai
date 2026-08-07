@@ -65,7 +65,7 @@ export class CheckoutService {
       const order = await this.orderRepository.create({
         orderNumber: `ORD-${crypto.randomBytes(4).toString('hex').toUpperCase()}`,
         buyerId: new mongoose.Types.ObjectId(buyerId),
-        supplierId: new mongoose.Types.ObjectId(supplierId),
+        supplierId,
         items: orderData.items,
         totalValue: orderData.totalValue,
         shippingAddress: formattedAddress,

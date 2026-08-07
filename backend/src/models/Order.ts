@@ -9,7 +9,7 @@ export interface IOrderItem {
 export interface IOrder extends Document {
   orderNumber: string;
   buyerId: mongoose.Types.ObjectId;
-  supplierId: mongoose.Types.ObjectId;
+  supplierId: string;
   items: IOrderItem[];
   status: 'Pending' | 'Accepted' | 'Preparing' | 'Ready for Dispatch' | 'In Transit' | 'Completed' | 'Cancelled' | 'Rejected';
   totalValue: number;
@@ -31,7 +31,7 @@ const OrderSchema: Schema = new Schema(
   {
     orderNumber: { type: String, required: true, unique: true },
     buyerId: { type: Schema.Types.ObjectId, ref: 'Buyer', required: true },
-    supplierId: { type: Schema.Types.ObjectId, ref: 'Supplier', required: true },
+    supplierId: { type: String, ref: 'Supplier', required: true },
     items: [OrderItemSchema],
     status: {
       type: String,

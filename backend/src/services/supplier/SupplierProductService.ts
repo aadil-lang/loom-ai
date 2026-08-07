@@ -18,8 +18,8 @@ export class SupplierProductService {
   async createProduct(supplierId: string, dto: CreateProductDto): Promise<IProduct> {
     return await this.productRepository.create({
       ...dto,
-      supplierId: new mongoose.Types.ObjectId(supplierId),
-      categoryId: new mongoose.Types.ObjectId(dto.categoryId)
+      supplierId,
+      categoryId: dto.categoryId
     } as any);
   }
 
@@ -29,7 +29,7 @@ export class SupplierProductService {
     if (product.supplierId.toString() !== supplierId) throw new ForbiddenError('Access denied');
 
     if (dto.categoryId) {
-      (dto as any).categoryId = new mongoose.Types.ObjectId(dto.categoryId);
+      (dto as any).categoryId = dto.categoryId;
     }
 
     return await this.productRepository.update(productId, dto as any) as IProduct;

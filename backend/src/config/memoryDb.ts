@@ -65,7 +65,7 @@ async function seedData() {
       await Category.deleteMany({});
       const docs = categoriesData.map((c: any) => ({
         ...c,
-        _id: getObjectId(c.id || c.uuid),
+        _id: c.id || c.uuid,
       }));
       await Category.insertMany(docs);
       logger.info(`Seeded ${docs.length} categories`);
@@ -75,7 +75,7 @@ async function seedData() {
       await Supplier.deleteMany({});
       const docs = suppliersData.map((s: any) => ({
         ...s,
-        _id: getObjectId(s.id || s.uuid),
+        _id: s.id || s.uuid,
         email: s.email || `${(s.name || 'supplier').replace(/\s+/g, '').toLowerCase()}@example.com`,
         password: s.password || 'password123',
         contactName: s.contactName || 'Sales Rep',
@@ -89,9 +89,9 @@ async function seedData() {
       await Product.deleteMany({});
       const docs = productsData.map((p: any) => ({
         ...p,
-        _id: getObjectId(p.id || p.uuid),
-        categoryId: getObjectId(p.categoryId || p.categoryUuid || categoriesData[0]?.id || categoriesData[0]?.uuid),
-        supplierId: getObjectId(p.supplierId || p.supplierUuid || p.supplier_id || suppliersData[0]?.id || suppliersData[0]?.uuid),
+        _id: p.id || p.uuid,
+        categoryId: p.categoryId || p.categoryUuid || categoriesData[0]?.id || categoriesData[0]?.uuid,
+        supplierId: p.supplierId || p.supplierUuid || p.supplier_id || suppliersData[0]?.id || suppliersData[0]?.uuid,
         sku: p.sku || `SKU-${Math.random().toString(36).substring(7).toUpperCase()}`,
         name: p.name || p.subcategoryName || p.slug || 'Unknown Product',
         description: p.longDescription || p.shortDescription || p.description || 'No description available',
@@ -146,7 +146,7 @@ async function seedData() {
     logger.info('Seeded mock address');
 
     // Add a completed order so the buyer can leave reviews
-    const supplierId = suppliersData ? getObjectId(suppliersData[0]?.id || suppliersData[0]?.uuid) : new mongoose.Types.ObjectId();
+    const supplierId = suppliersData ? (suppliersData[0]?.id || suppliersData[0]?.uuid) : undefined;
     await Order.deleteMany({});
     await Order.create({
       _id: new mongoose.Types.ObjectId("60d21b4667d0d8992e610c87"),
@@ -167,7 +167,7 @@ async function seedData() {
     await Order.create({
       orderNumber: "ORD-MOCK-123",
       buyerId: buyerId,
-      supplierId: suppliersData ? getObjectId(suppliersData[0]?.id || suppliersData[0]?.uuid) : new mongoose.Types.ObjectId(),
+      supplierId: suppliersData ? (suppliersData[0]?.id || suppliersData[0]?.uuid) : undefined,
       items: [],
       status: 'Pending',
       totalValue: 1250,

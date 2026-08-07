@@ -11,7 +11,7 @@ export interface IBuyer extends Document {
   preferredMaterials?: string[];
   budgetRange?: string;
   preferredLanguage?: string;
-  favoriteSuppliers?: mongoose.Types.ObjectId[];
+  favoriteSuppliers?: string[];
   role: 'Buyer';
   isEmailVerified: boolean;
   accountStatus: 'active' | 'suspended';
@@ -34,7 +34,7 @@ const BuyerSchema: Schema = new Schema(
     preferredMaterials: [{ type: String }],
     budgetRange: { type: String },
     preferredLanguage: { type: String, default: 'en' },
-    favoriteSuppliers: [{ type: Schema.Types.ObjectId, ref: 'Supplier' }],
+    favoriteSuppliers: [{ type: String, ref: 'Supplier' }],
     role: { type: String, default: 'Buyer', enum: ['Buyer'] },
     isEmailVerified: { type: Boolean, default: false },
     accountStatus: { type: String, default: 'active', enum: ['active', 'suspended'] },

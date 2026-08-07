@@ -30,9 +30,8 @@ export class OrderRepository extends BaseRepository<IOrder> {
   }
 
   async aggregateSupplierDashboardStats(supplierId: string) {
-    const objectId = new mongoose.Types.ObjectId(supplierId);
     const result = await this.model.aggregate([
-      { $match: { supplierId: objectId } },
+      { $match: { supplierId } },
       {
         $group: {
           _id: null,
