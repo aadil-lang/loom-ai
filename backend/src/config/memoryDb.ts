@@ -89,7 +89,7 @@ async function seedData() {
       await Product.deleteMany({});
       const docs = productsData.map((p: any) => ({
         ...p,
-        _id: p.id || p.uuid,
+        _id: getObjectId(p.id || p.uuid),
         categoryId: p.categoryId || p.categoryUuid || categoriesData[0]?.id || categoriesData[0]?.uuid,
         supplierId: p.supplierId || p.supplierUuid || p.supplier_id || suppliersData[0]?.id || suppliersData[0]?.uuid,
         sku: p.sku || `SKU-${Math.random().toString(36).substring(7).toUpperCase()}`,

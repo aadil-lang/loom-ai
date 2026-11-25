@@ -32,6 +32,9 @@ export const createApp = (): Application => {
   const limiter = rateLimit({
     windowMs: 15 * 60 * 1000, // 15 minutes
     max: 100, // Limit each IP to 100 requests per `window` (here, per 15 minutes)
+    skip: () =>
+      process.env.NODE_ENV !== 'production' &&
+      process.env.DISABLE_RATE_LIMIT === 'true',
     standardHeaders: true,
     legacyHeaders: false,
     message: { success: false, message: 'Too many requests from this IP, please try again later.' }

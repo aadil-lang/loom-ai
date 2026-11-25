@@ -2,25 +2,42 @@ import { test, expect } from '@playwright/test';
 
 const BASE = process.env.BASE_URL || 'http://localhost:3000';
 
+async function registerBuyer(page: import('@playwright/test').Page, prefix: string) {
+  await page.goto(`${BASE}/auth/register`);
+  await page.getByRole('tab', { name: 'buyer' }).click().catch(() => {});
+  const buyerPanel = page.getByRole('tabpanel', { name: /buyer/i });
+  await buyerPanel.waitFor({ state: 'visible' });
+  const email = `${prefix}+${Date.now()}-${Math.random().toString(36).slice(2, 6)}@example.com`;
+  await buyerPanel.locator('input[name="name"]').fill('E2E Buyer');
+  await buyerPanel.locator('input[name="company"]').fill('E2E Corp');
+  await buyerPanel.locator('input[name="email"]').fill(email);
+  await buyerPanel.locator('input[name="password"]').fill('StrongPass123!');
+  await buyerPanel.locator('input[name="confirmPassword"]').fill('StrongPass123!');
+  await buyerPanel.getByRole('button', { name: /Create Buyer Account/i }).click();
+  await expect(page).toHaveURL(/\/dashboard/, { timeout: 10000 });
+}
+
 test.describe('LoomAI critical E2E flows', () => {
   test('Supplier registration flow', async ({ page }) => {
     await page.goto(`${BASE}/auth/register`);
 
     // Switch to Supplier tab
     await page.getByRole('tab', { name: 'supplier', exact: false }).click().catch(() => page.getByText('Supplier').click());
+    const supplierPanel = page.getByRole('tabpanel', { name: /supplier/i });
+    await supplierPanel.waitFor({ state: 'visible' });
 
     // Fill supplier form
-    await page.fill('input[name="businessName"]', 'E2E Supplier Ltd');
-    await page.fill('input[name="contactPerson"]', 'Raj Kumar');
-    await page.fill('input[name="location"]', 'Surat, India');
+    await supplierPanel.locator('input[name="businessName"]').fill('E2E Supplier Ltd');
+    await supplierPanel.locator('input[name="contactPerson"]').fill('Raj Kumar');
+    await supplierPanel.locator('input[name="location"]').fill('Surat, India');
     const email = `e2e.supplier+${Date.now()}@example.com`;
-    await page.fill('input[name="email"]', email);
-    await page.fill('input[name="password"]', 'StrongPass123!');
-    await page.fill('input[name="confirmPassword"]', 'StrongPass123!');
+    await supplierPanel.locator('input[name="email"]').fill(email);
+    await supplierPanel.locator('input[name="password"]').fill('StrongPass123!');
+    await supplierPanel.locator('input[name="confirmPassword"]').fill('StrongPass123!');
 
     await Promise.all([
       page.waitForNavigation({ url: `${BASE}/supplier**`, waitUntil: 'networkidle' }).catch(() => {}),
-      page.getByRole('button', { name: /Create Supplier Account|Create supplier account/i }).click().catch(() => page.getByRole('button', { name: /Create Supplier Account/i }).click())
+      supplierPanel.getByRole('button', { name: /Create Supplier Account/i }).click()
     ]);
 
     // Expect to land on supplier area
@@ -28,19 +45,7 @@ test.describe('LoomAI critical E2E flows', () => {
   });
 
   test('Buyer recommendations and product link mapping', async ({ page }) => {
-    await page.goto(`${BASE}/auth/register`);
-    // Register buyer quickly
-    await page.getByRole('tab', { name: 'buyer' }).click().catch(() => {});
-    const email = `e2e.buyer+${Date.now()}@example.com`;
-    await page.fill('input[name="name"]', 'E2E Buyer');
-    await page.fill('input[name="company"]', 'E2E Corp');
-    await page.fill('input[name="email"]', email);
-    await page.fill('input[name="password"]', 'StrongPass123!');
-    await page.fill('input[name="confirmPassword"]', 'StrongPass123!');
-    await Promise.all([
-      page.waitForNavigation({ url: `${BASE}/dashboard**`, waitUntil: 'networkidle' }).catch(() => {}),
-      page.getByRole('button', { name: /Create Buyer Account/i }).click()
-    ]);
+    await registerBuyer(page, 'e2e.buyer');
 
     // On dashboard, ensure recommendation links are valid
     await page.waitForSelector('a[href^="/product/"]', { timeout: 5000 });
@@ -52,6 +57,7 @@ test.describe('LoomAI critical E2E flows', () => {
   });
 
   test('Add to cart, checkout success and cart cleared on success', async ({ page }) => {
+    await registerBuyer(page, 'e2e.checkout.ok');
     await page.goto(`${BASE}/marketplace`);
     // Click first product link
     const firstProduct = page.locator('a[href^="/product/"]').first();
@@ -64,7 +70,7 @@ test.describe('LoomAI critical E2E flows', () => {
 
     // Navigate to cart
     await page.goto(`${BASE}/cart`);
-    await expect(page.locator('div:has-text("Checkout")')).toBeVisible({ timeout: 5000 }).catch(() => {});
+    await expect(page.getByRole('link', { name: /Proceed to Checkout/i })).toBeVisible({ timeout: 5000 });
 
     // Intercept checkout to simulate success
     await page.route('**/api/v1/buyer/checkout', route => {
@@ -76,28 +82,32 @@ test.describe('LoomAI critical E2E flows', () => {
     });
 
     // Proceed to checkout page and confirm
-    await page.goto(`${BASE}/checkout`);
-    await page.waitForSelector('button:has-text("Confirm Purchase Order")', { timeout: 5000 });
-    await Promise.all([
-      page.waitForNavigation({ waitUntil: 'networkidle' }).catch(() => {}),
-      page.getByRole('button', { name: /Confirm Purchase Order/i }).click()
-    ]);
+    await page.getByRole('link', { name: /Proceed to Checkout/i }).click();
+    await page.getByRole('button', { name: /Continue to Review/i }).click();
+    await page.waitForSelector('button:has-text("Confirm Purchase Order")', { timeout: 10000 });
+    await page.getByRole('button', { name: /Confirm Purchase Order/i }).click();
 
-    await expect(page.getByText(/Order Confirmed!/i)).toBeVisible({ timeout: 5000 });
+    await expect(page.getByRole('heading', { name: /Order Confirmed!/i })).toBeVisible({ timeout: 10000 });
 
     // Cart should be cleared: visiting cart should not show items
     await page.goto(`${BASE}/cart`);
-    await expect(page.getByText(/Your cart is empty|No items in your cart|0 items/i)).toBeVisible({ timeout: 5000 }).catch(() => {});
+    await expect(page.getByText(/Your cart is empty/i)).toBeVisible({ timeout: 5000 });
   });
 
   test('Checkout failure preserves cart and shows error', async ({ page }) => {
+    await registerBuyer(page, 'e2e.checkout.fail');
     await page.goto(`${BASE}/marketplace`);
     const firstProduct = page.locator('a[href^="/product/"]').first();
-    await firstProduct.waitFor();
+    await firstProduct.waitFor({ state: 'visible', timeout: 10000 });
     await firstProduct.click();
 
-    await page.getByRole('button', { name: /Add/i }).first().click();
-    await page.goto(`${BASE}/checkout`);
+    const addBtn = page.getByRole('button', { name: /Add/i }).first();
+    await addBtn.waitFor({ state: 'visible', timeout: 10000 });
+    await addBtn.click();
+    await page.goto(`${BASE}/cart`);
+    await page.getByRole('link', { name: /Proceed to Checkout/i }).click();
+    await page.getByRole('button', { name: /Continue to Review/i }).click();
+    await page.waitForSelector('button:has-text("Confirm Purchase Order")', { timeout: 10000 });
 
     // Intercept checkout to simulate failure
     await page.route('**/api/v1/buyer/checkout', route => {
@@ -108,14 +118,17 @@ test.describe('LoomAI critical E2E flows', () => {
     await page.getByRole('button', { name: /Confirm Purchase Order/i }).click();
 
     // Should display an alert and NOT redirect to confirmation
-    await expect(page.locator('text=Failed to place order').first()).toBeVisible({ timeout: 5000 }).catch(() => {});
+    await expect(page.getByText(/Failed to place order|Request failed with status code 500/i).first()).toBeVisible({ timeout: 5000 });
 
     // Cart should still have items
     await page.goto(`${BASE}/cart`);
-    await expect(page.locator('div:has-text("Checkout")')).toBeVisible({ timeout: 5000 }).catch(() => {});
+    await expect(page.getByRole('link', { name: /Proceed to Checkout/i })).toBeVisible({ timeout: 5000 });
   });
 
   test('AI Assistant responds (mocked)', async ({ page }) => {
+    // Authenticate as a buyer since /assistant is behind the (buyer) auth guard
+    await registerBuyer(page, 'e2e.assistant');
+
     await page.goto(`${BASE}/assistant`);
 
     // Mock AI endpoint
@@ -123,8 +136,10 @@ test.describe('LoomAI critical E2E flows', () => {
       route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ success: true, data: { reply: 'Hello from mocked AI' } }) });
     });
 
-    await page.fill('input[placeholder*="Ask me anything"]', 'Hello');
-    await page.getByRole('button', { name: /send/i }).click().catch(() => page.getByRole('button').filter({ hasText: 'Send' }).click());
+    const input = page.locator('input[placeholder*="Ask me anything"]');
+    await input.waitFor({ state: 'visible', timeout: 10000 });
+    await input.fill('Hello');
+    await page.locator('form button[type="submit"]').click();
 
     await expect(page.getByText('Hello from mocked AI')).toBeVisible({ timeout: 5000 });
   });
