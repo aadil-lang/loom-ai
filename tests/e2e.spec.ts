@@ -35,13 +35,10 @@ test.describe('LoomAI critical E2E flows', () => {
     await supplierPanel.locator('input[name="password"]').fill('StrongPass123!');
     await supplierPanel.locator('input[name="confirmPassword"]').fill('StrongPass123!');
 
-    await Promise.all([
-      page.waitForNavigation({ url: `${BASE}/supplier**`, waitUntil: 'networkidle' }).catch(() => {}),
-      supplierPanel.getByRole('button', { name: /Create Supplier Account/i }).click()
-    ]);
+    await supplierPanel.getByRole('button', { name: /Create Supplier Account/i }).click();
 
     // Expect to land on supplier area
-    await expect(page).toHaveURL(new RegExp('/supplier'));
+    await expect(page).toHaveURL(/\/supplier/, { timeout: 15000 });
   });
 
   test('Buyer recommendations and product link mapping', async ({ page }) => {
